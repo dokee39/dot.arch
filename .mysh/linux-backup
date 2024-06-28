@@ -176,6 +176,9 @@ if [ "$(git status -s)" ];then
     git add .
     git commit -m "Synced on $(date)"
     git push -q
+    info "Github Repository Synced on $(date)."
+else 
+    info "GitHub repositories do not need to be synchronized."
 fi
 cd -
 
