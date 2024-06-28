@@ -1,15 +1,16 @@
 # my-arch-unforgettable
-\~~~ my butter save data ~~\~
+~~ my butter savedata ~~
 
 ```bash
+# upload to github
+info "Starting backup <github repo>"
+
 mklink ${MYHOME}/.config/alacritty ${GIT_REPO}/.config/alacritty > /dev/null
 mklink ${MYHOME}/.config/btop ${GIT_REPO}/.config/btop > /dev/null
-mklink ${MYHOME}/.config/clash ${GIT_REPO}/.config/clash > /dev/null
 mklink ${MYHOME}/.config/fcitx5 ${GIT_REPO}/.config/fcitx5 > /dev/null
 mklink ${MYHOME}/.config/hypr ${GIT_REPO}/.config/hypr > /dev/null
 mklink ${MYHOME}/.config/nvim/lua ${GIT_REPO}/.config/nvim/lua > /dev/null
 mklink ${MYHOME}/.config/ranger ${GIT_REPO}/.config/ranger > /dev/null
-mklink ${MYHOME}/.config/systemd ${GIT_REPO}/.config/systemd > /dev/null
 mklink ${MYHOME}/.config/tofi ${GIT_REPO}/.config/tofi > /dev/null
 mklink ${MYHOME}/.mysh ${GIT_REPO}/.mysh > /dev/null
 mklink ${MYHOME}/.renpy ${GIT_REPO}/.renpy > /dev/null
@@ -34,11 +35,16 @@ mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/
 # ln ${MYHOME}/.zshrc ${GIT_REPO}/.zshrc > /dev/null
 
 cd ${GIT_REPO}
+rm ${GIT_REPO}/pkglist.txt
+cp ${BACKUP_DIR}/linux/pkglist.txt ${GIT_REPO}/pkglist.txt
 git status -s
 if [ "$(git status -s)" ];then
     git add .
     git commit -m "Synced on $(date)"
     git push -q
+    info "Github Repository Synced on $(date)."
+else 
+    info "GitHub repositories do not need to be synchronized."
 fi
 cd -
 ```
