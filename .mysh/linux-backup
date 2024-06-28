@@ -149,7 +149,6 @@ mklink ${MYHOME}/.config/ranger ${GIT_REPO}/.config/ranger > /dev/null
 mklink ${MYHOME}/.config/systemd ${GIT_REPO}/.config/systemd > /dev/null
 mklink ${MYHOME}/.config/tofi ${GIT_REPO}/.config/tofi > /dev/null
 mklink ${MYHOME}/.mysh ${GIT_REPO}/.mysh > /dev/null
-mklink ${MYHOME}/.tmux ${GIT_REPO}/.tmux > /dev/null
 mklink ${MYHOME}/.renpy ${GIT_REPO}/.renpy > /dev/null
 mklink ${MYHOME}/Applications/Games/AliceInCradle/AliceInCradle_Data ${GIT_REPO}/Applications/Games/AliceInCradle/AliceInCradle_Data > /dev/null
 mklink ${MYHOME}/Applications/Games/Butter/sakuranotoki/savedata_cn ${GIT_REPO}/Applications/Games/Butter/sakuranotoki/savedata_cn > /dev/null
@@ -172,7 +171,7 @@ mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/
 # ln ${MYHOME}/.zshrc ${GIT_REPO}/.zshrc > /dev/null
 
 cd ${GIT_REPO}
-if [ $(git status -s) ];then
+if [ "$(git status -s)" ];then
     git add .
     git commit -m "Synced on $(date)"
     git push
