@@ -1,0 +1,36 @@
+// english //
+en      EN      English
+// 1st word: This name corresponds to %FAMILY in the _tx_** file.
+// 2nd word: Simplified name (write in 2 letters)
+// 3rd word: Full name in the option
+
+%DEFAULT_LANGUAGE 1
+// the family will be chosen as default when no other family
+// which has %SYSTEM_LANGUAGE setting is matched.
+
+
+%SPACE_DELIMITER 1
+// If you insert spaces when remove line breaks, enter 1.
+// ex: EN, KR
+
+
+// ================================================
+// useable commands...
+
+%ENGLISH_MODE 1
+// A flag that adjusts the appearance of UI 
+// for languages with many characters per word
+// ( such as English ).
+
+// %LEFTSHIFT_CONSONANT 1
+// A flag that adjust for consonant letter letter
+// (such as Thai)
+
+// %USE_ARIEL 1
+// Show this font using Ariel (Unity default font)
+
+// %DEFAULT_LANGUAGE 1
+// the family will be chosen as default when no other family
+// which has %SYSTEM_LANGUAGE setting is matched.
+
+// ================================================

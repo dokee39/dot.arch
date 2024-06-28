@@ -1,0 +1,41 @@
+// 空気がおいしい
+IF 'GFC[NOE1]>=3' SEEK_END
+
+
+WAIT 20
+#MS_ % 'F w20 >>[Ev_s00_1a_2.Lb -20,0 :100] P[beware~] w30'
+
+TALKER	n R   
+
+WAIT 30
+// 鉱床前で魔術のチュートリアル
+PIC   n a_3/a2__F1__f3__m1__b3_u0    
+MSG	n_00
+
+PIC   n a_2/a0L2R1__F2__f2__m1__b2_u2
+MSG	n_01
+
+
+#MS_ % 'F >+[-40,0: 60] @L P[guard~] '
+
+PIC_HIDE_ALL	
+
+WAIT_MOVE
+#< % >
+
+DENY_SKIP
+MV_CURE 0 1
+TUTO_MSG Tuto_magic
+TUTO_POS C T
+ALLOW_EVENTHANDLE_KEY X 
+
+//PE ZOOM2 50
+
+STOP_LETTERBOX
+WAIT_PR_EXPLODE_MAGIC
+ALLOW_EVENTHANDLE_KEY
+WAIT 70
+TUTO_REMOVE
+//PE ZOOM2 -1
+
+#VANISH

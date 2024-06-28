@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1938852142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c13580d0bfdd69ca6414c4135922a85a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/EvImg/__events_dojo_intro.pxls.bytes.texture_0.png
+Dependencies: []

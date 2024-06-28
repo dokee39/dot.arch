@@ -1,0 +1,4 @@
+GREETING R
+WAIT 20
+MSG
+おかえりは C1↓ こちら C0

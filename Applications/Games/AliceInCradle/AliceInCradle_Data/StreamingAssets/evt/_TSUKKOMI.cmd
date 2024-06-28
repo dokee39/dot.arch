@@ -1,0 +1,20 @@
+// module
+SND tsukkomi
+IF '!game_stopping' {
+    QU_VIB 10 12 8
+
+}
+PIC_MVA_WHOLE # 9 SCARY
+
+IFDEF 1 {
+    PIC_MVA_WHOLE $1 9 SCARY
+}
+IFDEF 2 {
+    PIC_MVA_WHOLE $2 9 SCARY
+}
+IFDEF 3 {
+    PIC_MVA_WHOLE $3 9 SCARY
+}
+IFDEF 4 {
+    PIC_MVA_WHOLE $4 9 SCARY
+}

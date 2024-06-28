@@ -1,0 +1,485 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// ========================================================
+// MARK : Museum
+// ========================================================
+// フクロウの獣人
+*___city_museum/t00 n_00
+...?
+*ow_00
+<m scary>Welcome...
+to the Horus Museum...
+
+*n_01
+<angry><m pla>Hya!?
+
+*ow_01
+Admission...
+*
+...is <img mesh="money_icon" width="18" />90000...
+
+// 払う／払わない／払えない
+
+*ow_100
+I was just kidding.
+That'd be way too much for this dump.
+
+// ここから分岐 払う ========================
+*ow_101
+...were seriously going to pay?
+*
+Heh...wow. What's it like to never want for anything?
+
+// 払えない ========================
+*n_102
+I think it looks okay...
+
+// 払わない ========================
+*ow_102
+I know it's obvious I was joking, but could you have at least played along a little?
+*
+Ah, forget it. The only real joke here is the museum itself.
+
+*n_103
+Oh, um...
+I'm sorry?
+
+// 合流 ========================
+
+
+*n_02
+Is everything okay?
+All the black smoke I saw outside made me think there was a fire...
+
+*n_03
+<I><angry>...but it looks like
+<m ple>it's coming from that crystal ball!?
+
+*ow_03
+That's the centerpiece of the museum. Well, really the
+only installation...
+The "Eye of Truth".
+
+*ow_04
+Sigh...
+*
+I was born in Grazia, 400 years ago...
+*
+I've always been too slow, too dumb, and too weak to do anything right.
+*
+Even when I was doing simple jobs for the city, I managed to screw things up.
+*
+<I><angry><m scary><S3>I couldn't live like that anymore!!
+*
+So I decided to make a change and got a loan to rent a building. 
+*
+Sigh...and of course, I...
+
+
+*n_05
+Wait...so this place really is a museum?
+
+*ow_05
+Yes.
+*ow_06
+I mean, I'd <i>planned</i> to make it into a museum, but...
+*
+Everyone knows how useless I am.
+*
+So nobody is willing to trust me with a work of art.
+*
+Except for this crystal ball...
+
+*ow_07
+...but, now I'm thinking I was sweet-talked into buying junk.
+*
+The elves said it embodies the bearer's spirit or something.
+*
+What a load of crap. All it does is blast out black smoke. So does a bonfire, but at least that keeps you warm.
+*
+I can't even tell if a work of art is genuine or not. Just one more job I'm not cut out for...
+
+*n_06
+<think>If this crystal really does embody the bearer's spirit...I'd say it's working perfectly.
+
+// 話しかけ直す
+
+*___city_museum/t01 ow_00
+Sigh...I give up.
+*n_01
+<think>The crystal embodies the bearer's spirit...
+I wonder what would happen if I touched it?
+
+// 持つ
+*___city_museum/t02 ow_00
+Hm? Ah.
+*
+<W1>Yeah, as you can see, all it does is put out black smoke. Still, be careful with-
+
+// 明るくなる
+*___city_museum/t03 ow_01
+Huh...?
+
+*n_02
+Just as I thought.
+*
+The black smoke was a reflection of all your negative thoughts.
+
+*ow_02
+I see...
+*
+Are you certain that's what it was, Miss Elf?
+
+*n_03
+My name is Noel Cornehl. I'm not 100% certain, but-
+
+*ow_03
+A crystal ball that manifests one's thoughts...
+That could certainly be construed as a valuable work of art.
+*
+So, were you thinking "This guy sucks. He must be the slowest talker in the world!", or something?
+
+*n_04
+<I><m ple>Nonono! Nothing like that!
+*
+I was thinking about a different beastman altogether!
+
+*ow_05
+Don't worry, I'm not offended. I'm used to people feeling that way about me.
+*
+Hm?
+
+
+// 絵が出てくる
+
+
+
+*n_06
+Wah!
+
+*ow_07
+That was unexpected. Is that you on the left, Miss Cornehl?
+*n_08
+Yes, and on the right is...my teacher, Miss Primula.
+
+*n_09
+<think>I was thinking about Primula when I touched the crystal. It must've captured one of my memories of her.
+*ow_10
+This is...wonderful. Simply marvelous.
+*ow_11
+Elves are normally quite cold towards beastmen, but I can tell the two of you are very close.
+
+*n_12
+Oh...th-thank you. It's a little embarrassing to have someone stare into my thoughts like this...
+
+*ow_13
+<m scary>Ah! <W1><m>Sorry, I didn't mean to intrude!
+*
+But...this really is quite amazing.
+
+*ow_14
+If you don't mind me asking...
+Could I buy this memory from you as a work of art?
+
+*n_13
+<m ple>W-what!?
+<m>But...how will you-
+*ow_15
+I have an idea. Give me a moment.
+
+*ow_16
+Okay, that should do it.
+*
+This structure will amplify the light from the crystal and focus it onto the canvas so we can capture it.
+
+
+
+*___city_museum/t04 n_17
+That's incredible.
+
+*ow_17
+Here...
+*ow_18
+Try picturing the scene in your mind again. When you're ready, press the button to capture it.
+
+*n_18
+Okay, here goes-
+
+
+*n_19
+It's a proper work of art!
+<W2><small>...where did the frame come from?
+
+*ow_20
+Hah...it really worked.
+*
+I can't thank you enough for this, Miss Cornehl.
+
+*n_21
+Oh, it was nothing. The crystal did all the work.
+
+*ow_22
+No need to be modest. Here, a token of my appreciation.
+
+*n_23
+Uh, this is a lot of money.
+
+*ow_24
+Don't worry, I can spare it. I'll just have to cut back on expenses a bit.
+
+*n_24
+<think>I don't feel right accepting this...
+But it'd be rude to reject his kindness.
+
+*n_25
+W-well, I'm sure visitors will come flooding in to see this.
+
+*ow_25
+I certainly hope so.
+*
+Oh, and of course, as the savior of the museum, admission is free for you.
+*n_26
+"S-Savior" is a bit of an
+exaggeration...but...
+if you say so...
+
+// 映写機
+*___city_museum/t_camera ow_00
+We need a name for this contraption. Let's call it the "Soulopticon".
+*
+I'll keep displaying it as the centerpiece of the museum.
+*
+I might be getting ahead of myself, but I think we'll be able to make more wonderful memories with people just like you.
+*n_01
+<think>He's so positive all of the sudden. It's certainly an improvement.
+
+*n_02
+If I use it again, do you think it will produce another image?
+
+*ow_01
+Oh, I couldn't ask you to do that, not after everything you've already done.
+*
+...but, if you really want to...
+Press the button and we'll see what happens.
+
+
+
+// DIY
+*___city_museum/t_structure n_00
+That thing really is amazing. The way it captures and frames memories...
+
+*ow_00
+Ehh, it's no big deal.
+*
+I just copied the design of something I saw in a book about relics, back when I worked at a library.
+*
+In all my jobs as a tradesman, civil worker, or day laborer, I've never lasted more than 6 months...
+*
+So, as someone who has only known failure until now, thank you for all your help.
+*n_01
+<think>This guy might just be the worst jack-of-all-trades.
+
+// もう一度カメラを握る
+
+
+*___city_museum/t_newimage_first n_00
+<think>If I focus on a different memory, it might generate a new image.
+*n_01
+<think><m fadein>Let's see...on the way to town, I-
+*
+<think><m fadein>-saved Ixia, and then...
+
+
+
+*___city_museum/t_newimage ow_00
+Ohh! A new picture!
+*
+Please wait while I prepare it...
+
+*ow_01
+Thank you as always for your donation.
+*
+Here is your payment.
+
+// 2階増設
+*ow_02
+The first floor is feeling a little cramped with so many exhibits.
+*
+I'll set up another floor. Please wait a moment...
+
+// 性的なイラストが出た
+*ow_10
+Ah!
+
+*n_11
+Um...what's wrong?
+
+*ow_12
+Oh, nothing...it's just that, uh...
+*
+How should I say this...
+That last one was of a very <i>sensitive</i> nature.
+
+*n_12
+<I>...!
+
+*ow_13
+<I><m scary>But, it's okay! I covered it up immediately! Barely even saw anything!
+
+*n_14
+<m fadein>Ah...thank you...
+
+*ow_15
+We'll keep that one confined to the backroom. You can see it for yourself if you'd like.
+
+// 何も出なかった場合
+
+
+
+*___city_museum/t_noimage n_10
+...nothing happened.
+
+*ow_11
+Are you donating another memory?
+*
+I can't thank you enough for your kindness. Here's paymen-
+*n_12
+<m ple>N-no, no! There's no new memory, so please keep your money.
+*ow_13
+Oh...I see.
+*n_14
+<think>I need to make more memories for it to capture. I'll come back after I've had more adventures.
+
+
+// ========================================================
+// MARK : けんぜんスチルを健全モードで見たとき
+// ========================================================
+*___city_museum/t_kenzen n_00
+Uuu...I can't bear to look at this one.
+
+*board_not_kenzen
+SFW mode is on.
+Turn it off to view this picture.
+
+
+
+// ========================================================
+// MARK : 品評
+// ========================================================
+
+*___city_museum/cm_pic_pvv010_vn n_00
+This is a memory of my sister taking a guest into "The Break Room" to provide them with a <i>special</i> service.
+*ow_01
+I've heard rumors about this place. Apparently you can buy all sorts of things there. Aphrodisiac apples, talismans, and the like...
+*
+The purple smoke coming from that room gives off a frightening aura.
+*
+I imagine the witch takes the guest in there and does something horrible like eating them.
+
+*n_02
+Well, she does sometimes eat <i>something</i> of the guest's...
+
+
+
+*___city_museum/cm_pic_pvv010_pn n_00
+This is a memory of Primula examining me after I came back from running an errand for my sister.
+*ow_00
+Beastmen are supposed to labor under the elves and be subservient to them.
+*
+That ideology is meant to create a society of peace, where elves and beastment coexist.
+*
+This causes many elves treat beastmen poorly, as if we're nothing more than tools.
+*
+But, here, I can clearly see the deep bond between the two of you. It is one of respect and trust.
+*
+In an ideal world, this is how it would be between all beastmen and elves. Living together in harmony at the foot of the great Mother Tree.
+
+
+
+*___city_museum/cm_pic_pvv103_ixia ow_00
+This must be you bravely charging into battle against a monster. Who's the girl on the right?
+*n_01
+That's my friend, Ixia. She's quite strong, but she can be careless at times...
+*ow_02
+I see...
+Well, I get the feeling you swooped in and saved her just in the nick of time.
+*
+How lucky she is to have a friend like you.
+*n_02
+<think>I don't think I'll tell him that this moment was later than Ixia would've liked for me to arrive.
+
+
+
+*___city_museum/cm_pic_pvv104_nusi ow_00
+I wasn't expecting so many images to appear at once. I grouped them together so people could see the story they tell.
+*
+This must be the large monster everyone was talking about recently. Even in picture form, its presence is overwhelming.
+*
+And the little elf girl it's holding captive must be...
+*n_01
+Ixia...
+The same girl from the previous picture.
+*ow_02
+I thought so. 
+*
+This must have been a fierce battle for both of you.
+
+// 超健全以外
+*n_02
+<think>I wish the puddle reflecting my underwear had been left out. I can't say anything about it, though. It wouldn't be fair to Ixia.
+*ow_03
+Something wrong, Miss Cornehl?
+
+*n_03
+<m fadein>N-no, it's nothing...
+
+
+
+*___city_museum/cm_pic_pvv105_alma n_00
+This is a memory of when I sat next to Alma during class after being absent for a long time.
+*ow_01
+Bermit Academy students are called "Cadets". It's for training new Grazian soldiers.
+*
+Female students mostly take classes for combat. While male students mostly take ones for research and development.
+*n_02
+That's right. You sure know your stuff.
+*ow_03
+I worked at Bermit for a short while.
+*
+I was an advisor for the Magic Handicrafts Club. One time one of the kids needed some of my feathers to make something.
+*
+But, they ended up plucking a few too many from a rather sensitive area.
+*
+The sound of all those kids laughing burned into my brain. I had to quit the next day.
+*n_04
+How awful...
+
+
+// ========================================================
+// MARK : 240415追加 道場のスチル
+// ========================================================
+
+
+*___city_museum/cm_pic_dojo_intro n_00
+This is...from the time I visited the dojo here in Grazia.
+*ow_01
+I was originally going to put this one in the backroom...
+*
+But then I got a scathing letter from the assistant instructor saying, "<m scary><c black>There's nothing shameful about our sacred uniforms!<c><m>"
+*
+So I re-evaluated it, and upon a second viewing, I could feel the tension and dedication of a pupil going through training.
+*
+...almost even smell the sweat. And the martial arts are an art form themselves, so...
+*
+This one gives us two perspectives on the wavering resolve of a young elf.
+*n_02
+I think we could do without the second, perverted perspective...

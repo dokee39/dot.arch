@@ -1,0 +1,356 @@
+%FAMILY en
+&&Submit    Confirm
+&&Reset    Reset
+&&Cancel    Cancel
+
+&&Name_Noel     Noel Cornehl
+&&Name_Alice    Alice
+
+// KAWAISOU IS KAWAII
+
+&&lang_ja 日本語(JP)
+
+&&lang_en English
+
+/* ___ Title_Announce_For_Sensitive ___ */
+Please turn on "SFW Mode" if you are under 18 years old
+or plan to upload/stream videos of this game to online services.
+
+Some explicit actions performed in this game are—
+if executed in real life—punishable by law.
+To all slimes and worms reading this text,
+please do not go and recklessly impregnate
+a beautiful young alchemist.
+
+Though Noel, the protagonist, is set to be 15 years old in the story,
+there are 440 days a year in this game's world.
+Thus, she is safely above 18 years old in our world.
+
+&&btn_sensitive_off I am over 18 years old.\n(SFW mode: off)
+
+&&btn_sensitive_on  I am under 18 years old.\n(SFW mode: on)
+
+&&Title_first_tutorial <key la/><key ra/> to select / <key submit/> to submit
+
+
+&&Stat_Condition    Condition
+&&Stat_Condition_And_Ep       Condition+
+&&Stat_Ep       Status Effects
+&&Stat_no_status_error No abnormalities
+
+
+&&GameMenu_Category_Title_0     Status
+&&GameMenu_Category_Title_1     Item
+&&GameMenu_Category_Title_2     Spell
+&&GameMenu_Category_Title_3     Mutation
+&&GameMenu_Category_Title_4     Map
+&&GameMenu_Category_Title_5     Scenario
+&&GameMenu_Category_Title_6     Save/Load
+&&GameMenu_Category_Title_7     Settings
+
+&&btn_new_game New Game
+&&btn_continue Continue
+&&btn_option Settings
+&&btn_quit Quit
+
+&&Destination To &1
+
+&&Area_forest   Forest of the Storytellers
+&&Area_city  Grazia, Blessed Town
+&&Area_house  Witch's Shop
+
+
+/* ___ SaveDataDesc_auto  ___ */
+Autosave Data
+Overall Play Time: &1
+※Save data from early-access versions
+may be unusable in future versions.
+
+/* ___ SaveDataDesc  ___ */
+Save Data &1 
+Overall Play Time: &2
+※Save data from early-access versions
+may be unusable in future versions.
+
+
+/* ___ SaveDataDesc_Empty_auto ___ */
+No Autosave Data present.
+
+/* ___ SaveDataDesc_Empty ___ */
+Save Data &1
+(Empty)
+
+
+// SAVE DATA
+&&SVD_Error_Occured Failed to read file header.
+
+&&SVD_0 Autosave:
+&&SVD_topright HP &1/&2, MP &3/&4
+
+&&SVD_ignore_svd_cfg Ignore saved configuration
+&&SVD_cmd_load Load
+&&SVD_cmd_load_do Load
+&&SVD_cmd_save Overwrite Save
+&&SVD_Load_Ask_Again Stop current game\nand load Save File &1 ?
+
+&&SVD_need_bench <font color="#E70B0B">You can only save near a bench.</font>
+
+// GameMenu
+
+
+&&Money_Counter <img mesh="money_icon" /> <b>&1</b>
+&&EmptyBottle_Counter <img mesh="itemicon_empty_bottle_filled" />Empty Bottle: <b>&1/&2</b>
+
+
+&&SerTitle_hp_reduce    Near-death
+&&SerDesc_hp_reduce     <font color="#FF729F">【HP less than 15%】</font>\nYou will lose all of your strength\nif your HP falls to 0.
+
+
+&&SerTitle_mp_reduce    Exhausted
+&&SerDesc_mp_reduce    <font color="#FF729F">【MP less than 15% of maximum】</font>\nYou can't run or dodge.
+
+// 戦闘不能
+// Incapacitated （力が尽きる） != Decapacitated (マミられる)
+&&SerTitle_death    Incapacitated
+&&SerDesc_death    <font color="#FF729F">【HP is 0】</font>\nYour fate is in the monster's hands.\nYou can leave once they are satisfied.\nHold <key cancel/> to give up.
+
+&&SerTitle_sexercise    Aroused
+&&SerDesc_sexercise  Arousal Rate rises more easily.\nMP gauge slightly resists cracking.
+
+// 「被ダメージ」とはなんでしょうか
+&&SerTitle_shamed    Embarrassed
+/* ___ SerDesc_shamed ___ */    
+You're distressed.
+Less likely to fall down when colliding with
+enemies, but more mana is lost when damage is taken.
+
+// 
+&&SerTitle_shamed_split    Embarrassed\n(Leak)
+/* ___ SerDesc_shamed_split ___ */    
+You're distressed.
+Less likely to fall down when colliding with
+enemies, but more mana is lost when damage is taken.
+
+&&SerTitle_shamed_wet    Embarrassed\n(Wet)
+/* ___ SerDesc_shamed_wet   ____ */
+You wet yourself.
+Less likely to fall down when colliding with
+enemies, but more mana is lost when damage is taken.
+
+&&SerTitle_shamed_ep    Embarrassed\n(Aroused)
+/* ___ SerDesc_shamed_ep ___ */    
+<font color="#FF729F">【Arousal Rate over 50%】</font>
+You cannot suppress your inner desires.
+Less likely to fall down when colliding with
+enemies, but more mana is lost when damage is taken.
+
+&&SerTitle_shamed_orgasm_after    Post-orgasm
+/* ___ SerDesc_shamed_orgasm_after ___ */
+You have been pushed to climax.
+You cannot run or dodge.
+Arousal Rate rises more easily.
+MP gauge extremely resists cracking.
+
+
+// 托卵
+&&SerTitle_egged    Parasitic Egg
+/* ___ SerDesc_egged ___ */
+There is a monster egg in your womb.
+Magic attacks are a bit stronger, but chanting speed
+is slower and normal attacks are weaker.
+The egg will absorb MP when you chant or use shotgun.
+You can remove the egg when outside of combat.
+
+&&SerTitle_egged_2    Parasitic Egg Lv.2
+&&SerDesc_egged_2  <font color="#FF729F">【Incubation taking >70% of MP】</font>\nArousal Rate will rise more rapidly.\nMP gauge cracks easily.\nTime required to lay the eggs is doubled.\nThe eggs will come out on their own.
+
+// Original word was 産卵 = Oviposit
+&&SerTitle_laying_egg    Birth
+/* ___ SerDesc_laying_egg  ___ */
+The eggs have hatched and the monsters
+are being pushed out of your womb.
+All you can do now is wait.
+
+&&SerTitle_do_not_lay_egg    <font letterspacing="0.88">Can't Give Birth</font>
+&&SerDesc_do_not_lay_egg    <font letterspacing="1">Something is blocking your birth canal.</font>
+
+// Boss Lv.5 be like:　:D
+&&SerTitle_eaten   Swallowed Whole
+&&SerDesc_eaten   You've been eaten alive. Struggle to escape or wait until they spit you out.
+
+// Climax -> Absentminded (Can't move) -> Post-orgasm (Can't run)
+&&SerTitle_orgasm    Absentminded
+/* ___ SerDesc_orgasm ___ */   
+You've just finished climaxing.
+You take 50% more damage.
+MP gauge is more resistant to cracking. 
+Arousal Rate will rise more rapidly.
+
+
+&&SerTitle_shield_break    Shield Break
+&&SerDesc_shield_break    Your shield has been broken.\nYou'll take 50% more damage until you recover.
+
+
+
+/* ___　PopUp_bench  ___ */
+<key menu />- Menu.
+...Saving possible.
+
+// TN: Translator: Become Bishoujo
+
+&&Log_supply_juice  I'm squirting out mana...
+&&Alert_item_holdover My inventory is full...
+&&Alert_event_item_holdover But my inventory is full right now...
+&&Alert_pee I'm wetting my pants...
+&&Alert_orgasm_splash My love juices squirted out... 
+
+&&Alert_nearly_laying I feel something weird in my stomach...
+
+&&Alert_worm_eggplant The worm planted something inside me...
+&&Alert_slime_eggplant The slime planted something inside me...
+&&Alert_laying_egg_worm The eggs in my tummy hatched and the worms slithered out...
+&&Alert_laying_egg_slime The eggs in my tummy hatched and the slimes oozed out...
+
+&&Alert_ep_thresh0 It's getting warmer on that place...  
+&&Alert_ep_thresh1 I can't hold it anymore...
+
+
+&&Alert_ep_orgasm I came...
+&&Alert_ep_orgasm_cli  I came from having my clit stroked...
+&&Alert_ep_orgasm_vagina I came from having my vagina stimulated...
+&&Alert_ep_orgasm_anal I came from having my butt played with...
+&&Alert_ep_orgasm_breast I came from having my nipples sucked...
+&&Alert_ep_orgasm_mouth I came just from the aphrodisiac I swallowed...
+&&Alert_ep_orgasm_ear I came from having my ears licked...
+
+&&Alert_ep_orgasm_masturbation I came from touching myself... 
+&&Alert_ep_orgasm_slime I came from having my whole body toyed with by a slime...
+&&Alert_ep_orgasm_worm I came from worms squirming inside all my holes...
+&&Alert_ep_orgasm_laying_egg I came from laying an egg...
+
+// Biology time!
+
+
+&&Alert_gameover I lost...
+
+&&Alert_autosave Autosave complete.
+
+// 気配 = presence / hint / sign
+&&Alert_summoner_defeated No sign of the enemy...it looks safe for now. 
+
+
+
+&&ep_category_cli Clitoris
+&&ep_category_vagina Vagina
+&&ep_category_anal Anal
+&&ep_category_breast Nipples
+&&ep_category_mouth Mouth
+&&ep_category_ear Ear
+&&ep_category_masturbation Masturbation
+&&ep_category_slime Slime
+&&ep_category_worm Worm
+&&ep_category_laying_egg Egg-laying
+
+&&Alert_cure_crack The satisfaction recovered a bit of my energy...
+
+&&GM_ep_debug Arousal rate(AR): &1 \nOrgasm count: &2
+// experience = 性的な経験 (Sexual experiences)
+&&GM_ep_experience (&1) Sensitivity ... &2
+// &&GM_ep_experience 開発度(&1) ... &2
+&&GM_ep_level_after_orgasm  <font color="#D3006D">I can't stand up because I just came...</font>
+&&GM_ep_level_0 　Not feeling aroused.
+&&GM_ep_level_1 　Not feeling aroused.
+&&GM_ep_level_2 　Not feeling aroused.
+&&GM_ep_level_3 　<font color="#72486D">Feeling a little aroused... </font>( AR: &1 )
+&&GM_ep_level_4 　<font color="#72486D">Feeling a little aroused... </font>( AR: &1 )
+// おなかの奥がうず(疼)いている...
+//
+&&GM_ep_level_5 　<font color="#7C2A73">I can feel something throbbing inside... </font>( AR: &1 )
+&&GM_ep_level_6 　<font color="#7C2A73">I can feel something throbbing inside... </font>( AR: &1 )
+&&GM_ep_level_7 　<font color="#C92D97">I can't contain my sexual desires... </font>( AR: &1 )
+&&GM_ep_level_8 　<font color="#C92D97">I can't contain my sexual desires... </font>( AR: &1 )
+// からだの奥から何かが登ってくる...
+&&GM_ep_level_9 　<font color="#F51AB0">I can't hold myself back anymore...</font> ( AR: &1 )
+
+&&EV_access_collect   Collect
+&&EV_access_getitem   Pick Up
+&&EV_access_open_box   Open
+&&EV_access_default_check   Check
+&&EV_access_default_talk   Talk
+&&EV_access_sitdown   Sit
+&&EV_access_into   Enter
+
+&&Item_get   <key check/>Collect
+&&Item_has   <font size="12">(In possession: &1)</font>
+&&Item_get_count   x&1
+&&Money_adding   <font size="12">+ &1</font>
+&&Money_reducing   <font size="12">- &1</font>
+
+&&MoneyBox_adding   Obtained <img mesh="money_icon" /><b>&1</b>!
+
+// Item Description
+&&Item_detail_cure_hp Heals &1 HP
+&&Item_detail_cure_mp Recovers &1 MP
+&&Item_detail_cure_ep Calms down by &1 unit
+&&Item_detail_dmg_ep <font color="#864788">Raises &1 AR</font>
+// Status effects?
+// Dispels [status]?
+&&Item_detail_cure_ser Cures &1 status
+&&Item_detail_dmg_ser <font color="#864788">Applies &1 status</font>
+&&Item_detail_cure_mp_crack Repairs &1 MP gauge
+&&Item_detail_cannot_nest_multiple Not stackable
+&&Item_detail_filled_bottle When used up,\nit becomes an empty bottle
+
+
+&&Item_cmd_use Use
+&&Item_cmd_useless (Use)
+&&Item_cmd_discard_water Empty
+&&Item_cmd_drop Drop
+
+&&Item_desc_cannot_use It doesn't seem to\nbe useful right now ...
+&&Item_desc_decline_holding_magic I can't use any items\nbecause I'm casting a spell...
+&&Item_desc_decline_dmg I can't use it\nbecause I'm being attacked right now...
+&&Item_desc_decline_dead Help me...
+// ------------------------------------ 1st person pronoun ends here
+
+&&Item_dbox_water_to_bottle Can be poured &1\ninto an empty bottle
+&&Item_dbox_water_to_bottle_none Only &1 can be stored\nwithout using a bottle
+
+&&Item_dbox_stock &1 Stackable
+
+
+
+
+&&Enemy_SLIME Slime
+// the big guys
+// absorbed magic and became huge (like in 5)
+&&Summoner__enemy_id_overdrived_suffix (Contaminated)
+
+
+&&Summoner__initialize Hold <key check/> or\npluck a mana plant\nto start battle
+
+/* ___ Summoner__descryption ___ */
+Dangerousness: &1
+Type of enemies:
+&2
+Contaminated: Max &3
+
+&&Summoner_forest_tutorial Beaming Plains
+&&Summoner_forest_coroseum The Outcast
+&&Summoner_forest_mushpot Should've been a mushroom enemy here
+&&Summoner_forest_darkpot Evening Shower
+&&Summoner_forest_thorn_cage Bird's Cage
+
+
+&&Item_desc_suffix_water    You can use a bottle to collect this.
+&&Item_desc_suffix_bottled_water    You can reuse the empty bottle.
+
+
+&&GM_KD_map_current_pos     <key sort/>Your position　
+&&GM_KD_map_0_no_marker     <key_s submit/>Place marker
+&&GM_KD_map_0     <key submit/>Place marker
+
+
+&&Category_under_construction    WIP
+
+// please write the rest by someone who can write English!!

@@ -1,0 +1,105 @@
+%FAMILY en
+
+// ========================================================
+// MARK : 2022 2月 PURPOSE
+// ========================================================
+&&Svd_phase_0 Prologue
+&&Svd_phase_1 Sleeping Beauty Awakens
+&&Svd_phase_2 The Ghost
+&&Svd_phase_3 Ship of Theseus
+&&Svd_phase_4 Wonderland
+&&Svd_phase_5 Alice in Cradle
+&&Svd_phase_6 Epilogue - Stars
+
+&&scenario_desc_pvv_0000 Explore behind the breakable wall
+&&scenario_desc_pvv_0001__1 Go back home
+&&scenario_desc_pvv_0002 Take Primula's class
+&&scenario_desc_pvv_0100 Talk with family and customers
+&&scenario_desc_pvv_0101 Look for Ixia
+&&scenario_desc_pvv_0102 Go to the town
+&&scenario_desc_pvv_0103 Help the beastman
+&&scenario_desc_pvv_0104__3 Save Ixia from the monster
+
+&&scenario_wip (WIP)
+
+
+// ========================================================
+// MARK : ver0.23 added
+// ========================================================
+
+// ↑ の scenario_desc_*** も一部わずかに変更があります。ご確認下さい (hinayua_r18)
+
+// ========================================================
+// MARK : Quest
+// ========================================================
+
+&&quest__p999_trial_finished End of questline for now. Please wait for future updates.
+
+&&quest_completed Quest complete!
+&&quest_position_notice Check destination<key a/>
+&&quest_position_updated Destination updated<key a/>
+&&quest_position_arrived Arrived at destination
+
+&&button_quest_reveal_on_map Check destination
+&&button_quest_jump Check quest list
+
+&&scenario_desc_pvv_0001__0 Collect materials for my sister
+
+&&scenario_desc_pvv_0103__1 Recover the bombs from the swamp
+&&scenario_desc_pvv_0103__3 Check in on the beastman
+
+&&scenario_desc_pvv_0104__0 Find Ixia
+&&scenario_desc_pvv_0104__2 Search for clues
+
+&&quest_selecting_multi &1 (Total &2 quests)
+
+
+&&Scenario_Tab_main_quest Main quest
+&&Scenario_Tab_sub_quest Subquest
+
+&&quest_sort_newer Sort: Newer
+&&quest_sort_latest_update Sort: Recently updated
+
+
+// ========================================================
+// MARK : sub quest
+// ========================================================
+
+
+&&subquest_v022_check_alchemyst_labo Search sister's atelier
+
+
+// ========================================================
+// MARK : TheRoom
+// ========================================================
+
+&&Trm_first_play The Break Room Newcomer
+
+
+
+// ========================================================
+// MARK : 231004 アルバム
+// ========================================================
+
+&&Album_Tab_Fatal Fatal Cutscene
+&&Album_Tab_Picture Illustration
+&&Album_Tab_Memory Memory
+
+
+&&Album_Memory_ixia005_0 Ixia's visiting
+&&Album_Memory_ixia005_1 Ixia's visiting (Lose)
+&&Album_Memory_primula010 Primula and Shasta
+&&Album_Memory_primula011 Starry Failytale
+&&Album_Memory_alma102 With Alma in the Station
+&&Album_Memory_mepha104 Elven Village Army
+
+
+// ========================================================
+// MARK : ver0.25 quest
+// ========================================================
+&&scenario_desc_pvv_0105_grazia__0 Head to Bermit Academy
+&&scenario_desc_pvv_0105_grazia__1 Head to the school infirmary
+&&scenario_desc_pvv_0105_grazia__2 Go to class (West Hall 1-2)
+
+
+&&quest__subquest_treasurehunt_000 Find the location in the photo (Forest)

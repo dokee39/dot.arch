@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2912364047
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16a7949e05ccbc1e580b41c1a007092a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/Fatal/_Bg/troom_bed_bg.jpg
+Dependencies: []

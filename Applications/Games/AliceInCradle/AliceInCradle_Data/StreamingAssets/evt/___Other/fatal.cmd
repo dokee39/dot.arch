@@ -1,0 +1,36 @@
+// おうち回想は ＿scenemem_portal にある
+// 1: key
+// 2: fadein もやるなら 1
+// 3: メモリーから送る場合は true
+IFNDEF 2 {
+    2=0
+}
+IFNDEF 3 {
+    3=0
+}
+STOP_GHANDLE
+STOP_GMAIN
+STOP_GDRAW
+UI_DISABLE
+DENY_SKIP
+// VALOTIZE 0
+
+PIC_FILL	&10 DARK
+IF $2 {
+    PIC_FADEIN	&10 60
+    STOP_BGM	60 0
+    
+    WAIT 60
+}
+PIC_FADEOUT	&10 30
+TITLECALL_HIDE 1
+FATAL $1 $3
+
+PIC_FILL	&10 DARK
+PIC_FADEOUT	&10 60
+UI_ENABLE
+START_GMAIN
+START_GDRAW
+WAIT 40
+ALLOW_SKIP
+WAIT_BUTTON	40 

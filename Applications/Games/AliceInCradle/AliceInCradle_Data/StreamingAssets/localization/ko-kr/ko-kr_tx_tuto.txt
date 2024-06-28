@@ -1,0 +1,69 @@
+%FAMILY ko-kr
+
+/* ___ _eventboard_forest_witchboard_00 ___ */
+←←←
+이 앞 코르넬 공방
+
+/* ___ _eventboard_forest_witchboard_01 ___ */
+←
+조금만 더 가면 코르넬 공방
+가시덤불이 자라고 있으니 조심해
+
+
+/* ___ _eventboard_forest_witchboard_tuto00 ___ */
+<font size="25">
+<key la/><key ra/> 이동
+<key z/> 약공격
+</font>
+왠지 부서질 듯한
+수상한 벽을 쳐 봅시다→→
+
+/* ___ _eventboard_forest_witchboard_tuto01 ___ */
+<font size="25"><key a/> 맵</font>
+거점인 맵 왼쪽 끝의 '마녀의 잡화점'을
+목포로 하는 것도 좋을 것 같아
+
+
+/* ___ _eventboard_forest_witchboard_tuto02 ___ */
+<font size="25"><key x/> 길게 눌러 마술</font>
+약공격으로 화초를 꺾으면 적 영역으로의 침입이 되어
+전투가 시작됩니다.
+충분한 거리를 두고 마술을 영창해 맞춰봅시다.
+
+/* ___ _eventboard_forest_witchboard_tuto03 ___ */
+・<key la/><key ra/>두 번 눌러 달릴 수 있습니다.
+・마술은<key z/>+<key x/>동시 입력으로 중단할 수 있습니다.
+
+/* ___ _eventboard_forest_witchboard_tuto04 ___ */
+・마술을 보존중일 때 <key z/>공격으로 강력한 근접공격 '샷건'을 사용할 수 있습니다.
+・최대로 차지된 마법으로 쏘아진 샷건은 위력과 상태이상 부여율이 높아지지만,
+　완성되지 않은 마술이라면 쓸모가 없습니다.
+・영창은 <key lsh/>으로도 일시적으로 중단할 수 있습니다.
+
+
+/* ___ _eventboard_temporary_201003  ___ */
+・침대에서 쉴 경우 균열을 회복할 수 있습니다.
+・현재로서는 알과 성적 열망을 해결할 방법이 없습니다.
+　조만간 벤치에서 XX할 수 있게 될지도…
+・벤치나 침대에 앉지 않더라도 주변에서 세이브 할 수 있습니다.
+・벤치에서 다른 벤치로 빠른 이동이 가능하게 할 예정입니다.
+・최초의 노엘쨩은 성에 무지한 소녀이지만,
+　그녀의 치태를 보고 싶을 때에는 최음, 포란 상태에서 적에게 당해봅시다.
+・경험치에 의한 흥분 데미지 배율을 리셋하고 싶은 때에는 책장을 조사해 주세요.
+・음란치를 높이는 것은 음식으로는 70퍼센트가 최대. 먹는 것 만으로 절정할 수는 없습니다.
+
+&&UIGM_temporary_mutation 미구현입니다
+
+
+/* ___ _eventboard_forest_witchboard_evadion ___ */
+<font size="25"><key lsh/> 실드
+<key la/>또는 <key ra/> + <key lsh/>으로 회피</font>
+공중회피로 점프 거리를 늘릴 수 있으니
+적극적으로 사용해 보자!
+
+
+/* ___ _eventboard_forest_witchboard_bomb ___ */
+<ffont size="25">
+<key ba/>를 누르는 중에 <key x/>… 봄</font>
+봄으로만 부술 수 있는 지형이 다수 있다.
+수상한 벽에는 적극적으로 사용하자.

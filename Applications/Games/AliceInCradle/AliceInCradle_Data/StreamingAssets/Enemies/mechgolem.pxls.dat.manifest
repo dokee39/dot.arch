@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3608643513
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e9e4415338a0d2a1120594782a2be0d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/Enemies/mechgolem.pxls.bytes
+Dependencies: []

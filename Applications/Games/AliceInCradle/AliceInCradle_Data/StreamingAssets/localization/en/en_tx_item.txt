@@ -1,0 +1,1014 @@
+%FAMILY en
+
+// ========================
+// You can replace the name and description
+// written in the item script here.
+// ========================
+
+%ITEM fruit_cherry0 Blood Cherry 
+A fruit that slightly heals
+the caster's vitals.
+It's also useful as an 
+ingredient for making potions.
+%RECIPE_REPLACE fruit_cherry0 Cherry
+
+%ITEM fruit_apple0 Blood Apple
+A fruit that moderately heals
+the caster's vitals.
+It's also useful as an 
+ingredient for making potions.
+%RECIPE_REPLACE fruit_apple0 Apple
+
+%ITEM fruit_pine0 Blood Pine
+A fruit that greatly heals
+the caster's vitals.
+It's also useful as an 
+ingredient for making potions.
+%RECIPE_REPLACE fruit_pine0 Pine
+
+%ITEM anc_mp0 Ankh of Grazia
+Ankh with a prayer for the earth.
+Recovers all MP and temporarily
+repairs the MP gauge.
+
+%ITEM fruit_epdmg_apple0 Forbidden Fruit
+A mysteriously shaped apple.
+It seems to be connected to
+a myth of the forgotten past...?
+
+%ITEM gummy_mp0 Magic Gummy
+Portable food made from
+gel and magic crystals.
+A favorite among support mages
+and alchemists.
+
+
+%ITEM gummy_hp0 Vital Gummy
+Portable food made from
+gel and blood fruit juice.
+A favorite among support mages
+and alchemists.
+
+%ITEM mtr_jelly0 Gel
+A material mainly obtained from slimes.
+Edible, but only good for re-hydrating.
+
+%ITEM mtr_bottle0 Empty Bottle
+Container for holding various liquids.
+Liquid-type items will automatically
+fill empty bottles when collected.
+May break if Noel faints.
+
+
+%ITEM mtr_essence0 Dark Essence
+A sticky liquid obtained from
+defeating a dark enemy.
+%RECIPE_REPLACE mtr_essence0 Sludgy
+
+%ITEM mtr_water0 Clean Water
+Clean, refreshing water.
+Stay hydrated.
+
+%ITEM mtr_noel_juice0 Noel Juice
+Obtained automatically when Noel squirts or leaks liquid while you have an empty bottle.
+Restores magic power slightly, but...
+
+%ITEM mtr_bottle_life0 Life Bottle
+Heals HP.
+
+// ========================================================
+// MARK : 220115追加分
+// ========================================================
+
+
+%ITEM mtr_wheat Wheat
+A plant that serves as a staple food in cities above ground.
+An ingredient in portable food.
+
+%ITEM mtr_lettuce Lettuce
+A fresh, green vegetable.
+
+// ========================================================
+// MARK : 貴重品
+// ========================================================
+
+%ITEM precious_noel_cloth Old Healer Uniform
+A military uniform used in the Elven village, handed down by my grandmother.
+
+%ITEM precious_dangerous_meter Mana-meter
+An indispensable item for adventurers that detects the flow of magic and informs the user of the approximate level of danger in their current location. It is recommended you return home as soon as its colors turn dark.
+
+&&desc_dangerous_meter You can check the danger level from the Status menu.
+
+%ITEM precious_noel_shorts Cotton undergarments
+White panties with a bow on the front.
+
+%ITEM enhancer_slot Enhancer Slot
+An extension for your staff that allows you to set enhancers.
+Certain conditions may cause it to temporarily go offline.
+
+
+// ========================================================
+// MARK : その他 Other
+// ========================================================
+
+&&prefix_item_broken Ragged
+&&prefix_item_splashed Dirty
+&&item_abb_noel_cloth Uniform
+
+&&desc_noel_cloth_0 It's a little tight around my chest...
+&&desc_noel_cloth_2 It's been torn to shreds.
+&&desc_noel_cloth_1 It's thoroughly stained with monster fluids.
+
+&&detail_noel_cloth_0 Damage to clothing is reset at the end of battle unless they are torn.
+&&detail_noel_cloth_1 You can repair or wash your clothes at a bench.
+&&prefix_item_abb_noel_cloth Uniform
+
+&&name_noel_shorts_1 Dirty Underwear
+
+&&desc_noel_shorts_0 The texture feels nice, and the water absorbency is perfect.
+&&desc_noel_shorts_1 There are still stains from when I wet myself... 
+&&desc_noel_shorts_2 Secretions from the eggs laid by the monsters are dripping from the crotch area. 
+
+// ノエルジュースのグレード別特定呼称 Specifications of Noel Juice by grade
+&&noel_juice_grade0 &1
+&&noel_juice_grade1 Nice and warm &1
+&&noel_juice_grade2 Freshly juiced &1
+&&noel_juice_grade3 Q.C.-passed &1
+&&noel_juice_grade4 &1 Nouveau
+
+
+&&name_skill_book Skill: &1
+&&desc_skill_book A book that contains skills.\n Learn “&1”.
+
+
+&&name_enhancer_device Enhancer: &1
+&&desc_enhancer_device Allows you to use the enhancer “&1”.
+&&enhancer_cost Cost: &1
+
+&&name_recipe_cook Cooking recipe: &1
+&&desc_recipe_cook You can cook “&1” at the kitchen.
+
+&&name_recipe_alchemy Alchemy recipe: &1
+&&desc_recipe_alchemy You can make “&1” at the atelier.
+
+// ========================================================
+// MARK : レシピ用 [For] Recipes
+// ========================================================
+
+&&recipe_categ_cook Cooking
+&&recipe_categ_alchemy Alchemy
+
+&&recipe_item_categ_wheat Grains
+&&recipe_item_categ_vegi Vegetable
+&&recipe_item_categ_meat Meat
+&&recipe_item_categ_fish Seafood
+&&recipe_item_categ_fruit Fruit
+&&recipe_item_categ_mush Mushroom
+&&recipe_item_categ_egg Egg
+&&recipe_item_categ_water Water
+
+
+&&recipe_effect_maxhp Increases maximum HP
+&&recipe_effect_maxmp Increases maximum MP
+&&recipe_effect_mana_neutral Less mana from magic attacks will be absorbed by the enemy
+&&recipe_effect_shield_enpower Strengthens shield
+&&recipe_effect_punch_drain Increases the amount of mana you can steal from using weak attacks
+
+&&recipe_effect_how_much &1 (Pow:&2%)
+&&__adding &1 &2
+// ↑ In English, you should write here "&1 &2"
+
+&&recipe_adj_enough_specific Enough &1
+&&recipe_adj_manykind Various
+&&recipe_adj_manykind_specific Various &1
+&&recipe_double_item &1 and &2
+
+&&recipe_adj_grade0 Questionable &1
+&&recipe_adj_grade1 Ordinary &1
+&&recipe_adj_grade2 Fashionable &1
+&&recipe_adj_grade3 Super &1
+&&recipe_adj_grade4 Divine &1
+
+&&Recipe_title_bread Bread
+&&Recipe_desc_bread Perfect for breakfast. Can be used as a plate when stale.
+
+&&Recipe_title_sandwich Sandwich
+&&Recipe_desc_sandwich I heard that this food is named after a person - is that true?
+
+&&Food_unknown Unknown
+&&Food_unknown_desc Tastes like food created in a binary editor. Futuristic.
+
+
+
+// ========================================================
+// MARK : 2202月
+// ========================================================
+
+%RECIPE_REPLACE mtr_water0 
+%RECIPE_REPLACE mtr_seed0 Bean
+
+%ITEM oc_slot OverCharger Slot
+A container for storing excess mana. Spells cast with mana from this do not need to be chanted.
+
+
+%ITEM timecapsule Old Container
+A time capsule my sister and I buried together a long time ago.
+Big sister's dream is.....
+.........................
+R-really....?
+
+
+%ITEM mtr_lily_bulb0 Moonlight Muguet's Bulb
+Highly poisonous. Sister warned me not to nibble on it.
+
+
+%ITEM mtr_black_harb0 Black-striped Herb
+According to my sister, essential oils from this herb make you feel very good, like you're floating on a cloud~! 
+
+%ITEM mtr_coal0 Coal
+I don't like touching this because it makes my hands dirty, but it's inevitable when doing alchemy.
+
+%ITEM mtr_quartz0 Quartz
+A small sparkling stone.
+
+%ITEM mtr_amethyst0 Amethyst
+A common stone. I've heard it's almost the same as quartz. It's my sister's favorite; she is always happy when I gather them.
+
+%ITEM mtr_iron0 Iron
+Basic iron ore.
+
+
+%ITEM mtr_chrom0 Chrome
+It is said that people in ancient times built their civilization with these metals, just as we do today.
+Not many materials can withstand mana corrosion like these, so much has been lost over time.
+
+
+
+%ITEM nightingale_bell Merchant Bell
+A bell available at Nightingale's shop.
+If you put this on your bag, she'll hear the bell and start walking over to you...at her own pace.
+
+
+%ITEM cooking_pan Beginner's pan
+A hand-me-down pan from Tilde.
+From this day I am a chef too!
+
+
+
+%ITEM mtr_beast_skin0 Beast's Skin
+Hide of a monster.
+Excellent for blocking mana.
+
+%ITEM mtr_glass0 Glass Shards
+Hard, transparent shards.
+Some monsters form these substances in their skeletons.
+
+%ITEM mtr_organ0 Monster's Liver
+Symbol of a monster's greed.
+Too bitter to use for cooking.
+%RECIPE_REPLACE mtr_organ0 Liver
+
+
+%ITEM mtr_meat_demon0 Monster's Meat
+Black meat.
+The magic within will stay in the pit of your stomach like a rock. Not tasty.
+%RECIPE_REPLACE mtr_meat_demon0 Black Meat
+
+
+%ITEM mtr_meat_chicken0 Mountain Chicken
+Meat from mountain-raised livestock.
+Healthy and delicious, but has a hoity-toity aura about it.
+%RECIPE_REPLACE mtr_meat_chicken0 Chicken
+
+&&recipe_effect_atk Power of physical attacks
+&&recipe_effect_atk_magic Power of spells
+
+%ITEM mtr_cabbage Cabbage
+Needs dressing.
+
+&&recipe_effect_arrest_hpdamage_reduce HP damage when restrained
+&&recipe_effect_arrest_mpdamage_reduce MP damage when restrained
+
+
+%ITEM mtr_tomato Tomato
+I don't like the mushy texture.
+But ketchup is fine.
+&&recipe_effect_evade_nodam_extend Extend invincibility time of dodges
+
+%ITEM mtr_green_pepper Green Pepper
+I've hated these since I was a kid.
+&&recipe_effect_smoke_resist Smoke Damage
+
+%ITEM mtr_paprika Bell Pepper
+Part of the green pepper gang.
+You can't fool me with those charming colors.
+&&recipe_effect_arrest_escape Easier to escape when restrained
+
+%ITEM mtr_celery Celery
+Fiber.
+Fiber everywhere.
+
+&&recipe_effect_elec_damage_reduce Reduce thunder damage
+
+%ITEM mtr_waterplant Eggplant
+Tastes good when served with meat and mixed with gravy.
+But that's more the taste of the gravy, not the eggplant itself.
+&&recipe_effect_fire_damage_reduce Reduce fire damage
+
+
+%ITEM mtr_burdock Burdock
+Looks more like a medicinal ingredient, rather than a vegetable.
+&&recipe_effect_ser_fast Decrease the duration of abnormal status
+
+
+%ITEM mtr_carrot Carrot
+Makes me feel like livestock.
+&&recipe_effect_sink_reduce Reduce slipperiness
+
+%ITEM mtr_beets Beets
+Sweet and very tasty.
+Good for squeezing into juice or as a seasoning. I wish Tilde would grow more of these.
+
+
+%ITEM mtr_cucumber Cucumber
+It's 90 percent water. Might as well just drink water instead.
+
+
+%ITEM mtr_turnip Turnip
+Munch munch munch munch...
+&&recipe_effect_chant_speed_overhold Increase casting speed when MP is depleted
+
+
+%ITEM mtr_corn Corn
+A very good vegetable, sweet and filling. Can be used as oil if processed.
+If you bite into it as-is, you'll be picking it out of your teeth the rest of the day.
+&&recipe_effect_reel_speed Decrease rolling speed of chest reels
+
+%ITEM mtr_onion Onion
+Really only good as a meat tenderizing sidekick.
+&&recipe_effect_ser_resist Resist abnormal effects
+
+%ITEM mtr_garlic Garlic
+Essential when sauteing meat.
+&&recipe_effect_lost_mp_when_chanting Reduce mana lost when taking damage during chanting
+
+%ITEM mtr_broccoli Broccoli 
+You shouldn't recommend certain foods to other people just because it's nutritious.
+&&recipe_effect_mp_gaze_resist Make MP gauge sturdy
+
+%ITEM mtr_noel_egg Noel Egg
+...It hurt.
+These can be collected when out of combat.
+Except, I don't want to collect them...
+&&recipe_effect_chant_speed Increase casting speed
+%RECIPE_REPLACE mtr_noel_egg Noel Egg
+
+%ITEM mtr_egg Livestock Egg
+Eggs of livestock raised in the mountains.
+How sinful of us to cook and eat something before it is even born.
+Maybe that's why it tastes so delicious.
+
+%ITEM mtr_mush Mushroom
+I heard that the knowledge to sort out edible and inedible mushrooms is learned at a young age in the elven village.
+
+&&recipe_effect_random Random effect
+&&recipe_effect_dish_variable Increase efficiency of current dish
+
+%ITEM mtr_rocksolt0 Rock Salt
+Brings out the best in any meat and makes vegetables just barely edible.
+%RECIPE_REPLACE mtr_rocksolt0 Salted
+
+%ITEM mtr_pepper Pepper
+There was once a time when pepper was treasured and worth as much as silver and gold.
+I'm glad I was born at a time when it's more affordable.
+%RECIPE_REPLACE mtr_pepper Peppered
+
+%ITEM rotten_food Spoiled Food
+Food that spoiled from being exposed to mana.
+Even a starving dog wouldn't eat this...
+
+%ITEM lunchbox Lunch Box
+If food is placed in this, it will not rot at the end of the battle.
+Let's make a cute lunch and show it off to everyone at school.
+
+%ITEM special_inventory0 Bag Expansion Kit
+Expands inventory capacity.
+
+&&Item_detail_inventory_increase2 Increases inventory by +&1\n(Maximum: &2)
+
+// ========================================================
+// MARK : ITEMREEL
+// ========================================================
+&&Item_cmd_reel_open_once Open this chest
+&&Item_cmd_reel_open_all Open all chest(s)
+&&Item_cmd_inventory_expand Expand
+
+&&Inventory_reel_content Content of the chest
+// tab name
+&&Inventory_reel_booster Chest Reels
+&&Alert_reel_content_has_been_sent Chest contents have been sent to Storage.
+&&Alert_reel_cannot_open_in_battle Cannot open chests in battle.
+&&Alert_cannot_eat_in_battle Cannot eat food in battle.
+&&Alert_cannot_inventory_enlarge This bag cannot be expanded any further.
+&&Alert_cannot_inventory_target_different Storage cannot be expanded.
+&&Alert_no_lunchbox I don't have a Lunch Box.
+
+
+&&ItemReel_Name_Base Chest: &1&2
+/* ___ ItemReel_Desc_Base ___ */
+Treasure chest containing unidentified items.
+The quality and quantity of the items inside increases with the danger level when it is opened.
+
+
+%ITEMREEL wheat_G0 Grain 1
+%ITEMREEL jewel_G0 Jewel 1
+%ITEMREEL ore_G0 Ore 1
+%ITEMREEL demon_G0 Demonic 1
+%ITEMREEL demon_G1 Demonic 2
+%ITEMREEL demon_G2 Demonic 3
+%ITEMREEL demon_G3 Demonic 4
+%ITEMREEL fruit_G0 Fruit 1
+%ITEMREEL fruit_G1 Fruit 2
+%ITEMREEL sweat_G0 Sweetness 1
+%ITEMREEL mush_G0 Mushroom 1
+%ITEMREEL meat_G0 Meat 1
+%ITEMREEL green_vegi_G0 Green Vegetable 1
+%ITEMREEL yellow_vegi_G0 Yellow Vegetable 1
+%ITEMREEL variable_vegi_G0 Various Vegetable 1
+
+
+
+&&recipe_item_categ_flower Flower
+&&recipe_item_categ_seasoning Seasoning
+&&recipe_item_categ_other Other
+&&recipe_item_categ_fromnoel Made in Noel
+
+&&Recipe_title_salad Salad
+&&Recipe_desc_salad Cooking for vegetable lovers.
+
+&&Recipe_title_oil Oil
+/* ___ Recipe_desc_oil ___ */ 
+It tastes good, but don't use too much.
+In this sense, it may be similar to the relationship between medicine and poisons.
+
+&&Recipe_title_soup Soup
+&&Recipe_desc_soup Best when sipped late at night.
+
+&&Recipe_title_stew Stew
+/* ___ Recipe_desc_stew  ___ */
+The only dish where tomatoes are acceptable, aside from ketchup.
+
+
+&&Recipe_title_fried_vegi Stir Fry
+&&Recipe_desc_fried_vegi Can elves and beastmen understand each other like this?
+
+&&Recipe_title_steak Steak
+&&Recipe_desc_steak Has a taste that makes me feel alive.
+
+&&Recipe_title_burger Hamburger
+
+&&Recipe_desc_burger People who put raw tomatoes on hamburgers are the worst.
+
+&&Recipe_title_fried_egg Fried Egg
+/* ___ Recipe_desc_fried_egg  ___ */
+Tilde is very picky about preparing eggs...
+"Egg cooking is difficult, you know?
+The whites and yolks set at different temperatures,
+so you have to mix them very well to make an omelette..."
+
+
+&&Recipe_title_morning_set Morning Set
+&&Recipe_desc_morning_set Essential for a comfortable day.
+
+
+&&food_in_lunchbox Packed &1
+
+
+
+
+%ITEM mtr_gecko_skin0 Gecko's Skin
+主にヘビ型の魔族から取れる素材。
+結構ずっしりしてる。
+
+
+%ITEM mtr_seed0 Poisonous Seed
+Material gathered from plant-type monsters.
+
+
+
+%ITEM mtr_weed0 Dry Grass
+Dead plants growing in places where mana is thick.
+It can be used to make medicine, but it will be very bitter.
+
+&&SkillItem_Map_title Map of &1
+/* ___ SkillItem_Map_desc ___ */ 
+Shows the topography of 
+&1.
+Does not reveal where chests and enemies are located.
+
+
+
+&&recipe_effect_atk_magic_overspell Power of spells with insufficient mana
+
+
+
+// ========================================================
+// MARK : ver022
+// ========================================================
+
+%ITEM mtr_curry Bottle of Spices
+A bottle filled with spices native to Mt. Fallen.
+Smells appetizing.
+
+%RECIPE_REPLACE mtr_curry Curry
+
+%ITEM ostrea_bomb Beastman’s Explosives
+A small bag with a device attached to it. Most likely the explosives the beastman dropped.
+I’ve never seen anything like it before.
+Just holding it makes me nervous...
+
+
+&&recipe_effect_frozen_damage_reduce Reduce frozen damage
+
+%ITEM mtr_rosemary Rosemary
+A type of herb.
+It’s covered in pretty blue flowers.
+
+%ITEM mtr_basil Basil
+A type of herb.
+Pairs well with meat.
+
+%ITEM mtr_lemongrass Lemongrass
+A type of herb.
+Smells refreshing.
+
+%ITEM mtr_sage Sage
+A type of herb.
+Useful in making medicines.
+
+%ITEM mtr_pelargonium Rose Geranium
+A type of herb.
+Kind of smells like being an adult.
+
+
+%ITEM mtr_peppermint Peppermint
+A type of herb.
+Not really my favorite.
+
+%ITEM mtr_polygama Catnip
+A type of herb.
+Has an irresistibly alluring aroma.
+
+
+%ITEM mtr_chamomile Chamomile
+A type of herb.
+Has a calming aroma.
+
+%ITEM mtr_sulfur Sulfur
+A yellowish-colored stone often found in the mountain.
+It has an unbearably pungent stench.
+
+%ITEM mtr_nitre Niter
+A stone used to make gunpowder.
+Found in arid regions rather than forested ones.
+
+%ITEM mtr_gold Gold ore
+A stone with flecks of glittering yellow that can be easily seen through a skimmer.
+Apparently necessary for when my sister makes amulets.
+
+%ITEM mtr_redberyl Red Beryl
+A rare type of emerald.
+Its fiery red color is beautiful.
+
+%ITEM mtr_sapphire Sapphire
+A rare gemstone.
+It has a pale azure brilliance.
+
+%ITEM mtr_topaz Topaz
+A rare gemstone.
+Yellow ones are most commonly found in this area.
+
+
+%ITEM mtr_morganite Morganite
+A rare gemstone.
+Has a lovely pink color worthy of being put on display.
+
+%ITEM mtr_nekoite Nekoite
+It has neko in the name, but has nothing to do with me.
+
+%ITEM mtr_wood Wood
+Everyone loves games where you combine wood, stone,
+and other materials to craft various things.
+
+
+%ITEM mtr_stone Stone
+An ordinary old stone.
+...but what if it were hiding gems inside?
+
+
+%ITEM mtr_mush2 Spotted Mushroom
+Having this anywhere near me makes me feel unsafe.
+Its colors are a bit grotesque…
+
+%ITEM mtr_essence_slime Fake Slime Egg
+Eggs of a slime monster.
+Unfertilized decoy eggs made to trick predators. No nutritional value.
+
+%ITEM mtr_essence_mush Black Cotton Spores
+A mass of spores from a mushroom monster.
+Improper disposal of these will definitely cause trouble.
+
+%ITEM mtr_essence_golem Golem’s Right Hand
+The dexterous right hand of a golem.
+It’s said they retain their intelligence even in their corrupted form.
+
+
+%ITEM mtr_essence_uni Urchin Spine
+A spine from an urchin monster.
+Careful not to hurt yourself when handling it.
+
+%ITEM mtr_essence_snake Snake Skin
+Skin from a snake monster.
+It seems to be very water-resistant. Probably to keep mud from sticking to it when it burrows.
+
+%ITEM mtr_essence_gecko Lizard Tail
+The thick tail of a lizard monster.
+It’s still pulsating and slightly warm...
+
+%ITEM mtr_essence_sponge Round Sponge Shell
+The remains of a sponge monster.
+Outer casing of a magical bullet. Any magic held within seems to be long gone.
+
+%ITEMREEL wheat_G1 Grain+
+
+%ITEMREEL harb_G0 Herb 1
+%ITEMREEL harb_G1 Herb 2
+%ITEMREEL ore_G1 Ore 2
+%ITEMREEL ore_G2 Ore 3
+%ITEMREEL ore_B_G0 Ore+
+%ITEMREEL craft_G0 Crafting
+%ITEMREEL craft_G1 Crafting+
+%ITEMREEL meat_B_G0 Meat+
+%ITEMREEL mush_B_G0 Mushroom+
+%ITEMREEL mushroom_G0 Mushroom 2
+
+&&recipe_item_categ_herb Herb
+
+
+// ========================================================
+// MARK : 221230
+// ========================================================
+
+
+
+// ========================================================
+// MARK : ver0.23
+// ========================================================
+
+&&recipe_categ_alchemy_workbench Workbench
+&&recipe_categ_aloma Aroma
+
+&&Recipe_title_aloma_water Aroma
+
+
+// ========================================================
+// MARK : ver0.24
+// ========================================================
+// ↓ver0.24で修正される部分
+%ITEM recipe_collection Field Guide
+A licensed field guide given to me by my sister.
+Holds information on known recipes and items.
+Give it a read with <key d/>+<key a/> wherever, whenever.
+
+
+&&mapmarker_name_suffix Map marker: &1
+&&mapmarker_name_red  Red
+&&mapmarker_name_yellow  Yellow
+&&mapmarker_name_green  Green
+&&mapmarker_name_blue  Blue
+&&mapmarker_name_heart  Heart
+&&mapmarker_name_skull  Skull
+&&mapmarker_name_human  Someone
+&&mapmarker_name_coffee  Cup
+&&mapmarker_name_exc  !
+&&mapmarker_name_que  ?
+&&mapmarker_name_treasure  Treasure
+&&mapmarker_name_enemy  Monster
+&&mapmarker_name_crafts  Materials
+&&mapmarker_name_fruit  Fruits
+&&mapmarker_name_veggie  Veggies
+&&mapmarker_name_meat  Meat
+
+
+/* ___ mapmarker_Desc ___ */
+Device that lets you place markers on the map.
+Place as many as you like!
+
+
+&&recipe_item_categ_jewel Minerals
+&&recipe_item_categ_craftmaterial Crafting
+&&recipe_item_categ_enemy Monster drop
+&&recipe_item_categ_cushion Cushioning
+
+
+%ITEM mtr_copper Copper
+Basic copper ore.
+Easy to process.
+
+
+%ITEM mtr_woodchip Wood Chips
+Little bits of wood.
+Can be used as a shock absorbent.
+
+
+%ITEM mtr_elecboard Circuit Board
+A strange, jaggy board.
+Useful for making mechanical things.
+
+%ITEM tool_woodchiper Wood Cutter
+A tool to cut wood.
+Definitely the one tool I’d want if I were stranded on an island.
+
+
+%ITEM throw_bomb Grenade
+A simple explosive made from black powder and a fuse.
+Keep it away from open flames, and (once lit) yourself so you don’t get caught in the blast.
+
+
+%ITEM throw_lightbomb  Stun Grenade
+Emits a blinding flash that can daze or knock out enemies.
+Hold your shield up before it detonates to avoid getting caught in the blast.
+
+
+%ITEM throw_magicbomb Magic Grenade
+An explosive infused with magical energy.
+The blast won’t damage you, but will still knock you down.
+
+%ITEM throwattach_enpower Diffusion Mod
+Grenade attachment. Increases power and area of effect.
+Degrades slightly with each use, eventually becoming unusable.
+
+%ITEM throwattach_long Range Mod
+Grenade attachment. Increases max throw distance and area of effect.
+Degrades slightly with each use, eventually becoming unusable.
+
+%ITEM throwattach_suction Sticky Mod
+Grenade attachment. Causes it to stick to walls and enemies; slightly increases power.
+Degrades slightly with each use, eventually becoming unusable.
+
+
+%ITEM throwattach_chaser Chaser Mod
+Grenade attachment. Causes it to run across floors towards nearby enemies; slightly increases power.
+Degrades slightly with each use, eventually becoming unusable.
+
+
+%ITEM throwattach_sensor Hover-mine Mod
+Grenade attachment. Once thrown, the grenade will hover in the air and detonate when enemies come close.
+Degrades slightly with each use, eventually becoming unusable.
+
+
+
+
+%ITEM coffeemaker_ticket Siphon Ticket
+A ticket made from a scrap of paper so thin it could fly away at any moment.
+There appears to be a handwritten signature on it.
+Well...let’s not dig too deep into this.
+
+
+&&detail_coffeemaker_ticket Good for one use of the coffee machine. Cannot be kept for later use.
+
+
+%ITEM mtr_coffee Coffee Bean
+Its metallic, bitter smell is strangely inviting.
+
+
+%RECIPE_REPLACE mtr_coffee Coffee
+
+&&recipe_effect_sleep_resist Sleep Resistance
+
+%ITEM tool_siphon Siphon
+Coffee made with this tastes the same as coffee made in a normal pot; yet there’s something special about it.
+Maybe it’s that we’re drinking in the experience of making it.
+
+&&Item_name_siphon_by_ticket Siphon (Ticket)
+
+/* ___ Item_desc_siphon_by_ticket ___ */
+If I’m not wrong...this piece of scrap pa-...this ticket can be redeemed to use the siphon once.
+
+
+&&Recipe_title_herbtea Herbal Tea
+/* ___ Recipe_desc_herbtea ___ */
+A delicious aqueous solution.
+It’s a type of food, but 
+can be used during battle, but will spoil afterwards if unused.
+
+%ITEM mtr_darjeeling Darjeeling Tea
+Just a small whiff of this makes me want to go “<i>Oh ho ho ho!</i>” like Ixia.
+
+
+&&Recipe_titleR_herbtea Tea
+&&Recipe_titleR_sandwich Sandwich
+
+
+// ========================================================================
+// 230915 突然の追加で申し訳ないです！！！！！！
+
+%ITEMREEL craft_G2 Crafting++
+
+&&Catalog_categ_item_cure Healing
+&&Catalog_categ_item_bomb Explosives
+&&Catalog_categ_item_mtr Materials
+&&Catalog_categ_item_ingredient Foods
+&&Catalog_categ_item_water Water
+&&Catalog_categ_item_bottle Containers
+&&Catalog_categ_item_fruit Fruits
+&&Catalog_categ_item_dust Junk
+&&Catalog_categ_item_tool Tools
+&&Catalog_categ_item_enhancer Enhancers
+&&Catalog_categ_item_skill Skills
+&&Catalog_categ_item_reel Chests
+&&Catalog_categ_item_recipe Recipes
+
+&&Catalog_categ_sub_all All
+&&Catalog_categ_sub_cure_hp Heals HP
+&&Catalog_categ_sub_cure_mp Recovers MP
+&&Catalog_categ_sub_cure_ep Calms EP
+
+
+// ========================================================================
+// 240301 ver0.25
+
+%ITEM mtr_milk Farm-fresh Milk
+Put your hand on your hip and thrust your head skyward when you drink it!
+
+%RECIPE_REPLACE mtr_milk Milk
+
+
+%ITEM tool_bread_oven Bread Oven
+Being able to sniff freshly baked bread at all hours of the day is one of the best QOL upgrades.
+
+%RECIPE_REPLACE tool_bread_oven Oven-baked
+
+%ITEM tool_keg Keg
+A quantum device that makes it impossible to tell if the brew inside is rotting or fermenting until you open it.
+
+%RECIPE_REPLACE tool_keg Keg
+
+%ITEM fruit_grape Grape
+Clusters of amethyst-colored berries, my sister's favorite. I have to fight the urge to bite into them.
+
+%RECIPE_REPLACE fruit_grape Grape
+
+%ITEM fruit_banana Banana
+It tastes best right when it's about to go bad. But if you aren't paying attention, it will go bad. In that sense, it's kind of like an adventure.
+
+
+%ITEM fruit_kiwi Kiwi
+When I was a kid, I rubbed my eyes after eating one and they got all swollen...
+
+
+%ITEM fruit_plum Plum
+Colorful green and red fruit.
+Much more sour than it looks.
+
+%ITEM fruit_lemon Lemon
+Has a sharp, sour taste that most find unappealing. The fact that it's sour down to the last drop kind of reminds me of Ixia.
+
+%ITEM fruit_peach Peach
+Enjoyable both in its early, ripe state, and its late, mushy state.
+
+%ITEM mtr_honey Monster Honey
+Irresistably sweet. But I don't want to think about the bugs that produced it.
+%RECIPE_REPLACE mtr_honey Honey
+
+%ITEM mtr_cacao Cocoa bean
+A rare bean that can be made into delicious sweets if you put in the work.
+%RECIPE_REPLACE mtr_cacao Cocoa
+
+%ITEM mtr_bean Green Peas
+A small green bomb that can ruin any meal with its awful taste and texture.
+%RECIPE_REPLACE mtr_bean Bean
+
+%ITEM mtr_pumpkin Pumpkin
+Reminds me of Tilde, with its tough outer skin, but soft insides.
+
+%ITEM mtr_potato Potato
+Full of Solanine!
+
+%RECIPE_REPLACE mtr_potato Potato
+
+%ITEM mtr_rice Rice
+Grains grown underground. I always get the urge to put a highly seasoned side dish on top of it.
+%RECIPE_REPLACE mtr_rice Rice
+
+%ITEM mtr_actihol Actihol
+If you heat it up, it adds some deep flavors to food. If you drink it as-is, it'll make your head swim...or so I've heard.
+%RECIPE_REPLACE mtr_actihol 
+ 
+
+&&Recipe_title_tortilla Tortilla
+/* ___ Recipe_desc_tortilla ___ */
+I like the soft ones, but the hard ones have a more "real" feel to them.
+
+&&Recipe_title_taco Taco
+/* ___ Recipe_desc_taco ___ */
+Made with the meat of something called "fish", which is rare in the forest and town, but is popular on Mt. Fallen.
+
+&&Recipe_title_cream Cream
+/* ___ Recipe_desc_cream ___ */
+Made by stirring milkfat at great speeds. The culmination of of wisdom, air, and oil.
+
+
+&&Recipe_title_parfait Parfait
+/* ___ Recipe_desc_parfait ___ */
+A perfect dessert for a perfect girl.
+
+&&Recipe_title_waffle Waffle
+/* ___ Recipe_desc_waffle ___ */
+Each pocket of the lattice is filled with sweet happiness.
+
+
+
+// ↓ French Fries という言葉は使わないで表現して下さい。( French = フランスが存在しないので )
+
+&&Recipe_title_fried_potato Fried Potato
+/* ___ Recipe_desc_fried_potato ___ */
+Potatoes fried in oil.
+
+
+&&Recipe_title_fried_chicken Fried Chicken
+/* ___ Recipe_desc_fried_chicken ___ */
+A drumstick. Father and Tilde get furious when I gobble up all the gristle.
+
+
+&&Recipe_title_fried_demon Fried Monster
+/* ___ Recipe_desc_fried_demon ___ */
+The oil and breading are doing their best to hide the smell and texture of the meat, but it isn't helping much...
+
+// ↓「お酒」に相当する言葉を使わずに表現して下さい。
+// アクチール: Actihol
+
+&&Recipe_title_yangkueifei Flowery Princess
+/* ___ Recipe_desc_yangkueifei ___ */
+Infused with floral aromas and accented with citrus flavors that evoke the freshness of summer. Best enjoyed before dinner...or so I've heard.
+
+
+&&Recipe_title_cassisorange Trickrush 340
+/* ___ Recipe_desc_cassisorange ___ */
+Milky sweetness blends harmoniously with the actihol. The sweet taste of forgotten memories...or so I've heard.
+
+
+&&Recipe_title_soltywolf Salty Wolf
+/* ___ Recipe_desc_soltywolf ___ */
+Salt is sprinkled around the edge of the glass. It's a luxurious citrusy drink with two kinds of spices...or so I've heard.
+
+&&Recipe_title_applecider HWG
+/* ___ Recipe_desc_applecider ___ */
+A sweet drink made from apples. Good for those who can't handle their actihol...or so I've heard.
+
+&&Recipe_title_sparklingwine Red Vermilion
+/* ___ Recipe_desc_sparklingwine ___ */
+A carbonated drink made from fermented grapes. A classic that pairs well with meat dishes...or so I've heard.
+
+&&Recipe_title_syotyusoda Slash Fantasy
+/* ___ Recipe_desc_syotyusoda ___ */
+Has a unique aftertaste that harkens to reincarnation through the Mother Stone...or so I've heard.
+
+&&Recipe_title_amaretto Amber Waltz
+/* ___ Recipe_desc_amaretto ___ */
+A sensual drink that invokes the passion of two lovers dancing gracefully...or so I've heard.
+
+
+&&Recipe_title_gintonic Heat Shot 197
+/* ___ Recipe_desc_gintonic ___ */
+The high actihol content and spicy dried mana plants create a storm in the drinker's head...or so I've heard.
+
+
+&&Recipe_title_spirytus Brave N-E-U World
+/* ___ Recipe_desc_spirytus ___ */
+Very high actihol content from repeated distillation. Drink it and you'll see the world through new eyes...or so I've heard.
+
+
+
+%ITEM mtr_noel_milk Noel Milk
+Normally only produced by mothers who have recently given birth, but...
+
+%RECIPE_REPLACE mtr_egg Egg
+
+%ITEM mtr_elf_milk Elf Milk
+There must be someone around who's the right person to drink this...
+
+%RECIPE_REPLACE mtr_elf_milk Milk
+
+%ITEM mtr_elf_egg Elf Egg
+The fruits of someone's suffering. No matter how much we hate the monsters, we can't ignore its nutritional value.
+
+%RECIPE_REPLACE mtr_elf_egg Egg
+&&recipe_item_categ_milk Milk
+
+
+%ITEM precious_bone_beast Alloyed Bone
+A lightweight, metallic bone that can resist the corroding effects of magic. Once held the life of a certain beastman together.
+
+&&recipe_item_categ_bean Bean

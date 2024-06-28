@@ -1,0 +1,12 @@
+
+PIC_HIDE_ALL	 
+WAIT 20
+GETITEM_BOX anc_mp0 3 0
+WAIT_FN ITEMDESC
+
+WAIT 25
+
+PIC_SWIN treasurehunt/treasurehunt_000__4
+WAIT_BUTTON
+
+QUEST_PROGRESS subquest_treasurehunt_000 4

@@ -1,0 +1,166 @@
+%FAMILY th
+&&Config_SEV  เสียงเอฟเฟค
+&&Config_VOV  เสียงพูด
+&&Config_BGMV  เสียงเพลง
+
+&&Config_Windowed เต็มหน้าจอ
+&&Config_Windowed_0 ปิด
+&&Config_Windowed_1 เปิด
+
+&&Config_Sensitive ซ่อนสิ่ง\nที่ไม่เหมาะสม
+&&Config_Sensitive_0 ไม่ซ่อน
+&&Config_Sensitive_1 ซ่อน
+
+&&Config_Lang ภาษา\n(Language)
+&&Config_Lang_0 ญี่ปุ่น(JP)
+&&Config_Lang_1 อังกฤษ(EN)
+&&Config_Lang_2 จีนตัวเต็ม(ZN-CN)
+&&Config_Lang_3 ไทย(TH)
+
+&&Config_AutoSave จุดที่จะ\nเชฟอัตโนมัติ
+&&Config_AutoSave_0 <font size="13">ไม่เชฟ</font>
+&&Config_AutoSave_1 <font size="13" linespacing="0.75">ตรงที่นั้ง\nเท่านั้น</font>
+&&Config_AutoSave_2 <font size="13" linespacing="0.75">เนื้อเรื่องมี\nความคืบหน้า</font>
+&&Config_AutoSave_3 <font size="13">ทั้งหมด</font>
+
+&&Config_Magsel ลดความเร็วของเกม\nเมื่อใช้/เลือกสกิล
+&&Config_Magsel_0 <font size="13">ไม่ลดความเร็ว</font>
+&&Config_Magsel_1 <font size="13">ความเร็วปกติ</font>
+&&Config_Magsel_2 <font size="13">ลดความเร็ว 1/2</font>
+&&Config_Magsel_3 <font size="13">ลดความเร็ว 1/3</font>
+&&Config_Magsel_4 <font size="13">ลดความเร็ว 1/4</font>
+
+&&Config_Draw_Fps การอัปเดตเฟรม \n(ทั้งหมด)
+&&Config_Draw_Fps_0 ทุกเฟรม
+&&Config_Draw_Fps_1 1/2 เฟรม
+&&Config_Draw_Fps_2 1/3 เฟรม
+&&Config_Draw_Fps_3 1/4 เฟรม
+
+&&Config_Draw_EfFps การอัปเดตเฟรม \n(เอฟเฟค)
+&&Config_Draw_EfFps_0 ทุกเฟรม
+&&Config_Draw_EfFps_1 1/2 เฟรม
+&&Config_Draw_EfFps_2 1/3 เฟรม
+&&Config_Draw_EfFps_3 1/4 เฟรม
+
+
+&&Config_UiEf_Dirty รายละเอียด\nของรูปตัวละคร
+
+&&Config_MapEf_Level ปริมาณเอฟเฟค\nในแมพ
+&&Config_UiEf_Level ปริมาณเอฟเฟค\nบนอินเตอร์เฟส
+&&Config_UiEf_TimeScale ความเร็วเอฟเฟค\nบนอินเตอร์เฟส
+
+&&Config_Kisekae สีชุดของ\nโนเอล
+&&Config_Kisekae_0 สีขาว
+&&Config_Kisekae_1 สีชมพู
+&&Config_Kisekae_2 สีฟ้า
+&&Config_Kisekae_3 สีม่วง
+&&Config_Kisekae_4 สีแดง
+
+
+&&Config_desc_SEV   ปรับระดับเสียงเอฟเฟค
+&&Config_desc_VOV   ปรับระดับเสียงของตัวละคร
+&&Config_desc_BGMV  ปรับระดับเสียงของเพลง
+&&Config_desc_keycon  เปลี่ยนปุ่ม\nบนคีย์บอร์ดและจอยได้ที่นี้
+&&Config_desc_Lang  เปลี่ยนการแสดงผลของภาษา\nChange display language.\n\n<font size="14">ver0.09 Thai FunSub\nThanks to MAKUNO @MKN_Makuno</font>
+&&Config_desc_Sensitive เปลี่ยนการแสดงผล\nเนื้อหาที่ไม่เหมาะสม
+
+&&Config_desc_Windowed   เปลี่ยนการแสดงผล\nแบบเต็มหน้าจอหรือหน้าต่าง
+
+&&Config_desc_AutoSave   เปลี่ยนช่วงที่จะเชฟอัตโนมัติ\n<font color="#E70B0B" size="14"><i>ไฟล์จะไม่เขียนทับกับ\nไฟล์ที่เชฟในจุดต่างๆ ของเกม</i></font>
+
+&&Config_desc_Magsel ปรับการลดความเร็วของเกม\nเมื่อเริ่มใช้สกิลหรือเลือกสกิล
+
+&&Config_desc_Kisekae เปลี่ยนสีของชุดโนเอล\n<font color="#E70B0B" size="14"><i>สามารถเปลี่ยนได้\nที่หน้าเริ่มต้นเกมเท่านั้น</i></font>
+
+&&Config_desc_Draw_Fps ปรับการอัปเดตเฟรมทั้งหมด\nถ้าตัวละครเดินช้า\nหรือตอบสนองช้า\nให้ลดการอัปเดตของเฟรม
+&&Config_desc_Draw_EfFps ปรับการอัปเดตเฟรม\nเอฟเฟคในเกม\n<font color="#E70B0B" size="14"><i>ไม่มีผลถ้าปรับมากกว่า\nการอัปเดตเฟรมทั้งหมด<i></font>
+
+&&Config_desc_MapEf_Level ปรับปริมาณเอฟเฟคในแมพ
+&&Config_desc_UiEf_Level ปรับปริมาณเอฟเฟค\nบนอินเตอร์เฟส
+&&Config_desc_UiEf_TimeScale ปรับความเร็วของเอฟเฟค\nบนอินเตอร์เฟส
+
+&&Config_desc_UiEf_Dirty ปรับปริมาณเอฟเฟคใน\nรูปตัวละครทางด้านซ้าย
+
+&&KD_submit <key submit/> ยืนยัน
+&&KeyHelp_title_top <key la/><key ra/> เลือก <key submit/> ยืนยัน
+&&KeyHelp_title_config <key ta/><key ba/> เลื่อนขึ้น/ลง <key la/><key ra/> เปลี่ยนค่า <key submit/> เลือก/ยืนยัน
+&&KeyHelp_title_svd_select <key ta/><key ba/> เลือก <key submit/> ยืนยัน
+
+
+&&GO_KeyHelp_top กด <key cancel/> ค้างไว้เพื่อรอ... <key sort/> ขยับตำแหน่งกล้อง
+&&GO_KeyHelp_pause <key la/><key ba/><key ta/><key ra/>ขยับกล้อง <key ltab/><key rtab/>ซูมเข้า/ออก <key sort/>ล็อคกล้อง <key cancel/>รีเชทกล้อง
+
+
+
+
+&&Keyconfig_title   ปรับปุ่มคีย์บอร์ดและจอย
+&&Keyconfig_name_submit   ตกลง
+&&Keyconfig_name_cancel   ยกเลิก/ข้าม
+&&Keyconfig_name_la  เดินซ้าย
+&&Keyconfig_name_ra   เดินขวา
+&&Keyconfig_name_ta   ขึ้น
+&&Keyconfig_name_ba   ลง/คลาน/ย่อตัว
+&&Keyconfig_name_z   โจมตี
+&&Keyconfig_name_x   สกิล
+&&Keyconfig_name_c   เปลี่ยนเป้าหมาย
+&&Keyconfig_name_a   แมพ
+&&Keyconfig_name_s   อื่นๆ
+&&Keyconfig_name_d   ไอเทม
+&&Keyconfig_name_jump   กระโดด
+&&Keyconfig_name_lsh   ลอยตัว/เกราะ
+&&Keyconfig_name_menu   เมนู
+&&Keyconfig_name_ltab   แท็ปซ้าย
+&&Keyconfig_name_rtab   แท็ปขวา
+
+/* ___ Keyconfig_column_header_keyboard ___ */
+<font color="#FFFDBB">ปุ่ม</font><font color="#E6E0DA" size="15">／แสดงในเกมเป็น</font>
+
+/* ___ Keyconfig_column_header_pad ___ */
+<font color="#FFFDBB">ปุ่ม</font><font color="#E6E0DA" size="15">／แสดงในเกมเป็น</font>
+
+/* ___ Keyconfig_box_input_kb ___ */
+<font color="#000000">กดปุ่มใหม่บนคีย์บอร์ด</font>
+<font size="15">(ยกเว้นปุ่ม Return)</font>
+
+/* ___ Keyconfig_box_input_pad ___ */
+<font color="#000000">กดปุ่มใหม่บนจอย</font>
+<font size="15">(ค้างเอาไว้ถ้าเป็น Sticks)</font>
+
+&&Keyconfig_label_field_caption     แสดงในเกมเป็น
+
+&&Keyconfig_input_nouse     ไม่ใช้
+
+&&Input_None    <font alpha="0.25">ไม่ใช้</font>
+
+&&Keyconfig_prompt_confirm     <font color="#000000"><b>กด <key submit/> ค้างไว้เพื่อเชฟ / กด <key cancel/> ค้างไว้เพื่อยกเลิก</b></font>
+
+
+// ========================================================
+// MARK : ADDITIONAL ver0.20
+// ========================================================
+
+&&Config_ui_sensitive_description Abuse Log
+&&Config_desc_ui_sensitive_description You can set the amount of log texts that will appear when Noel is assaulted.
+
+&&Config_SE_stereo Stereo
+&&Config_SE_stereo_0 Mono
+&&Config_SE_stereo_1 Stereo
+&&Config_desc_SE_stereo   Huh? Noel, you're not using a stereo TV!?
+// Inside joke: Metal Gear Solid (A mono TV...)
+
+&&Config_PostEf_Level On-Screen Effects Limit
+&&Config_desc_PostEf_Level Reduces the amount of on-screen effects (such as when HP drops). The lower the amount, the lower the burden on your PC.
+
+&&Config_Effect_No_Restriction No Restriction
+
+&&Config_UiEf_Dirty_Blood Blood Effect Restriction
+/* ___ Config_desc_UiEf_Dirty_Blood ___ */   
+When set closer to 0%, effects 
+that looks like blood on Noel's 
+portrait is replaced by black color.
+It also reduces red splashes 
+on the game screen.
+
+
+
+&&Keyconfig_name_check   เช็ค / คุย

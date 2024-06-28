@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 1871638618
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb8a64e6d3dbad5dbf24c8fc113b892c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5651999fa58938ac55fc849c3d2539bc
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTMul.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTP3.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTSTBorder8.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ToneCurveShift.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDT.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMesh.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferDrawDepth.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTPAdd2.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshST.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/PxlsShaderNormal.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTP2.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTNormalBlur.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMtrAlphaSplice.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferBlur.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTAddGlow.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTFont.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTAddZT.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshAddZT.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTZW.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTSTFontBorder8.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferSolidColor.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshMul.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTPAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTMask.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/PxlsShaderCopying.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshMask.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshSubStriped.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferJustPaste.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferNormalClearing.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTSTFont.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshZW.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTZT.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTC.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/HsvShift.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTST.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshDashLine.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshMaskTransparent.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferColorShiftScreen.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/MaterialForSpine.mat
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTErase.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTMosaic.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshSub.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTNormalGlow.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTSub.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/BufferNormalDrawRota.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderMeshStriped.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTBorder8.shader
+- Assets/Editor/AssetBundlesSrc/MTI_Shader/ShaderGDTFontBorder8.shader
+Dependencies: []

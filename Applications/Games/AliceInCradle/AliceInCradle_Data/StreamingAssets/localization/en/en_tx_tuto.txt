@@ -1,0 +1,66 @@
+%FAMILY en
+
+/* ___ _eventboard_forest_witchboard_00 ___ */
+←←←
+To Cornehl's Alchemy Atelier
+
+/* ___ _eventboard_forest_witchboard_01 ___ */
+←
+This way to Cornehl's Alchemy Atelier.
+Watch out for thorns growing overhead.
+
+/* ___ _eventboard_forest_witchboard_tuto00 ___ */
+<font size="25">
+Use <key la/><key ra/> to move.
+<key z/> for a melee attack.
+</font>
+Let's try breaking that wall. →→
+
+/* ___ _eventboard_forest_witchboard_tuto01 ___ */
+<font size="25"><key a/> Map</font>
+You should probably check out 
+the shop on the far left of the area.
+
+
+/* ___ _eventboard_forest_witchboard_tuto02 ___ */
+<font size="25">Hold <key x/> to use magic.</font>
+Hit the plants to start the battle.
+Keep the enemies at a distance and cast spells at them.
+
+/* ___ _eventboard_forest_witchboard_tuto03 ___ */
+・Double tap <key la/><key ra/> to sprint.
+・You can press <key z/>+<key x/> simultaneously to stop chanting.
+
+/* ___ _eventboard_forest_witchboard_tuto04 ___ */
+・Press attack <key z/> while chanting magic to use "shotgun" (short-range)
+・The power depends on how much mana you use. If used before the spell is fully
+chanted, it will be much weaker.
+・You can also cancel magic using <key lsh/>
+
+
+/* ___ _eventboard_temporary_201003  ___ */
+・You can recover from cracks in the MP gauge by using the bed.
+・For now, there are no ways to deal with eggs and such. 
+Maybe I should make it possible to XXXX at the bench...
+・You can also save while near a bench or bed.
+・Planned: Fast travel between benches
+・At first, Noel doesn't know anything about sexual stuff.
+But if you want to see "that" side, try making her aroused, or forcibly incubated.
+・You can reset the damage multiplier from experiencing stimuli at the bookshelf by the bed.
+・Food items can only raise Arousal Rate to 70%. You cannot climax by just eating.
+
+&&UIGM_temporary_mutation WIP
+
+
+/* ___ _eventboard_forest_witchboard_evadion ___ */
+<font size="25"><key lsh/> Shield
+Use <key la/> or <key ra/> + <key lsh/> to dodge</font>.
+You can dodge mid-air and give a tiny boost to your jumps.
+Use this to your advantage!
+
+
+/* ___ _eventboard_forest_witchboard_bomb ___ */
+<font size="25">
+Hold <key ba/> and press <key x/> to use a Bomb</font>
+There are many structures that can only be destroyed by a bomb.
+Let's try using this on a suspicious-looking wall!

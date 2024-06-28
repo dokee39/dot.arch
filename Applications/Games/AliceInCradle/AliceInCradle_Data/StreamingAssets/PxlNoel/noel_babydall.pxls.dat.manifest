@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2203200157
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dba86dd2976c0b99028f680d8941869a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/PxlNoel/noel_babydall.pxls.bytes
+Dependencies: []

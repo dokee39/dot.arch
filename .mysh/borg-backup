@@ -1,0 +1,18 @@
+#!/bin/sh
+
+BORG_REPOS=/mnt/my-back-up/linux/borg-repos
+MYHOME=/home/dokee
+
+sudo mount -t ntfs3 /dev/nvme0n1p4 /mnt/my-back-up
+
+ls -al | grep '^-' | awk '{print "/home/dokee/"$9}' | sudo borg create --stats --progress \
+  ${BORG_REPOS}/repo-home::{hostname}-{now} \
+  - \
+  ${MYHOME}/.config \
+  ${MYHOME}/.hyprland \
+  ${MYHOME}/.mysh \
+  ${MYHOME}/.ssh \
+  ${MYHOME}/.vim
+
+sudo umount /dev/nvme0n1p4
+

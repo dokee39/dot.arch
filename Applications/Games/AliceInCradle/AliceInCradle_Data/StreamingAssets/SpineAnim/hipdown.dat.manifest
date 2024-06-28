@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3942258648
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: acdc5516ad7d0bae0b06596a2542ce9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/hipdown.png
+Dependencies: []

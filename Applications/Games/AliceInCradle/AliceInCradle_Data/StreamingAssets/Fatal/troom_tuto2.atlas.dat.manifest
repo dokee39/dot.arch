@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2413447199
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8d329af3f0edbe845ca738b9c2a7c573
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/Fatal/troom_tuto2.atlas.txt
+- Assets/Editor/AssetBundlesSrc/Fatal/troom_tuto2.json
+Dependencies: []

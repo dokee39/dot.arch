@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4237866096
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 465331012ba2d2f305a545092037dfb6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/EvImg/__events_restroom.pxls.bytes
+Dependencies: []

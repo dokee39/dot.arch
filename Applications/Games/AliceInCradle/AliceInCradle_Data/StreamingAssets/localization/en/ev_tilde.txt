@@ -1,0 +1,906 @@
+// For translaters:
+// In the next version, this txt file containing the
+// enTire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+// ========================================================
+// MARK : ___Tilde/d_talk_aboutmana
+// ========================================================
+ 
+
+
+
+*___Tilde/d_talk_aboutmana d_00
+We elves have cells called Glutocruorin in our blood that stores mana and circulates it throughout our body.
+
+
+*n_01
+Elves can convert magic power into energy...that's something I learned in class.
+
+
+
+*d_02
+Yup. Magic power tends to be drawn towards those with stronger desires for it. 
+*
+In other words, it's affected by emotions.
+*
+So, if your <c blue>MP is low when you pluck a magical plant, you'll recover more MP<c>.
+*
+On the other hand, if your <c blue>MP is already relatively high, the mana is more likely to go to nearby monsters<c>.
+
+*n_03
+...Why are you lecturing me on the basics of mana? Are you worried about me?
+
+*d_04
+Yeah, so? I don't exactly like the idea of my sister being turned into some monsters' plaything.
+
+*n_05
+And yet you bet on me losing yesterday...
+
+*d_06
+It's not like I actually wanted you to lose. I was just taking the safe bet, since you're such a klutz.
+*
+Zeth ended up winning the bet anyway, so it doesn't matter.
+*
+And it's a win-win situation for all of us if our ever-so-promising brother can earn money and eat good food in the village, right?
+
+*n_07
+It'd be nice if you'd do something to make me feel good too...
+
+
+*d_08
+Oh, is that how you feel? I'll keep that in mind if I ever see you in the forest and you're really frustrated.
+
+
+*n_09
+<m pre>That's not what I meant!
+
+
+// ========================================================
+// MARK : cane
+// ========================================================
+
+*___Tilde/d_talk_cane d_00
+Your staff is essential when fighting monsters. So what are you supposed to do when they pounce on you and knock it away?
+
+*n_01
+The staff is attuned to its owner's mana.
+It'll come back to me whenever I call for it.
+
+*d_02
+Whoa! I didn't know it worked like that. Guess I should've expected the national academy to equip their cadets with only the best stuff.
+
+*n_03
+This latest version has something called...'WiFu' technology...I think?
+*
+If the staff is away from its owner for a long time, there is a built-in function which will request help for the owner.
+
+*d_04
+Wow, sounds like it's practically sentient!
+
+*n_05
+...but, I have that turned off.
+
+*d_06
+How come? Are you okay with monsters carrying you off and never coming back home?
+
+*n_07
+It sent an SOS call the other day while I was on the toilet. It was so embarrassing...
+
+*d_08
+Isn't that just you being careless?!
+
+
+
+// ========================================================
+// MARK : cooking
+// ========================================================
+
+*___Tilde/d_talk_cooking n_00
+What's for breakfast?
+*d_01
+Toast and fried eggs, as usual. 
+*
+I'm also gonna pick some oranges and cucumbers from the garden to make jam and pickles.
+
+*n_02
+I don't like pickles...
+
+
+*d_03
+Beastmen really are picky, huh... Try to see it from my perspective and you'll understand.
+
+*n_04
+Thank you for everything you do.
+
+
+*d_05
+Well, cooking is fun. And it's not like we have the money to hire a maid.
+
+*n_06
+Y'know...it's been in my mind for a while now, and...I want to try cooking too.
+
+
+*d_07
+Ha? No freakin' way. 
+I bet 100G you cut your fingers off.
+
+*n_08
+<m ple>I-I may be clumsy...but I think I can manage cooking something simple!
+
+*d_09
+Hmm~ Where does that curiosity of yours come from...
+
+
+// ========================================================
+// MARK : cooking2
+// ========================================================
+
+*___Tilde/d_talk_cooking2 d_00
+Eating food will give you some pretty good buffs. Automatic HP recovery, or a huge increase in attack power for example.
+*
+So unless you're in heat and only stepping out to fool around with the monsters, you should eat before leaving.
+
+*n_01
+As if that'd ever be the reason I go out!
+
+*d_02
+The potency and duration of the buff is affected by the quality and quantity of ingredients used in each recipe.
+*
+Whenever you fight a monster, the buff's duration will decrease. It's a good idea to come home when the buff runs out and you're hungry again.
+
+*n_03
+Can't you just pack me a lunch so I can eat outside?
+
+*d_04
+Food spoils instantly when it comes in contact with mana fog. So unless you have a <c blue>special container<c>, you have to eat at home. 
+*d_05
+Our shop does sell them, but they're expensive. And you know what our sister's stance is on family discounts...
+*d_06
+You'll have to work hard and save up if you want the luxury of eating on the go.
+
+
+
+
+// ========================================================
+// MARK : cooking3
+// ========================================================
+
+
+
+*___Tilde/d_talk_cooking3 n_00
+I want to try cooking!
+
+*d_01
+No.
+*n_02
+Why nooooot!
+
+
+*d_03
+Because this is my kitchen, my ingredients from the garden, and my good seasonings. I am deeply attached to them. 
+*
+Got it? If you were to burn any of them you would no longer be a sister to me.
+
+*n_04
+Uuu...
+
+*d_05
+I do still have a stock of ingredients that I bought from town, but even those are off limits.
+
+*
+If you really want to try cooking, you'll have to gather your own ingredients.
+
+*n_06
+Oh, I can do that! I'm good at gathering.
+
+*d_07
+You can use the regular cookware, but don't even think about laying a finger on Josephine.
+
+*n_08
+...You named your frying pan?
+
+
+*d_09
+Isn't she cute? It's a pan of love, coated in the oils of countless meals. It took years to get her to this state...
+
+*n_10
+<think>Now that I think about it, that's the same pan he's been using since he graduated...
+
+
+*d_11
+Here, you can cook with this until you prove you're capable of handling something more advanced.
+
+*n_12
+Wow, thank you so much! I'll take good care of it.
+
+*d_13
+Let's start by having you cook the toast I mentioned earlier.
+*
+I'll provide the ingredients for today, but after this you'll have to use ones you've gathered yourself.
+
+
+*d_14
+...We've already gone over this.
+*
+I'll let you use some of my ingredients, but I'm keeping the finished sandwich this time. Try not to mess it up.
+
+// ========================================================
+// MARK : ___Tilde/cook_tuto00
+// ========================================================
+
+
+*___Tilde/cook_tuto00 d_00
+First, select a recipe.
+We'll start with the most basic thing, bread.
+*
+Your known recipes will show up in this list. Now, select 'bread' and get ready to cook!
+
+*d_02
+<W2/>The box in the top-left lists all the ingredients you need for the selected recipe.
+
+*d_03
+This top line shows the minimum required and maximum allowed for this ingredient in the recipe.
+
+*
+Move the cursor with <key ta/> and select this ingredient.
+
+
+*d_04
+Ok, we have the wheat required.
+Use <key submit/> to add in at least two of them.
+
+
+*n_05
+Is it okay to put in all five of them?
+
+*d_06
+Do you actually plan on eating that much? What a glutton you are.
+
+*n_07
+N-No, I was just asking!
+
+*d_08
+Now we need some water. Add it in the same way.
+
+
+*d_10
+You will see details of the finished product in the box below.
+*
+This fork and knife symbol represents how filling the food is. The bar represents your stomach capacity.
+*
+The more ingredients you add to each dish, the more filling it will be. 
+*
+It's in your best interest to eat until you're full, so plan ahead when preparing each meal.
+*
+Some ingredients have special effects when eaten.
+*
+Wheat helps keep mana neutral. Neutral mana is easier to recover after it scatters.
+*
+If mana neutrality is low, it could lead to a situation where monsters absorb all the scattered mana and become huge.
+*d_11
+The strength of each ingredient's effect that will shine through in the finished product is displayed on the right side (Pow).
+*
+The food will be more filling if you add more than the minimum amount, but you won't be getting the most out of each ingredient.
+*
+In short, don't crowd your dish with too many distinct or powerful flavors. Allow yourself the chance to savor them.
+*d_12
+This is starting to drag on a bit.
+Move your cursor down to that button and let's start cooking.
+
+
+*d_13
+Not half bad for your first attempt at baking bread.
+
+
+// ========================================================
+// MARK : ___Tilde/cook_tuto01
+// ========================================================
+
+
+
+*___Tilde/cook_tuto01 n_00
+So this...is cooking!
+
+*d_01
+Well, the kitchen's still intact. I'd say that's a job well done.
+
+*n_02
+What do you take me for!?
+
+*n_03
+It looks so delicious...well then, let's dig in-
+
+*d_04
+<I>Whoa, whoa, hold up!
+You're not seriously going to eat just bread, are you!?
+
+
+*n_05
+Why not? It's still hot and fresh...
+
+*d_06
+Yeah, but did you even consider putting in some veggies?
+You need to add more flavor and nutrition to your meal.
+
+*n_07
+I suppose so...
+Freshly baked bread is good all on its own though...
+
+*d_08
+Sigh. Next, we're going to learn how to make a sandwich.
+
+
+
+// ========================================================
+// MARK : ___Tilde/cook_tuto02
+// ========================================================
+
+*___Tilde/cook_tuto02 d_00
+This time, pick 'Sandwich' from the recipe list.
+
+*d_01
+<W2>For a sandwich, you need two pieces of bread.　It would be a bit of a hassle if you had to make them separately each time, right?
+*
+When a recipe uses another dish as an ingredient, you can make them at the same time as the recipe that calls for them if you've made them previously.
+*
+Move your cursor to the bread,
+then press <key add/>.
+
+
+*d_03
+<W2>You can choose the approximate quality of the ingredients to use with this menu. 
+Customize them to your liking.
+*d_04
+This will cook a new bread to use in addition to the one you made previously.
+*
+With that, the bread is ready.
+*d_05
+The second line tells you to put in 2-4 'fruit' or 'vegetables'.
+*
+You can mix and match them as you please.
+*
+But remember that adding more than the minimum amount (2) will have diminishing returns for the special effects. 
+
+
+*d_06
+Now that the ingredients are prepared, you are ready to cook. Select 'Start cooking' in the box below.
+
+*d_07
+OK. That should be filling enough to tide you over until evening.
+*
+That's the basics of cooking. I can explain it to you again if you ever need me to, but it's better to learn by doing.
+
+// ========================================================
+// MARK : ___Tilde/cook_tuto03
+// ========================================================
+
+
+
+
+*___Tilde/cook_tuto03 d_00
+I'll say it again because it's extremely important: You cannot generally bring food outside of the house.
+*
+If you fight outside even once, all the food you have on hand will spoil due to exposure to magic.
+*
+You won't gain anything from eating spoiled food, so store it or eat before you go out.
+
+
+*n_01
+What should I do if I get hungry out there?
+
+
+*d_02
+Just come back home and eat. 
+*
+Or buy one of those special lunch boxes that can prevent magic from spoiling your food.
+
+
+*n_03
+Um...
+Can I ask one more thing?
+
+*d_04
+What is it?
+
+*n_05
+Can I eat this sandwich now, while it's fresh...?
+
+*d_06
+Sigh...you glutton. 
+Sure, go ahead. Enjoy.
+
+// ========================================================
+// MARK : ___Tilde/d_talk_stomach
+// ========================================================
+
+*___Tilde/d_talk_stomach d_00
+By now you should know that each ingredient can have various benefits when cooked and eaten.
+
+*n_01
+If I cook and eat a lot of food with a variety of effects, will I become the strongest...?
+
+*d_02
+That depends on your cooking skills. Just be careful not to eat too much.
+*
+If you try to eat a high value dish when you are already full, only a little will actually go down your stomach.
+*
+That means the potency of the dish will be greatly reduced.
+
+*n_03
+Can't I just store the leftovers? 
+Or maybe, combine them with other dishes...
+
+
+*d_04
+...Disgraceful. If I were father I'd disown you.
+
+*d_05
+By the way, <c blue>the effect of all food eaten when you are hungry will be 1.5 times greater</c>.
+*
+Food tastes a lot better when you are hungry, after all.
+*
+Because of that, your first meal of the day should be a special one made with high-grade ingredients.
+
+
+
+// ========================================================
+// MARK : ver0.24 徘徊Npc
+// ========================================================
+
+
+
+*___TildeNpc/t01 d_00
+Oh, if it isn't Noel. 
+Fancy meeting you here.
+
+*n_01
+Nice to see you too. 
+Good looking, uh...
+camp you have.
+
+*d_02
+Isn't it? 
+I was looking for a place like this to relax after school. 
+This spot seemed perfect.
+
+
+// 分岐: 昼・夕方の場合 ===
+*d_03
+Except for all the calls I keep getting to help the nearby dimwits when a monster attacks...
+
+*n_04
+Would you rush to my aid if I was the one yelling?
+
+*d_05
+Depends on how good the book I'm reading is.
+
+// 分岐: 夜の場合 ===
+*d_06
+You should head home before 
+it gets dark.
+*n_07
+What about you?
+
+*d_08
+Our house isn't the kind of place I care to spend all my time at, y'know?
+Now leave me to enjoy my private time in peace.
+
+
+
+
+
+*n_09
+By the way, why'd you bring your cookware all the way out here?
+
+*d_10
+Oh, you don't know? 
+Eating outdoors hits so much differently than eating at home.
+
+*n_11
+I see...
+
+
+// ノエルのおなかが鳴る
+// 分岐: ノエルのおなかが空いている ===
+
+*n_12
+<m scary>Oh!</m>　
+<W3>Excuse me...
+
+*d_13
+You look like you're starving.
+
+*n_14
+<m ple>How did you know!?
+
+*d_15
+When you've been cooking for as long as I have, you develop a sense for this stuff.
+
+// 分岐: ノエルのおなかが空いてない ===
+*d_16
+You don't look very hungry, but you still want to eat? 
+Bit of a glutton, ain'tcha?
+
+*n_17
+N-no, it's just that...
+the smell of the campfire reminded me of our fireplace back home...
+
+// 分岐ここまで ===
+
+
+*n_18
+May I borrow your cookware for a minute?
+
+*d_19
+Absolutely not. 
+I bet 5G you'd burn the whole forest down.
+
+*n_20
+<I><m ple>No I won't! 
+<W2>How can you say that after you yourself taught me how to cook?!
+
+*d_21
+Geez, alright.
+
+*d_22
+But just this once. 
+And don't forget the food will spoil if you take it into battle.
+
+*d_23
+Also, no doing alchemy here. 
+I don't want you stinkin' up the place with all those weird ingredients.
+
+
+// 選択肢: 調理器具を借りる
+// 選択肢: キャンセル
+
+
+
+// 料理を済ませず後もう一度会話
+*___TildeNpc/t01r d_00
+Oh, ready to cook now? 
+Like I said, just this once.
+
+
+
+// 料理を済ませた後もう一度会話
+*___TildeNpc/t01rc d_01
+Were you not listening? 
+I said only once.
+
+*n_02
+You're so mean.
+
+*d_03
+Can you please just go? 
+I'm tryin' to read here.
+
+
+
+
+// ================================================================================================
+// 遭遇2回目 
+
+
+
+
+*___TildeNpc/t02 d_00
+Hey, Noel. 
+How many times are we gonna keep bumpin' into each other?
+
+*n_01
+Isn't it dangerous for you to be camping out here so often?
+
+*d_02
+Nah, the monsters are more interested in chasing female elves than they are me, so don't worry. 
+*d_03
+Incidentally, how many BJ's have you given out since our last meeting?
+
+*n_04
+<I><m ple>Shut up!
+
+*d_05
+Ahaha. 
+Well, good luck keepin' 'em off you.
+
+*n_06
+If you really want to help, 
+let me use your cookware.
+
+*d_07
+Fine. 
+Only once, same as before.
+
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t02rc d_00
+Are you deaf? 
+You're lucky I'm letting you use it at all.
+
+*n_01
+But I still need more food...
+*d_02
+Well then next time buy a lunchbox so you don't have to rely so much on my cookware. 
+*
+I know it's a bit expensive,
+but that's not my problem.
+
+
+
+// ================================================================================================
+
+
+
+// 遭遇3回目
+
+*___TildeNpc/t03 n_00
+Hello, brother. How are you?
+
+*d_01
+Not great. 
+The results of my fieldwork today weren't good. 
+*
+The deadline for my report is coming up, so I'm going to work on it a bit more before heading home.
+
+*n_02
+It's inspiring seeing you work so hard.
+
+*d_03
+Bah, I don't put in half as much effort as you do...
+*
+Y'know, sometimes I see elves fighting monsters around here and it looks really rough. 
+*
+Jumping around, trading blows, getting their mana drained...
+I don't think I'd be able to do it.
+
+*n_04
+Yeah, it's tough. 
+That's why I'm always so hungry.
+*d_05
+...I'm sure you realize I'll only let you use my cookware once.
+
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t03rc d_00
+I know cadets need to keep their stamina up, but come on...
+
+*n_01
+What if the second dish is the difference between victory and death?
+
+*d_02
+Don't push me on this, 
+you won't like what happens.
+
+*n_03
+Okay...
+
+
+
+// ================================================================================================
+
+
+
+// 遭遇4回目・汎用
+
+*___TildeNpc/t04 n_00
+Hello, brother, 
+hope everything is going well.
+
+*d_01
+Same to you, Noel.
+
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t04rc d_00
+Wanna hear my favorite expression? 
+*
+<i>“Even the best of friends respect each other's boundaries.” </i><W4>
+Got it?
+
+*n_01
+S-sorry.
+
+*d_02
+Only use my cookware once, okay?
+
+
+// 
+
+// ========================================================
+// MARK : 服ビリ ___TildeNpc/t_torned01
+// ========================================================
+
+// 遭遇・ノエルがぼろぼろの状態1回目
+
+
+*___TildeNpc/t_torned01 n_00
+Uu... Tilde...
+
+*d_01
+Whoa.
+I thought I heard a Noel-ish voice earlier. 
+Guess that was you.
+
+*n_02
+Sorry for showing up looking like this...
+
+*d_03
+Yeah, you don't look so good. You should fix yourself up at one of those benches. 
+Got anything to wipe yourself down with?
+
+*n_04
+Yes, but...um...
+
+*d_05
+?
+
+
+//ノエルの腹の虫の音
+
+*n_06
+...
+
+*d_07
+I guess you would be hungry after the workout you just had...
+*
+You can use my cookware if you like.
+
+
+ 
+// 料理を済ませず後もう一度会話
+*___TildeNpc/t_torned01r d_00
+Oh, ready to cook now? 
+I forgot to mention it earlier, but I'll only let you borrow my cookware once.
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t_torned01rc d_00
+I said you could use my cookware, but I meant just once.
+
+*n_01
+Uu...but...
+
+*d_02
+Be grateful I let you use it at all. 
+Now, c'mon, fix up your clothes and be on your way.
+
+ 
+
+// ================================================================================================
+
+
+*___TildeNpc/t_torned02 d_00
+Again? 
+What do you keep doing to that outfit? 
+I thought it was important to you.
+
+*n_01
+It is. That's why I do my best to repair it each time.
+
+*d_02
+With that makeshift sewing kit? 
+Thing must be magical to work such miracles.
+
+
+
+// 料理を済ませず後もう一度会話
+*___TildeNpc/t_torned02r d_00
+...What's with that look? 
+*
+Is it the expression of someone who wants to use my cookware but is too shy to ask so she just paces back and forth until I figure it out myself?
+
+*n_01
+Y-yeah, that's pretty much it...
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t_torned02rc d_00
+Stop acting like you don't already know what I'm going to say.
+
+*n_01
+Still no?
+
+*d_02
+Barging into my camp covered in monster fluid is bad enough on its own. Be sure to wash the cookware extra thoroughly this time.
+
+
+*n_03
+Uu... sorry.
+
+
+
+// ================================================================================================
+
+
+
+// 遭遇・ノエルがぼろぼろの状態3回目
+*___TildeNpc/t_torned03 d_00
+Is it just me, or is this becoming your normal appearance?
+
+*n_01
+N-not at all, must just be in your head.
+
+*d_02
+Then how about you make an effort to show up like this less often.
+*
+I don't like the idea of sharing a last name with a pervert who goes around exposing herself to strangers.
+
+*n_03
+I'll keep that in mind...
+
+
+// 料理を済ませず後もう一度会話
+*___TildeNpc/t_torned03r d_00
+Your ability to make decisions is as wavering as your clothes. If you want to cook, just do it.
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t_torned03rc d_00
+You realize your decisions also affect me, right? 
+*
+As your brother, think about my reputation with my classmates the next time you go and do something embarrassing.
+
+*n_01
+I see... sorry...
+
+*d_02
+Where did you even get such an attitude? 
+It's a shame our father has to put up with you.
+
+
+
+// ================================================================================================
+
+
+// 遭遇・ノエルがぼろぼろの状態4回目以降 (汎用)
+*___TildeNpc/t_torned04 d_00
+...
+
+*n_01
+Um... Tilde...
+
+*d_02
+My, what an interesting book this is. 
+*
+It's so captivating my perverted sister could use my cookware and I wouldn't even notice.
+
+
+*n_03
+<think>......I guess that means I'm allowed to cook.
+
+
+
+
+// 料理を済ませず後もう一度会話 or 料理を済ませた後もう一度会話
+*___TildeNpc/t_torned04r d_00
+...
+*n_01
+<think>He's concentrating on his book.
+
+
+
+
+// 料理を作った後もう一度料理を作ろうとする
+*___TildeNpc/t_torned04rc n_00
+Tilde, um...
+thank you for letting me use the cookware.
+
+*d_01
+Oh yeah, it would definitely suck having your sister walk around half-naked in the street. Could you imagine?
+
+*n_02
+<think>Let's not embarrass him any further...

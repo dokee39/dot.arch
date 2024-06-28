@@ -1,0 +1,67 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+// ========================================================
+// MARK : ___Other/Skill_need_shield
+// ========================================================
+ 
+
+
+
+*___Other/Skill_need_shield n_01
+げほっ、げほっ、ううう……。
+
+*n_02
+水中でも堪えられるように
+ならないと、ここは探索
+できなさそう……。
+
+
+*n_03
+先生から教わったことを
+思い出そう。
+<key lsh/>で
+シールドを展開できる……。
+
+*n_04
+シールドは<c blue>有毒な大気以外でも、
+水中で息を続かせる</c>のに
+使えるはず。
+動くリフトの上で試してみよう。
+*
+あと、回避 <key lsh/>+<key la/><key ra/> を使えば
+空中に長くとどまれるはず。
+落下しそうになったら
+試してみよう……。
+
+*n_06
+……よく見たら、シールドのスキルを
+有効にしてない。
+<key menu/>でメニューを開いて
+設定しないといけないかも。
+
+
+// ========================================================
+// MARK : トイレでの汎用
+// ========================================================
+*s01_restroom n_00
+お洋服、きれいに
+しないと……。
+
+*s01_restroom n_01
+……おなかが重い……。
+頑張って出して
+おかないと……。
+
+
+
+*___House/_restroom_portal n_lay_egg00
+<m fadein>ううう…………。
+
+

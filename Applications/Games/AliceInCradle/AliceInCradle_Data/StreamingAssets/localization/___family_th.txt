@@ -1,0 +1,53 @@
+// thai //
+th      TH      Thai(ไทย)-v0.09
+
+%DEFAULT_LANGUAGE 0
+
+// 220505 by hinayua
+// I have copied the English script and temporarily put 1 here.
+// If 1 is specified, the event text is automatically wrapped.
+%ENGLISH_MODE 1
+
+%USE_ARIEL 0
+%SYSTEM_LANGUAGE Thai
+
+%LEFTSHIFT_CONSONANT 1
+// A flag that adjust for consonant letter letter
+// (such as Thai)
+// 220505 by hinayua
+// ↑This option makes Thai look somewhat cleaner, 
+// but we are aware of a problem with misaligned dots 
+// in some character combinations. 
+// We need more time to learn more about Thai rendering in this regard.
+
+
+// ================================================
+// useable commands...
+
+// %ENGLISH_MODE 1
+// A flag that adjusts the appearance of UI 
+// for languages with many characters per word
+// ( such as English ).
+
+// %USE_ARIEL 1
+// Show this font using Ariel (Unity default font)
+
+// ================================================
+// Might be use in future...
+
+// %FONT <Default-Font> <Font-For-Title>
+// Load fonts from .dat files (AssetBundles) in the directory.
+
+// %FONT_BASE_HEIGHT <Number>
+// The ratio of character height to font size when using "%FONT".
+
+// %FONT_YSHIFT <Number>
+// The baseline position from the top of the letters when using "%FONT".
+
+// %FONT_XRATIO <Number>
+// The ratio of width of multibyte characters to font size when using "%FONT".
+
+// %FONT_XRATIO_1BYTE <Number>
+// The ratio of width of single byte characters to font size when using "%FONT".
+
+// ================================================

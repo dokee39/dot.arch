@@ -1,0 +1,506 @@
+%FAMILY _
+
+
+// はーちゃん！哈醬！
+
+/* ___ Title_error_announce ___ */
+上次的遊玩、生成了錯誤報告
+
+/* ___ Title_error_announce_filepath ___ */
+( 檔案名: <font color="0xff000000"><b>&1</b></font> )
+
+/* ___ Title_error_announce_discord ___ */
+將錯誤報告添加並在官方Discord傳送訊息的話
+對於愛麗絲搖籃的開發會有很大的幫助
+
+&&discord_url_is_here Discord URL for reporting: 
+
+&&Title_Show_Log 顯示錯誤報告的位置
+
+
+
+
+&&EV_access_carry_block 搬運
+&&Item_cmd_discard_row 將一行捨棄
+
+&&Explore_timer 從冒險開始經過了 &1:&2 
+
+&&Item_desc_decline_undropable 這個地方沒有辦法丟棄物品
+
+
+// ========================================================
+// MARK : event name
+// ========================================================
+
+&&EV_access_workbench 工作檯
+
+
+// ========================================================
+// MARK : Item Selector
+// ========================================================
+
+/* ___ ItemSel_assign ___ */ 
+戰鬥時、可以按下 <key d/>+<key la/><key ba/><key ta/><key ra/> 
+來使用登錄的物品
+
+&&ItemSel_sort_now 現在:  
+&&ItemSel_sort_ascend 優先使用低品質的
+&&ItemSel_sort_descend 優先使用高品質的
+
+
+&&Item_cmd_itemsel 登錄快捷欄
+&&KD_ItemSel_assign_start <key d/> 登錄快捷欄
+
+&&KD_ItemSel_item_info <key add/> 確認物品說明
+&&KD_ItemSel_item_revert <key add/> 操作說明
+
+&&KD_ItemSel_noselect <key la/><key ba/><key ta/><key ra/> 選擇
+&&KD_ItemSel_assign0 <key submit/>登錄 
+&&KD_ItemSel_assign1 <key submit/>品質變更\n<key rem/>清除
+
+&&KD_ItemSel_use_submit <key submit/>使用
+&&KD_ItemSel_use_release 放開<key d/>來使用
+&&KD_ItemSel_use_disable <img mesh="alert" /> 現在沒辦法使用
+
+&&ItemSel_Consumed 已使用<b>&1</b> <font size="12"> (還剩下: &2個)</font>
+
+// ========================================================
+// MARK : Alchemy WorkBench
+// ========================================================
+&&storage_title_workbench 工作檯
+&&workbench_ingredient_title 製作<b>&1</b>所需要的素材:
+&&workbench_limit_reached 沒有辦法再製作更多
+
+&&workbench_current_short &1 / &2
+&&workbench_current_capacity 現在的容量 : &1
+&&workbench_current_capacity_after → <font color="ff:#6D72FF">鍊成後的容量: &1 </font>
+&&workbench_current_obtain 現在的數量 : &1
+&&workbench_current_obtain_after → <font color="ff:#6D72FF">鍊成後的數量: &1 </font>
+
+/* ___ alchemy_workbench_complete_capacity ___ */
+<font size="28">背包的容量
+變成了 <font color="ff:#6D72FF"> &1 ！</font></font>
+
+%ITEM workbench_capacity 擴大容量
+可以將諾艾爾在冒險中能攜帶的
+物品最大數量增加1
+
+// ========================
+
+/* ___ alchemy_workbench_complete_bottle ___ */
+<font size="28">製作了第<font color="ff:#6D72FF">&1 </font>個空瓶掛架了！</font>
+
+%ITEM workbench_bottle 空瓶掛架
+可以製作能將使用完的空瓶
+放置於此處的空瓶掛架
+放入到掛架的空瓶
+將不會顯示在背包上
+充分利用空間就可以多省下一格拿著物品
+
+// ========================================================
+// MARK : Fatal
+// ========================================================
+
+&&Fatal_check_hide_ui 不顯示UI介面 ( 按<key rem/>切換 )
+&&Fatal_auto_mode 自動覽讀文章 ( 按<key add/>切換 )
+&&Fatal_auto_mode_speed 等待時間: &1 秒
+&&Fatal_free_cam 自由視角模式 ( 按<key sort/>切換 )
+&&Fatal_skip 跳過
+
+&&Fatal_quit 結束 (回到椅子)
+&&Fatal_quit_onmem 結束
+
+// ========================================================
+// MARK : KeyDescription
+// ========================================================
+
+&&KD_map_zoomin <key shift/>放大
+&&KD_map_zoomout <key shift/>縮小
+
+
+&&Tuto_box_release <key x/>長按並在任意位置放開
+
+&&SVD_label_memo 筆記
+
+&&Fatal_snake 蛇 (伊庫夏救出失敗)
+
+
+
+// ========================================================
+// MARK : 221104
+// ========================================================
+
+
+&&Tuto_magic_burst 同時長按<key z/>+<key x/>: 聖光爆發
+&&Tuto_goback <key la/>折返
+&&Tuto_goback_strong <key la/>折返
+
+
+
+&&Damage_water_choke_in_absorbed 沒有辦法呼吸...！
+
+
+
+&&SerTitle_jamming    雜念
+&&SerDesc_jamming    魔術的詠唱所需時間變成2倍
+&&SerDesc_jamming_2    魔術的詠唱所需時間變成3倍
+&&SerDesc_jamming_3    魔術的詠唱所需時間變成4倍
+
+
+&&SerTitle_frozen    凍結
+/* ___ SerDesc_frozen ___ */
+魔術詠唱所需時間變成1.5倍
+移動速度減少，不容易從拘束中逃脫
+
+/* ___ SerDesc_frozen_suffix ___ */
+搖動香菇頭(快速上下左右)
+可以稍微縮減解除時間
+受到物理攻擊時也會縮減解除時間
+但是受到的傷害會增加
+
+
+/* ___ SerDesc_frozen_2 ___ */
+魔術的詠唱所需時間變成3倍
+沒辦法跑步和迴避
+移動速度減少、不容易從拘束中逃脫
+
+/* ___ SerDesc_frozen_3 ___ */
+無法進行任何移動以及詠唱
+
+
+
+/* ___ SerDesc_sexercise_2 ___ */
+到高潮後冷靜下來之前無法解除
+受到性的攻擊更大幅度地上升興奮度
+「慾求不滿」狀態的發生率上升並且
+一旦發生了後就會馬上開始自慰
+
+
+
+&&Tuto_sliding <key ba/>+<key z/> 滑壘
+
+&&Alert_item_reduced_ostrea_bomb 將&2個&1還給獸人
+
+
+// ========================================================
+// MARK : ver22 textlog
+// ========================================================
+
+&&MsgCon_Hiding 隱藏訊息文章了、按下任意按鍵將重新顯示
+
+&&Scenario_Tab_log 訊息履歷
+
+&&TextLog_Selected 選擇分歧 <img mesh="arrow_nel_5"/> &1
+&&TextLog_Desc 劇情中、按<key add/>來顯示訊息履歷、或者按<key rem/>來隱藏訊息
+
+
+// ver 0.22d ========================
+
+&&BurstSel_fainted_ratio <img mesh="AUiSerIcon.27" />昏倒機率: &1%
+
+// ========================================================
+// MARK : ver0.23
+// ========================================================
+
+&&Bench_execute_shower_clean 將衣服清理乾淨了
+&&Bench_execute_shower_cure_cloth 將破損的衣服修復了
+&&Alert_Nightingale_will_not_appear 商人好像不太可能來到這裡
+
+
+// 全體地圖
+&&KD_map_switch_wa <key rtab/>全體
+&&KD_map_switch_detail <key ltab/>區域詳細
+&&KD_map_wa_def <key sort/>現在位置
+&&KD_map_show_detail <key submit/>查看詳細
+
+
+// ========================================================
+// MARK : 選擇難易度 
+// ========================================================
+
+/* ___ Title_difficulty_top ___ */ 
+<key la/><key ra/>選擇 <key submit/>確定 <key cancel/>取消
+請選擇難易度
+(隨時都可以在選項變更)
+
+
+&&Title_difficulty_cas 輕鬆
+&&Title_difficulty_nor 普通
+&&Title_difficulty_pro 專家
+
+/* ___ Title_difficulty_desc_cas ___ */ 
+可以輕鬆遊玩來享受故事的難易度。
+比起普通模式更不容易受到攻擊、
+戰鬥後危險度上升的較為緩慢。
+
+
+/* ___ Title_difficulty_desc_nor ___ */ 
+推薦的難易度。
+就算HP和MP減少也會自動慢慢回復、
+危急時不容易受到攻擊。
+
+
+/* ___ Title_difficulty_desc_pro ___ */ 
+適合熟練2D動作遊戲玩家的難易度。
+隱藏著能將「可憐  即 可愛」
+發揮到最大限度的潛力所在
+
+
+// ========================================================
+// MARK : Catalog - 鍊金術圖鑑
+// ========================================================
+
+&&Catalog_categ_item 物品
+&&Catalog_categ_alchemy 鍊金術／料理
+&&Catalog_categ_enemy 敵人
+
+&&CatalogI_tab_info 基本情報
+&&CatalogI_tab_chest 能取得的寶箱
+&&CatalogI_tab_recipe 可以製作的配方
+&&CatalogI_tab_usedrecipe 使用這個配方
+&&CatalogI_tab_area 能取得的地方
+
+&&CatalogN_tab_info 基本情報
+&&CatalogN_tab_area 出現場所
+&&CatalogN_dropitem 掉落物品
+
+&&CatalogI_item_obtained 至今取得的總數: 
+&&CatalogR_recipe_created 至今製作的總數:
+
+&&CatalogN_enemy_defeated 至今為止打倒的總數: &1隻
+&&CatalogN_enemy_defeated_2 至今為止打倒的總數: 通常體&1隻 / 汙染體&2隻
+
+
+&&KD_catalog_go_to_def <key z/>確認這個物品
+&&KD_map_scroll <key sort/> 捲動地圖
+
+&&KD_catalog_history 閱覽紀錄閲覧履歴
+
+// 從其他店的介面來打開目錄
+&&KD_go_to_def_in_catalog <key d/>+<key a/>查看圖鑑
+&&KD_show_catalog <key d/>+<key a/>打開圖鑑
+
+
+// ========================================================
+// MARK : Trm - 休息室
+// ========================================================
+
+&&Submit_aloma 精製開始
+&&storage_title_trm 精製香精
+&&TrmUi_selector_topright 成功／失敗
+&&aloma_ingredient_title &1 開始服務所需要的材料: 
+
+
+/* ___ TrmUi_recommend_aloma ___ */
+推薦的香精用素材: 
+&1
+
+&&TrmUi_root_a 成功路線
+&&TrmUi_root_b 失敗路線
+
+/* ___ TrmUi_selector_detail ___ */
+報酬...
+&1&5: &2  
+&3&6: &4 
+// ↑ &5: TrmUi_root_a
+//   &6: TrmUi_root_b will be inserted
+
+/* ___ TrmUi_selector_detail_notactive ___ */
+如果進行主線劇情的話
+將會鎖住
+
+&&TrmUi_unlocked_all ※因全路線完全解放、能不消費素材並能選擇橋段。
+
+&&TrmUi_selector_already_watched (完成)
+
+&&alchemy_auto_random_aloma 姐姐大人的推薦
+
+/* ___ TrmUi_recommend_aloma_making ___ */
+<img mesh="IconLaeviLaugh" scale="1" />推薦素材:
+  <font size="18">&1</font>
+
+&&TrmUi_selector_success_change 成功率: &1
+&&aloma_success <i>精製成功！</i>
+&&alchemy_btn_go_to_play 開始服務 (&1)
+&&alchemy_btn_cancel_trm 取消製作 (素材將不會使用並退回)
+
+
+&&EV_access_next_customer 呼叫下一位預約客人
+&&EV_access_bath 淋浴室
+
+&&aloma_power_cool 清涼
+&&aloma_power_elegance 優雅
+&&aloma_power_sweatness 甜味
+&&aloma_power_spicy 香味
+&&aloma_power_bitter 澀味
+
+&&KD_TrmUi_submit_scene <key submit/>長按來開始服務 (&1) \n<key cancel/>取消
+&&TrmUi_root_success <img mesh="trm_heart_a" scale="2" /> <font size="20">成功！</font>
+&&TrmUi_root_failure <img mesh="trm_heart_b" scale="2" /> <font size="20">失敗...</font>
+
+
+&&MoneyBox_trm_reward_success <img mesh="trm_heart_a" scale="2" />「&1」完美達成服務了。\n
+&&MoneyBox_trm_reward_failure <img mesh="trm_heart_b" scale="2" />「&1」雖然服務了、\n但沒能做得很好……。
+
+&&MoneyBox_num <img mesh="money_icon" width="20"/>&1
+&&MoneyBox_num_2 <img mesh="money_icon" scale="2" width="20"/>&1
+&&MoneyBox_trm_reward_base 基本報酬: 
+&&MoneyBox_trm_reward_grade 香精的品質: <img mesh="nel_item_grade.&1" tx_color />
+&&MoneyBox_trm_reward_chip 小費 +
+
+&&MoneyBox_trm_reward_total 合計
+
+
+
+// ========================================================
+// MARK : ver0.23d
+// ========================================================
+
+&&KD_jump_to_this_recipe 確認此配方
+
+// Store への追加
+&&Store_desc_add_shifted <key shift/>+<key add/>將整行放入
+&&Store_desc_remove_shifted <key shift/>+<key rem/>將整行移出
+
+&&KeyDesc_reel_item_detail <key submit/><key ra/>物品詳細
+
+&&Tuto_run_right <key run/>+<key ra/> 跑步
+&&Tuto_run_right_and_dtap <key run/>+<key ra/> 或 <key ra/><key ra/> : 跑步
+&&Tuto_run_left <key run/>+<key la/> 跑步
+&&Tuto_run_left_and_dtap <key run/>+<key la/> 或 <key la/><key la/> : 跑步
+
+
+// ========================================================
+// MARK : ver0.24
+// ========================================================
+
+// 木偶的手藝坊 驛站
+&&Button_Help 幫助<key sort/>
+&&Store_no_enough_crafts <b>看來需要有些能夠拿來交易的東西... </b>
+
+
+/* ___ Store_Puppet_Help_Title ___ */
+木偶的驛站
+
+&&Alert_nighingale_locked_by_other_people 因為有其他人在、也許她不會來……。
+
+/* ___ Store_Puppet_Help_Contents ___ */
+用「賣出」來將持有的物品
+交換成獨自貨幣<font color="ff:#358146">資材 <img mesh="money_crafts"/> </font>、
+也能將入手的<font color="ff:#358146">資材 <img mesh="money_crafts"/> </font>用來買入商品
+木材、石頭、石炭、金屬類、或帶有魔力的各種素材等、
+如果給予它們所要的東西的話、交易可能會變得更有效益呢
+
+購入物品後、剩餘的<font color="ff:#358146">資材 <img mesh="money_crafts"/> </font>將
+會交由木偶店主來保管、以便可以在下次交易來使用
+
+前提是在你不會對店主施加危害的情況下……
+
+&&Store_service_buy_puppet_penalty 復仇價格: 漲價&1%
+
+&&alchemy_tool_column <i>必要機材</i>
+&&alchemy_tool_for_cook <i>調理器材</i>
+
+&&alchemy_tool_is_infinity ※鍊金時並不會消耗
+&&alchemy_tool_is_infinity_cook ※料理時並不會消耗
+
+
+&&Item_desc_cannot_use_bomb_from_storage 因為倉庫持有的關係所以無法使用
+&&Item_desc_decline_undropable_now 現在不能丟棄這個物品
+
+&&KD_ItemSel_grade_change &1 x&2\n&3 品質變更
+&&KD_ItemSel_no_item <img mesh="alert" /> 沒有物品
+
+
+// item
+&&Item_cmd_pack_lunch 將料理裝起來
+&&Item_prompt_pack_lunch 選擇裝進<font size="150%" color="ff:#F7562E">&1</font>\n的料理
+
+&&Alert_item_stolen 有些許物品被偷了……
+
+
+
+// Coffeemaker
+&&Coffeemaker_no_token 沒有持有代幣
+
+/* ___ Item_desc_coffeemaker_topic  ___ */
+可以製作藥草茶或咖啡
+在借用虹吸壺之前
+必須要購買代幣才行
+（現在的代幣數量是: &1 枚)
+
+&&Alert_coffeemaker_ticket_lost 口袋的紙張被風給吹走了
+
+&&alchemy_btn_drink_in 在這裡喝
+
+&&Alert_water_reduced_from_stomach 飲料的效果變弱了……
+&&Alert_water_lost_from_stomach 失去&1個飲料的效果了……
+
+&&Item_cmd_drink 喝
+&&Item_cmd_drink_useless (喝)
+
+&&Item_desc_drink_cannot_use 肚子飽了再也喝不下了……
+
+&&Alert_near_pee 有點想上廁所的感覺……。
+&&Alert_almost_pee 非常想要上廁所…！
+
+
+
+&&lunch_drink_confirm 喝<b>「&1」</b>嗎？
+&&lunch_drink_confirm_burst <font color="ff:#A00B35">肚子很飽可能沒辦法喝完…確定要喝</font>\n<b>「&1」</b>嗎？
+&&lunch_drink_confirm_dupe <font color="ff:#B828AC">可能無法取得均衡的營養…確定要喝</font>\n<b>「&1」</b>嗎？
+&&lunch_drink_confirm_full <font color="ff:#A00B35">肚子飽了再也喝不下了…</font>
+
+&&Eat_Drink 喝
+
+// 狀態異常
+&&SerTitle_near_pee    尿意
+/* ___ SerDesc_near_pee ___ */
+想去上廁所的狀態
+MP槽變得容易破裂
+並變得容易從拘束中逃脫
+/* ___ SerDesc_near_pee_2 ___ */
+跌倒時尿可能會漏出來
+
+
+&&GM_ep_title_water_drunk_level 尿意
+&&GM_ep_water_drunk_level &1% 
+
+&&SVD_Alert_manual_save_on_auto_save_slot 自動存檔的資料會在\n自動儲存時自動覆蓋上去
+
+
+// ========================================================================
+// 230915 突然の追加で申し訳ないです！！！！！！
+
+&&KD_catalog_move_between_favolite <key add/>+<key ta/><key ba/>在我的最愛間移動
+&&catalog_pickup 檢索
+&&catalog_jump 詳細
+&&catalog_obtain_ratio 收集率: &1%
+
+&&catalog_price_buy 基本價格: 
+&&catalog_price_sell 賣價: 
+&&CatalogI_ingredient 生產所需的素材
+&&CatalogI_recipe_completion 完成品
+
+
+// ========================================================================
+// 231002 ファイル共有してるから軽率に追加しちゃうもんね
+
+/* ___ Title_error_announce_broken_dll ___ */
+應用程式可能安裝不完全
+請將 &1 的資料夾刪除後
+再重新安裝（即使重新安裝，遊戲紀錄也還會保存著）
+
+
+// ========================================================================
+// 231004 セーブデータエラーに関する追加 アルバムの準備
+/* ___ SVD_Alert_save_failure ___ */ 
+檔案儲存失敗
+/* ___ SVD_Alert_load_failure ___ */ 
+檔案讀取失敗
+
+/* ___ SVD_Alert_save_failure_content ___ */ 
+・磁碟空間是否足夠？
+・使用者是否擁有  
+　存檔位置 &1 的存取權限？
+	 

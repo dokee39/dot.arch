@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2953894194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8869e9a6cd70d334b47e2ee84d91a265
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/EvImg/__events_mountain.pxls.bytes
+Dependencies: []

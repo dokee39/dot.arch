@@ -1,0 +1,437 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// ========================================================
+// MARK : s13_1a
+// ========================================================
+
+*s13_1a noelcane_00
+<device>SOS signal received. 
+SOS signal received.
+Estimated bearing: 
+101.78 / -0.045
+Distance: 2.39
+
+*n_01
+Again!? 
+And it’s really close, too...
+Could it be...?
+
+
+// プレイヤーが引き返して戻ろうとする
+*n_02
+I have to check up on Ixia...!
+
+// 道に突き刺さったイクシャの杖を発見する
+*s13_1b ixiacane_00
+<device><noise>Warning: Dangerous entity marked for neutralization detected in the vicinity. 
+*
+<device><noise>Requesting Level V Special Support. Repeat. Warning──
+
+
+// 巨大なツタによりイクシャの杖が破壊される
+
+*noelcane_01
+<device>Source of SOS signal identified. Level V Special Support Request sent. Automatically bypassing signals... 
+*
+<device>21 items.
+*
+<device>186 items.
+*
+<device>......
+
+
+
+*s13_1b ixiacane_2
+<device><noise>Special message received from LifeTeller army.
+
+// LifeTeller army
+// メーファ (Mepha Gridyard) : P : 女性の軍人。跳ね橋で見張りをしていた青髪の女性と同一人物
+
+*ixiacane_3
+<device><noise>Can anyone hear me?
+*
+<device><noise>This is Commanding Officer Mepha Gridyard of the Elf Village’s Monster Suppression unit.
+*
+<device><noise>We’re mustering our troops in preparation for a search-and-destroy operation on the large monster.
+*
+<device><noise>We've engaged this one several times before. 
+*
+<device><noise>It's most likely wounded and may behave in a wild and unpredictable manner.
+*
+<device><noise>For your safety, get as far away from it as possible.
+*
+<device><noise>The monster is in the immediate vicinity of Grazia; retreating to the town may not be safe.
+*
+<device><noise>If it escapes our forces, it could damage the town’s barrier and injure civilians.
+*
+<device><noise>The safety of the town is our top priority. We cannot guarantee the rescue of anyone that did not escape in time.
+*
+<device><noise>If there are any survivors, retreat from the area immediately. I repeat──
+
+
+*s13_1b n_04
+<m ple>What!? But then, what will happen to Ixia!?
+
+*ixiacane_05
+<device><noise>A survivor? Calm down. Report the situation to me.
+
+*n_06
+...I-I am Noel Cornehl. Class III Cadet of Bermit Academy.
+*
+I think...one of my friends has been captured by the monster!
+
+
+*ixiacane_07
+<device><noise>...You need to get out of there.
+<device><noise>Even though it’s wounded, it's still too much for a cadet to handle.
+*
+<device><noise>Get as far away
+as you can before
+it’s too late──
+
+
+//N:杖を回収し、走って奥へ
+
+*ixiacane_08
+<device><noise level="2">You’re breaking up... Can you still hear me? Respond──
+
+
+*n_09
+<m fadein>Is the military really going to just leave Ixia to die...?
+
+*n_09b
+<m fadein>I have to get to the monster before they do...
+*
+<m fadein>...but...can someone like me...really save her?
+*
+<m fadein>...Am I going to end up like I did on that day...
+
+// ＝あの日みたいに魔族にぼろぼろに敗れる キーーン
+*n_10
+<m fadein>...
+
+*n_11
+No, I can...I WILL SAVE HER!
+
+// ========================================================
+// MARK : s13_3a
+// ========================================================
+
+// 2-Bルートに到達するためには少し寄り道してホーリーバースト（イクシャが運んできた魔術）を回収する必要がある。
+// なお、この時点で1-Aは必ず見ている想定。
+// 時系列は2と前後するかも
+
+// 魔術を回収し、登録した際のイベント
+
+*s13_3a n_00
+<think>W-what? I thought each device had an identity verification system that allowed only the designated user to register it...?
+*n_01
+<think>...So this was supposed to be registered to my staff? But, that would mean...
+
+*n_02
+<think>...Ixia got attacked while trying to bring this to me...
+
+*n_03
+<think>Hmm, it’s called...Holy Burst.
+Looks like my staff has a dedicated slot for it...my old one never had anything like that.
+*
+<think>Let's see...it’s a spell that doesn’t need to be chanted...
+*
+<think>If it’s meant to be used in emergencies, I’d better test it out so I know how it works.
+
+// バーストを撃つ
+
+*n_04
+<m scary>Gah!? Hah, ahh...
+<W3><m fadein>phew...
+
+*n_05
+<think><m fadein>W-what was that? My heart felt like it was stuck in a vice.
+*
+<think>This spell must use some powerful form of mana-magnetism to be cast without chanting.
+*n_06
+<think>...Using this spell multiple times in rapid succession would <c red>definitely cause bad things<c> to happen...especially when I'm low on mana.
+*n_07
+<think>...But that blast was really powerful. I’ll keep it registered so I can use it when I need to.
+
+*n_08
+<m fadein>...Fuu, haa. 
+<W3><m>Okay, I’m good.
+
+
+// ==================
+// 3-B : 2-A を見る前に探しに来た
+
+*n_09
+Judging from the broken staff I saw earlier, Ixia's probably in a lot of trouble...!
+
+*n_10
+I need to hurry back and find that large monster!
+
+
+
+// ==================
+// 3-C : 2-A を見た後に探しに来た
+
+*n_11
+This is the spell Ixia was trying to tell me about...
+
+*n_12
+I have to hurry back to her...!
+
+
+// ========================================================
+// MARK : s13_2
+// ========================================================
+
+// 道の先へ進む
+// ボスに捕らわれたイクシャを発見する。
+// イクシャは檻のような触手に閉じ込められている。
+// ボスはホーリーバーストを遠回りして手に入れていないと倒すことができない。
+
+
+
+*s13_load_ixia i_00
+Huu, haa, uuu...
+
+
+*n_01
+<angry>...Ixia!
+
+
+*i_02
+H-ep...nnn...N...Noel...
+
+*n_03
+<think><m ple>She's already 
+lost a lot of mana...!
+I have to help her, quickly!
+// ボスの咆哮
+
+*n_04
+It’s...a big one...
+
+
+// ここからバーストを所持しているかどうかで分岐
+
+// ====================================
+// 2-A: バーストを所持せずに到達
+
+*i_05
+<m fadein>...It’s...no use...you...need to...go
+*i_05b
+<I><m scary>-mmph...
+ 
+// イクシャ口をふさがれる
+*n_06
+<m ple>It’s ok, I’m here to save you!
+*
+I’ll get you out of this cage and─
+
+*i_07
+<I><m scary>Nnnnmmm!! Nnnnnm!!
+
+*n_08
+...?
+
+*
+<think>She's shaking her head at me...
+<c red>am I missing something?
+
+
+
+// システムメッセージでかなり強く引き返させる。
+// 無理やり戦うと確定でゲームオーバー
+
+
+// ====================================
+// 2-B: バーストを所持してに到達
+
+
+*i_10
+<I><m fadein>Ahh...ow...stop...my stomach...
+
+*n_11
+<angry>It’s ok, I’m here to save you! I’ll get you out of this cage and─
+
+
+*i_12
+<m fadein>Don’t...! It’s a trap-
+<m scary>mmph!!
+
+// イクシャ口をふさがれる
+*n_13
+A trap...?
+
+*n_14
+<think>It’s holding Ixia like she’s a piece of bait...
+*
+<think>Is the monster’s strategy to lure me into attacking the cage...?
+
+*i_14
+<I><m fadein>Mmm, nho...haaah...
+
+
+*n_15
+<think>I don't have time to think this over...!
+*
+<think>If the monster does have any surprises for me, I can use my <c blue>Holy Burst<c> to get out of trouble!
+
+
+
+
+
+*s13_ixia_battle i_getout
+You need...burst...
+
+
+*s13_ixia_battle i_00
+Uwah...my...ma...na...
+it’s draining...
+
+*i_01
+Ahh, hah, huah...
+
+*i_02
+Stop...no more...
+
+
+// 敵のカウンター攻撃をバーストで弾き返すと敵がスタンする。こちらの攻撃チャンス
+*i_03
+I thought you were 
+done for...! Attack!
+
+*i_04
+How did you...! 
+It’s vulnerable...!
+
+*i_05
+Now’s your chance,
+Noel Cornehl!
+
+
+// 攻撃チャンス終了→イクシャが一旦手出しできないバックヤードに連れ去られる
+*i_06
+KYAAAAA!
+
+*i_07
+LET ME GO...!
+
+*i_08
+NO MORE, NOOO...!
+
+
+
+
+// ==================
+
+
+// 4-A 撃破した
+
+*s13_4a n_00
+<W1><m fadein>...Haa...<W2>Haa...<W2>
+did I...<W2>do it?
+
+*i_01
+<m fadein>...Yes...just as...<W2>
+I...knew you would, Noel...Cor...
+
+// イクシャ気を失う
+
+*n_02
+<I>Ixia!!
+
+
+// 暗転
+
+*n_03b
+<w2><m fadein>Shortly after, the troops from the Elf Village arrived to clean everything up.
+*
+<w2><m fadein>The medic told me that Ixia was in something called "Hypomanaemic Shock" and that’s why she fainted.
+*
+<w2><m fadein>Thankfully, they said she’d be able to make a full recovery and took her to a medical facility in Grazia for treatment.
+*
+<w2><m fadein>Hearing that was a huge relief. 
+My friend is safe, and that’s all that matters.
+
+// 絵はver0.22aでは用意できないだろうな～
+
+*g_03
+Yep, this is the monster we’ve been hunting. It matches the descriptions in the reports we’ve been getting.
+*
+Did you take it down all by yourself?
+
+*n_04
+No, not at all... It’s all thanks to your unit weakening it and backing it into a corner.
+*
+And...to Ixia for the spell she gave me.
+
+*g_05
+Well, regardless, it’s our fault you and your friend got dragged into this. 
+*
+We got careless when the monster was wounded and that allowed it to escape.
+*
+My entire unit is indebted to you. We’ll find a way to repay you someday.
+
+*n_06
+Oh, you don’t have to do that...It’s my fault for not listening to the evacuation order in the first place...
+*
+I should be the one apologizing to you...
+
+*g_07
+Heheh. If you were one of my subordinates, I’d already have you writing an apology letter.
+*
+At least it all got settled peacefully in the end. 
+*g_07b
+Be proud of yourself, young lady.
+
+*n_08
+...Thank you.
+
+*g_09
+Mind telling me your name again? Our transmission was cutting out, so I didn’t catch it.
+
+*n_10
+I am Noel Cornehl. 
+Class III Cadet at Bermit Academy.
+
+*g_11
+I see. Once again, 
+I'm Mepha Gridyard, Commanding Officer of the Elf Village's Monster Suppression unit.
+*g_11b
+Grazia is outside my unit’s jurisdiction, but perhaps we’ll meet again someday.
+
+*n_12
+<think>Well...it’s not like I can visit her in the village...being a Cornehl and all...
+
+*g_12
+...So, you’re a student from Grazia, huh?
+*
+Do they teach you youngsters how to take down these monsters as part of your curriculum?
+
+*n_13
+Eh? Ah...
+*n_13b
+<I><m ple>OH NO!!!
+I forgot I was on my way to school! I'm going to be late!
+*
+S-Sorry, I have to go now──!
+
+
+// ノエル去る
+*g_14
+...My oh my. 
+*
+Don’t worry Noel Cornehl, those Grazians aren’t such a rigid lot; They won’t scold you for being late. Especially given the situation.
+*g_14b
+What an interesting girl.
+

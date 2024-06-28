@@ -1,0 +1,57 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+
+// ver 0.24d now you can write the script of boards here!
+*m2d_sacred_alert pp_board
+<font linespacing="1.5" color="ff:#ff0000"><font size="130%"><img mesh="alert" tx_color/> 危険 <img mesh="alert" tx_color/></font>
+この……高濃度魔…域
+作…者は十……フィル………濾過……携…すること</font>
+
+
+// この下、高濃度魔力域
+// 作業者は十分なフィルター／濾過器を携帯すること
+
+
+
+
+// 母石エリアで倒れると、モブの獣人によって下層地区で救われる。
+*___sacred/_go2city mb_00
+──きみ!きみ、大丈夫か?
+
+*n_01
+……え、あ……ここは、
+グラティア……。
+
+*mb_02
+下層地区の住人から、
+エルフの娘が大樹の根本に
+降りていくところを見たって
+通報があってね。
+*
+3日がかりで捜索して、
+ようやく君が聖域近くで
+倒れているのを
+発見したんだ。
+
+*n_03
+3日……わ、わたし……
+そんなに長い時間
+倒れていたんですか?
+
+*mb_04
+気をつけてくれよ……
+エルフが聖域に迷い込んだ場合、
+獣人が身を呈して君を
+助けに行かなきゃならない。
+*
+獣人の身体だって
+安くはないからね。
+
+*n_05
+……ごめんなさい。
+助けてくれて
+本当にありがとう
+ございました。

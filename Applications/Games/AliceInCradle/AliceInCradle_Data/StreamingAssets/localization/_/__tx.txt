@@ -1,0 +1,312 @@
+%FAMILY _
+&&Submit    決定
+&&Reset    初期化
+&&Cancel    キャンセル
+
+&&lang_ja 日本語(JP)
+
+&&lang_en 英語(EN)
+
+/* ___ Title_Announce_For_Sensitive ___ */
+当ゲームを18歳未満の方がプレイする場合、
+または 動画サービス等で当ゲームのプレイ画面を
+キャプチャーした動画のアップロード、または配信を行う場合は、
+「健全モード」をオンにして下さい。
+
+当ゲームで描かれる一部の過激な行動は
+現実で行うと厳しく罰せられます。
+これを読んでいるスライムやマタンゴの皆様は
+錬金術師の美少女に無闇に卵を産み付けないことを
+お心がけ下さい。
+
+主人公のノエルは15歳という設定ですが、
+この世界の1年は440日周期のため
+我々の世界における18歳以上です。
+
+&&btn_sensitive_off 私は18歳以上であり録画していない\n( 健全モード:オフ )
+
+&&btn_sensitive_on  18歳未満または録画中である\n( 健全モード:オン )
+
+&&Title_first_tutorial <key la/><key ra/>で移動、<key submit/>で決定
+
+&&Name_Noel         ノエル・コルネール
+&&Name_Alice        アリス
+
+&&Destination       &1へ
+
+&&Area_forest   紡ぐ者の森
+&&Area_city  恵みの街「グラティア」
+&&Area_house  魔女の雑貨店
+
+
+
+&&btn_new_game はじめから
+&&btn_continue つづきから
+&&btn_option 設定
+&&btn_quit おわる
+
+
+/* ___ SaveDataDesc_auto  ___ */
+オートセーブデータ 
+総プレイ時間: &1
+※アーリーアクセス版の
+セーブデータは後々のバージョンで
+ロードできなくなる可能性が高いです。
+
+/* ___ SaveDataDesc  ___ */
+セーブデータ &1 
+総プレイ時間: &2
+※アーリーアクセス版の
+セーブデータは後々のバージョンで
+ロードできなくなる可能性が高いです。
+
+
+/* ___ SaveDataDesc_Empty_auto ___ */
+オートセーブデータがありません。
+
+/* ___ SaveDataDesc_Empty ___ */
+セーブデータ &1
+(空)
+
+&&SVD_Error_Occured ヘッダの読み込みに失敗しました
+
+&&SVD_0 オートセーブ:
+&&SVD_topright HP &1/&2, MP &3/&4
+
+&&SVD_ignore_svd_cfg セーブデータ内のコンフィグを無視
+&&SVD_cmd_load ロード
+&&SVD_cmd_load_do ロードする
+&&SVD_cmd_save 上書き保存
+&&SVD_Load_Ask_Again 現在のゲームを中断して\nセーブデータ &1 を読み込んでよろしいですか？
+
+&&SVD_need_bench <font color="#E70B0B">セーブできるのはベンチか拠点内のみです。</font>
+
+&&Stat_Condition       状態異常
+&&Stat_Condition_And_Ep       状態異常とデリケートなこと
+&&Stat_Ep       デリケートなこと
+&&Stat_no_status_error ... 特になし
+
+&&GameMenu_Category_Title_0     ステータス
+&&GameMenu_Category_Title_1     アイテム
+&&GameMenu_Category_Title_2     魔術
+&&GameMenu_Category_Title_3     強化
+&&GameMenu_Category_Title_4     マップ
+&&GameMenu_Category_Title_5     シナリオ
+&&GameMenu_Category_Title_6     セーブ／ロード
+&&GameMenu_Category_Title_7     設定
+
+
+
+
+&&Money_Counter <img mesh="money_icon" /> <b>&1</b>
+&&EmptyBottle_Counter <img mesh="itemicon_empty_bottle_filled" />空きビン: <b>&1/&2</b>
+
+
+&&SerTitle_hp_reduce    瀕死
+&&SerDesc_hp_reduce     <font color="#FF729F">【HPが最大HPの15%以下】</font>\n0になると力尽きてしまいます。
+
+
+&&SerTitle_mp_reduce    枯渇
+&&SerDesc_mp_reduce    <font color="#FF729F">【MPが最大MPの15%以下】</font>\n走行と回避ができなくなります。
+
+&&SerTitle_death    戦闘不能
+&&SerDesc_death    <font color="#FF729F">【HPが0】</font>\nモンスター達が満足して帰るまで、\n気長に待ちましょう。\n<key cancel/><font color="#FF729F">長押しで諦める</font>
+
+&&SerTitle_sexercise    催淫
+&&SerDesc_sexercise  興奮率が上がりやすくなります。\nMPゲージのヒビ割れがわずかに防がれます。
+
+&&SerTitle_shamed    羞恥
+&&SerDesc_shamed    恥ずかしくて精神が乱れやすい状態。\n敵との接触の時に転倒しにくくなるが、\n被ダメージで詠唱中の魔力が散りやすくなります。
+
+&&SerTitle_shamed_split    羞恥(魔力漏れ)
+&&SerDesc_shamed_split    恥ずかしくて精神が乱れやすい状態。\n敵との接触の時に転倒しにくくなるが、\n被ダメージで詠唱中の魔力が散りやすくなります。
+
+&&SerTitle_shamed_wet    羞恥(濡)
+&&SerDesc_shamed_wet    下着を汚してしまった状態。\n敵との接触の時に転倒しにくくなるが、\n被ダメージで詠唱中の魔力が散りやすくなります。
+
+&&SerTitle_shamed_ep    羞恥(興奮)
+&&SerDesc_shamed_ep    <font color="#FF729F">【興奮率50%以上】</font>\n性的興奮が抑えられない状態。\n敵との接触の時に転倒しにくくなるが、\n被ダメージで詠唱中の魔力が散りやすくなります。
+
+&&SerTitle_shamed_orgasm_after    絶頂後
+&&SerDesc_shamed_orgasm_after    イかされてしまった状態。\n走行と回避ができなくなります。\nMPゲージのヒビ割れが防がれます。\nまた、興奮値が上昇しやすくなります。
+
+&&SerTitle_egged    抱卵
+&&SerDesc_egged    魔物の卵を胎内に抱えた状態。\n僅かに魔術の攻撃力が上がりますが、詠唱速度と通常攻撃力は下がります。\n魔術の詠唱及びショットガンに反応し、MPを吸収されることがあります。\n非戦闘時に取り除くことができます。
+
+&&SerTitle_egged_2    抱卵 Lv.2
+&&SerDesc_egged_2  <font color="#FF729F">【最大MPの70%以上の抱卵】</font>\n興奮率が上がりやすくなります。\nMPゲージがとても割れやすくなります。\n排卵時の排出時間が倍になります。\n卵が勝手に排出されます。
+
+
+&&SerTitle_laying_egg    産卵
+&&SerDesc_laying_egg    魔物の卵が孵化し、胎外へ排出している状態。\n産卵が終わるまで行動できません。
+
+&&SerTitle_do_not_lay_egg    産卵不可
+&&SerDesc_do_not_lay_egg    魔物の卵を排出するには産道に異物が詰まりすぎているようです。
+
+&&SerTitle_eaten   丸呑み
+&&SerDesc_eaten   魔物の体内に取り込まれた状態。\n抵抗するか、気まぐれに外に出してくれるのを待ちます。
+
+&&SerTitle_orgasm    放心
+&&SerDesc_orgasm    イかされてしまった直後の状態。\n復帰するまで被ダメージが1.5倍になります。\nMPゲージのヒビ割れが防がれます。\nまた、興奮値が上昇しやすくなります。
+
+
+&&SerTitle_shield_break    シールドブレイク
+&&SerDesc_shield_break    シールドを割られた状態。\n復帰するまで被ダメージが1.5倍になります。
+
+
+
+/* ___　PopUp_bench  ___ */
+<key menu />メニューを開く
+... セーブができます。
+
+
+
+&&Log_supply_juice  散らされた魔力がビンに溜まった
+&&Alert_item_holdover 持ち物が多くて <b>&1</b> を拾えない...
+&&Alert_event_item_holdover しかし持ち物が多すぎた...
+&&Alert_pee おもらししてしまった...
+&&Alert_orgasm_splash 愛液が音をたてて飛び散った...
+
+&&Alert_nearly_laying おなかの中に違和感を感じる...
+
+&&Alert_worm_eggplant 蟲たちに卵を産み付けられてしまった...
+&&Alert_slime_eggplant スライムに卵を産み付けられてしまった...
+&&Alert_laying_egg_worm 胎内の卵が孵化し、幼蟲を産んでしまった...
+&&Alert_laying_egg_slime 胎内の卵が孵化し、スライムを産んでしまった...
+
+&&Alert_ep_thresh0 あそこの奥が熱くなっている…
+&&Alert_ep_thresh1 愛液が滴ってきている…
+&&Alert_ep_orgasm イかされてしまった…
+&&Alert_ep_orgasm_cli クリトリスへの愛撫で絶頂した…
+&&Alert_ep_orgasm_vagina 膣内での抽挿によって絶頂した…
+&&Alert_ep_orgasm_anal アナルでの抽挿によって絶頂した…
+&&Alert_ep_orgasm_breast 乳首に絡みつく刺激に耐えきれず絶頂した…
+&&Alert_ep_orgasm_mouth 口内に放たれた催淫液によって絶頂した…
+&&Alert_ep_orgasm_ear 耳に感じる生暖かい刺激によって絶頂した…
+&&Alert_ep_orgasm_masturbation ノエルは自身の慰めによって絶頂した…
+&&Alert_ep_orgasm_slime スライムに全身をなぶられ絶頂した…
+&&Alert_ep_orgasm_worm 蟲に穴という穴を犯され絶頂した…
+&&Alert_ep_orgasm_laying_egg 卵に産道を刺激されながら絶頂した…
+
+&&Alert_gameover 負けちゃった...
+
+&&Alert_autosave オートセーブしました。
+&&Alert_summoner_defeated 敵の気配が消えた。しばらくは安全そう…
+
+
+
+&&ep_category_cli クリトリス
+&&ep_category_vagina 膣内
+&&ep_category_anal アナル
+&&ep_category_breast 乳首
+&&ep_category_mouth 口
+&&ep_category_ear 耳
+&&ep_category_masturbation 自慰
+&&ep_category_slime スライム
+&&ep_category_worm 蟲
+&&ep_category_laying_egg 托卵
+
+&&Alert_cure_crack 心の器が少しだけ回復した…
+
+&&GM_ep_debug 興奮率: &1 ／ イった回数: &2
+&&GM_ep_experience 開発度(&1) ... &2
+&&GM_ep_level_after_orgasm  <font color="#D3006D">オーガズムの反動で動けない...</font>
+&&GM_ep_level_0 　特にムラムラしていない。
+&&GM_ep_level_1 　特にムラムラしていない。
+&&GM_ep_level_2 　特にムラムラしていない。
+&&GM_ep_level_3 　<font color="#72486D">わずかな興奮を感じている... </font>( 興奮率: &1 )
+&&GM_ep_level_4 　<font color="#72486D">わずかな興奮を感じている... </font>( 興奮率: &1 )
+&&GM_ep_level_5 　<font color="#7C2A73">おなかの奥がうずいている... </font>( 興奮率: &1 )
+&&GM_ep_level_6 　<font color="#7C2A73">おなかの奥がうずいている... </font>( 興奮率: &1 )
+&&GM_ep_level_7 　<font color="#C92D97">性的興奮を抑えきれない... </font>( 興奮率: &1 )
+&&GM_ep_level_8 　<font color="#C92D97">性的興奮を抑えきれない... </font>( 興奮率: &1 )
+&&GM_ep_level_9 　<font color="#F51AB0">からだの奥から何かが登ってくる...</font> ( 興奮率: &1 )
+
+
+
+&&EV_access_collect   採集
+&&EV_access_getitem   取得
+&&EV_access_open_box   取得
+&&EV_access_default_check   調べる
+&&EV_access_default_talk   話す
+&&EV_access_sitdown   座る
+&&EV_access_into   入る
+
+&&Item_get   <key check/>取得
+&&Item_has   <font size="12">(所持: &1 )</font>
+&&Item_get_count   x&1
+&&Money_adding   <font size="12">+ &1</font>
+&&Money_reducing   <font size="12">- &1</font>
+
+&&MoneyBox_adding   お金を <img mesh="money_icon" /><b>&1</b> 手に入れた！
+
+&&Item_detail_cure_hp HP &1 回復
+&&Item_detail_cure_mp MP &1 回復
+&&Item_detail_cure_ep 興奮率 &1 回復
+&&Item_detail_dmg_ep <font color="#864788">興奮率 &1 上昇</font>
+&&Item_detail_cure_ser 状態異常 &1 を回復
+&&Item_detail_dmg_ser <font color="#864788">状態異常 &1 を付与</font>
+&&Item_detail_cure_mp_crack MPゲージを &1 修復
+&&Item_detail_cannot_nest_multiple 複数スタック不可
+&&Item_detail_filled_bottle 空き瓶を回収可能
+
+
+&&Item_cmd_use 使う
+&&Item_cmd_useless (使う)
+&&Item_cmd_discard_water ビンを空にする
+&&Item_cmd_drop 捨てる
+
+&&Item_desc_cannot_use 使っても効果が\nないみたい......
+&&Item_desc_decline_holding_magic 魔術使用／保持中は\n使う余裕がないかも......
+&&Item_desc_decline_dmg 被ダメージ中だから\nいまは使えない......
+&&Item_desc_decline_dead だれか......
+
+&&Item_dbox_water_to_bottle 空き瓶を使って &1 収集可能
+&&Item_dbox_water_to_bottle_none 空き瓶がない状態では\n &1 のみ所持できる
+
+&&Item_dbox_stock スタック可能: &1 
+
+
+
+
+&&Enemy_SLIME スライム
+&&Summoner__enemy_id_overdrived_suffix (汚染体)
+
+
+&&Summoner__initialize <key check/>長押しまたは\nマナ植物を摘むと戦闘開始
+
+/* ___ Summoner__descryption ___ */
+危険度: &1
+登場する敵(予想): 
+&2
+汚染体: 最大で &3 体 
+
+
+
+&&Summoner_forest_tutorial 木漏れ日の広間
+&&Summoner_forest_coroseum はぐれ者
+&&Summoner_forest_darkpot 夕立
+&&Summoner_forest_thorn_cage 鳥籠
+
+
+
+
+
+
+&&Item_desc_suffix_water    ビンがあれば多く持ち歩くことができる。
+&&Item_desc_suffix_bottled_water    使用した後は空き瓶を再利用可能。
+
+
+&&GM_KD_map_current_pos     <key sort/>現在位置　
+&&GM_KD_map_0_no_marker     <key_s submit/>マーカー設定
+&&GM_KD_map_0     <key submit/>マーカー設定
+
+
+&&Category_under_construction    未実装
+
+
+
+
+
+
+

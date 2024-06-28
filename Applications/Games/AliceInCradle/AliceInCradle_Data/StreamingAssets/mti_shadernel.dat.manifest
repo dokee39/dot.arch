@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 2073020483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e96e73dda88acffbc8fcc4d23a7bc38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5651999fa58938ac55fc849c3d2539bc
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/firewall.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/BlitBetobetoImg.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/shotgun.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/MessageNoise.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/PostShiftImageWhole.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/worm_trapped.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ConfuseCurtain.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderMeshAddNoiseDissolve.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/BlitBetobeto.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/NoisyMessage.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/Frozen.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/EnemyAulaAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/enemydark.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/RakuraiGlitchPE.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/enemydark_whiter.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderBiteTransition.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTGradationMapAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/fxfire.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/LightPostProcesserShaders/LightPostProcessorComposition.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTSTPencilDraw.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShieldSilhouette.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/mp_absorbed.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTWaveColor.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/gas_applied.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/summoner_activate.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/magicselect.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/powerbomb.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/MapDarkSpot.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/MtrFireBallExplode.mat
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/LightPostProcesserShaders/LightPostProcessorBloomCombine.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTPatternEpBg.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderBlackHole.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderMeshSubNoiseDissolve.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShieldBlurBehind.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/hp_reduce.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/FrozenGDTA.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTWhiteColoring.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/thunder_trap.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/magic_device_activate.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/Beam.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/enemy_overdrive_appear.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderMeshNormalNoiseDissolve.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/laying_egg.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/RakuraiGlitch.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderLrCurve.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/firewallAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/PostShiftImage.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/burst.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/LightPostProcesserShaders/LightPostProcessorBrightnessExtraction.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/flash.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTAddNoiseDissolve.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderWaterReflect.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/posteffect/mp_reduce.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/EnemyBuffer.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/FrozenGDTS.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderMeshSubNoiseDissolve2.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/MtrFoxChaserBallExplode.mat
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/ShaderGDTGradationMap.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/LightPostProcesserShaders/LightPostProcessorGaussianBlur.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/UiBg.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderNel/UiPicture.shader
+Dependencies: []

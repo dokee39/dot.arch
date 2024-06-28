@@ -1,0 +1,46 @@
+// 1-B : 帰る
+
+
+PVV 1
+START_LETTERBOX
+TALKER	n R
+
+#MS_	% 'F >+[-100,0: 140] P[beware] w20 '
+
+
+WAIT 60
+
+IF 'GFC[NOE1]<5' {
+    PIC   n a_1/a00L1R3__F1__f1__m1__b3__u0    
+    MSG n_00
+
+    CHANGE_EVENT2	s00_1a_trauma 6
+    TL 60 REPLACE_BGM	140 
+    TL 60 HALF_BGM	1
+    
+} ELSE {
+    PIC   n a_3/a0__F1__f3__m1__b4_uo    
+    MSG n_02
+    DANGER 6
+    PIC_HIDE_ALL
+
+}
+
+
+TUTO_MSG	Tuto_map
+
+QUEST_FINISH p000_break_wall  
+ALLOW_EVENTHANDLE_KEY MAP
+WAIT_FN	UIGM_ACTIVATE 
+ALLOW_EVENTHANDLE_KEY
+DOTL
+TUTO_REMOVE
+
+HALF_BGM	0
+PR_ASSIGN_REVERT_POSITION
+AUTO_SAVE
+
+
+
+#CMDRELOAD	  
+#VANISH

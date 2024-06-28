@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3777569615
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9d68b6c24a0965f7b197e299a881ae5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/MapChars/sub_w.pxls.bytes.texture_0.png
+Dependencies: []

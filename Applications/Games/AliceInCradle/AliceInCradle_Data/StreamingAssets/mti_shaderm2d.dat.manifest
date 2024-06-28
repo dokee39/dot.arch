@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 45806445
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e770018638f014114c012a32fe4c0982
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 68c985bf88fecc38b460cdb825182138
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BasicMapWithLight.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BasicMapAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ImageWithLightAndBrightMul.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ShaderGDTFilling.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ShaderMeshWater2Chip.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/SubMapHirobaScape.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/WholeDarkArea.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/SubMapTopMul.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/WholeMap.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ImageWithLightAndBright.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ChipsTopLightAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/Water.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BorderLight.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ImageWithLightAndBrightForScape.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BasicGradation.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BasicGradationAdd.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ShaderGDTWaterFall.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BasicMapStabilizing.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BasicMap.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/WaterReflectionSurface.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ImageWithLight.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/BrightPrepare.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ChipsTopLight.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/Gradation_HouseLight.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/PuzzleBarrier.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/SubMapBlending.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/DissolveFade.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ShaderGDTForMover.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/SubMapTopNormal.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/ForestBright.shader
+- Assets/Editor/AssetBundlesSrc/MTI_ShaderM2D/WaterInBright.shader
+Dependencies: []

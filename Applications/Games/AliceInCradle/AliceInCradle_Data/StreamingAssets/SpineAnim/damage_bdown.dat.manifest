@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3119521241
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7fadaf9426a63d63dc2fc8129aa946f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_bdown.png
+Dependencies: []

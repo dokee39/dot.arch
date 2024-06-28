@@ -1,0 +1,310 @@
+%FAMILY ko-kr
+&&Submit    결정
+&&Reset    초기화
+&&Cancel    취소
+
+&&lang_ja 日本語(JP)
+
+&&lang_en 英語(EN)
+
+/* ___ Title_Announce_For_Sensitive ___ */
+본 게임을 미성년자가 플레이할 경우,
+또는 비디오 플랫폼 등에 이 게임의 플레이 화면을
+담은 영상을 업로드 또는 스트리밍할 경우에는,
+'건전 모드'를 활성화해 주세요.
+
+본 게임에서 표현된 일부 과격한 행동은
+현실에서 할 경우 처벌받을 수 있습니다.
+이것을 읽고 있는 슬라임이나 마탕고 여러분께서는
+미소녀 연금술사에게 강제로 알을 낳지 말 것을
+명심해 주세요.
+
+주인공 노엘은 15세라는 설정이지만,
+이 세계의 1년은 440일 주기이기 때문에
+우리의 세계에서는 성인입니다.
+
+&&btn_sensitive_off 나는 성인이며 녹화하고 있지 않다\n( 건전 모드: 비활성화 )
+
+&&btn_sensitive_on  미성년자이거나 녹화하고 있다\n( 건전 모드: 활성화 )
+
+&&Title_first_tutorial <key la/><key ra/>으로 이동, <key submit/>으로 결정
+
+&&Name_Noel         노엘 코르넬
+&&Name_Alice        앨리스
+
+&&Destination       &1으로
+
+&&Area_forest 이야기꾼의 숲
+&&Area_city 은혜의 거리 '그라치아'
+&&Area_house 마녀의 잡화점
+
+
+
+&&btn_new_game 뉴 게임
+&&btn_continue 컨티뉴
+&&btn_option 설정
+&&btn_quit 종료
+
+
+/* ___ SaveDataDesc_auto  ___ */
+오토 세이브 데이터 
+총 플레이 시간: &1
+※얼리 액세스 판의
+세이브 데이터는 이후 버전에서
+로드가 불가능할 가능성이 높습니다.
+
+/* ___ SaveDataDesc  ___ */
+세이브 데이터 &1 
+총 플레이 시간: &2
+※얼리 액세스 판의
+세이브 데이터는 이후 버전에서
+로드가 불가능할 가능성이 높습니다.
+
+
+/* ___ SaveDataDesc_Empty_auto ___ */
+오토 세이브 데이터가 없습니다.
+
+/* ___ SaveDataDesc_Empty ___ */
+세이브 데이터 &1
+(비어 있음)
+
+&&SVD_Error_Occured 헤더를 불러들이는데 실패했습니다
+
+&&SVD_0 오토 세이브:
+&&SVD_topright HP &1/&2, MP &3/&4
+
+&&SVD_ignore_svd_cfg 세이브 데이터 내의 설정 무시
+&&SVD_cmd_load 로드
+&&SVD_cmd_load_do 로드한다
+&&SVD_cmd_save 덮어쓰기
+&&SVD_Load_Ask_Again 현재의 게임을 중단하고\n세이브 데이터 &1 을 불러오겠습니까?
+
+&&SVD_need_bench <font color="#E70B0B">세이브는 거점이나 벤치에서만 할 수 있습니다.</font>
+
+&&Stat_Condition       상태이상
+&&Stat_Condition_And_Ep       상태이상과 민감한 것 
+&&Stat_Ep       민감한 것
+&&Stat_no_status_error ... 딱히 없음
+
+&&GameMenu_Category_Title_0     스테이터스
+&&GameMenu_Category_Title_1     아이템
+&&GameMenu_Category_Title_2     마법
+&&GameMenu_Category_Title_3     강화
+&&GameMenu_Category_Title_4     맵
+&&GameMenu_Category_Title_5     시나리오
+&&GameMenu_Category_Title_6     세이브/로드
+&&GameMenu_Category_Title_7     설정
+
+
+
+
+&&Money_Counter <img mesh="money_icon" /> <b>&1</b>
+&&EmptyBottle_Counter <img mesh="itemicon_empty_bottle_filled" />빈 병: <b>&1/&2</b>
+
+
+&&SerTitle_hp_reduce    빈사
+&&SerDesc_hp_reduce     <font color="#FF729F">【HP가 최대치의 15% 이하】</font>\n0이 될 경우 탈진합니다.
+
+
+&&SerTitle_mp_reduce    고갈
+&&SerDesc_mp_reduce    <font color="#FF729F">【MP가 최대치의 15% 이하】</font>\n달리거나 회피할 수 없습니다.
+
+&&SerTitle_death    전투불능
+&&SerDesc_death    <font color="#FF729F">【HP 0】</font>\n몬스터들이 만족하고 돌아갈 때까지\n느긋하게 기다립시다. \n<key cancel/><font color="#FF729F">를 길게 눌러 포기한다</font>
+
+&&SerTitle_sexercise    최음
+&&SerDesc_sexercise  흥분도가 쉽게 오릅니다.\nMP 게이지의 균열이 근소하게 감소합니다.
+
+&&SerTitle_shamed    수치
+&&SerDesc_shamed    부끄러움으로 인해 정신이 흐트러진 상태.\n적과 접촉할 때 잘 넘어지지 않지만,\n피해로 인해 영창중의 마력이 쉽게 흩어집니다.
+
+&&SerTitle_shamed_split    수치(마력 유출)
+&&SerDesc_shamed_split    부끄러움으로 인해 정신이 흐트러진 상태.\n적과 접촉할 때 잘 넘어지지 않지만,\n피해로 인해 영창중의 마력이 쉽게 흩어집니다.
+
+&&SerTitle_shamed_wet    수치(젖음)
+&&SerDesc_shamed_wet    속옷을 더럽힌 상태.\n적과 접촉할 때 잘 넘어지지 않지만,\n피해로 인해 영창중의 마력이 쉽게 흩어집니다.
+
+&&SerTitle_shamed_ep    수치(흥분)
+&&SerDesc_shamed_ep    <font color="#FF729F">【흥분도 50% 이상】</font>\n성적 흥분을 억누를 수 없는 상태.\n적과 접촉할 때 잘 넘어지지 않지만,\n피해로 인해 영창중의 마력이 쉽게 흩어집니다.
+
+&&SerTitle_shamed_orgasm_after    절정 후
+&&SerDesc_shamed_orgasm_after    가버린 상태.\n달리거나 회피할 수 없습니다.\nMP 게이지의 균열이 방지됩니다.\n또한, 흥분도가 쉽게 오릅니다.
+
+&&SerTitle_egged    포란
+&&SerDesc_egged    마물의 알을 뱃속에 품은 상태.\n마법 공격력이 근소하게 상승하지만,\n마법의 영창 및 샷건에 의해\nMP를 흡수당합니다.\n비전투시에 제거할 수 있습니다.
+
+&&SerTitle_egged_2    포란 Lv.2
+&&SerDesc_egged_2  <font color="#FF729F">【MP 최대치의 70% 이상 포란】</font>\n흥분도가 쉽게 오릅니다.\nMP 게이지가 매우 취약해집니다.\n산란 시간이 배가 됩니다.\n알이 제멋대로 배출됩니다.
+
+
+&&SerTitle_laying_egg    산란
+&&SerDesc_laying_egg    마물의 알이 부화해 배 밖으로 배출되는 상태.\n산란이 끝날 때까지 이동할 수 없습니다.
+
+&&SerTitle_do_not_lay_egg    산란 불가
+&&SerDesc_do_not_lay_egg    마물의 알을 배출하기에는 산도에 이물이 너무 많습니다.
+
+&&SerTitle_eaten   삼켜짐
+&&SerDesc_eaten   마물에게 삼켜진 상태.\n저항하거나 변덕으로 내보내주는 것을 기다립시다.
+
+&&SerTitle_orgasm    방심
+&&SerDesc_orgasm    가버린 직후의 상태.\n복귀할 때까지 받는 피해가 1.5배가 됩니다.\nMP 게이지의 균열이 근소하게 감소합니다.\n또한, 흥분도가 오르기 쉬워집니다.
+
+
+&&SerTitle_shield_break    실드 브레이크
+&&SerDesc_shield_break    실드가 파괴된 상태.\n회복될 때까지 받는 피해가 1.5배가 됩니다.
+
+
+
+/* ___　PopUp_bench  ___ */
+<key menu />메뉴를 연다
+…세이브할 수 있습니다.
+
+
+
+&&Log_supply_juice  흩뜨려진 마력이 병에 고였다
+&&Alert_item_holdover 너무 많은 것을 가지고 있어서 <b>&1</b> 을 주울 수 없어…
+&&Alert_event_item_holdover 그렇지만 가지고 있는 것이 너무 많아…
+&&Alert_pee 오줌 싸버렸어…
+&&Alert_orgasm_splash 애액이 흩날렸어…
+
+&&Alert_nearly_laying 뱃속에 위화감이 느껴져…
+
+&&Alert_worm_eggplant 벌레들이 안에 알을 낳았어…
+&&Alert_slime_eggplant 슬라임들이 안에 알을 낳았어…
+&&Alert_laying_egg_worm 뱃 속의 알이 부화해서 유충을 낳아버렸어…
+&&Alert_laying_egg_slime 뱃 속의 알이 부화해서 슬라임을 낳아버렸어…
+
+&&Alert_ep_thresh0 그곳이 뜨거워지고 있어…
+&&Alert_ep_thresh1 애액이 떨어지고 있어…
+&&Alert_ep_orgasm 가버렸어…
+&&Alert_ep_orgasm_cli 클리토리스 애무에 의해 가버렸어…
+&&Alert_ep_orgasm_vagina 자궁에의 삽입으로 가버렸어…
+&&Alert_ep_orgasm_anal 애널에의 삽입으로 가버렸어…
+&&Alert_ep_orgasm_breast 유두에 얽혀드는 자극을 이기지 못하고 가버렸어…
+&&Alert_ep_orgasm_mouth 입에 최음액이 넣어져서 가버렸어…
+&&Alert_ep_orgasm_ear 귀에 느껴지는 따뜻한 자극으로 가버렸어…
+&&Alert_ep_orgasm_masturbation 노엘은 스스로를 위로하며 절정했다…
+&&Alert_ep_orgasm_slime 슬라임에게 전신을 만져져 가버렸어…
+&&Alert_ep_orgasm_worm 벌레에게 구멍이란 구멍은 모두 범해져 가버렸어…
+&&Alert_ep_orgasm_laying_egg 알에게 산도가 자극되며 가버렸어…
+
+&&Alert_gameover 져버렸어…
+
+&&Alert_autosave 오토세이브 완료.
+&&Alert_summoner_defeated 적의 기척이 느껴지지 않아. 당분간은 안심해도 될 것 같아…
+
+
+
+&&ep_category_cli 클리토리스
+&&ep_category_vagina 자궁
+&&ep_category_anal 애널
+&&ep_category_breast 유두
+&&ep_category_mouth 입
+&&ep_category_ear 귀
+&&ep_category_masturbation 자위
+&&ep_category_slime 슬라임
+&&ep_category_worm 벌레
+&&ep_category_laying_egg 탁란
+
+&&Alert_cure_crack 마음이 조금이지만 회복됐어…
+
+&&GM_ep_debug 흥분도: &1 ／ 가버린 횟수: &2
+&&GM_ep_experience 개발도(&1) ... &2
+&&GM_ep_level_after_orgasm  <font color="#D3006D">가버린 탓에 움직일 수 없어…</font>
+&&GM_ep_level_0 　딱히 흥분되지 않아.
+&&GM_ep_level_1 　딱히 흥분되지 않아.
+&&GM_ep_level_2 　딱히 흥분되지 않아.
+&&GM_ep_level_3 　<font color="#72486D">조금 흥분했어… </font>( 흥분도: &1 )
+&&GM_ep_level_4 　<font color="#72486D">조금 흥분했어… </font>( 흥분도: &1 )
+&&GM_ep_level_5 　<font color="#7C2A73">뱃속이 쑤셔… </font>( 흥분도: &1 )
+&&GM_ep_level_6 　<font color="#7C2A73">뱃속이 쑤셔… </font>( 흥분도: &1 )
+&&GM_ep_level_7 　<font color="#C92D97">흥분을 억누를 수 없어… </font>( 흥분도: &1 )
+&&GM_ep_level_8 　<font color="#C92D97">흥분을 억누를 수 없어… </font>( 흥분도: &1 )
+&&GM_ep_level_9 　<font color="#F51AB0">몸 속 깊은 곳에서 무언가가 올라오고 있어…</font> ( 흥분도: &1 )
+
+
+
+&&EV_access_collect   수집한다
+&&EV_access_getitem   줍는다
+&&EV_access_open_box   연다
+&&EV_access_default_check   조사한다
+&&EV_access_default_talk   대화한다
+&&EV_access_sitdown   앉는다
+&&EV_access_into   들어간다
+
+&&Item_get   <key check/>줍는다
+&&Item_has   <font size="12">(소지 수: &1 )</font>
+&&Item_get_count   x&1
+&&Money_adding   <font size="12">+ &1</font>
+&&Money_reducing   <font size="12">+ &1</font>
+
+&&MoneyBox_adding   <img mesh="money_icon" ><b>&1</b>을 얻었다!
+
+&&Item_detail_cure_hp HP &1 회복
+&&Item_detail_cure_mp MP &1 회복
+&&Item_detail_cure_ep 흥분도 &1 감소
+&&Item_detail_dmg_ep <font color="#864788">흥분도 &1 상승</font>
+&&Item_detail_cure_ser 상태이상 &1 회복
+&&Item_detail_dmg_ser <font color="#864788">상태이상 &1 부여</font>
+&&Item_detail_cure_mp_crack MP 게이지 &1 수복
+&&Item_detail_cannot_nest_multiple 합칠 수 없다
+&&Item_detail_filled_bottle 빈 병을 회수할 수 있다
+
+
+&&Item_cmd_use 사용한다
+&&Item_cmd_useless (사용한다)
+&&Item_cmd_discard_water 병을 비운다
+&&Item_cmd_drop 버린다
+
+&&Item_desc_cannot_use 사용해도 효과가\n없을 것 같아……
+&&Item_desc_decline_holding_magic 마술을 사용하거나 차지 중에는\n사용할 수 없을지도……
+&&Item_desc_decline_dmg 피격 중에는\n사용할 수 없어……
+&&Item_desc_decline_dead 도와줘……
+
+&&Item_dbox_water_to_bottle 빈 병에 &1개 담을 수 있다
+&&Item_dbox_water_to_bottle_none 빈 병이 없을 때에는\n&1개만 가질 수 있다
+
+&&Item_dbox_stock 스택 상한: &1 
+
+
+
+
+&&Enemy_SLIME 슬라임
+&&Summoner__enemy_id_overdrived_suffix (오염체)
+
+
+&&Summoner__initialize <key check/>를 길게 누르거나\n마나 식물을 딸 경우 전투개시
+
+/* ___ Summoner__descryption ___ */
+위험도: &1
+등장하는 적(예정): 
+&2
+오염체: 최대 &3 체 
+
+
+
+&&Summoner_forest_tutorial 햇빛이 스며드는 곳
+&&Summoner_forest_coroseum 낙오자
+&&Summoner_forest_darkpot 소나기
+&&Summoner_forest_thorn_cage 새장
+
+
+
+
+
+
+&&Item_desc_suffix_water    병이 있다면 더 많이 들고다닐 수 있다.
+&&Item_desc_suffix_bottled_water    사용한 후에는 빈 병을\n다시 사용할 수 있다.
+
+
+&&GM_KD_map_current_pos     <key sort/>현재 위치
+&&GM_KD_map_0_no_marker     <key_s submit/>마커 설정
+&&GM_KD_map_0     <key submit/>마커 설정
+
+
+&&Category_under_construction    미구현
+
+
+
+
+

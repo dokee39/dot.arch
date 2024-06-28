@@ -1,0 +1,326 @@
+%FAMILY _
+// ミニゲーム 4ASCEND用
+
+// &&BackToTitle    タイトルに戻る
+&&ttr_MainMenu    メインメニュー
+&&ttr_KD_title_nel    <key submit/>スタート <key cancel/><key menu/>終了
+&&GameStart ゲーム開始
+
+
+&&Restart_game    再戦
+&&Replay    リプレイを見る
+&&Replay_in_game   リプレイを最初から再生
+
+&&Submit_ttr_GoToTitle メニューに戻る
+
+
+&&ttr_start_game    <font color="ff:#EDFF63" letterSpacing="1.20"><i>対局開始</i></font>
+&&ttr_make_rule    追加ルール編集(ハンデ)
+&&ttr_make_rule_confirm    追加ルール確認
+
+&&Restart_in_game    再戦<font size="85%" color="ff:#FF7070">（現在の対局を破棄）</font>
+&&BackToTitle_in_game    メニューに戻る<font size="85%" color="ff:#FF7070">（現在の対局を破棄）</font>
+
+&&ttr_Play_CPU CPUと対戦
+&&ttr_Play_Online オンライン対戦
+&&ttr_Play_Local2P ローカルで2人対戦
+
+&&TTR_OPT_se_vol SE Vol
+&&TTR_OPT_bgm_vol BGM Vol
+
+&&ttr_Rule ルール確認
+&&ttr_Record 対局の記録
+
+&&AI_name_noel CPU ???
+&&AI_name_ostrea オストレア
+&&AI_name_ixia イクシャ
+&&AI_name_alma アルマ
+&&AI_name_primula プリムラ先生
+
+&&Turn_manual My Turn &1
+&&Turn_manual_1 Player 1's Turn &1
+&&Turn_manual_2 Player 2's Turn &1
+&&Turn_CPU Thinking...
+
+&&RPL_Playing リプレイ再生中 <key ra/>早送り
+
+
+&&Cutin_gamestart SEND YOUR DECISION
+&&Cutin_backattack BACK ATTACK!
+
+
+&&TTR_rule_title_0 概要.1
+&&TTR_rule_title_1 概要.2
+&&TTR_rule_title_2 ゲーム進行.1
+&&TTR_rule_title_3 ゲーム進行.2
+&&TTR_rule_title_4 攻撃処理
+&&TTR_rule_title_5 相殺
+&&TTR_rule_title_6 勝利条件
+&&TTR_rule_title_7 基本テクニック
+&&TTR_rule_title_8 応用テクニック.1
+&&TTR_rule_title_9 応用テクニック.2
+&&TTR_rule_title_10 応用テクニック.3
+&&TTR_rule_title_11 応用テクニック.4
+&&TTR_rule_title_12 オンライン対戦.1
+&&TTR_rule_title_13 オンライン対戦.2
+
+
+/* ___ TTR_rule_0 ___ */
+<font color="ff:#4fffec">4ASCEND (フォーアセンド) </font>は
+五目並べをモチーフにした
+シンプルな2人用対戦ボードゲームです。
+
+
+/* ___ TTR_rule_0_1 ___ */
+ローカル対戦、CPU戦、
+オンラインマッチングに対応しています。
+
+
+
+/* ___ TTR_rule_1 ___ */
+あなたと対戦相手は、それぞれ
+<font color="ff:#5C98FF">エルフ陣営</font>（白 ） および
+<font color="ff:#FF6483">魔族陣営</font>（黒 ） に分かれます。
+自陣を広げながら隙を見逃さず攻撃を<font color="ff:#4fffec">送り、</font>
+敵陣を打ち倒すことがこのゲームの目的です。
+
+
+/* ___ TTR_rule_2 ___ */
+プレイヤーは自分の手番で、
+自陣の色の石を１つ、盤面の線が交差する場所で
+お互いの石が置かれていない場所に置きます。
+（マウスクリック／タップ ）
+
+
+/* ___ TTR_rule_3 ___ */
+石が縦、横、斜めに4つ以上並んだ石は
+盤面から取り除かれ、攻撃体勢に入ります。
+これを<font color="ff:#4fffec">アセンド</font>と呼びます。
+
+/* ___ TTR_rule_4 ___ */
+一方が<font color="ff:#4fffec">アセンド</font>を作った次の相手番で
+相手が何もしなかった場合、
+石の個数分だけ相手にダメージを与えます。
+<font color="ff:#4fffec">アセンド</font>に使用した石は盤面には戻りません。
+
+/* ___ TTR_rule_5 ___ */
+一方が<font color="ff:#4fffec">アセンド</font>を作った直後の相手番で、相手が同様に
+石を揃えて<font color="ff:#4fffec">アセンド</font>を作った場合、
+互いの石の数だけ相殺されます。
+あなたが4個揃えた次の手番で
+相手が5個の石で<font color="ff:#4fffec">アセンド</font>を作った場合、
+あなたは相殺しきれなかった1ダメージを受けます。
+
+/* ___ TTR_rule_6 ___ */
+どちらかのライフがゼロになるか、
+盤面81マスがすべて石で埋まったら試合終了です。
+生き残った側、または
+より多くの体力を残した側、または
+より多くの石を置いた側の勝利となります。
+
+
+
+/* ___ TTR_rule_7 ___ */
+リーチの時（石を3つ並べた時 ） は「シャキン」という音が鳴ります。
+もし相手が<font color="ff:#4fffec">アセンド</font>を作ったとき、次の手番で
+あなたが相手の攻撃を相殺できなければ
+問答無用でダメージを受けてしまいます。
+常に自分のリーチを確保しておくようにしましょう。
+
+/* ___ TTR_rule_8 ___ */
+対局を進めていくと、盤面に<font color="ff:#DFFFB4">魔力植物</font>が生えてきます。
+<font color="ff:#DFFFB4">魔力植物</font>を踏んだ石は、<font color="ff:#4fffec">アセンド</font>を作った時に
+攻撃力が+1され、相殺処理の際に
+相手の石を多く破壊できます。
+（相手のライフへのダメージは変化しません ）
+
+/* ___ TTR_rule_9 ___ */
+相手が<font color="ff:#4fffec">アセンド</font>を作った直後、
+相手の石が元いたマスにあなたが石を置くと
+<font color="ff:#FFB5FF">バックアタック</font>が発動し、直前にそこにあった相手の石を破壊できます。
+このとき<font color="ff:#DFFFB4">魔力植物</font>を踏んでいた相手の石の上に置けば、
+<font color="ff:#DFFFB4">魔力植物</font>を横取りすることができ、2点のアドバンテージを得られます。
+
+/* ___ TTR_rule_10 ___ */
+<font color="ff:#4fffec">アセンド</font>を作らなくとも
+<font color="ff:#FFB5FF">バックアタック</font>を発動できます。
+仮に相手の<font color="ff:#4fffec">アセンド</font>に為す術が無かったとしても、
+背後からの不意打ちで稼いだ1点の悪あがきが
+勝敗を左右することもあるかもしれません。
+
+
+/* ___ TTR_rule_11 ___ */
+<font color="ff:#4fffec">アセンド</font>の直後に生える魔力植物は、
+攻撃を仕掛けた側に有利な位置に生えやすいです。
+（ただし連続で<font color="ff:#4fffec">アセンド</font>すると、土地が痩せるため生えにくくなります）
+戦局が膠着した時は、ダメージ覚悟で戦いを挑めば
+新たな活路を見出だせるかも？
+
+
+/* ___ TTR_rule_12 ___ */
+オンラインマッチングでは、
+ネット上の誰かと対戦するランダムマッチ、および
+互いにルームIDを共有してのフレンドマッチに対応しています。
+（無料プランのサーバーを使用している為不安定だったらごめんなさい ）
+フレンドマッチを行う際は、別途Discord等で相手とルームIDを共有して下さい。
+
+/* ___ TTR_rule_13 ___ */
+ランダムマッチの対局が終わると、プレイヤーランクとして
+お互いの直近10試合の勝利数を2で割った数（最大4） が表示されます。
+（この数値はプレイヤーの調子の良し悪しの目安であり、
+　マッチング等には影響しません ）
+（自分より高いランクの相手に勝っても飛び級したりはしません ）
+
+
+
+
+
+// ========================================================
+// MARK : Result
+// ========================================================
+
+
+&&ttr_announce_manual_1p Player 1 WIN!
+&&ttr_announce_manual_2p Player 2 WIN!
+&&ttr_announce_manual YOU WIN!
+&&ttr_announce_cpu CPU WIN...
+&&ttr_announce_online_player YOU LOSE...
+
+&&ttr_result_draw DRAW GAME
+&&ttr_draw_in_record 引き分け
+&&ttr_temporary_aborted_in_record セッション切断
+
+&&ttr_result_cause_defeat_0 <font color="ff:#B6D6FF">魔族の勢力は討伐された</font> (&1-&2)
+&&ttr_result_cause_defeat_1 <font color="ff:#FF88AA">エルフの勢力は討伐された</font> (&1-&2)
+
+&&ttr_result_cause_life_low_0 残りライフ <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> で<font color="ff:#B6D6FF">エルフ勢力が勝利した</font>
+&&ttr_result_cause_life_low_1 残りライフ <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> で<font color="ff:#FF88AA">魔族勢力が勝利した</font>
+
+&&ttr_result_cause_stone_0 盤面の石数 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> で<font color="ff:#B6D6FF">エルフ勢力が勝利した</font>
+&&ttr_result_cause_stone_1 盤面の石数 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> で<font color="ff:#FF88AA">魔族勢力が勝利した</font>
+
+&&ttr_desc_date 対局日: &1
+&&ttr_desc_duration 対局時間: &1 (&2ターン)
+&&date_hours &1時間
+&&date_minute &1分
+&&date_second &1秒
+
+
+&&ttr_result_cause_aborted  <font color="ff:#B6D6FF">相手勢力が敗走した</font> ( 残りライフ <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> )
+&&ttr_result_cause_aborted_me <font color="ff:#F10000"> あなたは試合を放棄した </font>
+
+&&ttr_record_header_high_score / <font size="60%">HIGHEST</font> &1<font size="75%">Pt.</font>
+
+&&ttr_record_header <font size="60%">WIN</font> &1 / <font size="60%">LOSE</font> &2
+
+&&ttr_record_header_draw / <font size="60%">DRAW</font> &1
+
+&&ttr_result_win 勝利スコア &1<font size="75%">Pt.</font>
+&&ttr_result_lose 敗北スコア &1<font size="75%">Pt.</font>
+&&ttr_result_calc &1 x &2 = &3
+&&ttr_result_calc_hilight &1 x &2 = <font color="ff:#EDFF63">&3</font>
+&&ttr_result_rest_life 残ライフボーナス &1
+&&ttr_result_overkill_damage オーバーキルボーナス &1
+&&ttr_result_apply_damage_when_lose 与えたダメージボーナス &1
+&&ttr_result_score 最終スコア <font size="160%">&1</font><font size="120%">Pt.</font>
+&&ttr_result_is_new_record <font color="ff:#EDFF63" size="140%">  NEW RECORD!</font> 
+
+&&ttr_result_special_max_hp 最大HP &1 vs &2 
+&&ttr_result_timekeep プレイヤーの持ち時間 &1秒
+&&ttr_result_timekeep_infinity プレイヤーの持ち時間 無制限
+
+&&ttr_record_score 最終スコア &1 Pt.
+&&ttr_record_friend_match <font size="80%">(フレンドマッチ)</font>
+&&ttr_record_o_rank 相手ランク
+&&ttr_record_my_rank 現在のランク
+
+// ========================================================
+// MARK : Rule Make
+// ========================================================
+
+&&ttr_sprule_bigmotor BM盤面 
+&&ttr_sprule_bigmotor_desc 魔力植物が全く生えなくなります。\n泥仕合になりやすいです。
+
+&&ttr_sprule_harvest 収穫祭
+&&ttr_sprule_harvest_desc 魔力植物を使ってアセンドしても魔力植物が消費されません。
+
+&&ttr_pr_name_manual プレイヤー
+&&ttr_pr_name_manual_1p プレイヤー1
+&&ttr_pr_name_manual_2p プレイヤー2
+&&ttr_pr_name_manual_1p_online あなた
+&&ttr_pr_name_manual_2p_online 相手
+&&ttr_pr_name_cpu CPU
+
+&&ttr_makerule_max_life 最大ライフ
+&&ttr_makerule_timekeep 持ち時間 
+&&ttr_makerule_timekeep_second &1秒
+&&ttr_makerule_timekeep_infinity 無限
+
+&&ttr_makerule_1pcolor 1pの石の色
+&&ttr_makerule_1pcolor_white 白
+&&ttr_makerule_1pcolor_black 黒
+&&ttr_makerule_1pcolor_auto 自動
+
+&&ttr_timekeep_pass <font color="ff:#E70909">PASS</font>
+
+&&ttr_makerule_plant 植物の生え方
+
+
+&&ttr_makerule_obtain_score 追加スコア &1<font size="75%">Pt.</font>
+&&ttr_makerule_online <font size="80%" >「ランダムマッチ」では石の色以外のルールは固定です。</font>
+&&ttr_makerule_online_friend <font size="80%" >「フレンドマッチ」では石の色以外はホスト側のルールが使用されます。</font>
+
+
+
+&&ttr_stage ステージ
+
+&&ttr_stage_flat フラット
+&&ttr_stage_frontbase 前線基地
+&&ttr_stage_totalwar 総力戦
+&&ttr_stage_grace_field 恵みの地
+
+
+&&ttr_which_first 先攻／後攻
+&&ttr_which_first_dice サイコロ
+&&ttr_which_first_is_1p 1P
+&&ttr_which_first_is_2p 2P
+&&ttr_which_first_cpu CPU
+
+
+&&ttr_select_icon アイコンを選択 (性能差はありません)
+
+
+
+// ========================================================
+// MARK : Online
+// ========================================================
+
+&&ttr_online_abort 中断
+
+&&ttr_online_your_icon あなたのアイコン
+
+&&ttr_online_match_nora ランダムマッチ
+&&ttr_online_match_friend フレンドマッチ
+
+&&ttr_online_ann_error_connect サーバー接続に失敗しました。
+&&ttr_online_ann_error_something 不明なエラーが発生しました。
+&&ttr_online_ann_error_logout セッションが切断されました。
+&&ttr_online_ann_connection サーバーに接続中...
+&&ttr_online_ann_matchmake マッチメイク中...
+&&ttr_online_ann_matchmake_roomid マッチメイク中... ルームID: &1
+&&ttr_online_ann_connection_error サーバー接続中にエラーが発生しました。
+&&ttr_online_ann_matchmake_error マッチメイクがタイムアウトしました。
+
+&&ttr_online_ann_rematch 相手の再戦を確認しています...
+&&ttr_online_ann_rematch_chk 相手がリプレイを確認しているようです...
+
+&&ttr_online_ann_matchmake_completed マッチメイクが完了！
+&&ttr_online_logout_manual セッションを切断中...
+
+&&ttr_online_ann_dice 相手がサイコロを降っています...
+&&ttr_online_ann_start_1p あなたが先手です
+&&ttr_online_ann_start_2p 相手が先手です
+
+&&ttr_online_reconnect 通信が不安定です。再接続中...
+&&ttr_online_reconnected 再接続しました。
+&&ttr_online_ann_error_logout_youwin セッションが切断されたので、不戦勝となります。

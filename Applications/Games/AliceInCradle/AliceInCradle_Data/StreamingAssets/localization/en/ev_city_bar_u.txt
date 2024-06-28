@@ -1,0 +1,143 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+// ========================================================
+// MARK : バー下部 ダイアル
+// ========================================================
+
+*___city_bar/u_enter n_00
+<think>There's a combination lock on the door.
+
+*n_01
+<think>Even if I knew the combination, I shouldn't be doing this without permission...
+
+
+// ========================
+// ベルを鳴らす回数を間違えた
+
+*___city_bar/u_exit_wrong_count n_00
+<think>Hmm...how many times was I supposed to ring the bell?
+
+// ========================
+// ベルを3回鳴らした
+*___city_bar/u_t00 bt_00
+Welcome.
+*
+I am unable to meet with you in person as I am busy tending the bar.
+
+// バーで粗相をした
+
+*n_00
+<m fadein>Sorry for giving you extra work with the mess I made...
+
+*bt_01
+Hm? Oh, don't worry about that. You didn't do anything wrong.
+
+*n_01
+But...
+<m fadein>...uuu.
+
+*n_02
+<think><m fadein>I never thought I'd see the day when a monster would try to comfort me...
+
+// => bt_03
+
+// バーで粗相をしてない
+*bt_02
+Tell me, who gave you the combination to the lock?
+*
+Did the Great Tree send you a divine message? Or, did you just guess at it?
+
+// => bt_03
+
+*bt_03
+Glad to see you here, at any rate. Let us toast to our meeting.
+*
+I can't offer you any actihol right now, but I can offer you a deal.
+
+*n_04
+Umm...what kind of deal?
+
+*bt_05
+There's a special bottle down in that storeroom. What do you suppose would happen if you drank from it?
+
+*bt_06
+I'll tell you...
+<m joy>You would gain otherworldly insight<m>.
+*
+You'd be able to see to the other side, and rewrite the rules of reality.
+
+// * bt_06のバックログでの上書き
+*bt_06_b
+I'll tell you...<font color="ff:#000000">You'll unlock new options in the "Settings" menu.<b>
+*
+<font color="ff:#000000">I would like to help you reach the optimal "Kawaisou is kawaii" levels you desire.
+
+
+*n_07
+I'm not sure I understand...
+Are you talking about making the effects of actihol stronger?
+
+*bt_08
+Sorry, that was a bit abstract...
+*
+Use<key add/>to think back on what I said, and I'm sure the meaning will be clear.
+
+*n_09
+Okay. So, how much do I have to pay for this?
+
+*bt_10
+I'm sure you're well aware there's something we monsters value much more than money.
+*
+<c5>Your body fluids<c0>.
+Ingesting the mana contained within is a source of great pleasure for us.
+
+*n_11
+<m fadein>Uuu...I had a hunch it would be something like this...
+
+*bt_12
+Of course, I'd be happy with anything that came from your body, not just fluids.
+
+// * bt_12のバックログでの上書き
+*bt_12_b
+<font color="ff:#000000">I will accept Noel Juice, Noel Milk, and Noel Eggs.
+
+*bt_13
+The barrel beneath this speaker should work to store your products. Place them in when you want to trade.
+
+*n_14
+P-product...
+
+*bt_14
+Here's what I have available. I hope there's something to your liking.
+
+// 2回目以降
+*bt_20
+So glad to see you again. Let's trade.
+
+
+// ver0.25特殊処理
+// 橋野のメモ
+*bt_15
+Oh? How long has that been there? Looks like it depicts a girl with pink hair.
+*
+Probably just a doodle someone made.
+
+
+
+*___city_bar/u_paper_mizuha board_00
+
+We'll be using this store to expand the Settings menu
+to accommodate requests from fans and supporters.
+If there is anything you would like to see added,
+please send us a request on our official Discord
+or semi-official Bilibili!
+
+M.H

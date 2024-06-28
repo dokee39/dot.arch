@@ -1,0 +1,476 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// ========================================================
+// MARK : s01_0a
+// ========================================================
+
+// ノエル
+*s01_0a n_00
+It's getting late... 
+
+
+// 1-B: s00 で敗北した
+*n_01
+...It's completely dark...
+
+
+
+// ================
+// 1-C: 1-Aまたは1-B のあと、森に戻ろうとする
+// ================
+*s01_1c n_00
+<think>Let's just go home and rest for the day.
+
+
+// ========================================================
+// MARK : s01_ixia_2a_00
+// ========================================================
+// 2-A イクシャ登場: s00 で敗北していない
+ 
+*s01_ixia_2a_00 i_00
+<angry /><m joy><big>Oh-ho-ho-ho-ho!</big></m>
+
+*i_01
+I got here before you, Noel Cornehl!
+
+*n_02
+Ixia! I haven't seen you in two weeks.
+
+
+*i_03
+Um, if you don't mind me asking...How are you feeling? Any pain still?
+
+*n_04
+I'm fine. I was even able to defeat a monster earlier.
+
+*i_05
+You were fighting!? How could you be so reckless!
+
+
+
+
+*n_06
+T-there was only one...and it didn't look like I could just avoid it.
+
+*n_07
+Just a little bit on the way back...I was able to use my new staff; it didn't hurt or anything.
+
+
+
+
+*i_08
+Hmph! For the past two weeks, your teachers and friends have been so worried about you. 
+*i_09
+But, that's actually a relief to hear. Even though so much of your mana was absorbed during the incident...
+*
+It sounds like you'll still be able to compete against me as my rival.
+
+*n_09
+...Have I ever lost to you, Ixia?
+
+*i_10
+<angry /><m scary>The audacity!</m><W2 />
+Next time you come to school I'm going to beat you for sure!
+
+*n_11
+If you say so. I'll talk to sensei today about potentially returning to school.
+*i_12
+<W3 />Well, just don't let the monsters get you again!
+
+
+// 去る
+
+// すぐ戻ってくる
+
+*i_13
+Almost forgot~~!
+
+
+*i_14
+One of the spells you broke during the incident has finally been remade...So I brought it with me today!
+
+*n_15
+And here I thought you had come to visit me.
+
+*i_16
+Don't get so full of yourself! Let's see, I think it was...ah, that's right. 
+
+*i_17
+Ms. Primula came by earlier, so I gave it to her!
+
+
+*n_17
+Sensei is already here? She's a little earlier than usual.
+
+*i_18
+I'm sure she's waiting for you in your room.
+*
+You can thank me by learning to use that spell with your new staff!
+
+*n_19
+Thank you, Ixia. See you in school.
+
+*i_20
+Hmph! ...Make sure you're there!
+
+
+*n_21
+Ixia is the same as always. I'm glad she wasn't hurt during the incident.
+
+*n_22
+...She said sensei is waiting in my room. I'd better go see her.
+
+
+// ========================================================
+// MARK : s01_ixia_2b_00
+// ========================================================
+
+
+
+*s01_ixia_2b_00 i_00
+<m ple>Noel Cornehl!?
+What...what happened to you!?
+
+*n_01
+Ixia...I was out gathering materials for my sister...
+and then...I tripped and fell.
+
+*i_02
+<m ple>Liar!  You're covered in monster fluids!
+<m>...The same as...two weeks ago...
+
+*n_03
+Don't worry. There weren't as many monsters this time.
+
+*i_04
+...
+*n_05
+Ixia, are you here to visit me? Shall we go inside?
+
+*i_06
+Can't. It's already really close to my curfew. I have to get back to the village...
+
+*n_07
+I see...sorry. It's my fault I got back so late.
+
+*n_07b
+I see...sorry. I'm such an idiot.
+
+*i_08
+<m ple>Don't apologize!
+
+*i_08b
+...I'm sure Ms. Primula is waiting for you up in your room. I'll let her take care of you.
+*
+Oh, and about the spell you broke during the attack...it's been remade and is already seeing production.
+*
+I gave one to Ms. Primula earlier.
+
+*n_09
+The spell? Thank you. Hope it wasn't too much trouble.
+
+
+*i_10
+Hmph! If you're going to worry about anything, worry about your tattered state!
+
+*i_10b
+Ok, I really have to go now. Please take care of yourself. Stay away from monsters and perverts!
+
+
+// 去る
+*n_11
+...I'm sure Ms. Primula is also worried. Let's get home...
+
+
+// ========================================================
+// MARK : s01_laevi_3a
+// ========================================================
+
+    
+*s01_laevi_3a v_00
+Noel, welcome home~
+
+*n_01
+I'm back, sister.
+
+
+*v_02
+Hmm~, as expected of my beloved sister~
+You've collected everything I asked for~
+
+
+*v_03
+Oh! You mined some ores for me too! Such a model student! Thank you so much for your help~
+
+
+*n_04
+Well, it's not like you asked for much...
+
+*v_05
+I was afraid your delicate arms would break from the weight of the materials. 
+*
+I'm glad you made it back safely.
+
+*n_06
+...Thank you.
+
+*v_07
+These materials look good, now if only I could obtain that...
+
+
+// ========================================================
+// MARK : s01_laevi_3b
+// ========================================================
+
+
+
+*s01_laevi_3b v_00
+Noel, welcome back~ ...Ah, what happened? That's a rather lewd look for you.
+
+*n_01
+Sister, p-please forgive my shameful appearance...
+
+*v_02
+There's nothing shameful about your beautiful body and porcelain skin. I'm grateful for the opportunity to admire you like this.
+
+*n_03
+I'm not dressed like this on purpose! Monsters attacked me while I was gathering materials...!
+
+*v_04
+Ah, is that so.
+*v_04_2
+Monster semen and eggs are miraculous alchemical ingredients. The only problem is they are difficult to collect and spoil easily.
+*
+I know, the next time you get covered in monster fluid, come back quickly so I can collect it.
+
+*n_05
+...I'll pass.
+Anyway, here are the materials you asked for.
+
+*v_06
+Wow, good work!
+*
+Even after being ravaged by the monsters' big black thing, you still came through for me.
+
+*n_07
+Please stop!
+
+
+// ========================================================
+// MARK : s01_laevi_4a
+// ========================================================
+
+
+
+*s01_laevi_4a b_00
+Um, e-excuse me...Laevi.
+
+*v_01
+Huh?  Can I help you?
+
+*b_02
+Uhh, I, erm...about my reservation...
+
+*v_03
+<m ple>Ah! You're a customer of 
+'The room'! <m>You're here a little earlier than your appointment time. Did you want to see me that badly?
+
+*b_04
+No, it's just that...well...yes.
+
+*v_05
+Ehehe, happy to hear it! I like your honesty, Jade.
+
+*b_06
+<m joy>Well, you know me...<m>haha.
+
+*v_07
+I'll show you to the back. Let's enjoy today, just the two of us, together...
+
+
+
+// 遠目で微妙な表情で眺めるノエル
+*n_08
+......
+
+
+*v_09
+Noel, go upstairs and get Tilde. I need him to watch the store.
+
+
+*n_10
+O-Okay.
+
+
+// ========
+
+// 客とすれ違う
+
+
+
+*n_11
+Eek...!
+
+*b_12
+Ah, um, 'scuse me...
+
+*v_13
+Noel~ If you stand there looking like that, people might think you're using the room with us.
+*
+...Although, I'm fine with that if you are.
+
+*n_14
+N-no! Not in my current state...
+
+*v_15
+I know you're a bit worn-out right now, but can you go upstairs and get Tilde? I need him to watch the store.
+
+
+*n_16
+...Okay.
+
+
+
+*n_20
+...Where might Tilde be?
+
+
+
+// ========================================================
+// MARK : s01_5b
+// ========================================================
+
+
+
+*s01_5b n_00
+Tilde.
+
+*d_01
+Noel, welcome back. Were you able to gather the materials safely?
+
+*n_02
+Yeah. Well...I ran into some monsters along the way, but I managed just fine.
+
+*d_03
+Dang. I bet 40G on you losing big time again.
+
+*n_04
+...
+
+*d_05
+You're more or less a grown woman, so when the monsters go for your mana, they target your womb and those uselessly big boobs, right?
+
+*n_06
+Eek!! Please don't touch me!
+
+*d_07
+I'm thinking of entering the Department of Magical Biology at Grazia. 
+*
+Monsters prefer young female elves who have a lot of mana like yourself, right?
+
+*n_08
+Prefer...
+I'd rather not be targeted at all.
+
+
+*d_09
+But, you can get them to make you feel really good, right? Where does your mana leak out when you are attacked? Hm?
+
+
+// 5-Dへ
+
+// ================
+// 5-C:  s00 で敗北している
+// ================
+
+
+
+*s01_5c n_00
+Tilde.
+
+*d_01
+Noel, welcome ba...whoa, you got beaten to a pulp.
+
+*n_02
+Sorry, I know I'm a bit unsightly right now...
+
+*d_03
+Eh, it's okay. I bet 40G on you losing.
+
+*n_04
+...
+
+*d_05
+Still, I must say elven women make for the best mages. Those huge breasts can store so much mana.
+
+*n_06
+Nngh...please don't touch me.
+
+*d_07
+Oh, sorry~ Are you still sensitive after being violated? Which part would feel best if touched it?
+
+*n_08
+...Maybe that wall over there.
+
+*d_09
+Hey, don't glare at me like that. I was just trying to help you feel better.
+
+
+// 5-Dへ
+
+// ================
+// 5-D:
+// ================
+
+
+*s01_5d n_00
+...Tilde, your sister wants you to watch the shop.
+
+*d_01
+Geez, not again. What a pain.
+*
+When I'm working at the store, sometimes I can hear her and the male customers going at it, and it really bothers me.
+
+
+*n_02
+...But she needs to do it to gather materials for her alchemy.
+
+*d_03
+Fine, I'll go. Hey, if you're ever up for it, tell me about how you lost your virginity to the monsters.
+
+*n_04
+Never!
+
+
+
+
+
+
+*s01_5z n_00
+...I should probably 
+go meet sensei...
+She's waiting for me in my room.
+
+*s01_5z n_01
+...She's waiting in the garden behind the kitchen.
+
+*s01_5z n_02
+...Let's go take sensei's lesson.
+
+*s01_5z n_03
+...Let's go meet sensei.
+
+*s01_5z n_04
+...I'm hungry.
+
+*s01_5z n_05
+...Let's go say good morning to big sis as well.

@@ -1,0 +1,114 @@
+%FAMILY _
+
+// ========================================================
+// MARK : PURPOSE
+// ========================================================
+
+&&Svd_phase_0 プロローグ
+&&Svd_phase_1 目覚めし眠り姫
+&&Svd_phase_2 幽霊
+&&Svd_phase_3 テセウスの舟
+&&Svd_phase_4 ふしぎな世界
+&&Svd_phase_5 アリス・イン・クレイドル
+&&Svd_phase_6 エピローグ - 星
+
+&&scenario_desc_pvv_0000 壊せそうな壁の奥を探索する
+&&scenario_desc_pvv_0001__1 家に帰る
+&&scenario_desc_pvv_0002 プリムラ先生の授業を受ける
+&&scenario_desc_pvv_0100 家族やお客さんとお話する
+&&scenario_desc_pvv_0101 イクシャさんを探しに行く
+&&scenario_desc_pvv_0102 街へ向かう
+&&scenario_desc_pvv_0103 獣人さんのお手伝いをする
+&&scenario_desc_pvv_0104__3 イクシャさんを助けるため大型と闘う
+
+&&scenario_wip (制作中)
+
+
+// ========================================================
+// MARK : ver0.23 added
+// ========================================================
+
+// ↑ の scenario_desc_*** も一部わずかに変更があります。ご確認下さい (hinayua_r18)
+
+// ========================================================
+// MARK : Quest
+// ========================================================
+
+&&quest__p999_trial_finished 今回のシナリオはここまでです。\n次のアップデートをお待ち下さい。
+
+&&quest_completed クエスト達成！
+&&quest_position_notice 目的地を確認 <key a/>
+&&quest_position_updated 目的地更新 <key a/>
+&&quest_position_arrived 目的地に到着
+
+&&button_quest_reveal_on_map 目的地を確認 
+&&button_quest_jump クエスト一覧で確認
+
+&&scenario_desc_pvv_0001__0 姉様に頼まれた素材の回収
+
+&&scenario_desc_pvv_0103__1 沼に落ちた爆弾を探す
+&&scenario_desc_pvv_0103__3 獣人さんの様子を確認する
+
+&&scenario_desc_pvv_0104__0 イクシャさんを探す
+&&scenario_desc_pvv_0104__2 イクシャさんの落とし物を探す
+
+&&quest_selecting_multi &1 など &2 個のクエスト
+
+
+&&Scenario_Tab_main_quest メインクエスト
+&&Scenario_Tab_sub_quest サブクエスト
+
+&&quest_sort_newer ソート:作成日時順
+&&quest_sort_latest_update ソート:更新日時順
+
+
+// ========================================================
+// MARK : sub quest
+// ========================================================
+
+
+&&subquest_v022_check_alchemyst_labo 姉様のアトリエを確認する
+
+
+// ========================================================
+// MARK : TheRoom
+// ========================================================
+
+&&Trm_first_play はじめての休憩室
+
+
+// ========================================================
+// MARK : ver 0.23d
+// ========================================================
+
+&&quest_position_near_arrived 目的地に接近
+
+
+
+
+// ========================================================
+// MARK : 231004 アルバム
+// ========================================================
+
+&&Album_Tab_Fatal フェイタルシーン
+&&Album_Tab_Picture スチル
+&&Album_Tab_Memory 思い出
+
+
+&&Album_Memory_ixia005_0 イクシャさんのお見舞い
+&&Album_Memory_ixia005_1 イクシャさんのお見舞い（敗北時）
+&&Album_Memory_primula010 プリムラ先生とシャスタお婆様
+&&Album_Memory_primula011 星空の昔話
+&&Album_Memory_alma102 アルマと駅での会話
+&&Album_Memory_mepha104 エルフの里の派遣隊
+
+// ========================================================
+// MARK : ver0.25 quest
+// ========================================================
+&&scenario_desc_pvv_0105_grazia__0 ベルミット士官校に向かう
+&&scenario_desc_pvv_0105_grazia__1 学園の医務室に向かう
+&&scenario_desc_pvv_0105_grazia__2 西1-2教室に向かう
+
+
+&&quest__subquest_treasurehunt_000 写真の場所を探す (紡ぐ者の森)
+

@@ -1,0 +1,115 @@
+%FAMILY zh-tc
+
+// ========================================================
+// MARK : PURPOSE
+// ========================================================
+
+&&Svd_phase_0 序章
+&&Svd_phase_1 覺醒的睡美人
+&&Svd_phase_2 幽靈
+&&Svd_phase_3 忒修斯之船
+&&Svd_phase_4 不可思議的世界
+&&Svd_phase_5 愛麗絲的搖籃
+&&Svd_phase_6 終章 - 星
+
+&&scenario_desc_pvv_0000 搜索看起來能破壞的牆壁
+&&scenario_desc_pvv_0001__1 回到家裡
+&&scenario_desc_pvv_0002 與普莉姆拉老師的講義
+&&scenario_desc_pvv_0100 和家人或客人聊天
+&&scenario_desc_pvv_0101 前往找尋伊庫夏
+&&scenario_desc_pvv_0102 前往街上
+&&scenario_desc_pvv_0103 幫助獸人
+&&scenario_desc_pvv_0104__3 為了幫助伊庫夏與大型魔物戰鬥
+
+&&scenario_wip (製作中)
+
+
+// ========================================================
+// MARK : ver0.23 added
+// ========================================================
+
+// ↑ の scenario_desc_*** も一部わずかに変更があります。ご確認下さい (hinayua_r18)
+
+// ========================================================
+// MARK : Quest
+// ========================================================
+
+
+&&quest__p999_trial_finished 這次的劇情到這此為止，\n敬請等待下次的更新。
+
+&&quest_completed 任務達成！
+&&quest_position_notice 確認目的地 <key a/>
+&&quest_position_updated 更新目的地 <key a/>
+&&quest_position_arrived 到達目的地
+
+&&button_quest_reveal_on_map 確認目的地 
+&&button_quest_jump 到任務一覽內確認
+
+&&scenario_desc_pvv_0001__0 姊姊大人所託付的素材被回收了
+
+&&scenario_desc_pvv_0103__1 到沼澤內尋找掉落的炸彈
+&&scenario_desc_pvv_0103__3 是確認獸人們的狀況
+
+&&scenario_desc_pvv_0104__0 尋找伊庫夏
+&&scenario_desc_pvv_0104__2 尋找伊庫夏的遺落物
+
+&&quest_selecting_multi &1 與 &2 個任務
+
+
+&&Scenario_Tab_main_quest 主線任務
+&&Scenario_Tab_sub_quest 支線任務
+
+&&quest_sort_newer 排序:依據作成時間
+&&quest_sort_latest_update 排序:依據更新時間
+
+
+// ========================================================
+// MARK : sub quest
+// ========================================================
+
+
+&&subquest_v022_check_alchemyst_labo 到姊姊大人的工房內確認
+
+
+// ========================================================
+// MARK : TheRoom
+// ========================================================
+
+&&Trm_first_play 初次的休息室
+
+
+
+// ========================================================
+// MARK : ver 0.23d
+// ========================================================
+
+&&quest_position_near_arrived 接近目的地
+
+
+
+
+// ========================================================
+// MARK : 231004 アルバム
+// ========================================================
+
+&&Album_Tab_Fatal 戰敗橋段
+&&Album_Tab_Picture 靜態圖
+&&Album_Tab_Memory 回憶
+
+
+&&Album_Memory_ixia005_0 給伊庫夏探病
+&&Album_Memory_ixia005_1 給伊庫夏探病（敗北時）
+&&Album_Memory_primula010 普莉姆拉老師和沙斯塔祖母大人
+&&Album_Memory_primula011 星空的往事
+&&Album_Memory_alma102 在車站跟阿爾瑪的交談
+&&Album_Memory_mepha104 精靈之里的派遣隊
+
+// ========================================================
+// MARK : ver0.25 quest
+// ========================================================
+&&scenario_desc_pvv_0105_grazia__0 前往貝爾米特士官校
+&&scenario_desc_pvv_0105_grazia__1 前往學園的醫務室
+&&scenario_desc_pvv_0105_grazia__2 前往西1-2教室
+
+
+&&quest__subquest_treasurehunt_000 尋找照片的地點 (編織者之森)

@@ -1,0 +1,66 @@
+%FAMILY en
+
+&&MAP_house_road Garden
+
+&&MAP_house_center    Temptress' Hill
+&&MAP_house_barn    Backyard
+&&MAP_house_cliff    Cornehl Family Cemetery
+&&MAP_house_cliff_cave    Hideout
+&&MAP_house_shop    General Store
+&&MAP_house_theroom    The Break Room
+&&MAP_house_noelroom    Noel's room
+&&MAP_house_atelier    Atelier
+
+&&MAP_house_lake    Lake
+
+// ========================
+&&MAP_forest_clocktower     Crumbling Clocktower
+&&MAP_forest_ruin_station     Stele Road - Western Station
+&&MAP_forest_ruin_road     Stele Road - Ancient Ruins
+&&MAP_forest_ruin_hall     Stele Road - Thorny Overpass
+&&MAP_forest_ruin_station_r     Stele Road - Eastern Station
+&&MAP_forest_hiroba     City Overlook
+&&MAP_forest_hiroba_u     Hidden Path to the Acid Tree
+&&MAP_forest_cliff_portal     Giant Acid Tree - Obsidian Gate
+&&MAP_forest_coroseum_frog     Pitch Black Frogswamp
+&&MAP_forest_frog_left    Pitch Black Frogswamp - Obsidian Gate
+
+&&MAP_forest_coroseum  Straggler's Nest
+
+&&MAP_forest_athletic_ladder    Ladder Athletics
+&&MAP_forest_lava_secret    Rising Acid Path Secret
+&&MAP_forest_wood_extender_puzzle  Crossed Doors Puzzle
+&&MAP_forest_senzyort  Jailbreak Switch Puzzle
+&&MAP_forest_tc  Curved Shots
+
+// ========================
+&&MAP_city_entrance_left    Forestside Barrier
+
+&&MAP_city_market_left    Forest Garrison
+&&MAP_city_center    Midtown/Heavenly Facility
+&&MAP_city_market_BL    Downtown
+&&MAP_city_slam    Slums
+&&MAP_city_farm    Farm
+&&MAP_city_park    Park
+&&MAP_city_entrance_right    Museum District
+&&MAP_city_entrance_rightcave    Mountain Garrison
+&&MAP_city_scl_ground    Bermit School Grounds
+&&MAP_city_scl_center    Bermit School Gates
+&&MAP_city_scl_dorm    Bermit Dormitories
+&&MAP_city_mine    Megalithic Eye
+
+&&MAP_city_in_dojo    Fiolet Dojo
+&&MAP_city_in_guild    Adventurer's Guild
+&&MAP_city_in_bar    The March Hare
+&&MAP_city_in_museum    Museum
+&&MAP_city_in_museum_backyard    Backroom
+
+&&MAP_school_entrance    1F - Entrance
+&&MAP_school_in_hall_left　1F - West Wing
+&&MAP_school_in_hall_right　1F - East Wing
+&&MAP_school_in_hall_center　1F - Administration
+&&MAP_school_in_health Infirmary
+
+&&map_prefix_bermit Bermit &1
+
+&&MAP_city_in_baru Bar Storeroom

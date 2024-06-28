@@ -1,0 +1,312 @@
+%FAMILY en
+// ミニゲーム 4ASCEND用
+
+// &&BackToTitle    タイトルに戻る
+&&ttr_MainMenu Main Menu
+&&ttr_KD_title_nel <key submit/>Start <key cancel/><key menu/>Exit
+&&GameStart GAME START
+
+
+&&Restart_game Rematch
+&&Replay View replay
+&&Replay_in_game Playback previous moves
+
+&&Submit_ttr_GoToTitle Main Menu
+
+
+&&ttr_start_game    <font color="ff:#EDFF63" letterSpacing="1.20"><i>START</i></font>
+&&ttr_make_rule    Custom Rules
+&&ttr_make_rule_confirm    Confirm custom rules
+
+&&Restart_in_game    Restart <font size="85%" color="ff:#FF7070">(Surrender)</font>
+&&BackToTitle_in_game    Main Menu <font size="85%" color="ff:#FF7070">(Surrender)</font>
+
+&&ttr_Play_CPU CPU Match
+&&ttr_Play_Online Online Match
+&&ttr_Play_Local2P Local 2P Match
+
+&&TTR_OPT_se_vol SE Vol
+&&TTR_OPT_bgm_vol BGM Vol
+
+&&ttr_Rule Rules
+&&ttr_Record Records
+
+&&AI_name_noel CPU ???
+&&AI_name_ostrea Ostrea
+&&AI_name_ixia Ixia
+&&AI_name_alma Alma
+&&AI_name_primula Primula
+
+&&Turn_manual My Turn &1
+&&Turn_manual_1 Player 1's Turn &1
+&&Turn_manual_2 Player 2's Turn &1
+&&Turn_CPU Thinking...
+
+&&RPL_Playing <key ra/>Fastforward
+
+
+&&Cutin_gamestart SEND YOUR DECISION
+&&Cutin_backattack BACK ATTACK!
+
+
+&&TTR_rule_title_0 Overview.1
+&&TTR_rule_title_1 Overview.2
+&&TTR_rule_title_2 Basics.1
+&&TTR_rule_title_3 Basics.2
+&&TTR_rule_title_4 Attacking
+&&TTR_rule_title_5 Defending
+&&TTR_rule_title_6 Victory
+&&TTR_rule_title_7 Essentials
+&&TTR_rule_title_8 Technique.1
+&&TTR_rule_title_9 Technique.2
+&&TTR_rule_title_10 Technique.3
+&&TTR_rule_title_11 Technique.4
+&&TTR_rule_title_12 Online Match.1
+&&TTR_rule_title_13 Online Match.2
+
+
+/* ___ TTR_rule_0 ___ */
+<font color="ff:#4fffec">4-ASCEND</font> is a 2-player
+competitive board game based on Gomoku.
+
+/* ___ TTR_rule_0_1 ___ */
+Local, CPU, and online matches
+are supported.
+
+/* ___ TTR_rule_1 ___ */
+Players alternate placing stones on the board for their team,
+<font color="ff:#5C98FF">Elves</font> (White), and <font color="ff:#FF6483">Monsters</font> (Black).
+The objective is to line up stones to <font color="ff:#4fffec">send</font>
+attacks to defeat the opponent.
+
+/* ___ TTR_rule_2 ___ */
+Players take turns placing stones on
+empty spaces of intersecting lines.
+
+/* ___ TTR_rule_3 ___ */
+When four stones of the same color are
+lined up in any direction, they move to attack.
+This is called an <font color="ff:#4fffec">Ascend</font>.
+
+/* ___ TTR_rule_4 ___ */
+Each stone used in an <font color="ff:#4fffec">Ascend</font>
+represents one point of damage.
+Stones used in an <font color="ff:#4fffec">Ascend</font> are
+removed from the board.
+
+/* ___ TTR_rule_5 ___ */
+After a player makes an <font color="ff:#4fffec">Ascend</font>, the
+opponent has a chance to counter with their own.
+Stones used by each player will cancel out until one or
+both sides remain with none. Leftover stones will
+then damage the opposing player.
+
+/* ___ TTR_rule_6 ___ */
+The game ends when one player's health reaches 0,
+or all spaces on the board are filled.
+The winner is the one with the most health,
+or the most stones on the board.
+
+/* ___ TTR_rule_7 ___ */
+A sound will play when you line
+up three stones in a row (Riichi).
+Always have a Riichi prepared in
+case your opponent <font color="ff:#4fffec">Ascends</font>.
+Otherwise you are guaranteed to take damage.
+
+/* ___ TTR_rule_8 ___ */
+As the game progresses, <font color="ff:#DFFFB4">Mana Plant</font>s
+will sprout up on the board.
+Stones placed on a <font color="ff:#DFFFB4">Mana Plant</font> during
+an <font color="ff:#4fffec">Ascend</font> will add an additional point
+when taking out opposing stones, but will not
+inflict additional damage to HP.
+
+/* ___ TTR_rule_9 ___ */
+After your opponent has made an <font color="ff:#4fffec">Ascend</font>,
+you can place one of your stones where their's
+used to be and perform a <font color="ff:#FFB5FF">Back Attack</font> to destroy it.
+If there was a <font color="ff:#DFFFB4">Mana Plant</font> on that space, you'll gain
+control of it, instantly netting two points of advantage.
+
+/* ___ TTR_rule_10 ___ */
+You can still make a <font color="ff:#FFB5FF">Back Attack</font>
+without creating an <font color="ff:#4fffec">Ascend</font>.
+Saving one extra point of damage
+may determine the winner.
+
+
+/* ___ TTR_rule_11 ___ */
+Mana Plants that grow immediately after an <font color="ff:#4fffec">Ascend</font>
+tend to grow in spaces that favor the attacker.
+But, if you <font color="ff:#4fffec">Ascend</font> continuously, they'll
+thin out and grow elsewhere.
+When things are at a standstill, are you willing
+to concede a few points of damage to win the war?
+
+
+/* ___ TTR_rule_12 ___ */
+Online matches against random players and friends are available.
+We use a free server to host these, apologies for any connection issues.
+If you want to play against a friend, share your room ID with them via Discord or other means.
+
+/* ___ TTR_rule_13 ___ */
+When a random match is over, player rank changes by how many
+games the player has won in the last 10 matches divided by 2 (max +4).
+This number is simply an indication of how well the player
+is doing, and does not affect matchmaking in any way.
+Winning against a higher rank opponent does not confer extra benefits.
+
+
+
+
+
+// ========================================================
+// MARK : Result
+// ========================================================
+
+
+&&ttr_announce_manual_1p Player 1 WIN!
+&&ttr_announce_manual_2p Player 2 WIN!
+&&ttr_announce_manual YOU WIN!
+&&ttr_announce_cpu CPU WIN...
+&&ttr_announce_online_player YOU LOSE...
+
+&&ttr_result_draw DRAW GAME
+&&ttr_draw_in_record Draw
+&&ttr_temporary_aborted_in_record Surrenders
+
+&&ttr_result_cause_defeat_0 <font color="ff:#B6D6FF">The monsters were defeated</font> (&1-&2)
+&&ttr_result_cause_defeat_1 <font color="ff:#FF88AA">The elves were defeated</font> (&1-&2)
+
+&&ttr_result_cause_life_low_0 With <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> HP remaining, <font color="ff:#B6D6FF">the Elves win</font>
+&&ttr_result_cause_life_low_1 With <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> HP remaining, <font color="ff:#FF88AA">the Monsters win</font>
+
+&&ttr_result_cause_stone_0 With <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> stones on the board, <font color="ff:#B6D6FF">the Elves win</font>
+&&ttr_result_cause_stone_1 With <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> stones on the board, <font color="ff:#FF88AA">the Monsters win</font>
+
+&&ttr_desc_date Date: &1
+&&ttr_desc_duration Duration: &1 (&2 Turns)
+&&date_hours &1H 
+&&date_minute &1M 
+&&date_second &1S
+
+
+&&ttr_result_cause_aborted  <font color="ff:#B6D6FF">Opponent defeated</font> (<font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font> HP)
+&&ttr_result_cause_aborted_me <font color="ff:#F10000"> Surrendered </font>
+
+&&ttr_record_header_high_score / <font size="60%">HIGH SCORE</font> &1<font size="75%">Pt.</font>
+
+&&ttr_record_header <font size="60%">WIN</font> &1 / <font size="60%">LOSE</font> &2
+
+&&ttr_record_header_draw / <font size="60%">DRAW</font> &1
+
+&&ttr_result_win Victory &1<font size="75%">Pt.</font>
+&&ttr_result_lose Defeat &1<font size="75%">Pt.</font>
+&&ttr_result_calc &1 x &2 = &3
+&&ttr_result_calc_hilight &1 x &2 = <font color="ff:#EDFF63">&3</font>
+&&ttr_result_rest_life Rem. HP Bonus &1
+&&ttr_result_overkill_damage Overkill Bonus &1
+&&ttr_result_apply_damage_when_lose Damage dealt: &1
+&&ttr_result_score Final Score <font size="160%">&1</font><font size="120%">Pt.</font>
+&&ttr_result_is_new_record <font color="ff:#EDFF63" size="140%">  NEW RECORD!</font> 
+
+&&ttr_result_special_max_hp Max HP: &1 vs &2 
+&&ttr_result_timekeep Time Limit: &1S
+&&ttr_result_timekeep_infinity Time Limit: None
+
+&&ttr_record_score Final Score &1 Pt.
+&&ttr_record_friend_match <font size="80%">(Friend Match)</font>
+&&ttr_record_o_rank OP rank:
+&&ttr_record_my_rank My rank:
+
+// ========================================================
+// MARK : Rule Make
+// ========================================================
+
+&&ttr_sprule_bigmotor BigMotor Board
+&&ttr_sprule_bigmotor_desc Mana plants will not grow.
+
+&&ttr_sprule_harvest Harvest Festival
+&&ttr_sprule_harvest_desc Ascending does not consume mana plants.
+
+&&ttr_pr_name_manual Player
+&&ttr_pr_name_manual_1p Player 1
+&&ttr_pr_name_manual_2p Player 2
+&&ttr_pr_name_manual_1p_online You
+&&ttr_pr_name_manual_2p_online OP
+&&ttr_pr_name_cpu CPU
+
+&&ttr_makerule_max_life HP
+&&ttr_makerule_timekeep Time Limit
+&&ttr_makerule_timekeep_second &1S
+&&ttr_makerule_timekeep_infinity None
+
+&&ttr_makerule_1pcolor 1P Color
+&&ttr_makerule_1pcolor_white White
+&&ttr_makerule_1pcolor_black Black
+&&ttr_makerule_1pcolor_auto Auto
+
+&&ttr_timekeep_pass <font color="ff:#E70909">PASS</font>
+
+&&ttr_makerule_plant Mana plants
+
+
+&&ttr_makerule_obtain_score Score Bonus &1<font size="75%">Pt.</font>
+&&ttr_makerule_online <font size="80%" >The rules for a random match are preset, except for stone colors.</font>
+&&ttr_makerule_online_friend <font size="80%" >The rules for a friend match are set by the host, except for stone colors.</font>
+
+
+
+&&ttr_stage Board
+
+&&ttr_stage_flat Standard
+&&ttr_stage_frontbase Frontlines
+&&ttr_stage_totalwar All-out War
+&&ttr_stage_grace_field Consecrated
+
+
+&&ttr_which_first First
+&&ttr_which_first_dice Die roll
+&&ttr_which_first_is_1p 1P
+&&ttr_which_first_is_2p 2P
+&&ttr_which_first_cpu CPU
+
+
+&&ttr_select_icon Select icon
+
+
+
+// ========================================================
+// MARK : Online
+// ========================================================
+
+&&ttr_online_abort Abort
+
+&&ttr_online_your_icon Your Icon
+
+&&ttr_online_match_nora Random Match
+&&ttr_online_match_friend Friend Match
+
+&&ttr_online_ann_error_connect Failed to connect to server
+&&ttr_online_ann_error_something Unknown error occurred
+&&ttr_online_ann_error_logout Session disconnected
+&&ttr_online_ann_connection Connecting to server...
+&&ttr_online_ann_matchmake Matchmaking...
+&&ttr_online_ann_matchmake_roomid Matchmaking... Room ID: &1
+&&ttr_online_ann_connection_error Error communicating with server!
+&&ttr_online_ann_matchmake_error Matchmaking timed out!
+
+&&ttr_online_ann_rematch Sending rematch request...
+&&ttr_online_ann_rematch_chk OP is viewing the replay...
+
+&&ttr_online_ann_matchmake_completed Matchmaking successful!
+&&ttr_online_logout_manual Session ended
+
+&&ttr_online_ann_dice OP is rolling the die...
+&&ttr_online_ann_start_1p You go first
+&&ttr_online_ann_start_2p OP goes first
+
+&&ttr_online_reconnect Attempting to reconnect...
+&&ttr_online_reconnected Reconnected
+&&ttr_online_ann_error_logout_youwin Session disconnected, you win.

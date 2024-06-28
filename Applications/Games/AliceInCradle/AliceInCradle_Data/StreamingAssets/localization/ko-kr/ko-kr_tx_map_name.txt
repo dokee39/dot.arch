@@ -1,0 +1,68 @@
+%FAMILY ko-kr
+
+&&MAP_house_road    마녀의 정원
+
+&&MAP_house_center    소악마의 언덕
+&&MAP_house_barn    훈련소
+&&MAP_house_cliff    코르넬 가의 묘지
+&&MAP_house_cliff_cave    마녀의 숨겨진 집
+&&MAP_house_shop    잡화점
+&&MAP_house_theroom    자는 방
+&&MAP_house_noelroom    노엘의 방
+&&MAP_house_atelier    마녀의 아틀리에
+
+&&MAP_house_lake    숲 끝 호수
+
+// ========================
+&&MAP_forest_clocktower     영락한 시계탑
+&&MAP_forest_ruin_station     비석의 가도 - 서쪽 휴게소
+&&MAP_forest_ruin_road     비석의 가도 - 고대 유적지
+&&MAP_forest_ruin_hall     비석의 가도 - 가시나무 사다리
+&&MAP_forest_ruin_station_r     비석의 가도 - 동쪽 휴게소
+&&MAP_forest_hiroba     거리 방면 언덕
+&&MAP_forest_hiroba_u     거목으로 이어지는 숨겨진 길
+&&MAP_forest_cliff_portal     산성 거목 - 검은 바위문
+&&MAP_forest_coroseum_frog     개구리의 검은 늪
+&&MAP_forest_frog_left    개구리의 검은 늪 - 검은 바위문
+
+
+&&MAP_forest_coroseum  낙오자의 둥지
+
+&&MAP_forest_athletic_ladder    두 사다리
+&&MAP_forest_lava_secret    치솟는 산류의 숨겨진 길
+&&MAP_forest_wood_extender_puzzle  거목이 얽혀드는 문 문제
+&&MAP_forest_senzyort  탈옥한 수류 스위치 문제
+&&MAP_forest_tc  꺾어서 맞춰라
+
+// ========================
+&&MAP_city_entrance_left    숲의 관문
+
+&&MAP_city_market_left    숲 군부대
+&&MAP_city_center    중앙 지구／천변시설 앞
+&&MAP_city_market_BL    중류층 지구
+&&MAP_city_slam    하류층 지구
+&&MAP_city_farm    목장 지구
+&&MAP_city_park    공원 지구
+&&MAP_city_entrance_right    미술관 지구
+&&MAP_city_entrance_rightcave    산 군부대
+&&MAP_city_scl_ground    베르밋 교정
+&&MAP_city_scl_center    베르밋 교문
+&&MAP_city_scl_dorm    베르밋 기숙사 지구
+&&MAP_city_mine    거석의 눈꺼풀
+
+&&MAP_city_in_dojo    피올렛 도장
+&&MAP_city_in_guild    모험가 길드
+&&MAP_city_in_bar    바 '삼월 토끼'
+&&MAP_city_in_museum    미술관
+&&MAP_city_in_museum_backyard    미술관 뒷편
+
+&&MAP_school_entrance    1층 입구
+&&MAP_school_in_hall_left　서관 1층 복도
+&&MAP_school_in_hall_right　동관 1층 복도
+&&MAP_school_in_hall_center　관리동 1층 복도
+&&MAP_school_in_health 의무실
+
+&&map_prefix_bermit 베르밋 &1
+
+
+&&MAP_city_in_baru 바 저장고

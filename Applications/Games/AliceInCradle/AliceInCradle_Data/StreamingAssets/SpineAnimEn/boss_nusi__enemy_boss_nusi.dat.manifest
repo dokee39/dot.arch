@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2873269740
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce6a824a861e4bd7a1fc2f9a08583621
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnimEn/boss_nusi/enemy_boss_nusi.png
+Dependencies: []

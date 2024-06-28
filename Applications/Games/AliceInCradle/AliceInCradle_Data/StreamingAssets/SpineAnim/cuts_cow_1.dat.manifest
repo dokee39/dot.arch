@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 245664626
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f243aefff065ab295fed4cefde4ee03
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/cuts_cow_1.png
+Dependencies: []

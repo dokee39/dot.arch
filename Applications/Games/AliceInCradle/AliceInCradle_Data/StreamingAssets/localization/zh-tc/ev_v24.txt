@@ -1,0 +1,22 @@
+// For translaters:
+// In the next version, this txt file containing the
+// enTire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+// ========================================================
+// MARK : s10_get_marker
+// ========================================================
+
+*s10_get_marker n_00
+嗯……
+許久沒出遠門了
+也帶一些能標記在地圖的記號吧
+
+*n_01
+隔了好久沒去學校了
+萬一迷路可就麻煩了……

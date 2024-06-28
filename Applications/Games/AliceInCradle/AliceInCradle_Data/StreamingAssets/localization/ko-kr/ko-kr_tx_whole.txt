@@ -1,0 +1,142 @@
+// 翻訳の必要のない情報
+// No need to translate sentenses written here
+
+&&discord_url https://discord.gg/aliceincradle
+&&twitter_url https://twitter.com/alice_in_cradle
+
+/* ___ Magic_Register_1 ___ */
+-Initializing [&1]-
+/* ___ Magic_Register_1_1 ___ */
+Registering for:
+  Personal casting device
+Device ID:
+  H4NIW4-T0N3
+
+
+/* ___ Magic_Register_2 ___ */
+-Personal Info-
+/* ___ Magic_Register_2_1 ___ */
+Name: Noel Cornehl
+Race: Female/Elf
+Tosi: 105
+
+/* ___ Magic_Register_2_2 ___ */
+Belongs: Bermit Public Univ. 
+Class: Cadet 3
+
+/* ___ Magic_Register_3 ___ */
+-Notice-
+/* ___ Magic_Register_3_1 ___ */
+She have Lost the PCD[ST3LL4-M4GC] 
+due to defeat to a monster.
+Her 2nd device: [H4NIW4-T0N3]
+
+/* ___ Magic_Register_4 ___ */
+-Decoding Data-
+
+
+/* ___ Magic_Register_5 ___ */
+-Checking conformity-
+
+
+/* ___ Magic_Register_5_1 ___ */
+Mana Capacity: &1 [CLEAR]
+Mental Clearance: 304% [CLEAR]
+Synchronicity: 405% [CLEAR]
+Circuit Fragility: 201% [CLEAR]
+Physical Grades: A [CLEAR]
+
+/* ___ Magic_Register_6 ___ */
+-Authentication process-
+
+
+/* ___ Magic_Register_7 ___ */
+-Checking consistency-
+
+/* ___ Magic_Register_7_1 ___ */
+Dev ID: &1
+Mana Consume: &2
+Cast Time: &3
+Efficiency: &4
+Fairness: &5
+
+/* ___ Magic_Register_8 ___ */
+-Socket Info-
+
+/* ___ Magic_Register_8_1 ___ */
+1. SNTHNTFN
+2. U41AK010
+3. KA5GHALT
+4. 1RTI4NL3
+
+/* ___ Magic_Register_t0 ___ */
+nande konnnani oogesana
+ensyutu nanoka
+kininaru tte hanasi
+
+/* ___ Magic_Register_t1 ___ */
+kono sekaino mahou ha
+zyuuzin tachi ga kanri
+seisan site imasu
+
+/* ___ Magic_Register_t2 ___ */
+anzen sei ga kakuritsu
+sareta mahou wo simin ga
+ansin site tsukaeru you ni
+
+/* ___ Magic_Register_t3 ___ */
+mahou media ha security no
+tsugou de ikkai sika
+tukaenai youni natteimasu
+
+/* ___ Magic_Register_t4 ___ */
+gakkou de seito ga mahou wo
+oboeru toki ha ninzuu bunn no
+touroku media ga hitsuyou
+
+/* ___ Magic_Register_t5 ___ */
+mahou wo tsukau tokiha
+hito ni mukete utanai youni
+ki wo tsuke te tsukatte ne
+
+
+
+&&_eventboard_0707 \n클리어!\n
+
+
+
+&&Debug_inject_if IF문으로 정지
+&&Debug_use_breakpoint <BREAK>로 정지
+
+
+
+%FAMILY ko-kr
+
+
+/* ___ _eventboard_house_220316 ___ */
+〜〜
+하시노 미즈하
+여기에 잠들다
+〜〜
+
+
+/* ___ Telop_StaffRole_0  ___ */
+@hinayua_r18 and @Hashinomizuha
+Presents
+
+
+
+
+
+/* ___ PadCheck_DirectInput ___ */
+<img mesh="KC_pad" scale="0.5" />DirectInput
+/* ___ PadCheck_XInput ___ */
+<img mesh="KC_pad" scale="0.5" />XInput
+
+
+
+&&Recipe_title_supersalad 디버그 샐러드
+&&Recipe_desc_supersalad 드레싱으로 스파게티 소스를.
+
+/* ___ pad_sensitivity_bg ___ */
+<fiximg mesh="KC_pad" tx_color alpha="0.25" margin="-10" behind="1" x="0" y="0" scale="2" /> 

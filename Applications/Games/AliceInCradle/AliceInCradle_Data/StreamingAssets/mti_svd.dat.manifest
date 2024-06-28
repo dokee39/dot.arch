@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3555349894
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0810d29153ac39e819d9d2fcf1fe9eda
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/MTI_svd/logo.png
+Dependencies: []

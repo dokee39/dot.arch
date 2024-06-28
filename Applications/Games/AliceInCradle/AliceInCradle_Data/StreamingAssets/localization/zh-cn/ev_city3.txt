@@ -1,0 +1,100 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence
+// to define the event name and label.
+// =====================
+
+// 酒吧里的一些对话。
+// ========================================================
+// MARK : 过去的回忆
+// ========================================================
+
+
+
+*___city/2weekattack_05 n_00
+<think>……呜！这样可不行，
+得想办法才能逃出去，
+要冷静一点才行……
+*
+<think><m ple>对了，法杖！
+得想办法把法杖召唤过来……
+
+// 热的液体
+*n_01
+<think><m ple>！？哇啊<m scary>……<m0>
+好热……
+
+*n_02
+<angry><m scary>嗯嗯ーー！！
+<m cry>嗯……<m fadein>呜啊……！！！
+
+*n_03
+<think><m fadein>要……要喘不过气了……
+身上的魔力也全都被吸走了……
+
+
+*n_04
+<angry><m scary><big>嘶ーーー
+呀啊ーーー！
+
+*n_05
+<think><m ple>好烫，<m angry>好烫好烫
+好烫好烫好烫啊啊啊啊啊！！！
+<m ple>不要！！好痛、好可怕……<w2>
+<m scary>放我出去！<w2>救命啊！！！
+*
+<think><m fadein>我要被消化掉了吗……?<w2>
+<m0>不要啊，<m scary>我还不想死，
+不要啊啊啊啊……！！！
+*
+<think><m ple>谁能来救救我！
+救命啊……！！拜托了，
+谁能来救救我，<m scary>有没有人
+有没有人能来……！！
+
+*n_06
+<angry><m scary>呜呜ーー！！<w1>
+<m cry>呜啊，<m ple>呜……<m scary>呜呜呜ーーー！！！
+
+*n_07
+<think><s2><m scary>烫烫烫烫烫死了……
+救命啊，这个东西烧得我的皮肤火辣辣地疼……
+*n_08
+<think><s2><m scary>好痛啊啊啊，快放我出去，求你了……！
+*n_09
+<think>再不……<m ple>再不逃出去的话，<m fadein>就死定了……
+但是发不出声音……没法把法杖召唤过来……
+*n_10
+<think>不行，<m scary>完蛋了，<m fadein>不要啊……
+
+*n_11
+<think><s2><m scary>咕呜……<m fadein>呜……
+<m0>呜……！<m cry>呜啊……
+
+*n_12
+<think><s2><m fadein>啊……啊啊……
+*
+<think><s3><m fadein>看来我要完蛋了啊。
+……呜，真不甘心，
+明明我还不想死的……
+
+*n_13
+<think><s3><m fadein>好痛，好痛啊啊……
+呜呜……呜呜呜……
+*
+<think><s3><m fadein>还是想要呼救……
+但是自己已经发不出声音……
+也什么都听不见了……
+*
+<think><s3><m fadein>……不过，再怎么说……
+至少我让……阿尔玛同学得救了……
+*n_14
+<think><s3><m fadein>啊……<w1>
+意识……变得模糊了……
+*n_15
+<think><s4><m fadein>姐姐……<w1>哥哥……<w2>
+<s5>老……<w2>师……

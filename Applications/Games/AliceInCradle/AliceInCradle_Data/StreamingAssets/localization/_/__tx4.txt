@@ -1,0 +1,248 @@
+%FAMILY _
+
+// ========================================================================
+// 231006 カタログの追加要素
+
+&&CatalogI_tab_shopping 購入できるお店
+// 素材回収の木／池で開いたときのピックアップタイトル
+&&Catalog_pickup_current_reel_spot 素材スポット (&1)
+
+
+// ==================
+// 231008 宝箱を手に入れた際にアイテムがいっぱい
+&&MoneyBox_adding_need_enough_room でも、手持ちアイテムがいっぱいで持てない……
+&&MoneyBox_adding_need_bottle でも、&1がないから持てない……
+
+
+// ========================================================
+// MARK : ver0.25
+// ========================================================
+
+
+&&Area_school  ベルミット\b士官校
+&&Area_sacred  恵みの母石
+
+&&GM_error_sacred エラー: 致命的な高濃度の魔力を検知。 速やかにその場から離れて下さい。
+
+// ========================================================
+// MARK : Dojo Game
+// ========================================================
+&&Mgm_dojo_tutorial 準備運動
+/* ___ Mgm_dojo_tutorial_desc ___ */ 
+このミニゲームの
+チュートリアルを確認します。
+失敗しても特に
+ペナルティはありません。
+/* ___ Mgm_dojo_generator_desc ___ */ 
+難易度: &1
+/* ___ Mgm_dojo_generator_count ___ */ 
+プレイ回数: &1 (勝利数:&2 ／ 最小ミス数:&3)
+/* ___ Mgm_dojo_generator_count_not_played ___ */ 
+プレイ回数: &1 (勝利数:&2)
+
+
+/* ___ Mgm_dojo_confirm_tutorial ___ */
+千里の道も一歩から。
+まずは当道場における作法を頭に叩き込むべし。
+
+
+/* ___ Mgm_dojo_confirm_learned ___ */
+既に習得したスキルであろうと、
+たゆまぬ鍛錬を惜しむこと無かれ。
+
+/* ___ Mgm_dojo_confirm_not_learned_first ___ */
+新たなスキルを学ぶ場合、
+初回のみこの価格を頂戴している。
+
+/* ___ Mgm_dojo_confirm_not_learned ___ */
+前回は、うぬのものとすることが叶わず仕舞いであったな。
+技術の体得には、何度打倒されても挑み続けることが肝要だ。
+
+
+/* ___ Mgm_dojo_confirm_choose ___ */
+「&1」の稽古を開始する！
+
+/* ___ Mgm_dojo_confirm_choose_tutorial ___ */
+準備運動を開始する！
+
+
+&&Mgm_dojo_confirm_btn_ok お願いします！
+&&Mgm_dojo_confirm_btn_cancel ちょっと待って
+
+
+
+
+&&Mgm_dojo_tuto_play_rest    あと &1 回
+&&Mgm_dojo_tuto_play0    リズムに合わせてグー<key la/>を出そう
+&&Mgm_dojo_tuto_play1    リズムに合わせてチョキ<key ra/>を出そう
+&&Mgm_dojo_tuto_play2    リズムに合わせてパー<key ta/>を出そう
+&&Mgm_dojo_tuto_play4    リズムに合わせて相手に勝つ手を出そう
+&&Mgm_dojo_indicate_next_hand    これ
+
+// ミニゲームUI
+
+&&Mgm_ui_highscore ハイスコア:
+&&Mgm_ui_playcount プレイ回数: 
+&&Mgm_ui_playcount_content &1 回
+&&Mgm_ui_updated_highscore ハイスコア更新！
+
+// Museum Viewer
+&&Museum_image_index &1<font size="20">/&2</font>
+&&KD_museum_viewer <key rem/>UI非表示 <key shift/>+<key ba/><key ta/>拡大／縮小
+&&KD_museum_viewer_move 切替
+&&KD_museum_viewer_quit <key menu/>終了
+&&KD_museum_viewer_comment <key c/>品評
+
+
+
+// 状態異常
+// アクチール: Actihol
+
+&&SerTitle_drunk    ふわふわ
+/* ___ SerDesc_drunk ___ */ 
+アクチールによって意識がふわふわした状態。
+
+// 後半は↓ orgasm_after とほぼ同じ文章です。
+
+/* ___ SerDesc_drunk_1 ___ */ 
+料理で得られるバフ効果が&1%減少します。
+
+/* ___ SerDesc_drunk_2 ___ */ 
+また、時々転倒してしまいます。
+
+/* ___ SerDesc_drunk_3 ___ */ 
+飲むべきじゃなかった。
+
+/* ___ SerDesc_drunk_0 ___ */ 
+MPゲージのヒビ割れがある程度防がれます。
+魔力の回復効率が低下します。
+この効果はベンチに座っても回復せず、
+戦闘などによって時間を経過させる
+か、水を飲むことで回復できます。
+
+
+
+// 買い物での飲食
+// tx2 の lunch_confirm / tx3 の lunch_drink_confirm に対応しています。
+
+&&lunchstore_drink_confirm <b>「&1」</b>を買って飲む？
+&&lunchstore_drink_confirm_burst <font color="ff:#A00B35">お腹いっぱいで飲み切れないけど</font>\n<b>「&1」</b>を買って飲む？
+&&lunchstore_drink_confirm_dupe <font color="ff:#B828AC">十分に栄養が取れないかもしれないけど</font>\n<b>「&1」</b>を買って飲む？
+
+
+&&lunchstore_confirm <b>「&1」</b>を買って食べる？
+&&lunchstore_confirm_burst <font color="ff:#A00B35">お腹いっぱいで食べ切れないけど</font>\n<b>「&1」</b>を買って食べる？
+&&lunchstore_confirm_dupe <font color="ff:#B828AC">十分に栄養が取れないかもしれないけど</font>\n<b>「&1」</b>を買って食べる？
+
+&&Eat_Buy 買って食べる &1
+&&Eat_Buy_Drink 買って飲む &1
+
+&&SerTitle_overrun_tired    酷使
+/* ___ SerDesc_overrun_tired ___ */ 
+魔力が少ない状態で魔術を使い続けて疲労した状態。
+受けるダメージが増大します。
+MPゲージが割れやすくなります。
+「昏倒」が発生しやすくなります。
+マップを移動することで回復します。
+
+&&SerTitle_milky    母乳体質
+/* ___ SerDesc_milky ___ */ 
+大地のふしぎな力によって
+ノエルジュースの代わりに
+ノエルミルクが出ます。
+何故って？大地のふしぎな力の為です。
+
+
+&&SerTitle_clt_broken    衣装破壊
+/* ___ SerDesc_clt_broken ___ */ 
+衣装が破れてしまった状態。
+ベンチに座ることで修繕できます。
+
+/* ___ SerDesc_clt_broken_detail ___ */ 
+受けるダメージが1.5倍になります。
+回避の無敵時間が増大します。
+
+
+/* ___ Store_BarUnder_Help_Title ___ */
+酒場の秘密の蔵
+
+/* ___ Store_BarUnder_Help_Contents ___ */
+「売る」で手持ちのノエルジュース／ノエルミルク／ノエルの卵を
+独自通貨<font color="ff:#646D00">エキス <img mesh="money_juice"/> </font>に交換し、
+手に入れた<font color="ff:#646D00">エキス <img mesh="money_juice"/> </font>で商品を購入しましょう。
+
+アイテムを購入後、余った<font color="ff:#646D00">エキス <img mesh="money_juice"/> </font>は
+バーテンダーさんが管理してくれるので、次の取引に持ち越すことができます。
+
+いっぱいいっぱい出して、世界の裏側へ至る設定項目を潤しましょう。
+
+&&Store_selling_worthless これを売っても意味がない。
+
+/* ___ Item_special_config_detail ___ */ 
+コンフィグに新しい項目を追加します。
+このアイテムはインベントリ上には
+表示されません。
+
+&&Alert_spconfig_activate 新しいコンフィグ項目を得た。
+
+&&Alert_explode_bomb_in_inventory 持っていた爆弾が誘爆した…。
+
+&&deperture_dialog どこに行こう？
+&&deperture_home 拠点
+
+// ========================================================
+// MARK : ver0.25d 錬金術カタログ 新要素
+// ========================================================
+
+&&Catalog_enemyspot_dangerous 危険度: &1
+
+&&Catalog_pickup_reel_on_map アイテムリールスポット(&1)
+
+// ↓エネミースポット関連の一覧が追加されます。
+
+&&Catalog_categ_item_summoner エネミースポット
+&&KD_reel_detail アイテムリールの詳細
+&&KD_enemyspot エネミースポットの詳細
+
+
+&&CatalogI_tab_enemyspot 取得できるエネミースポット
+&&CatalogI_tab_enemydrop ドロップする敵
+&&CatalogN_enemyspot_defeated 今まで撃破した回数: &1回
+
+// ↓英語などの言語で「このアイテムを取得できる宝箱」というカテゴリーとして
+// 実装されていましたが、新しく「この戦闘エリアで得られる宝箱」というカテゴリーが追加されます。
+
+&&CatalogI_tab_chest_from_here 取得できる宝箱
+
+&&CatalogI_tab_address 場所
+&&catalog_show 表示
+
+&&recipe_categ_actihol カクテル
+&&name_recipe_actihol カクテルレシピ:&1
+
+
+
+// ========================================================
+// MARK : ver0.25f
+// ========================================================
+
+&&Alert_new_config_on_barunder  蔵に新商品が入荷されました。
+
+// ゲームオーバーの際、拘束解除／シャッフルボタンが追加されます。
+&&KD_go_escape_from_bind  拘束解除
+&&KD_shuffle_enemy_position  シャッフル
+
+
+
+// 錬金術カタログの減少カテゴリ
+&&Catalog_categ_sub_reduce_hp HP減少
+&&Catalog_categ_sub_reduce_mp MP減少
+&&Catalog_categ_sub_reduce_ep 興奮率減少
+
+/* ___ Alert_new_keybind_for_check ___ */
+ver0.25bより、キーコンフィグに新しく
+「調べる／話す」が追加されました。
+
+もし、ものを調べられなくなったりして困ったときは
+キーコンフィグを確認して下さい。
+

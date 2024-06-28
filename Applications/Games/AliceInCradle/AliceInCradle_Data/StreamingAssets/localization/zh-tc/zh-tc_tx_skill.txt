@@ -1,0 +1,213 @@
+%FAMILY zh-tc
+
+// ========================================================
+// MARK : SKILL
+// ========================================================
+
+/* ___ Skill_desc_punch ___ */
+揮動杖的攻擊。
+威力非常弱小、但是魔力不足時
+從敵人身上奪取魔力時非常有用。
+
+
+&&Skill_title_shotgun 散彈槍
+&&Skill_manipulate_shotgun 魔術詠唱保持中<key z/>
+
+/* ___ Skill_desc_shotgun ___ */
+魔力能量近距離爆發、可以對敵人造成巨大傷害。
+威力和效果依據詠唱中的魔法變化。
+
+
+
+&&Skill_title_sliding 滑壘
+&&Skill_manipulate_sliding <key ba/>+<key z/>
+
+/* ___ Skill_desc_sliding ___ */
+不可靠的下段攻擊。
+碰到敵人或有高低差時會跌倒請注意。
+
+
+
+&&Skill_title_guard 護盾
+&&Skill_manipulate_guard <key lsh/>
+
+/* ___ Skill_desc_guard ___ */
+從敵人攻擊和有毒大氣中保護自己
+如持續遭受敵人攻擊可能會破碎。
+
+
+&&Skill_title_evade 迴避
+&&Skill_manipulate_evade <key lsh/>+<key la/><key ra/>
+
+/* ___ Skill_desc_evade ___ */
+
+一瞬間無敵、迴避敵人的攻擊。
+<key la/><key ra/>依據按下時間長短可以調整移動距離。
+空中也可以使用、在需要稍微
+增加空中的移動距離非常有用。
+
+
+&&Skill_title_guard_bush 護盾衝擊
+&&Skill_manipulate_guard_bush <key lsh/>+<key z/>
+
+/* ___ Skill_desc_guard_bush ___ */
+將護盾的能量擴散。
+在敵人將要攻擊命中前按下的話、
+可以將敵人擊飛。
+
+
+&&Skill_title_evade_dancing 舞踏斬擊
+&&Skill_manipulate_evade_dancing 在地上回避中<key la/><key ra/>+<key z/>
+/* ___ Skill_desc_evade_dancing ___ */
+迴避敵人的攻擊後、向前踏出的攻擊。
+在恰當的時機按下<key z/>可以追加三次攻擊、
+散彈槍有效的攻擊只有第一發。
+護盾衝擊將敵人擊飛後也可以使用。
+
+
+
+&&Skill_title_guard_lariat 軌道護盾
+&&Skill_manipulate_guard_lariat <key lsh/>+<key la/><key ra/>+<key z/>
+
+/* ___ Skill_desc_guard_lariat ___ */
+將護盾從術者分開後旋轉。
+每次打擊後護盾強度會減弱、
+沒辦法連續使用。
+旋轉中敵人如果侵入裡面
+會變成無防備的狀態請注意。
+
+
+
+&&Skill_title_burst 聖光爆發
+&&Skill_manipulate_burst <key z/>+<key x/>長按
+
+
+
+
+
+&&Skill_title_wheel 旋風迴轉
+&&Skill_manipulate_wheel 在空中時<key z/>+<key la/><key ra/>
+
+/* ___ Skill_desc_wheel ___ */
+保持著迴轉狀態下、向敵人的攻擊。
+如果魔法詠唱保持中使用的話、會對所有敵人造成
+等同為小威力散彈槍的效果。
+使用前、後的延遲很大。
+
+
+
+&&Skill_title_comet 彗星衝擊
+&&Skill_manipulate_comet 在空中時<key z/>+<key ba/>
+
+/* ___ Skill_desc_comet ___ */
+往正下方的高速攻擊、攻擊間無敵狀態。
+威力跟小攻擊一樣。
+如果魔法詠唱保持中使用的話
+會有等同為大威力散彈槍的效果。
+
+
+&&Skill_title_hp5 HP+5
+&&Skill_manipulate_hp5 
+
+/* ___ Skill_desc_hp5 ___ */
+最大HP増加5。
+
+
+&&Skill_title_hp10 HP+10
+&&Skill_manipulate_hp10 
+
+/* ___ Skill_desc_hp10 ___ */
+最大HP増加10。
+
+
+&&Skill_title_hp20 HP+20
+&&Skill_manipulate_hp20 
+
+/* ___ Skill_desc_hp20 ___ */
+最大HP増加20。
+
+
+&&Skill_title_mp5 MP+5
+&&Skill_manipulate_mp5 
+
+/* ___ Skill_desc_mp5 ___ */
+最大MP増加5。
+
+
+&&Skill_title_mp10 MP+10
+&&Skill_manipulate_mp10 
+
+/* ___ Skill_desc_mp10 ___ */
+最大MP増加10。
+
+&&Skill_title_mp20 MP+20
+&&Skill_manipulate_mp20 
+
+/* ___ Skill_desc_mp20 ___ */
+最大MP増加20。
+
+/* ___ Skill_title_sp_bird ___ */
+翅膀的護符
+/* ___ Skill_desc_sp_bird ___ */
+描繪著舊世代生物鳥的護符。
+可以使用從敵人攻擊和有害大氣保護自己的護盾、
+也可以使用能暫時無敵迴避的動作。
+
+// ========================================================
+// MARK : 2022 2月
+// ========================================================
+
+
+&&Skill_title_ukemi 受身
+&&Skill_manipulate_ukemi <key lsh/>+<key la/><key ra/>
+
+/* ___ Skill_desc_ukemi ___ */
+
+被敵人擊飛時、著地的瞬間使用迴避的話、將能立刻起身。
+乾枯狀態等...不能使用迴避狀態的情況使用的話、
+迴避之後會跌倒。
+
+
+/* ___ Skill_title_sp_difficulty0 ___ */
+埴輪土偶護身符
+
+/* ___ Skill_desc_sp_difficulty0 ___ */
+大幅增加HP,MP、但是寶箱的取得機率下降。
+要使用需要按下<key menu/>打開目錄
+「技能」選單內「使用」勾選。
+
+
+// ========================================================
+// MARK : 2022 12月
+// ========================================================
+
+
+/* ___ Skill_title_dashpunch ___ */
+衝刺強襲
+&&Skill_manipulate_dashpunch 跑步一會兒後按<key z/>
+
+/* ___ Skill_desc_dashpunch ___ */
+乘著跑步的氣勢向前方的攻擊
+威力跟小攻擊一樣。
+如果魔法詠唱保持中使用的話
+會有等同為大威力散彈槍的效果。
+
+
+
+
+/* ___ Skill_title_airpunch ___ */
+空中斬
+&&Skill_manipulate_airpunch 在空中時按<key z/>
+
+/* ___ Skill_desc_airpunch ___ */
+從空中稍微向前方逼近的攻擊
+威力跟小攻擊一樣。
+如果魔法詠唱保持中使用的話
+會有等同為大威力散彈槍的效果。
+
+
+// ver 022d: 変更
+// ========================================================
+/* ___ Skill_desc_burst ___ */
+將魔力一口氣爆發出來、擊飛周圍的敵人
+這個技能在施術者有意識的情況下隨時都可以使用

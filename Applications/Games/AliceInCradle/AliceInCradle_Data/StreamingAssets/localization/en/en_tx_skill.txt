@@ -1,0 +1,179 @@
+%FAMILY en
+
+// ========================================================
+// MARK : SKILL
+// ========================================================
+
+/* ___ Skill_desc_punch ___ */
+Bash enemies with your staff at close range.
+Weak attack power, but can be used to knock mana out of enemies.
+
+&&Skill_title_shotgun Shotgun
+&&Skill_manipulate_shotgun Press <key z/> while chanting.
+
+/* ___ Skill_desc_shotgun ___ */
+Hit enemies with a burst of mana at close range, dealing significant damage.
+The power and effect depends on the magic being chanted.
+
+&&Skill_title_sliding Sliding
+&&Skill_manipulate_sliding <key ba/>+<key z/>
+
+/* ___ Skill_desc_sliding ___ */
+An unreliable downward attack.
+If you hit an enemy or slide off a ledge, you will be knocked down.
+
+&&Skill_title_guard Shield
+&&Skill_manipulate_guard <key lsh/>
+
+/* ___ Skill_desc_guard ___ */
+Protect yourself from enemy attacks and toxic fumes.
+The shield will break if it takes too many attacks.
+
+&&Skill_title_evade Dodge
+&&Skill_manipulate_evade <key lsh/>+<key la/><key ra/>
+
+/* ___ Skill_desc_evade ___ */
+
+Briefly become invincible and avoid enemy attacks.
+Distanced traveled can be increased by holding<key la/>or<key ra/>longer.
+Can also be used in mid-air to extend hang time.
+
+&&Skill_title_guard_bush Shield Bash
+&&Skill_manipulate_guard_bush <key lsh/>+<key z/>
+
+/* ___ Skill_desc_guard_bush ___ */
+Release the shield's energy.
+Can be used to parry an enemy's attack and knock them down.
+
+&&Skill_title_evade_dancing Dancing Slash
+&&Skill_manipulate_evade_dancing <key la/><key ra/>+<key z/> while dodging on the ground
+/* ___ Skill_desc_evade_dancing ___ */
+Delivers an attack right after executing a dodge.
+Time and hit <key z/> well and you can deal up to three additional hits.
+Shotgun effects will only be applied on the first hit.
+Can also be used after repelling an enemy's attack with Shield Bash.
+
+&&Skill_title_guard_lariat Orbital Shield
+&&Skill_manipulate_guard_lariat <key lsh/>+<key la/><key ra/>+<key z/>
+
+/* ___ Skill_desc_guard_lariat ___ */
+The shield is separated from the user and swung around.
+A hit consumes the shield's durability, so it cannot be used many times in a row.
+Note that if an enemy gets inside the orbit while you are swinging your shield,
+you will become defenseless.
+
+&&Skill_title_burst Burst
+&&Skill_manipulate_burst Press and hold <key z/>+<key x/>
+
+/* ___ Skill_desc_burst ___ */
+Detonates mana and knocks back surrounding enemies. 
+Can be used at any time as long as the caster has consciousness.
+
+
+&&Skill_title_wheel Cyclone Slash
+&&Skill_manipulate_wheel <key z/>+<key la/><key ra/>in mid-air
+
+/* ___ Skill_desc_wheel ___ */
+Spin wildly and rush towards the enemy.
+Applies shotgun effect on hit, if one is held.
+You will be vulnerable for a brief moment after landing.
+
+
+&&Skill_title_comet Comet Dive
+&&Skill_manipulate_comet <key z/>+<key ba/>in mid-air
+
+/* ___ Skill_desc_comet ___ */
+Attack by dropping down at high speed. You will be almost invincible while falling.
+Applies shotgun effect on hit, if one is held.
+Has the same power as a weak attack.
+
+&&Skill_title_hp5 HP+5
+&&Skill_manipulate_hp5 
+
+/* ___ Skill_desc_hp5 ___ */
+Maximum HP increased by 5.
+
+&&Skill_title_hp10 HP+10
+&&Skill_manipulate_hp10 
+
+/* ___ Skill_desc_hp10 ___ */
+Maximum HP increased by 10.
+
+&&Skill_title_hp20 HP+20
+&&Skill_manipulate_hp20 
+
+/* ___ Skill_desc_hp20 ___ */
+Maximum HP increased by 20.
+
+&&Skill_title_mp5 MP+5
+&&Skill_manipulate_mp5 
+
+/* ___ Skill_desc_mp5 ___ */
+Maximum MP increased by 5.
+
+&&Skill_title_mp10 MP+10
+&&Skill_manipulate_mp10 
+
+/* ___ Skill_desc_mp10 ___ */
+Maximum MP increased by 10.
+
+&&Skill_title_mp20 MP+20
+&&Skill_manipulate_mp20 
+
+/* ___ Skill_desc_mp20 ___ */
+Maximum MP increased by 20.
+
+
+
+/* ___ Skill_title_sp_bird ___ */
+Wing Talisman
+/* ___ Skill_desc_sp_bird ___ */
+A talisman with the image of the lost civilization's 'Bird' drawn on it.
+Enables the use of a shield to protect yourself from enemy attacks and miasmas.
+You can also now perform a dodge that grants a small window of invincibility.
+
+
+// ========================================================
+// MARK : 2022 2月
+// ========================================================
+
+/* ___ Skill_title_sp_difficulty0 ___ */
+Statue Talisman
+
+/* ___ Skill_desc_sp_difficulty0 ___ */
+Greatly increases HP and MP, but decreases
+the probability of obtaining treasure chests.
+To use it, Press <key menu/> and open Skill Tab,
+then check the "Use" checkbox.
+
+&&Skill_title_ukemi Feline Reflexes
+&&Skill_manipulate_ukemi <key lsh/>+<key la/><key ra/>
+
+/* ___ Skill_desc_ukemi ___ */
+
+When knocked back by an enemy, perform a dodge when you land to immediately get back on your feet.
+If used while you have a condition that prevents dodging (e.g. Exhausted), you will fall over afterwards.
+
+
+// ========================================================
+// MARK : ver022
+// ========================================================
+
+/* ___ Skill_title_dashpunch ___ */
+Dash Strike
+
+&&Skill_manipulate_dashpunch <key z/>after running for a short distance
+
+/* ___ Skill_desc_dashpunch ___ */
+Dash forward and strike enemies at high speed.
+Held shotgun effects will be applied to the first enemy hit.
+Power is the same as a normal weak attack.
+
+/* ___ Skill_title_airpunch ___ */
+Air Slash
+&&Skill_manipulate_airpunch <key z/>in midair
+
+/* ___ Skill_desc_airpunch ___ */
+Lunge forward in midair to strike enemies.
+Held shotgun effects will be applied to the first enemy hit.
+Power is the same as a normal weak attack.

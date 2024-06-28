@@ -1,0 +1,256 @@
+// For translaters:
+// In the next version, this txt file containing the
+// enTire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+// ========================================================
+// MARK : ___CoffeeMaker/t01
+// ========================================================
+
+
+
+
+
+*___CoffeeMaker/t01 cm_00
+<m fadein><s2><i>...The Lost Forest - a place of natural splendor juxtaposed by the wicked creatures within,
+<W1>and the setting for our grand adventure.<W3>
+*
+<m fadein><s2><i>A young girl happens upon a small clearing.<W3> 
+She stops dead in her tracks,<W1> captivated by a most unusual fragrance.<W3>
+
+
+
+*n_01
+Excuse me...
+
+
+*cm_02
+<m fadein><s2><i>Sitting atop a stump was a mysterious gentleman,<W1> his face veiled by a sheaf of grey paper.<W3>
+He noticed the unexpected visitor,<W1> and addressed her with his deep voice.<W3>
+
+
+*
+<m fadein><s2><i>Although this was no time for the girl to relax,<W1> she found herself entranced by the gentleman’s calm composure and this strangely comforting new scent.<W3>
+
+
+*n_03
+<think>Uh...
+
+*cm_03
+<m fadein><s2><i>It seemed to be coming from the liquid the gentleman held in his hand.<W3>
+Its color was dark brown,<W1> akin to that of mud;<W3>  it didn’t look to be a beverage at all.<W3>
+*
+<m fadein><s2><i>Faint shimmers glinted from the liquid’s surface with each twitch of his shaky grasp.<W3>
+The girl’s curiosity was piqued.<W3>
+
+
+*cm_04
+<m fadein><s2><i>She glanced at the glass apparatus down by the man’s feet.<W3>
+It was similar to the flasks she used for alchemy.<W3>
+Inside it was the same mysterious brown liquid.<W3>
+
+*
+<m fadein><s2><i>Could this tool be what was producing the fragrance?<W3>
+If so,<W1> then this must be yet another of alchemy’s numerous miracles.<W3>
+
+
+*cm_05
+<m fadein><s2><i>...The girl knew a thing or two about alchemy.<W3>
+With the help of this strange man,<W1> she would certainly be able to master this new secret art easily.<W3>
+
+
+
+*n_05
+<think>What...?
+
+*cm_06
+<m fadein><s2><i>...It seems that this odd alchemy equipment is extremely precious,<W1> only the few who are certified are allowed to use it.<W3>
+However,<W1> the gentleman was willing to generously sell some of the liquid,<W1> if she offered enough.<W3>
+*
+<m fadein><s2><i>The girl checked the number of coins and empty bottles in her pocket and began negotiating.<W3>
+
+
+
+*n_07
+......
+
+
+*cm_08
+<m fadein><s2><i>A familiar scent drew the girl's steps to the wandering alchemist.<W3> 
+The gentleman,<W1> as usual,<W1> did not reveal his face to her.<W3>
+His breezy demeanor and bizarre,<W1> complex apparatus sat in direct opposition to the labyrinth in which they resided.<W3>
+
+*
+<m fadein><s2><i>He said that this fragrance is made from a special type of bean,<W1> roasted and ground,<W1> then brewed into a liquid.<W3>
+This liquid,<W1> so-called “coffee”,<W1> was enjoyed religiously in ancient times as an elixir of sorts,<W1> if you can believe that.<W3>
+
+
+
+// ========================================================
+// MARK : 2
+// ========================================================
+
+*___CoffeeMaker/t02 cm_00
+<m fadein><s2><i>The girl wanders through the endless maze,<W1> her heart gripped with fear as she stumbles through its dark and twisted corridors...
+*
+<m fadein><s2><i>Warm visions of home flash in her mind.<W3> But each moment is cut short,<W1> stolen by the surrounding darkness,<W1> denying her any respite.<W3>
+
+*n_01
+<think>Oh god...
+
+*cm_02
+<m fadein><s2><i>Her muscles tense.<W3> Her eyes go blank.<W3>
+Her will shatters.<W3> She drops her staff to the ground.<W3>
+Pushed to her limit,<W1> she falls to her knees in despair.<W3>
+
+*n_03
+<think>Okay,<W1> maybe it’s not that bad.<W3>
+
+*cm_04
+<m fadein><s2><i>A familiar gentleman comes into view.<W3>
+Slowly,<W1> like the morning sun peeking out from behind a snow-covered mountain,<W1> her mouth begins to form the faintest of smiles.<W3>
+*
+<m fadein><s2><i>She reaches forth with an outstretched hand,<W1> as if she were a vine yearning to touch the sun itself.<W3>
+
+
+*cm_05
+<m fadein><s2><i>Ahh,<W1> that fragrance;<W3> sweet nectar of the gods.<W3>
+The crushing weight of her perilous journey falls away as the scent warms her spirit in what feels like a newly found home away from home.<W3>
+*
+<m fadein><s2><i>Perhaps in this way,<W1> 
+the wandering alchemist is like a father to her.<W3>
+
+
+*n_06
+<think>Actually, let’s not go that far...
+
+*cm_07
+<m fadein><s2><i>Once again,<W1> the girl noticed the same alchemy equipment lying by the man’s feet.<W3>
+It seems that this odd alchemy equipment is extremely precious,<W1> only the few who are certified are allowed to use it.<W3>
+*
+<m fadein><s2><i>However,<W1> the gentleman was willing to generously sell some of the liquid,<W1> if she offered enough.<W3>
+
+*n_08
+<think>As we’ve come to expect.<W3>
+
+// ========================================================
+// MARK : 3
+// ========================================================
+
+
+*___CoffeeMaker/t03 cm_00
+<m fadein><s2><i>As pale as freshly fallen snow,<W1> draped in matching garments that only magnified its intensity,<W1> the girl’s skin was a vision of white purity if ever there was one.<W3>
+
+*
+<m fadein><s2><i>But,<W1> alas!<W3> How could this be?<W3> 
+A streak of crimson tears through the tranquil spectacle,<W1> crawling over her skin,<W1> tainting the earth with its darkness...
+
+*n_01
+Excuse me...
+
+
+
+*___CoffeeMaker/t03 cm_01
+<m fadein><s2><i>Death was always lurking around every corner of her curiosity fueled adventure.<W3>
+She knew this.<W3> Certainly she must.<W3>
+Will the mire of fear claim her?<W3> 
+Will the gust of a sharp blade’s slash stop her?<W3>
+*
+<m fadein><s2><i>No,<W1> she will continue delving into the darkness,<W1> 
+determined to face all challenges ahead.<W3>
+Has she gone mad?<W3> 
+Is she keeping a promise to a dear friend?<W3>
+Or,<W1> was this all a plot from some sick,<W1> twisted being?<W3>
+
+*n_02
+<think>......
+
+*cm_03
+<m fadein><s2><i>Continuously she drew the cards into her hand.<W3>
+Was it a seven of hearts?<W3> 
+The nine of diamonds?<W3> 
+I’ll be damned,<W1> the ace of spades?<W3> 
+*
+<m fadein><s2><i>There’s no way to know the outcome ahead of time,<W1> 
+and the blood she spilled was the price to play.<W3>
+The bloodied snow shall become an avalanche,<W1> swallowing everything in its path.<W3> 
+*
+<m fadein><s2><i>It will not stop until the last card is drawn.<W3>
+Even when everything turns white,<W1> may there be at least the scent of this elixir still remaining.<W3>
+
+*n_04
+<think>Is he worried about me?
+
+*cm_05
+<m fadein><s2><i>Once again,<W1> the girl noticed the same alchemy equipment lying by the man’s feet.<W3>
+It seems that this odd alchemy equipment is extremely precious,<W1> only the few who are certified are allowed to use it.<W3>
+However──　
+
+
+*n_06
+You said I could borrow it, right?
+
+
+*cm_07
+......
+
+
+// ========================================================
+// MARK : 4
+// ========================================================
+
+*___CoffeeMaker/t04 n_00
+<think>Hm?<W3> What is that smell...
+
+*cm_01
+<m fadein><s2><i>Once more the labyrinth unfolds before the girl’s very eyes...
+
+*n_02
+<think>Oh god...
+
+*cm_03
+<m fadein><s2><i>By now it has become a prosaic sight to her.<W3>
+*
+<m fadein><s2><i>The monsters writhing around her feet,<W1> the traps dripping with blood just waiting for their next victim...<W3>
+They were no more noteworthy to her than the arrival of the daily newspaper,<W1> or a glass of milk in the morning.<W3>
+*
+<m fadein><s2><i>But,<W1> like night and day,<W1> she noticed something was different this time.<W3>
+*
+<m fadein><s2><i>The fine gentleman was waiting at her destination with his alchemical equipment,<W1> as always.<W3>
+The fragrance,<W1> however,<W1> was not something she had been acquainted with yet.<W3>
+*
+<m fadein><s2><i>It smelled of fresh leaves,<W1> reminiscent of herbs she’d encountered before,<W1> but different enough to feel unfamiliar.<W3>
+*
+<m fadein><s2><i>Today was her lucky day,<W1> indeed.<W3>
+This special blend of herbal tea was grown in a mana-free environment,<W1> using methods meant to replicate the olden times as closely as possible.<W3>
+*
+<m fadein><s2><i>Legends say it was traded at high prices across the seas in ancient times.<W3> 
+Wars were fought in its name.<W3>
+
+*n_06
+<think>Were they really?
+
+*cm_07
+<m fadein><s2><i>The average person would be blessed to experience its noble fragrance just once in their lifetime.<W3>
+Its elegance is divine;<W3> beauty itself.<W3>
+*
+<m fadein><s2><i>A thousand words of praise would not do it justice.<W3> 
+But,<W1> so generous is the gentleman,<W1> that he is willing to trade it for just a few more coins than usual.<W3>
+
+*n_08
+<think>A few sounds ok.
+
+*cm_09
+<m fadein><s2><i>However,<W1> it should be noted that even though it is worthy of a thousand words of praise...
+
+
+*cm_10
+<m fadein><s4><i>It still doesn’t hold a candle to <font color="ff:#000000">the elixir of beans.<W3></font>
+
+*n_11
+<I><think>Whatever.

@@ -1,0 +1,286 @@
+%FAMILY en
+&&Talker_Noel Noel Cornehl
+&&Talker_Laevi Laevigata Cornehl
+&&Talker_Primula Primula
+&&Talker_Ixia Ixia Polystachya
+
+&&Talker_Tilde Tilde Cornehl
+&&Talker_NoelDad Delfini Cornehl
+&&Talker_Customer Customer
+&&Talker_Walross Walross
+&&Talker_Ostrea Ostrea
+&&Talker_Army Soldier
+
+// ========================================================
+// MARK : 220115追加
+// ========================================================
+
+&&Talker_Unknown ？？？
+&&Talker_Mob ＊
+&&Talker_Nightingale Nightingale
+&&Talker_Guard Village Guard
+&&Talker_Alma Alma Opfebaum
+
+&&EV_access_alchemy Perform alchemy
+&&EV_access_cook Cook
+&&EV_access_atelier Atelier
+&&EV_access_myroom My room
+&&EV_access_shower Shower
+&&EV_access_restroom Restroom
+&&EV_access_dadroom Father's room 
+&&EV_access_terrace Terrace
+
+&&EV_access_warp_oneway Return to checkpoint (One way)
+&&EV_access_warp Warp
+
+
+&&EV_access_fasttravel Travel
+
+
+
+&&Select_yes Yes
+&&Select_no No
+&&Select_yep Yep
+&&Select_nope Not really...
+&&Select_see_masturbate Play masturbation scene
+&&Select_skip Skip
+&&Select_buying Shop
+&&Select_talk Talk
+&&Select_nothanks No thanks
+
+
+&&Select_gate Front gate
+&&Select_entrance Entrance
+&&Select_garden Garden
+&&Select_myroom My room
+
+
+&&EvTitle_YourName Your name
+&&EvTitle_ReasonForMoving Reason for wandering
+&&EvTitle_Wanted Wanted person
+&&EvTitle_hp_red Low HP
+
+&&Tuto_punch <key z/> Weak attack
+
+
+&&Select_sitdown Sit next to her 
+&&Select_stop_sitdown Don't approach her
+
+//選択肢
+&&Select_daijoubu I'm okay
+&&Select_notgood Not quite...
+
+&&Select_noproblem That's no problem
+&&Select_weird That's nuts
+
+
+
+// ========================================================
+// MARK : 2202 追加分
+// ========================================================
+
+&&Talker_elf_man Elf man
+&&Talker_elf_madam Elf lady
+&&Talker_elf_woman Elf woman
+&&Talker_elf_student Elf student
+&&Talker_NoelCane Noel's staff
+&&Talker_IxiaCane Ixia's staff
+
+&&Tuto_collect <key submit/> Collect
+&&Tuto_magic Hold <key x/> to cast spell
+&&Tuto_map <key a/> Open map
+&&Tuto_wakeup <key submit/> Wake up
+&&Tuto_magic_dropbomb <key x/>+<key ba/> Ground Bomb
+&&Tuto_menu <key menu/> Show Menu
+&&Tuto_guard Hold <key lsh/> to raise shield
+&&Tuto_evade <key lsh/>+<key la/><key ra/> Dodge
+&&Tuto_evade_0 <key lsh/>+<key la/><key ra/> Dodge ( 3 left )
+&&Tuto_evade_1 <key lsh/>+<key la/><key ra/> Dodge ( 2 left )
+&&Tuto_evade_2 <key lsh/>+<key la/><key ra/> Dodge ( 1 left )
+
+&&Tuto_fireball <key x/>+<key la/> Shoot Energy Ball and <key ta/> to change the direction
+
+&&Select_kitchen Kitchen
+&&EV_access_costume_change   Change costume (WIP)
+&&EV_access_scene_memory   Watch cutscenes
+&&EV_access_theroom_occupied   The room (in use)
+&&EV_access_theroom_wip   The room (WIP)
+&&EV_access_read Read
+
+
+&&EV_access_collect_by_attack Attack or use spell to collect
+&&EV_access_collected_already Already collected
+
+
+
+
+&&Select_cook_tutorial Learn how to cook
+&&Select_lunchtime Eat the dish
+
+&&EvTitle_AboutMana About Mana
+&&EvTitle_Cane Staff
+&&EvTitle_Cooking Breakfast
+&&EvTitle_Cooking2 Benefits of food
+&&EvTitle_Cooking3 Let's Cooking!
+&&EvTitle_StomachAndEfficient Hunger and food potency
+
+
+&&EvTitle_HomeRoad On the way home
+&&EvTitle_ForestRoad Path safety
+&&EvTitle_Village Elf Village
+
+&&EvTitle_MtrQuality Material quality
+&&EvTitle_Dangerousness Danger level
+&&EvTitle_BattleReward Battle rewards 
+&&EvTitle_Weather Weather
+
+&&EvTitle_Quake Thunderous sound
+&&EvTitle_Memory Memories
+&&EvTitle_Sell Goods
+
+// ========================================================
+// MARK : ver0.22 追加
+// ========================================================
+
+
+
+&&Talker_beastman Mountain Beastman
+
+&&EvTitle_nusi  Large Monster
+
+&&Talker_Soldier  Soldier
+&&Talker_Mepha Mepha Gridyard
+// Mepha Gridyard
+
+
+// ========================================================
+// MARK : v0.23 追加
+// ========================================================
+
+&&Select_itsfunny Yes
+&&Select_notfunny No way!
+&&EV_access_theroom  The Break Room
+&&EV_access_theroom_aloma  Prepare aroma
+
+
+/ ========================================================
+// MARK : ver0.24
+// ========================================================
+
+
+&&Talker_EnemyPuppet Puppet-type Monster
+&&Talker_CoffeeMaker Coffee Maker
+&&Select_use_pot Borrow cookware
+
+
+&&Select_buying_puppet Trade
+&&EV_access_manipulate  Use
+
+&&Select_alchemy_coffee Borrow the siphon
+
+
+&&Select_switch_old_portrait Switch battle portrait to old version
+&&EV_access_costume_change2    Change costume
+
+
+// ========================================================
+// MARK : ver 0.25
+// ========================================================
+
+&&Talker_dojo_teacher Master
+&&Talker_dojo_student Pupil
+&&Talker_dairy_farmer Farmer
+
+&&Select_dojo_study Train
+
+&&Select_dojo_practice Practice match
+
+
+&&EvTitle_dojo_statue About the statue
+&&EvTitle_dojo_cap What's on your head?
+
+
+&&Select_do_farming Sure
+&&Select_check_rule How does it work?
+
+&&Select_cfg_stick_thresh_on Set stick run threshold to 0
+&&Select_cfg_stick_thresh_off Stick run threshold: 0
+
+&&Select_cfg_auto_run_on Auto-run: On
+&&Select_cfg_auto_run_off Auto-run: Off
+&&Select_start_mini_game Begin
+&&Select_nothanks_mini_game Actually, nevermind
+&&Select_quit_mini_game I'm done
+
+
+&&EV_access_suckmilk   Milk
+&&KD_farm_suck  <key ba/>hold to milk
+
+
+
+&&EvTitle_uniform Your clothes...
+&&EvTitle_curemagic Recovery magic
+&&EvTitle_boring Are you bored?
+&&EvTitle_4ascend_ixia Play with Ixia <img mesh="icon_4ascend" />
+
+&&EvTitle_road2city On the way to town
+&&EvTitle_battle_w1nusi Lord of the Forest
+&&EvTitle_4ascend_primula Play with Primula <img mesh="icon_4ascend" />
+
+&&EvTitle_alma Alma
+
+
+&&Talker_teacher Teacher
+&&Select_go_class Go to class
+&&Select_wait_a_minute Hang on...
+
+&&Talker_museum Curator
+
+&&Select_pay Pay
+&&Select_dont_pay Don't pay
+&&Select_cannot_pay I can't afford that
+
+
+&&EvTitle_camera Contraption
+&&EvTitle_structure Design
+&&EV_access_restroom2 Shower
+
+&&Talker_army Soldier
+&&Talker_engineer Engineer
+
+
+&&EvTitle_bar What brings you here?
+&&EvTitle_fight About the fight
+&&EvTitle_forklore Tell me a story
+&&EvTitle_replacable Long life
+
+
+&&EvTitle_4ascend 4-Ascend <img mesh="icon_4ascend" />
+&&EvTitle_4ascend_play Play 4-Ascend <img mesh="icon_4ascend" />
+&&EvTitle_4ascend_ostrea Play with Ostrea <img mesh="icon_4ascend" />
+
+
+&&Talker_Barten Bartender
+
+
+&&Select_speak_to Talk
+&&EvTitle_similar_person Look-alike
+
+&&EvTitle_secret_about_walross Walross' family
+
+&&Select_buy_order Order
+&&Select_ask_you_are_monster0 Are you a monster?
+&&Select_ask_you_are_monster1 You're really a beastman?
+&&Select_ask_you_are_monster2 You're definitely a monster.
+&&Select_ask_you_are_monster3 ......
+&&Select_drunker ......?
+
+&&Select_imsorry I'm sorry
+&&Select_ask_you_sucked Slurping sound
+
+
+&&Tuto_backlog <key add/> History log
+
+
+&&EV_access_city_cafe   Cafe Tigerlily
+&&EV_access_ring_bell Ring bell

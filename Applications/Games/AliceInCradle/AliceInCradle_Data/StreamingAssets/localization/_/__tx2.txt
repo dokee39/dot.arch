@@ -1,0 +1,563 @@
+%FAMILY _
+&&Btn_move ここへ移動
+&&EV_access_goout   出る
+&&Confirm 確認
+&&Eat 食べる
+
+&&KD_change_info <key add/>情報切替
+
+&&GameMenu_Category_Title_stat     ステータス
+&&GameMenu_Category_Title_item     アイテム
+&&GameMenu_Category_Title_magic     魔術
+&&GameMenu_Category_Title_skill     スキル
+&&GameMenu_Category_Title_enhancer     エンハンサー
+&&GameMenu_Category_Title_map     マップ
+&&GameMenu_Category_Title_bench     ベンチ
+&&GameMenu_Category_Title_scenario     シナリオ
+&&GameMenu_Category_Title_svd_select     セーブ／ロード
+&&GameMenu_Category_Title_config     設定
+
+&&GameMenu_Bench_Front ノエルがベンチに座っている時に\n以下のコマンドを使用できます。\n&1
+
+&&GM_desc_map_1_no_marker     <key rem/>トラベルモード <key_s submit/>マーカー設定
+&&GM_desc_map_1     <key rem/>トラベルモード <key submit/>マーカー設定
+
+&&GM_desc_map_2_no_marker     <key rem/>マーカーモード <key_s submit/>ファストトラベル
+&&GM_desc_map_2     <key rem/>マーカーモード <key submit/>ファストトラベル
+&&EV_desc_msg     <key cancel/>/<key submit/> <shape right_arrow/>
+&&EV_desc_msg_last     <key cancel/>/<key submit/> <shape check/>
+
+&&Mstb_KeyHelp <key cancel/>/<key menu/>長押しで中断
+
+
+&&GM_desc_fasttravel_here     現在ノエルがいる位置です。
+
+&&GameMenu_map_fasttravel <img mesh="wmap_bench"/><i>座ったことのあるベンチに移動できます。</i>
+
+
+
+&&SerTitle_burned    炎上
+&&SerDesc_burned     衣服に火がついている状態。\n消えるのを待つか、着水することで解除されます。
+
+
+
+// ========================================================
+// MARK : BENCH
+// ========================================================
+
+
+&&Bench_Cmd_cure_hp HP回復
+&&Bench_Cmd_cure_cloth 衣服を修繕する
+&&Bench_Cmd_cure_ep 自分を慰める
+&&Bench_Cmd_cure_egged 卵を排出する(未実装)
+&&Bench_Cmd_fast_travel ファストトラベル
+&&Bench_Cmd_save セーブ
+
+&&Bench_Cmd_pee おしっこする
+&&Bench_Cmd_pee_excrete おしっこする(食べたものを空にする)
+&&Bench_Cmd_shower シャワーを浴びる
+&&Bench_Cmd_shower_ep シャワーを浴びる(性的興奮値を初期化)
+
+
+&&Bench_execute_cure_hp HPを回復しました。
+&&Bench_execute_cure_cloth 衣服を修繕しました。
+
+
+// ========================================================
+// MARK : SKILL
+// ========================================================
+&&Skill_tab_title_punch 攻撃
+&&Skill_tab_title_guard 防御
+&&Skill_tab_title_magic 魔術
+&&Skill_tab_title_hp 体力
+&&Skill_tab_title_mp 魔力
+
+&&CheckBox_Use 使用する
+&&CheckBox_Auto_Bench 着席時に自動実行
+
+&&Skill_title_punch 小攻撃
+&&Skill_manipulate_punch <key z/>
+
+// ========================================================
+// MARK : Enhancer
+// ========================================================
+
+&&Enhancer_cannot_change 戦闘中は変更できません。
+&&Enhancer_desc_fav <key add/>お気に入り登録
+
+// ========================================================
+// MARK : Enemy Spot
+// ========================================================
+
+
+/* ___ Summoner__obtainable_dangerousness ___ */
+( 上昇量: &1 )
+
+// ちなみに、↓のようなシステム使用のタグだけを記した（翻訳の必要のない）
+// データは、翻訳テキストである _en_tx2.txt にコピペしなくてもOKです。
+// If you don't have to translate sentences, you don't have to paste them into the localization script.
+
+&&Summoner_dangerous_full &1 / &2
+&&Summoner_dangerous_weaken <font color="ff:#E19EF1">&1 / &2</font>
+
+
+// ========================================================
+// MARK : status effect
+// ========================================================
+
+&&Stat_food_time_left <font color="#FF2B79">【有効時間:残り&1】</font>
+&&Stat_not_eaten_anything お腹すいた……。\n<font color="ff:#6D72FF">【はらぺこでご飯を食べると\n  1.5倍の特殊効果が得られます】</font>
+
+&&Stat_Condition_Confuse_hide_hp_mp <font color="ff:#C41793">混乱Lv.2 の効果で非表示</font>
+&&Stat_Lv_Sizing    <font size="75%">Lv.&1</font>
+&&Stat_Lv    Lv.&1
+&&SerTitle_confuse    混乱
+&&SerDesc_confuse    上下左右の入力が逆転します。
+&&SerDesc_confuse_2    HP,MPを示すUIが見えなくなります。
+&&SerDesc_confuse_3    <font color="ff:#FF2B79">ステータス画面とアイテム画面が\n文字化けします。</font>
+
+
+
+
+&&SerTitle_paralysis    麻痺
+&&SerDesc_paralysis （戦闘時のみ）ときおり身体が痺れて一時的にのけぞります。
+&&SerDesc_paralysis_3   走行と回避ができなくなります。\nこの状態は戦闘終了まで解除されません。
+
+&&SerTitle_sleep    睡眠
+&&SerDesc_sleep    眠ってしまいます。\n起きるまで行動できません。\n攻撃を受けるとわずかに起床が早まります。
+
+
+&&SerTitle_orgasm_after    放心
+&&SerDesc_orgasm_after 絶頂させられた直後の状態。\n走行ができなくなり、移動速度が落ちます。\nMPゲージのヒビ割れが防がれます。\n魔力の回復効率が低下します。
+&&SerDesc_orgasm_after_2    魔力の回復効率が大きく低下します。\n性的に攻撃された際に拘束から抜けにくくなります。
+
+
+&&SerTitle_frustrated    おあずけ
+/* ___ SerDesc_frustrated ___ */
+欲求不満の状態。性的に攻撃された際に
+非常に拘束から抜けにくくなります。
+MPの吸収効率が著しく増大します。
+立ち止まると勝手に自慰を始めてしまいます。
+絶頂することで解除されますが、その際
+放心Lv.2が付与され、復帰に必要な入力が
+多くなります。
+
+
+&&SerTitle_forbidden_orgasm    絶頂禁止
+&&SerDesc_forbidden_orgasm 性的感度が95%から増えなくなります。\nおあずけ状態が発生しやすくなります。
+
+&&SerReject_run 状態異常により走行できない！
+&&SerReject_evade 状態異常により回避できない！
+
+&&corrupt_orgasm_after 敏感になっている箇所を攻められ抗う力が抜けていく…
+&&corrupt_frustrated 弱い所を攻められ抗う力が抜けていく…
+&&corrupt_paralysis 身体の痺れが抗う力を奪っていく…
+
+&&corrupt_forbidden イきたいのにイけない…！
+
+
+// ========================================================
+// MARK : Status Other UI
+// ========================================================
+
+&&Status_Tab_condition 状態異常
+&&Status_Tab_food 食事の特殊効果
+&&Status_Tab_sexual デリケートなこと
+&&Status_Tab_dangerousness エリアの危険度
+/* ___ Dangerousness_text ___ */ 
+危険度: &1
+天候 ...
+
+&&Weather_normal 通常
+/* ___ Weather_desc_normal ___ */ 
+なんの変哲もない天気です。
+
+
+&&Weather_wind 辻風
+/* ___ Weather_desc_wind ___ */ 
+自分の魔術の詠唱速度、および
+敵の行動速度が1.5倍になります。
+
+&&Weather_init_log_wind  風が強くなってきた...
+
+&&Weather_thunder 霹靂
+/* ___ Weather_desc_thunder ___ */ 
+一部のエネミーが汚染体に変化する
+可能性が高まります。
+
+&&Weather_init_log_thunder  雷雨が迫っている...
+
+&&Weather_mist 霧
+/* ___ Weather_desc_mist ___ */ 
+魔力植物から得られる魔力が2倍になります。
+金色のマナを敵も回収可能になります。
+
+&&Weather_init_log_mist  霧が出てきた...
+
+&&Weather_drought 干魃
+/* ___ Weather_desc_drought ___ */ 
+魔力植物から得られる魔力が1/4になります。
+敵、自分ともに被弾時に魔力を失いやすくなります。
+敵が最初から魔力を多く持って出現します。
+
+&&Weather_init_log_drought  魔力が薄くなってきた...
+
+&&Weather_mist_dense 濃霧
+/* ___ Weather_desc_mist_dense ___ */ 
+魔力植物から得られる魔力が3倍になります。
+金色のマナを敵も回収可能になります。
+周囲が非常に見辛くなります。
+
+&&Weather_init_log_mist_dense  霧が濃くなってきた...
+
+&&Weather_plague 疫病
+/* ___ Weather_desc_plague ___ */ 
+敵、自分ともに状態異常の
+発生率が著しく上昇します。
+
+&&Weather_init_log_plague  肌に不快感を感じてきた...
+
+// ========================================================
+// MARK : Item
+// ========================================================
+&&Item_dbox_water_cannot_obtain 空きビンがないため取得不可
+&&Item_desc_suffix_water_needs_empty_bottle 持ち運ぶ際には空きビンが必要。
+
+&&Item_list_sort_newer ソート:新しい順
+&&Item_list_sort_kind ソート:種類
+&&Item_list_sort_abc ソート:名前
+&&Item_list_sort_price ソート:値段
+&&Item_list_sort_cost ソート:コスト
+&&Item_list_sort_equip ソート:装備／お気に入り
+
+&&Item_Tab_main 手持ち
+&&Item_Tab_house 倉庫
+&&Item_Tab_precious 大事なもの
+
+&&Inventory_noel 手持ちアイテム
+&&Inventory_house 倉庫
+&&Inventory_precious 貴重品
+&&Inventory_enhancer エンハンサー
+
+&&Inventory_stackable スタック
+
+&&Item_cmd_lunchtime 食事にする
+&&Item_cmd_move アイテムの整理
+
+&&cannot_take_need_container_item 持ち運ぶには &1 が必要です
+&&cannot_take_need_enough_room 手持ちアイテムがいっぱいです
+&&cannot_take_other_reason 何らかの理由で持ち運べない
+
+
+&&KD_start_manage <key add/>アイテムの整理
+&&KD_itemmove_whole <key add/>1行分&1に送る <key shift/>反対側で表示
+
+// ========================================================
+// MARK : Scenario
+// ========================================================
+&&Scenario_Tab_main メインストーリー
+&&Scenario_Tab_backlog 会話ログ
+
+// ========================================================
+// MARK : Store
+// ========================================================
+&&cmd_buy 買う
+&&cmd_sell 売る
+&&cmd_cart カートの確認
+&&cmd_checkout お会計
+&&cmd_checkout_submit 売買を確定して退店
+&&cmd_checkout_abort 売買を取消して退店
+
+&&Store_title_buy アイテムの購入
+&&Store_title_sell アイテムの売却
+&&Store_title_checkout 売買を確定し、会計を済ませます。よろしいですか？
+
+&&Store_prompt_title_buy いくつ買おう？
+&&Store_prompt_title_sell いくつ売ろう？
+&&Store_selling_precious_things 大事なものなので、\n売らない方が良い。
+
+
+&&Store_checkout_product <font size="16">( &1 個の品物を購入 )</font>
+&&Store_checkout_selling <font size="16">( &1 個の品物を売却 )</font>
+&&Store_checkout_after 残高: &1
+
+&&Store_no_enough_money <b>お金が足りないみたい... </b>
+
+&&Store_topright_buying 在庫数
+
+&&item_tab_product 商品
+
+&&item_tab_cart_buy 購入するもの
+&&item_tab_cart_sell 売却するもの
+
+&&product_count 在庫: &1
+&&selling_count 売却: &1
+&&buying_price_count 購入: &1
+&&selling_price_count 売却: &1
+
+&&Store_desc_cancel <key cancel/>戻る
+&&Store_desc_buying <key add/>1個カートに入れる
+&&Store_desc_buying_turnback <key rem/>1個カートから戻す
+&&Store_desc_selling <key add/>1個売る
+&&Store_desc_selling_turnback <key rem/>1個手元に戻す
+
+&&inventory_count 所持: &1
+
+// ========================================================
+// MARK : Alchemy
+// ========================================================
+
+&&Item_for_food_cost 全体コスト: &1
+&&Item_for_food_cost_and_category 食材コスト: &1 (&2 )
+&&Item_for_food_effect 調理後の特殊効果: \n
+&&Item_for_food_effect_content &1 (効力: &2 )
+&&Item_for_food_no_effect 調理後の特殊効果: なし
+
+
+&&Alchemy_recipe_is_useable 作成可能
+&&Submit_alchemy 錬金開始
+&&Submit_cook 調理開始
+&&alchemy_back_to_parent &1 の作成に戻る
+
+&&alchemy_ingredient_title <b>&1</b> を作るために必要な素材:
+&&alchemy_effect 影響度: &1%
+&&alchemy_completion_image 完成した &1 のイメージが\nここに表示されます。
+
+&&alchemy_auto_q クオリティ目安
+&&alchemy_auto_cost コスト目安
+&&alchemy_auto_kind アイテムの種類
+&&alchemy_auto_quantity 投入量
+
+&&alchemy_auto_few 数が少ないもの
+&&alchemy_auto_enough 数が多いもの
+&&alchemy_auto_random_alchemy 術士の気まぐれ
+&&alchemy_auto_random_cook シェフの気まぐれ
+
+&&alchemy_auto_quantity_minimum 必要最低限
+&&alchemy_auto_quantity_maximum めいっぱい
+
+
+&&alchemy_auto_confirm おまかせ投入
+&&alchemy_auto_previous 前回と同じレシピで投入
+
+&&alchemy_auto_cannot_create 材料が足りないみたい...
+&&alchemy_manual_create 手動で作る
+
+&&alchemy_auto_high_cost がっつり系
+&&alchemy_auto_low_cost 少食で
+
+&&alchemy_keydesc_confirm_randomize_all <key add/>おまかせ(全体)
+&&alchemy_keydesc_confirm  <key rem/>1つ戻す <key shift/>+<key rem/>初期化(全体)
+
+&&alchemy_keydesc_ingredient_empty <key submit/>アイテムを選ぶ <key add/>おまかせ投入
+/* ___ alchemy_keydesc_ingredient ___ */
+<key submit/>アイテムを選ぶ <key add/>おまかせ投入 <key rem/>行から1つ戻す <key shift/>+<key rem/>行の初期化
+
+&&alchemy_keydesc_content_sendback <key rem/>1つ戻す
+&&KD_cancel <key cancel/>キャンセル
+&&alchemy_keydesc_content_basic <key submit/>投入
+&&alchemy_keydesc_content_basic_enough <key_s submit/>投入
+&&alchemy_keydesc_content_recipe <key add/>この場で作成
+&&alchemy_keydesc_content_recipe_enough <key_s add/>この場で作成
+&&alchemy_keydesc_content_recipe_cannot <key_s add/>このアイテムのレシピを持ってない
+
+&&item_current_obtain 現在の所持数: &1
+&&item_create_count &1 個作成する
+
+
+
+&&alchemy_complete <font size="28" color="ff:#FA6234">&1</font>\n\n<font size="22"> を作った！</font>
+&&alchemy_complete_multi <font size="28" color="ff:#FA6234">&1</font>\n\n<font size="22"> を&2個作った！</font>
+&&alchemy_complete_inventory_over が、持ち物がいっぱいになりそう... ( &1個余ってる )
+
+&&alchemy_btn_eat_in この場で食べる
+&&alchemy_btn_cancel 作成をキャンセル
+&&alchemy_btn_drop 確認(余りは破棄)
+
+&&alchemy_success <i>錬成成功！</i>
+&&cook_success <i>調理成功！</i>
+
+// ========================================================
+// MARK : Lunch time
+// ========================================================
+&&lunch_detail_effect この料理の情報 :
+&&lunch_detail_ingredient この料理のレシピ :
+
+
+&&lunch_stomach_pre 現在のノエルの状態 :
+&&lunch_stomach_after 食べたあとの状態 :
+&&lunch_effect_double <font color="ff:#6D72FF"><b>\< はらぺこボーナス (効果&1倍!) \></b></font>
+&&lunch_effect_double_s <font color="ff:#6D72FF">【はらぺこボーナス】</font>
+&&lunch_cost_burst <font color="ff:#A00B35">\< 満腹で食べ切れない (効果&1%減) \></font>
+&&lunch_confirm_full_header <font color="ff:#A00B35">\< お腹いっぱいでもう食べられない… \></font>
+
+&&lunch_confirm <b>「&1」</b>を食べる？
+&&lunch_confirm_double <font color="ff:#6D72FF">はらぺこで食べるご飯はおいしい！</font>
+&&lunch_confirm_burst <font color="ff:#A00B35">お腹いっぱいで食べ切れないけど</font>\n<b>「&1」</b>を食べる？
+&&lunch_confirm_dupe <font color="ff:#B828AC">十分に栄養が取れないかもしれないけど</font>\n<b>「&1」</b>を食べる？
+&&lunch_confirm_full <font color="ff:#A00B35">お腹いっぱいでもう食べられない…</font>
+
+
+&&lunch_tag_burst <font color="ff:#A00B35">
+&&lunch_tag_dupe <font color="ff:#B828AC"><img mesh="alert_triangle" width="20" tx_color />
+&&lunch_tag_added <font color="ff:#6D72FF">
+&&lunch_suffix_dupe <font color="ff:#B828AC"><img mesh="alert_triangle" width="20" tx_color />重複しています</font>
+&&stomach_no_effect 特別な効果はない
+
+
+
+// ========================================================
+// MARK : Treasure box reel
+// ========================================================
+&&Reel_keydesc_prepare <key submit/><key menu/>宝箱を開ける
+&&Reel_keydesc_opening_finished <key submit/><key menu/>アイテムを取得 <key cancel/>キャンセル
+&&Reel_keydesc_opening <key submit/><key menu/>(長押し)リールを止める
+&&Reel_keydesc_detail <key sort/>リールと宝箱の一覧
+
+&&Reel_detail_reel_title リールの絵柄
+&&Reel_keydesc_cancel <key sort/><key cancel/>キャンセル
+
+
+&&Reel_etype_prefix     リール: &1
+&&Reel_etype_GRADE1     グレード＋
+&&Reel_etype_COUNT_ADD1 個数＋
+&&Reel_etype_COUNT_MUL1 個数×
+&&Reel_etype_ADD_MONEY  お金＋
+&&Reel_etype_RANDOM     福袋
+&&Reel_etype_RARE_ADD1  素材レアリティ＋
+&&Reel_etype_GRADE2     グレード＋＋
+&&Reel_etype_COUNT_ADD2     個数＋＋
+&&Reel_etype_GRADE3     グレード＋＋＋
+&&Reel_etype_COUNT_ADD3     個数＋＋＋
+
+
+
+// ========================================================
+// MARK : 2202 追加分
+// ========================================================
+
+
+&&SerTitle_parasitised    宿り木
+/* ___ SerDesc_parasitised ___ */
+徐々にHPを奪われ続けます。
+寄生者を倒すまで解除されません。
+
+&&Store_selling_food これはわたしが食べるもの。
+&&alchemy_never_created この料理を1度も作ったことがない。
+
+&&Item_cmd_takeout_food お弁当箱から取り出す
+&&Item_cmd_pack_in_box お弁当箱につめる
+
+
+&&Bench_Cmd_wait_nightingale 商人を待つ
+&&Bench_Cmd_reset_all 全てをリセット
+&&Bench_Cmd_fast_travel_home 拠点へ帰る
+&&Alert_no_magic_puzzle この場所では魔術を使えない。
+&&Alert_cannot_fast_travel 夜間、雨天の間はファストトラベルできない。
+&&Alert_dangerous <font size="16"><b><img mesh="alert" tx_color /> 危険：現在の装備では敗北する可能性があります</b></font>
+
+&&Bench_execute_cure_mp MPを回復し、ゲージを修繕しました。
+
+
+&&Alert_bench_execute_scenario_locked 現在は使用できない。
+&&Alert_bench_execute_only_in_safe_area 拠点でのみ使用できます。
+&&Alert_no_need_lay_egg 何も産み付けられていない。
+&&Alert_layed_egg 卵をなんとか排出した...。
+&&Alert_no_pee_go_out 出すものが何もない。
+&&Alert_no_content_in_stomach おなか空いた...。
+&&Alert_stomach_item_lost &1 の効果がなくなった。
+&&Alert_dishes_rotten &1 個の料理が腐ってしまった...。
+&&Alert_no_nightingale 商人さんは現れなかった。
+
+&&Alert_item_reduced &1 を &2 個失った。
+&&Alert_item_reduced_laevi &1 を &2 個姉様に渡した。
+
+&&Bench_Cmd_cure_mp MP回復<img mesh="wholemap_house" tx_color />
+
+
+&&Bench_Cmd_shower_clean_cure_cloth 衣服を修繕＋身体を清める
+&&Bench_Cmd_shower_cure_cloth 衣服を修繕
+&&Bench_Cmd_shower_clean 身体を清める
+
+&&Bench_Cmd_restroom_cure_egged 卵を排出する
+&&Bench_Cmd_cure_ep_sensitivity 性的興奮値を初期化(未実装)
+
+// &&Bench_Cmd_cure_ep_sensitivity 性的興奮のしやすさの調整
+
+
+
+
+&&Summoner_no_reward 宝箱報酬: なし
+
+/* ___ WarpConfirm_having_food ___ */
+弁当箱に入れていない料理が &1 個手持ちアイテムにあります。
+戦闘終了時、料理はすべて腐って食べられなくなります。
+このまま出発してもよろしいですか？
+
+
+/* ___ current_dangerous ___ */
+現在の危険度: &1
+/* ___ WarpConfirm_treasurebox ___ */
+すべての宝箱を開け、中にある
+アイテムを確定し、拠点に帰ります。
+よろしいですか？
+
+/* ___ WarpConfirm_returnback ___ */
+拠点に帰ります。
+よろしいですか？
+
+/* ___ WarpConfirm_nightingale ___ */
+満腹度を少し消費して、
+ナイチンゲールさんが通りかかるのを待ちます。
+彼女の現在位置によっては
+来てくれない場合もあります。
+
+
+
+&&Submit_goout    了解し出発
+&&Submit_deposit_goout    料理を倉庫に預けて出発
+&&Submit_gohome    拠点に帰る
+&&Submit_gohome_opening_box 宝箱を開け、拠点に帰る
+&&Submit_wait    待つ
+
+&&Alert_depositted_food &1 個の料理を倉庫に預けた。
+
+&&alchemy_ingredient_or 以下の材料のいずれかを投入:
+
+
+&&Config_Btn_QuitGame ゲームを終了する
+&&Confirm_QuitGame ゲームを終了します。よろしいですか？
+&&Submit_Quit 終了
+&&Submit_GoToTitle タイトルに戻る
+
+
+&&SerTitle_burst_tired    昏倒
+&&SerDesc_burst_tired     バーストの精神負荷によって行動できない状態。\n起きるまで行動およびバーストできません。
+
+
+// ========================================================
+// MARK : 220518 (ver0.20k)
+// ========================================================
+&&Reel_tab_item 宝箱リール
+&&Reel_tab_effect 効果リール
+&&Reel_need_subtract 使用できる効果リールは最大で &1 個までです。\n宝箱を開ける前にあと &2 個捨てる必要があります。
+&&Reel_subtract_confirm 選択した &1 個の効果リールを捨てます。\nよろしいですか？
+&&Submit_discard 捨てる
+
+&&KeyDesc_discard_add <key add/>選択
+&&KeyDesc_discard_add_submit <key submit/><key add/>選択
+&&KeyDesc_discard_rem <key rem/>選択解除 
+
+&&KeyDesc_discard_enable_submit <key submit/><key cancel/>完了
+
+// 今後追加したい任意時間出発要素... 
+&&Depert_from_noon &1日目の昼から (危険度:&2)
+&&Depert_from_evening &1日目の夕方から (危険度:&2)
+&&Depert_from_night &1日目の夜から (危険度:&2)  
+
+&&Depert_you_can_do_fast_travel 戦闘を開始する前ならば、\n夜間でもファストトラベル可能です。
+
+&&Tuto_crouch <key ba/>+<key la/> かがんで移動
+&&Tuto_crouch_right <key ba/>+<key ra/> かがんで移動
+
+

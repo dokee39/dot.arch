@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1251295492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bb24b8444fd466eed794f26e2e87ed7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_mkb.atlas.txt
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_mkb.json
+Dependencies: []

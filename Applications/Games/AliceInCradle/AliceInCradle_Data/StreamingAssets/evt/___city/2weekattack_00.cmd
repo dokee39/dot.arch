@@ -1,0 +1,21 @@
+// 1: アルマがいるかどうか
+IFNDEF 1
+    1=0
+
+STOP_BGM	15 0
+#< # >
+#MS '##'
+
+IF $1 {
+    ENGINE AlmaPVV105 SET_TO_WAIT_PHASE
+}
+HIDE_STATUS 1
+
+UIP_EVENT_SETFADE 
+UIPICT_GOB_DEACTIVE 1
+
+CHANGE_EVENT2	___city/2weekattack_05
+
+#< # >
+#VANISH
+

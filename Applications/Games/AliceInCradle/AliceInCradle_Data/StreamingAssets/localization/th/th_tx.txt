@@ -1,0 +1,297 @@
+%FAMILY th
+&&Submit    ยืนยัน
+&&Reset    รีเซต
+&&Cancel    ยกเลิก
+
+&&lang_ja ญี่ปุ่น(JP)
+
+&&lang_en อังกฤษ(EN)
+
+&&lang_th ไทย(TH)
+
+/* ___ Title_Announce_For_Sensitive ___ */
+ถ้าคุณวางแผนที่จะทำวิดีโอ/สตรีมเกี่ยวกับเกมนี้
+หรือคุณมีอายุต่ำกว่า 18 ปี
+ให้เปิด 'ซ่อนสิ่งที่ไม่เหมาะสม' ในการตั้งค่า
+
+เนื้อหาบางส่วนของเกมและตัวละครมีการเปิดเผยแบบชัดเจน
+*กรุณาอย่าลอกเลียนแบบในชีวิตจริง*
+
+ถึง 'มอนสเตอร์' ทั้งหลายที่กำลังอ่านข้อความนี้
+"อย่าไปทำให้สาวน้อยนักเล่นธาตุคนนี้ท้องเลย"
+
+แม้ว่า โนเอล นางเอกของเกมนี้มีอายุ 15 ปีตามเนื้อเรื่อง
+แต่ในโลกของเกมนี้มี 440 วันต่อปีดังนั้น
+เธอจะมีอายุมากกว่า 18 ปีในโลกของเกมนี้
+
+&&btn_sensitive_off ฉันอายุมากกว่า 18 ปี\nหรือไม่ได้จะอัดวิดีโอ/สตรีมเกมนี้\n(ไม่ซ่อนสิ่งที่ไม่เหมาะสม)
+
+&&btn_sensitive_on  ฉันอายุน้อยกว่า 18 ปี\nหรือจะอัดวิดีโอ/สตรีมเกมนี้\n(ซ่อนสิ่งที่ไม่เหมาะสม)
+
+&&Title_first_tutorial กด <key la/><key ra/> เพื่อเลือก / กด <key submit/> เพื่อยืนยัน
+
+&&Name_Noel         โนเอล คอร์เนล์
+&&Name_Alice        อลิซ
+
+&&Destination       ไปยัง&1
+
+&&Area_forest  ป่าแห่งผู้เล่าเรื่อง
+&&Area_city  เมืองแห่งพร「กาเซีย」
+&&Area_house  บ้านของโนเอล
+
+
+
+&&btn_new_game เริ่มเกมใหม่
+&&btn_continue เล่นต่อ
+&&btn_option การตั้งค่า
+&&btn_quit ออกจากเกม
+
+
+/* ___ SaveDataDesc_auto  ___ */
+ไฟล์เชฟอัตโนมัติ
+เวลาที่เล่นไป: &1
+<font color="#E70B0B">※ไฟล์มีโอกาสเสี่ยงมากที่จะ
+ไม่สามารถเล่นได้ถ้าเกมมีการอัปเดต</font>
+
+/* ___ SaveDataDesc  ___ */
+ไฟล์เชฟที่ &1
+เวลาที่เล่นไป: &2
+<font color="#E70B0B">※ไฟล์มีโอกาสเสี่ยงมากที่จะ
+ไม่สามารถเล่นได้ถ้าเกมมีการอัปเดต</font>
+
+/* ___ SaveDataDesc_Empty_auto ___ */
+ไม่พบไฟล์ที่เชฟอัตโนมัติ
+
+/* ___ SaveDataDesc_Empty ___ */
+ไฟล์เชฟที่ &1
+(ว่าง)
+
+&&SVD_Error_Occured เกิดข้อผิดพลาดในการโหลดไฟล์
+
+&&SVD_0 เชฟอัตโนมัติ:
+&&SVD_topright &1/&2 HP, &3/&4 MP
+
+&&SVD_ignore_svd_cfg ไม่ใช้การตั้งค่าจากไฟล์เชฟ
+&&SVD_cmd_load โหลด
+&&SVD_cmd_load_do โหลด
+&&SVD_cmd_save เชฟทับไฟล์
+&&SVD_Load_Ask_Again ต้องการที่จะหยุดเกมนี้และ\nโหลดไฟล์เชฟที่ &1 หรือไม่?\n<font size="14" color="#E70B0B"><i>ความคืบหน้าทุกอย่างในเกมนี้\nจะถูกลบถ้าไม่ได้เชฟเอาไว้</i></font>
+
+&&SVD_need_bench <font color="#E70B0B">สามารถเชฟไฟล์ได้ตรงที่นั่งเท่านั้น</font>
+
+
+&&Stat_Condition       สถานะ
+&&Stat_Condition_And_Ep       สถานะ
+&&Stat_Ep       เอฟเฟค
+&&Stat_no_status_error ---
+
+&&GameMenu_map_completion &1 - สำรวจแล้ว &2
+
+&&Money_Counter <img mesh="money_icon"/> <b>&1</b>
+&&EmptyBottle_Counter <img mesh="itemicon_empty_bottle_filled"/> ขวดเปล่า <b>&1/&2 ขวด</b>
+
+&&SerTitle_hp_reduce    ใกล้หมดสติ
+&&SerDesc_hp_reduce     <font color="#FF5050">「HP ต่ำกว่า 15%」</font>\nโนเอลจะหมดสติ \nถ้า HP ตกถึง 0
+
+&&SerTitle_mp_reduce    เหนื่อย
+&&SerDesc_mp_reduce    <font color="#FF5050">「MP ต่ำกว่า 15%」</font>\nไม่สามารถวิ่งได้
+
+&&SerTitle_death    หมดสติ
+&&SerDesc_death    <font color="#FF729F">「0 HP」</font>\nใคร... ก็ได้...\nช่วยฉัน... ที...\n<font color="#FF729F">กด <key cancel/> ค้างไว้เพื่อรอ... </font>
+
+&&SerTitle_sexercise    มีอารมณ์
+&&SerDesc_sexercise  การเกิดอารมณ์จะเร็วขึ้น\nและหลอด MP จะมีโอกาสแตกง่ายขึ้น
+
+&&SerTitle_shamed    อับอาย
+&&SerDesc_shamed    เธอรู้สึกอับอายกับสิ่งที่เกิดขึ้นและ\nมีโอกาสน้อยลงที่จะหกล้มเมื่อชนกับศัตรู\nแต่จะสูญเสียมานามากขึ้นจากดาเมจ
+
+&&SerTitle_shamed_split    อับอาย\n(ไหลออกมา)
+&&SerDesc_shamed_split    <font color="#FF5050">「สูญเสียมานาเนื่องจากหลอด MP แตก」</font>\nเธอรู้สึกอับอายกับสิ่งที่เกิดขึ้นและ\nมีโอกาสน้อยลงที่จะหกล้มเมื่อชนกับศัตรู
+
+&&SerTitle_shamed_wet    อับอาย\n(เปียก)
+&&SerDesc_shamed_wet    เธออายเพราะชุดชั้นในของเธอเปียกและ\nมีโอกาสน้อยลงที่จะหกล้มเมื่อชนกับศัตรู\nแต่จะสูญเสียมานามากขึ้นจากดาเมจ
+
+&&SerTitle_shamed_ep    อับอาย\n(มีอารมณ์)
+&&SerDesc_shamed_ep    <font color="#FF729F">「การเกิดอารมณ์เกิน 50%」</font>\nเธอไม่สามารถหยุดยั้งความคิดของเธอได้\nและเธอมีโอกาสน้อยลงที่จะหกล้มเมื่อชนกับศัตรู\nแต่จะสูญเสียมานามากขึ้นจากดาเมจ
+
+&&SerTitle_shamed_orgasm_after    หลังสำเร็จ\nความใคร่
+&&SerDesc_shamed_orgasm_after    เธอถึงจุดสูงสุดทำให้\nไม่สามารถวิ่งหรือลอยตัวได้\nหลอด MP มีโอกาสแตกอีกได้\nและการเกิดอารมณ์จะเร็วขึ้น
+
+&&SerTitle_egged    ไข่ฟักตัว\n(Lv.1)
+&&SerDesc_egged    เธอมีไข่ของมอนสเตอร์อยู่ในท้องเธอ\nสกิลประเภทเวทจะมีพลังมากขึ้น\nแต่ใช้เวลาชาร์จสกิลที่นานขึ้น\nและการโจมตีแบบปกติจะแย่ลง
+
+&&SerTitle_egged_2    ไข่ฟักตัว\n(Lv.2)
+&&SerDesc_egged_2  <font color="#FF729F">「ไข่ที่ฟักตัวกินหลอด MP เกิน 70%」</font>\nการเกิดอารมณ์จะเร็วขึ้น\nหลอด MP จะแตกง่ายขึ้น\nเวลาในการตกไข่จะเป็นสองเท่า\nและเดี่ยวจะออกมาเอง...
+
+&&SerTitle_laying_egg    ออกเป็นตัว
+&&SerDesc_laying_egg    ไข่ของมอนสเตอร์ฟักตัวแล้ว\nกำลังออกมาจากมดลูกตอนนี้\nยังทำอะไรไม่ได้จนกว่ามันจะเสร็จ
+
+&&SerTitle_do_not_lay_egg    ออกเป็นตัวไม่ได้
+&&SerDesc_do_not_lay_egg    บางอย่างปิดทาง\nช่องคลอดของเธออยู่...
+
+&&SerTitle_eaten   ถูกกลืน
+&&SerDesc_eaten   เธอถูกกลืนไปในลำตัวมอนสเตอร์\nสามารถดันออกมาได้หรือ\nรอจนกว่ามันจะคลายเธอออกมา
+
+&&SerTitle_orgasm    หลังสำเร็จ\nความใคร่
+&&SerDesc_orgasm    หลังสำเร็จความใคร่\nเธอโดนดาเมจเพิ่มขึ้น 1.5 เท่า\nหลอด MP มีโอกาสที่จะแตกอีกได้
+
+&&SerTitle_shield_break    เกราะแตก(เวียนหัว)
+&&SerDesc_shield_break    เกราะถูกทำลายทำให้โนเอลเกิด\nอาการเวียนหัวและตอบสนองไม่ได้\nอาจโดนดาเมจเพิ่มขึ้น 1.5 เท่า\nจนกว่ากลับมาเป็นปกติได้
+
+
+
+/* ___　PopUp_bench  ___ */
+<key menu/> เชฟไฟล์ได้ในจุดนี้
+
+
+
+&&Log_supply_juice  มานาฉันพุ่งออกมา...
+&&Alert_item_holdover ฉันเก็บ <b>&1</b> ไม่ได้แล้วที่เก็บของเต็ม...
+&&Alert_event_item_holdover แต่ที่เก็บของฉ้นเต็มแล้วน่ะ...
+&&Alert_pee กางเกงในฉันเปียกหมดแล้ว...
+&&Alert_orgasm_splash น้ำฉันกระเด็นออกมา...
+
+&&Alert_nearly_laying ฉันรู้สึกแปลกๆ ในท้องฉัน...
+
+&&Alert_worm_eggplant ใส้เดือนวางไข่ในตัวฉัน!...
+&&Alert_slime_eggplant สไลม์วางไข่ในตัวฉัน!...
+&&Alert_laying_egg_worm ไข่ในท้องฉันฟักตัวแล้วไส้เดือนเลื้อยออกมา!!...
+&&Alert_laying_egg_slime ไข่ในท้องฉันฟักตัวแล้วสไลม์เลื้อยออกมา!!...
+
+&&Alert_ep_thresh0 ด้านในมันเริ่มอุ่นขึ้นแล้ว...
+&&Alert_ep_thresh1 ฉันเก็บมันไม่ไหวแล้ว!...
+&&Alert_ep_orgasm มันออกมาแล้ว...
+&&Alert_ep_orgasm_cli มันออกมาเพราะถูกลูบแตดฉ้น...
+&&Alert_ep_orgasm_vagina มันออกมาเพราะถูกกระตุ้นในช่องคลอดฉัน...
+&&Alert_ep_orgasm_anal มันออกมาเพราะก้นใช้ถูกถูบน...
+&&Alert_ep_orgasm_breast มันออกมาเพราะหัวนมฉันถูกดูด...
+&&Alert_ep_orgasm_mouth มันออกมาเพราะยาที่ฉันเผลอกลืนลงไป...
+&&Alert_ep_orgasm_ear มันออกมาเพราะหูฉันถูกเลีย...
+&&Alert_ep_orgasm_masturbation มันออกมาเพราะฉันแตะตัวเอง... 
+&&Alert_ep_orgasm_slime มันออกมาเพราะฉันยุ่งกับสไลม์...
+&&Alert_ep_orgasm_worm มันออกมาเพราะไส้เดือนดิ้นในรูของฉัน...
+&&Alert_ep_orgasm_laying_egg มันออกมาเพราะบางอย่างออกมาจากรูฉัน...
+
+&&Alert_gameover อ้า-!
+
+&&Alert_autosave เชฟอัตโนมัติเรียบร้อยแล้ว
+&&Alert_summoner_defeated ไม่พบสัญญาณของศัตรูในตอนนี้... (อีก &1 วินาที)
+
+
+
+&&ep_category_cli ปุ่มกระสัน
+&&ep_category_vagina ช่องคลอด
+&&ep_category_anal ก้น
+&&ep_category_breast หัวนม
+&&ep_category_mouth ปาก
+&&ep_category_ear หู
+&&ep_category_masturbation ถูอวัยเพศ
+&&ep_category_slime สไลม์
+&&ep_category_worm หนอน
+&&ep_category_laying_egg ไข่
+
+&&Alert_cure_crack บางทีมันก็ช่วยให้ฉันมีพลังขึ้นหน่อยนะ...
+
+&&GM_ep_debug มีอารมณ์ (AR) &1\n(ถูก)สำเร็จความใคร่ &2 ครั้ง
+&&GM_ep_experience อ่อนไหวต่อ&1 &2
+&&GM_ep_level_after_orgasm  <font color="#D3006D">ฉันยืนไม่ได้เพราะฉัน...</font>
+&&GM_ep_level_0 　ยังไม่รู้สึกอะไรแปลกๆ เลย...
+&&GM_ep_level_1 　ยังไม่รู้สึกอะไรแปลกๆ เลย...
+&&GM_ep_level_2 　ยังไม่รู้สึกอะไรแปลกๆ เลย...
+&&GM_ep_level_3 　<font color="#72486D">ฉ้นรู้สึกจะมีอารมณ์แล้วสิ...</font> (AR: &1)
+&&GM_ep_level_4 　<font color="#72486D">ฉ้นรู้สึกจะมีอารมณ์แล้วสิ... </font> (AR: &1)
+&&GM_ep_level_5 　<font color="#7C2A73">ฉ้นรู้สึกอะไรสั่นๆ อยู่ข้างในฉัน...</font> (AR: &1)
+&&GM_ep_level_6 　<font color="#7C2A73">ฉ้นรู้สึกอะไรสั่นๆ อยู่ข้างในฉัน...</font> (AR: &1)
+&&GM_ep_level_7 　<font color="#C92D97">ฉันเก็บอารมณ์ทางเพศไม่ไหวแล้ว!</font> (AR: &1)
+&&GM_ep_level_8 　<font color="#C92D97">ฉันเก็บอารมณ์ทางเพศไม่ไหวแล้ว!</font> (AR: &1)
+&&GM_ep_level_9 　<font color="#F51AB0">ฉันเก็บมันไม่ไหวแล้ว!</font> (AR: &1)
+
+
+
+&&EV_access_collect   เก็บ
+&&EV_access_getitem   หยิบ
+&&EV_access_open_box   เปิด
+&&EV_access_default_check   เช็ค
+&&EV_access_default_talk   คุย
+&&EV_access_sitdown   นั่ง
+&&EV_access_into   เข้า
+
+&&Item_get   <key check/> เก็บ
+&&Item_has   <font size="12">(มี &1)</font>
+&&Item_get_count   x&1
+&&Money_adding   <font size="12">+ &1</font>
+&&Money_reducing   <font size="12">- &1</font>
+
+&&MoneyBox_adding   ได้รับ <b>&1</b> <img mesh="money_icon">
+
+&&Item_detail_cure_hp ฟื้นฟู &1 HP
+&&Item_detail_cure_mp ฟื้นฟู &1 MP
+&&Item_detail_cure_ep สงบลง &1 
+&&Item_detail_dmg_ep <font color="#864788">เพิ่ม &1 AR</font>
+&&Item_detail_cure_ser รักษา &1
+&&Item_detail_dmg_ser <font color="#864788">เพิ่มสถานะ &1</font>
+&&Item_detail_cure_mp_crack ฟื้นฟูหลอด MP &1 หน่วย
+&&Item_detail_cannot_nest_multiple ไม่สามารถใส่\nได้มากกว่านี้ได้
+&&Item_detail_filled_bottle เมื่อใช้จะกลายเป็น\nขวดเปล่า
+
+&&Item_detail_inventory_increase เพิ่มพื้นที่เก็บของ &1 ช่อง
+
+&&Item_cmd_use ใช้
+&&Item_cmd_useless (ใช้)
+&&Item_cmd_discard_water เททิ้ง
+&&Item_cmd_drop ทิ้ง
+
+&&Item_desc_cannot_use มันไม่น่ามีประโยชน์\nตอนนี้หรอก...
+&&Item_desc_decline_holding_magic ฉันยังใช้ไอเทมไม่ได้\nฉันกำลังเรียกสกิลอยู่...
+&&Item_desc_decline_dmg ฉันยังใช้ไอเทมไม่ได้\nฉันบาดเจ็บอยู่...
+&&Item_desc_decline_dead ช่วย...\nฉ้น... ด้วย...
+
+&&Item_dbox_water_to_bottle สามารถเทได้ &1 หลอด\nต่อการใช้ 1 ครั้ง
+&&Item_dbox_water_to_bottle_none สามารถเทได้ &1 หลอด\nถ้าไม่มีขวดติดตัวเหลือ
+
+&&Item_dbox_stock สามารถเก็บได้\n&1 ชิ้นต่อช่อง
+
+
+
+
+&&Enemy_SLIME สไลม์
+&&Summoner__enemy_id_overdrived_suffix (อันตราย)
+
+
+&&Summoner__initialize กด <key check/> ค้างไว้หรือ\nตีต้นมานา\nเพื่อเริ่มต้นสู้
+
+/* ___ Summoner__descryption ___ */
+ความอันตรายระดับ &1
+ประเภทศัตรู:
+&2
+ศัตรูอันตราย &3 ตัว
+
+
+
+&&Summoner_forest_tutorial Beaming Plains
+&&Summoner_forest_coroseum The Outcast
+&&Summoner_forest_mushpot Should've been a mushroom enemy here
+&&Summoner_forestS_darkpot Evening Shower
+&&Summoner_forestS_thorn_cage Bird's Cage
+
+
+
+
+// I'm confused two of these section...
+
+&&Item_desc_suffix_water    
+&&Item_desc_suffix_bottled_water    <font color="#056EB3">เป็นขวดติดตัวของโนเอล</font>
+// ↑ Perhaps this is a bottle that belong to Noel.
+
+
+&&GM_KD_map_current_pos     <key sort/>ตำแหน่งของโนเอล
+&&GM_KD_map_0_no_marker     <key_s submit/>วางจุด
+&&GM_KD_map_0     <key submit/>วางจุด
+
+
+&&Category_under_construction    ยังไม่เสร็จนะ...
+
+
+
+
+

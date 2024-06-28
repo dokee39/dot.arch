@@ -1,0 +1,4 @@
+#! /usr/bin/zsh
+
+#fc-list :family | awk '{FS=":"} {print $2}' | sort | less
+fc-list :family -f "%{family}\n" | sort | less

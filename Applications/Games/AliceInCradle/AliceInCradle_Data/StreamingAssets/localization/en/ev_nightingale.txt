@@ -1,0 +1,295 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+// ========================================================
+// MARK : t01
+// ========================================================
+ 
+*___Nightingale/t01 t_00
+Whoa, that's an Elf Village healer uniform!
+
+*n_00 
+Ah, i-it's...um...
+
+*t_01
+Hmm, but it's an old model. Kinda like the ones buried in the back of the closet at my parents' place.
+*
+What gives? You don't look old enough to be wearing something like that...
+
+*n_01 
+I'm a cadet at Bermit Academy. I'm just borrowing this outfit for a bit.
+
+*t_02
+Oh, I see. That can only mean one thing... 
+
+*t_03
+<m joy>You're cosplaying!</m>
+<W2><m ples>Oh man, that really brings out my inner prince's desire to protect you!
+
+
+
+*t_04
+<m fadein><W2 />Princess, if you walk around here, your shoes will get dirty...!
+
+
+*n_02
+<think>What is this...a mini drama?
+
+*t_05
+Oh, but princess, this is a dangerous area where monsters roam wild.
+*
+Are you by any chance good with magic?
+
+*n_04
+<normal>
+Um...w-well, I think I'm doing rather well at sc- 
+<W2><m scary>KYAA!?
+
+
+*t_06
+<W1><m fadein>Hmm~ There's no doubt. Your boobs, biceps, and thighs...
+
+*
+<m fadein>I can feel the mana welling under your skin! Right here... *squish* *squish*
+
+*n_05
+<angry><m ple>Please stop groping me!
+
+*t_07
+<W2>Oops, excuse me, princess. My inner prince's desires took control of my hands there for a moment.
+
+*n_06
+<normal>Y-you are a female elf...aren't you?
+
+*t_08
+I am just a wandering...peddler.
+
+*
+As an apology, allow me to offer you a discount on the items I've collected throughout my travels.
+
+
+*n_09
+<m fadein>Huh...
+
+*t_09
+<m joy>With that said...!
+*
+Your cute ally on your perilous journey, <m ple>Nightingale's Whimsical Roadside Shop, is open for business~!
+
+
+// ========================================================
+// MARK : t_talk00
+// ========================================================
+*___Nightingale/t_talk00 n_00
+So, your name is Nightingale?
+
+*___Nightingale/t_talk00 t_00
+Yup! Isn't it cool? It's not my real name, though.
+
+*___Nightingale/t_talk00 t_00b
+A long time ago, I found a book on mythology while up in the mountains. I named myself after one of the goddesses in it!
+
+*___Nightingale/t_talk00 n_01
+A goddess?
+
+*___Nightingale/t_talk00 t_01
+Yup! She's really cool! Even in the middle of a fierce battle between the gods, she stayed true to her beliefs!
+*
+She healed the injured gods with her power of compassion, whether they were allies or enemies!
+*
+Ever since then, she became known as 'The White Angel'! What a name to be praised by!
+
+
+*___Nightingale/t_talk00 t_02
+I want to be just like her...someone who can show love and compassion to everyone, even their enemies.
+
+*___Nightingale/t_talk00 n_02
+Nightingale...do you have any enemies?
+
+*___Nightingale/t_talk00 t_03
+Hmm, I guess...maybe someone who doesn't pay for their stuff?
+
+*___Nightingale/t_talk00 t_04
+...Now that I think about it, loving everyone in the world is probably impossible~ 
+*
+Speaking as an elf, it's important to draw a clear line between insiders and outsiders.
+
+*___Nightingale/t_talk00 n_03
+<think>She's a straightforward one...
+
+
+
+// ========================================================
+// MARK : t_talk01
+// ========================================================
+
+*___Nightingale/t_talk01 n_00
+Nightingale, do you have a stationary shop set up somewhere?
+
+
+*t_00
+Nah, I only have myself. Just call for my help and I'll deliver to you!
+*
+Trekking through the wilderness and over the mountains with my endless love!
+
+*n_01
+That sounds pretty cool...
+*n_02
+But sometimes I get the urge to shop and it's difficult to find you, which is a hassle.
+
+*t_01
+Ahh, well, yeah...I am just a cute little girl. I can't be everywhere at once.
+
+*t_02
+I pretty much go to wherever I sense someone might be around. 
+*
+I'm sure if you kill some time by waiting at a bench, there's a good chance I'll show up!
+
+
+
+// ========================================================
+// MARK : t_talk02
+// ========================================================
+*___Nightingale/t_talk02 n_00
+My family runs an alchemy workshop on the outskirts of the forest.
+
+*t_00
+Ahh I know that place! So, you're one of the Cornehl's, princess?
+
+*n_01
+Yes. We get a lot of patrons and there aren't many monsters nearby. I think it might be a good place for you to make some money.
+
+*t_01
+...Hmm~ I appreciate the offer, but...y'know~
+
+
+*n_02
+Did you have a bad experience there before?
+
+*t_02
+Ahh, no, it's just that...the guards dispatched there are from the village.
+*
+And well, my family has kind of reported me as being "missing"...
+
+
+*n_03
+...You ran away from home?
+
+*t_03
+Yeah, but I've got a good reason! It's just...complicated. Anyway, I don't want those guards catching me wandering around there.
+
+
+*n_04
+<think>Is she a wanted person? Maybe that's why she hasn't settled in one place...
+
+// ========================================================
+// MARK : t_talk_hpred
+// ========================================================
+*___Nightingale/t_talk_hpred t_00
+Wah, princess, you're all torn up. Are you alright?
+
+*n_00
+<m fadein>I-I'm alright...I think I can still fight.
+
+*t_01
+If someone's really alright, they'd respond to that question with "Why do you ask?". 
+
+*t_02
+Don't push yourself so hard! Now, c'mere and let big sis give you a hug!
+
+*n_01
+...if you could sell me something that would help me recover, I think that would be enough.
+
+*t_03
+Sure thing! 
+<W3><m ple>...Wait, you don't want my hug?! Ehh?!
+
+
+// ========================================================
+// MARK : t_store_debug
+// ========================================================
+*___Nightingale/t_store_debug t_00
+お店のテストはじまり
+
+*t_01
+お店のテストおわり！
+
+
+// ========================================================
+// MARK : t_talk_nusi
+// ========================================================
+*___Nightingale/t_talk_nusi n_00
+Is it true that large monsters have been showing up more frequently in this area?
+
+*t_01
+<I><m scary>Nope! <m>None! There's definitely nothing like that going on!
+
+*n_02
+But, the guard said there are eyewitness reports...
+
+*t_03
+<I><m ple>If word gets out that those dangerous things are swarming all over the place, my business will be doomed!
+*t_04
+<m ple>People pass through this forest on their way between the city and the village, so for me it's a nice marketplace with a lot of customers!
+
+*n_05
+I think my friend might have been captured by the monsters. If you have any info, would you please tell me?
+
+*t_06
+<m joy>...Don't look at me like that~.
+*t_07
+The thought of the princess and her friend crying while in mortal danger is enough to give me nightmares...but I guess I have no choice.
+
+*t_07b
+Okay, there's a massive cave-in near the drawbridge en route to the city...
+*
+Reported sightings of the large monster are spotty and disjointed, but I'm thinking that's probably its work.
+
+*n_08
+An intelligent monster?
+*t_09
+Sounds unreal, right? The scholars in the village think
+<i>"monsters are primitive organisms, with no capacity for intelligence"</i>,
+*
+but I disagree.
+I saw them work systematically to protect the mana plants.
+*
+It's very possible that they sense the danger of being outnumbered by an army of elves and are hiding to wait out the storm.
+
+*n_10
+Then, what if Ixia...my friend was captured?
+
+*t_11
+...She might be kept alive as a hostage.
+
+*n_12
+...I have to go save her.
+*t_13
+<m ple>W-Wait! Judging by the scale of the cave-in, the monster is really big and powerful!
+*t_14
+I probably shouldn't mention this, but worst-case scenario if you lose to that thing and the elven forces arrived late...
+*
+...at that point, saving just two cadets won't be the first thing on their minds...
+
+*n_15
+They would prioritize the extermination of the large monster over saving our lives...to protect the city?
+
+*t_16
+I'm just saying it's a possibility! I might be biased since I don't trust people from the village, but still, just in case!
+*
+So, princess,
+make sure you are prepared for anything!
+*t_17
+<m joy>If you purchase from Nightingale's Whimsical Shop now, I can offer you great items for 0% off the price!
+
+*n_18
+Y-You're not giving a discount...?
+
+*t_19
+It's one thing to make a sale, it's another thing to make a profit!

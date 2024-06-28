@@ -1,0 +1,544 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+// ========================================================
+// MARK : s12_5a
+// ========================================================
+
+
+
+*s12_7a w_00
+First time I've been called down from the mountain in a while, and it's to clean up this awful mess.
+*
+Requests from upper Grazia are always somethin’, aren’t they.
+
+// ノエルに気付く
+*w_01
+You a student, lass?
+Ah, right, this is a school route, isn't it?
+
+
+*w_01b
+Well, sorry, but the road's closed.
+*w_01c
+...Hm? You wanna help?
+Well then, I'd 'preciate it if you could check up on muh bud.
+
+*w_01d
+That idjit always spends too much time on his safety checks before he actually starts blasting. 
+*
+He's probably hangin' ‘round nearby, lettin’ the grass grow under his feet.
+*w_01e
+If he’s not payin’ attention though, a mana plant might spring up and knock ‘im on his ass! <m scary>GAHAHAHA!
+
+// 発破かける = explode A (Aを爆弾などで爆破して破壊　する）
+
+
+
+*w_02
+Oh by the by, don’t be castin’ spells near me. That magic stuff’s a wee bit toxic for us mountain-folk.
+*w_02b
+Shouldn’t be any reason fer ya to anyway, the officers are doing everything they can to keep the mana plants from sproutin’ up here.
+*
+Whatta tough job that must be.
+
+
+// *1
+*w_03
+My buddy should be hangin' ‘round here somewhere.
+
+*w_03b
+If you find him, tell him Walross is fixin' to kick his ass.
+
+
+// 5-B 服が破れてる状態でヴァーロスと話す
+*w_04
+What's up with your clothes, lass? You tryin' to seduce me or somethin'?
+*w_04b
+Sorry, but I'm only interested in my own kind. In fact, right now I'm thinkin' 'bout how to hit on that cutie I met back at the bar.
+
+*w_04c
+Course, my wife would tan my hide if she ever found out. <m scary>GAHAHA!
+*w_04d
+...Oh, not sayin' yer ugly or nothin'.
+*
+I'm sure you could have any man you wanted no matter how you dressed. 
+Just don't let 'em take advantage of you.
+
+
+
+
+// ========= ========= ========= ========= =========
+// 移動し、相棒を探す。
+// 小柄(160cm)な獣人が困った様子で縦穴を覗き込んでいる。
+// ========= ========= ========= ========= =========
+//  オストレア：やせ形の獣人（キャバリア犬）
+// 6-A
+
+*s12_8a s_00
+<m fadein>Ahh.. 
+what should I do...
+
+
+// ～～ヴァーロスの名前を聞く（*1) までヴァーロスに話しかけたかどうかで2パターン
+// 聞いていない～～
+*n_01
+Excuse me, 
+are you “Muhbud”...?
+
+// 聞いている～～
+*n_02
+Excuse me, are you Mr. Walross' buddy...?
+
+// ～～分岐ここまで
+
+// ～～ノエルの服が破れているかで分岐
+// 服が破れていない ～～
+*s_03
+<m scary>Uwah! It's one of those girl-in-a-white-dress ghosts!
+<m joy>Our Father, who art in the Cradle, may you rest in peace~~~...
+
+*n_04
+Uh, I'm still alive...
+
+*s_05
+Hm!? Oh, you're an elf...
+
+
+*s_05b
+Sorry about that. I haven't met very many elves...
+
+*n_06
+Is there anything I can help you with?
+
+
+// 服が破れている ～～
+*s_07
+<m scary>Uwah! It's one of those girl-in-a-white-dress ghosts!
+*
+<m scary>With clothes like that, she definitely died with unfinished business...!
+*
+<m joy>Our Father, who art in the Cradle, may you rest in peace~~~...
+
+*n_08
+<m pleasure>I'm still alive!<m>　My clothes were just...torn up a bit in battle.
+*
+Please...try not to stare.
+
+*s_09
+O-Oh! Okay.
+S-S-S-Sorry, I didn't mean to.
+
+*n_10
+...Is there anything I can help you with?
+
+
+// ～～分岐ここまで
+
+*s_11
+Ah, yeah, actually there is. 
+*
+Right now I'm in so much trouble that I'm contemplating if life is even worth living.
+
+// 穴の底の沼を指す
+*s_12
+...You see that yucky black stuff down there?
+I accidentally dropped the explosives I need for work into it.
+*
+I want to go in and get them back, but there’s mana plants inside. 
+*
+Also, it feels like <m cry>something<m>'s moving around down in there...
+*
+At the moment, my plan is to hope <m joy>the explosives somehow float back up by themselves...
+
+*n_13
+Well, my classmates and I need the road cleared so we can get to school, and I’ve dealt with mana plants before, so...
+*
+would you like me to retrieve them for you? 
+
+*s_14
+R-Really? Phew...
+<m joy>I guess miracles really do happen if you have a little faith...
+
+*s_14b
+I dropped <c blue>two sets of explosives.<c>
+If you can get both of them back, I'll be eternally grateful!
+*s_14c
+They may have sunk into the swamp, but it doesn’t look to be that deep...
+
+*n_15
+<think><m fadein>Is it really safe to have someone like him managing explosives....?
+
+
+
+// ========= ========= ========= ========= =========
+// 9-A: 無事に沼から爆弾を引き上げた
+// ========= ========= ========= ========= =========
+
+
+// ～～
+
+*s12_9a n_00
+Are these it? They’re so covered with sludge it’s hard to tell what they are...
+
+*s_01
+<m joy>Praise the great Mother Tree,<m> you did it! I can’t thank you enough!
+
+// 母なる大樹様＝ Oh my god! ぐらいのニュアンス。
+*s_02
+It doesn’t even come close to repaying my debt to you, but...here...I’d like you to have this.
+
+// スパイスの小瓶
+*n_03
+Are these...spices from Mt. Fallen?
+
+// Mt. Fallen
+*s_04
+Yes. I see elven merchants come up the mountain to restock on them sometimes, so I thought you might appreciate it.
+
+// ＝Nightingale のこと
+*s_05
+Well, I’d better head back. Thank you once again! Take care!
+
+// 去る
+
+*n_06
+...there he goes.
+*
+I’ve never been to the mountains before. I wonder if there are other beastmen living there like...uhh...whoever he was...
+
+
+*n_07
+<I>...Wait, he never told me his name!
+
+
+// ～～ここまでに料理を作ったことがあるかどうかで分岐
+// 料理経験アリ～～
+*n_08
+I wonder if these spices are good for cooking?
+I’ll have to give it a try when I get home.
+
+// 料理経験ナシ～～
+*n_09
+Maybe these spices can be used for cooking?
+I’ll ask Tilde when I get home.
+
+// ～～
+
+
+// ========= ========= ========= ========= =========
+// 9-B:  沼でノエルが敗北した
+// ========= ========= ========= ========= =========
+// バクダンを拾ったタイミングに関わらず
+// バクダンは拾えたことになり、バクダンのイベントは終了する。
+
+
+*s12_9b n_00
+......<m fadein>...uuu
+<m scary>*cough* *cough*...
+
+*s_01
+Are you okay?
+
+*n_02
+<m fadein>Ah...sorry mister...
+I wasn’t able to get the explosives...
+
+*s_03
+<m scary>P-p-p<m>lease don’t worry about it! 
+*
+I managed to grab the explosives while the monsters had their backs turned and made a mad dash back out.
+
+*n_04
+<think>......
+Thank goodness, at least it wasn’t all for nothing.
+*
+<think>I wish he’d stop staring at me with such pity, though...uuu.
+
+*s_05
+Oh, uh...um...I’m not sure what to do... Should I call someone from the village, or...?
+
+*n_06
+<m fadein>I’m alright. I can still walk on my own. Besides, I’m kind of...used to this.
+
+*s_07
+Alright, I understand...
+*
+In the future, try not to take any chances if a situation looks dangerous. And don’t be afraid to ask for help!
+
+*n_08
+......
+
+*s_09
+Well, 
+I should get back to work. 
+Thank you for your help! 
+Sincerely!
+
+// 去る。敗けた場合はこのタイミングではカレー粉はもらえない
+*n_10
+...uuu. Let’s move on.
+
+
+
+
+// ========= ========= ========= ========= =========
+// 沼に入って爆弾を回収
+// ========= ========= ========= ========= =========
+// 8-C 戦闘せずに爆弾だけ拾う
+
+
+
+
+*s12_8c n_00
+Found them. They're pretty heavy...
+They won't explode, w-will they?
+
+// 扉が閉まる
+*n_01
+<m ple>!?
+*
+There's definitely something lurking down here in the mire...
+Whatever it is probably thinks I'm here for the mana plants...
+
+*n_02
+...Fighting in the swamp wouldn't be a great idea. 
+*
+If I really have to take them on, I need to be aware of my footing.
+
+
+
+// 8-D: 先に戦闘したあとに爆弾を拾った場合
+*n_03
+Maybe it's a good thing I took them out first so I could search for the explosives without panicking.
+*
+Let's get them back to that beastman.
+
+
+
+
+
+// 10-A 
+*s12_10a w_00
+Oh, it’s the little elf lady from before!
+I hear you helped my partner clean up the mess he made!
+
+*s_01
+T-thanks for that...
+
+*n_02
+And thank you Mr Beastman...for opening the road again.
+
+*w_03
+There’s still some bits left to clean up, but thanks to your help, we were able to punch through the blockade!
+*
+You can go on through if you want.
+
+*s_04
+Yeah, we’re about...90% done. We still have to reinforce the walls in 12 different places to keep it from collapsing again...
+
+*w_05
+Ahhhh we’ll git ta that later!
+*
+I’m Walross, by the way. And this little fella is Ostrea. 
+*w_05b
+We’re miners from up
+in the mountains.
+Sorry fer all the trouble we caused ya’.
+
+*n_06
+My name is Noel Cornehl. Pleased to meet you.
+
+
+// ～～ 沼で敗北した場合はここでカレー粉がもらえる
+*w_07
+I got a feelin’ you might appreciate these.
+
+// スパイスの小瓶
+*n_08
+Are these...spices from Mt. Fallen?
+
+*w_09
+Not somethin’ that grows ‘round these parts, eh?
+*
+I see elven merchants travel up the mountain just to stock up on ‘em.
+
+*w_10
+Give ‘em a try next time yer preppin’ a meal.
+I think you’ll like ‘em!
+
+
+
+// 11-A もう一度ヴァーロスと話す
+
+
+*s12_11a w_00
+We really owe you a debt of gratitude, lass.
+*
+If yer house ever needs remodeling, just lemme know. I’ll fly in from the miner’s settlement.
+
+*w_01
+Although...my travel and labor costs might be a bit high for ya’! <m scary>GAHAHA!
+
+*n_01
+<think>That sounds more like an advertisement than a favor...
+
+// 12-A オストレアと話す
+
+
+
+*s12_12a s_00
+Thanks for your help earlier! Those explosives really did the trick, as you can see.
+*
+We’ll finish cleaning up the rest of the debris in a bit.
+
+*s_01
+My air filtration unit needs a replacement soon...
+Oh, how I miss the low-magic air of the mountains.
+
+
+// 11-B 服が破れた状態でもう一度ヴァーロスと話す
+
+
+
+*s12_11a w_02
+So lass, is walking around in tatters a hobby a’ yers?
+*
+Battle scars are like medals of honor for a village ruffian, but on a pretty young lady like you, it just ain’t right.
+*w_03
+I’d love to fix ‘em up for you, but needlework ain’t one of my specialties. 
+*w_04
+I’d pro’bly just end up reducin’ ‘em to scraps. <m scary>GAHAHA!!
+
+
+
+// 12-B 服が破れた状態でオストレアと話す
+
+
+*s12_12a s_03
+Honestly, your appearance is making it difficult for me to take the measurements I need here.
+*
+I think you should do something about your clothes as soon as possible.
+*s_04
+I know that makes me sound like a meddlesome old fogey...
+*
+but with you being an elf, I’m certain that you’re actually the older one between the two of us.
+	
+
+
+
+
+*s12_15a xa_00
+I definitely landed more hits than you...
+
+*xb_01
+No way. Besides, my White Arrow struck a vital organ, so I dealt more damage than you.
+
+*xa_02
+Psh, it shrugged that off like it was nothin'. Also I severed it's thickest root, so...
+
+*xb_03
+Tch, only because I...
+
+*xa_04
+It was all me...
+
+
+
+// 15-C: 荷物を確認しているエルフの男性。
+*s12_15c x_00
+87, 88...Yes, commander! I'm checking our supplies right...now...
+*
+Oh, you're not the commander. Their outfit is white just like yours.
+*
+Which unit are you from?　You should probably get to your post before the commander sees you slacking off.
+
+*x_01
+Did you hear about the heavy damage our unit sustained during the last battle? 
+*
+We had to use most of our supplies.
+*
+I'm checking to see what's left right now. Where was I, 90...no, 86...?
+*
+Guess I'm starting over...
+
+
+// 15-D: 同人物に服が破れた状況で話しかける
+
+*x_02
+94, 95...yikes, there are still a lot of troops that haven't received their supplies...
+*
+These ones are being sent straight to the front lines, you'll have to go to the office to get yours.
+*x_03
+<think>...is this girl even in our army? 
+*
+<think>If a cutie like her was on the front lines, I'd definitely be distracted watching her get atta-...I mean, avoid attacks...
+
+*n_04
+Um...
+
+*x_05
+Oh, sorry, it's nothing! Now, where was I...oh yeah, checking the supplies...
+*
+100, 101...wait...
+
+
+
+// 15-E: 
+// ノエルが里に立ち入ろうとする
+
+
+*s12_15e n_00
+These stairs lead to the Elf Village.
+Nobody from the Cornehl family is allowed to enter, except for Zeth and our father.
+*n_01
+Ixia was born there, but she's been living in a dorm since she became a student,
+*
+and hasn't been back to her parent's place in awhile.
+
+
+
+
+// ヴァーロスが岩を爆破したあとにアルマのいた駅に行くと、エルフの兵士が数人控えている。すべて男性。
+
+// 16-A:
+
+
+
+
+*s12_16a x_00
+This area has been designated as a military zone.
+*
+Excuse me...you there, what unit are you from?
+Could you check the area to see if anyone was left behind?
+*x_01
+...You're a student in Grazia? You must have really slept in. Back when I was a student...
+*
+Nevermind, that's not important. 
+Like I said, this is a military zone. 
+Return to your home.
+
+
+// 16-B:
+
+*s12_16b x_00
+All the eerie relics scattered about here are creeping me out.
+*
+Even though they're lying in ruins, it feels like they could start moving again at any moment.
+*
+There have been reports of the "Pink-haired Phantasm" going around recently. 
+*
+She's been wandering the forest for decades, her appearance untouched by the passage of time.
+*
+<m scary>Honestly if I ever saw her, I'd be scared out of my wits.<m>
+*
+It's said she was standing in front of one of these ancient devices when her physical form suddenly disappeared...
+*
+Oh, the horror...the horror...

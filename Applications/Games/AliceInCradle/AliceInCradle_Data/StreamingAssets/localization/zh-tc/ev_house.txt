@@ -1,0 +1,30 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+// ========================================================
+// MARK : ___House/_backdoor_portal
+// ========================================================
+ 
+
+
+
+*___House/_backdoor_portal n_00
+<think>要去哪邊呢？
+
+
+*___House/_dont_goout n_00
+現在還是不要出去吧。
+
+
+// ========================================================
+// MARK : cooking
+// ========================================================
+*___House/_cooking_portal n_00
+<think>吉爾達哥哥大人說過不准碰
+廚房的料理工具一根寒毛。

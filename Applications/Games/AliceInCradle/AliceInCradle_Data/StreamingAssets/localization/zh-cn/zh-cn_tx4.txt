@@ -1,0 +1,247 @@
+%FAMILY zh-cn
+
+// ========================================================================
+// 231006 カタログの追加要素
+
+&&CatalogI_tab_shopping 可购入此物品的商店
+// 素材回収の木／池で開いたときのピックアップタイトル
+&&Catalog_pickup_current_reel_spot 素材收集点 (&1)
+
+
+// ==================
+// 231008 宝箱を手に入れた際にアイテムがいっぱい
+&&MoneyBox_adding_need_enough_room 但是背包中物品太多已经拿不下了……
+&&MoneyBox_adding_need_bottle 但是因为没有&1，所以无法获取……
+
+
+// ========================================================
+// MARK : ver0.25
+// ========================================================
+
+
+&&Area_school  贝尔米特\b士官学园
+&&Area_sacred  恩惠圣母之石
+
+&&GM_error_sacred 警告：检测到周边魔力已达到致死浓度，请立刻疏散至安全场所。
+
+// ========================================================
+// MARK : Dojo Game
+// ========================================================
+&&Mgm_dojo_tutorial 热身运动
+/* ___ Mgm_dojo_tutorial_desc ___ */
+查看小游戏的规则和教程。
+另外，在小游戏中败北
+不会受到失败惩罚。
+
+/* ___ Mgm_dojo_generator_desc ___ */
+难度： &1
+/* ___ Mgm_dojo_generator_count ___ */
+已挑战次数： &1 （胜利次数：&2 /最小失误次数：&3）
+/* ___ Mgm_dojo_generator_count_not_played ___ */
+已挑战次数： &1 （胜利次数：&2）
+
+
+/* ___ Mgm_dojo_confirm_tutorial ___ */
+千里之行始于足下。
+磨炼伊始，当将本道场之规矩熟识于心。
+
+
+/* ___ Mgm_dojo_confirm_learned ___ */
+虽为已得之术，
+亦不当松懈每日温习。
+
+/* ___ Mgm_dojo_confirm_not_learned_first ___ */
+汝若渴求学习未得之术，
+一口缴纳此价，方可任意操练直至纯熟。
+
+/* ___ Mgm_dojo_confirm_not_learned ___ */
+先前汝止于半途，未能掌握要领。
+倒而不馁，试而不疲，此乃习得技术必由之路。
+
+
+/* ___ Mgm_dojo_confirm_choose ___ */
+开始「&1」之切磋！
+
+/* ___ Mgm_dojo_confirm_choose_tutorial ___ */
+开始热身运动！
+
+
+&&Mgm_dojo_confirm_btn_ok 请多指教！
+&&Mgm_dojo_confirm_btn_cancel 待会儿再说
+
+
+
+
+&&Mgm_dojo_tuto_play_rest    剩余 &1 回合
+&&Mgm_dojo_tuto_play0    跟随节奏使出石头<key la/>吧
+&&Mgm_dojo_tuto_play1    跟随节奏使出剪刀<key ra/>吧
+&&Mgm_dojo_tuto_play2    跟随节奏使出布<key ta/>吧
+&&Mgm_dojo_tuto_play4    跟随节奏使出克制对手的手势吧
+&&Mgm_dojo_indicate_next_hand    选择该手势
+
+// ミニゲームUI
+
+&&Mgm_ui_highscore 最高分数记录：
+&&Mgm_ui_playcount 挑战次数：
+&&Mgm_ui_playcount_content &1 次
+&&Mgm_ui_updated_highscore 高分记录已刷新！
+
+// Museum Viewer
+&&Museum_image_index &1<font size="20">/&2</font>
+&&KD_museum_viewer <key rem/>隐藏UI <key shift/>+<key ba/><key ta/>放大/缩小
+&&KD_museum_viewer_move 切换
+&&KD_museum_viewer_quit <key menu/>停止
+&&KD_museum_viewer_comment <key c/>品鉴
+
+
+
+// 状態異常
+// アクチール: Actihol
+
+&&SerTitle_drunk    晕乎乎
+/* ___ SerDesc_drunk ___ */
+摄入酿精后意识处于飘飘欲仙的状态。
+
+// 後半は↓ orgasm_after とほぼ同じ文章です。
+
+/* ___ SerDesc_drunk_1 ___ */
+从料理中获得的增益效果减少&1%。
+
+/* ___ SerDesc_drunk_2 ___ */
+偶尔会踉踉跄跄跌倒在地。
+
+/* ___ SerDesc_drunk_3 ___ */
+真不应该喝那么多的……
+
+/* ___ SerDesc_drunk_0 ___ */
+一定程度上防止MP槽发生破裂，
+但魔力恢复效率降低。
+该效果无法通过坐在长椅上解除，
+只能通过进行一段时间的战斗，
+或者喝水来恢复。
+
+
+
+// 買い物での飲食
+// tx2 の lunch_confirm / tx3 の lunch_drink_confirm に対応しています。
+
+&&lunchstore_drink_confirm 要买<b>「&1」</b>来喝吗？
+&&lunchstore_drink_confirm_burst <font color="ff:#A00B35">肚子胀鼓鼓的大概喝不完…确定要买</font>\n<b>「&1」</b>喝吗？
+&&lunchstore_drink_confirm_dupe <font color="ff:#B828AC">大概没办法完全吸收营养…确定要买</font>\n<b>「&1」</b>来喝吗？
+
+
+&&lunchstore_confirm 要买<b>「&1」</b>来吃吗？
+&&lunchstore_confirm_burst <font color="ff:#A00B35">肚子胀鼓鼓的大概吃不完…确定要买</font>\n<b>「&1」</b>来吃吗？
+&&lunchstore_confirm_dupe <font color="ff:#B828AC">大概没办法完全吸收营养…确定要买</font>\n<b>「&1」</b>来吃吗？
+
+&&Eat_Buy 买下并吃掉&1
+&&Eat_Buy_Drink 买下并喝掉&1
+
+&&SerTitle_overrun_tired    疲惫
+/* ___ SerDesc_overrun_tired ___ */
+魔力枯竭时仍勉强使用魔法
+导致疲劳不堪，增加受到的伤害。
+MP计量槽变得容易碎裂，
+且更容易进入「晕厥」状态。
+可通过在地图间移动来缓解。
+
+&&SerTitle_milky    母乳体质
+/* ___ SerDesc_milky ___ */
+在大地奇异力量的作用下，
+本应漏出诺艾儿汁的时候，
+流出的却常常是诺艾儿乳。
+究其原理……总之就是大地的奇异力量。
+
+
+&&SerTitle_clt_broken    服装损坏
+/* ___ SerDesc_clt_broken ___ */
+衣服破破烂烂的。
+坐在长椅上可以重新修补好。
+
+/* ___ SerDesc_clt_broken_detail ___ */
+受到的伤害变为原来的1.5倍。
+闪避的无敌时间延长。
+
+
+/* ___ Store_BarUnder_Help_Title ___ */
+酒吧的秘密贮藏室
+
+/* ___ Store_BarUnder_Help_Contents ___ */
+通过「卖出」背包中的诺艾儿汁／诺艾儿乳／诺艾儿卵来
+换取特殊货币<font color="ff:#646D00">精萃<img mesh="money_juice"/> </font>，
+获得的<font color="ff:#646D00">精萃<img mesh="money_juice"/> </font>可以在贮藏室购买商品。
+
+购买结束后，剩余的<font color="ff:#646D00">精萃<img mesh="money_juice"/> </font>
+将由酒保代为保管，作为你的余额以供你进行下一次交易。
+
+换到足够多的精萃，就能尽情地丰富里世界的设置法则了~
+
+&&Store_selling_worthless 那个东西在这里可卖不掉。
+
+/* ___ Item_special_config_detail ___ */
+此物品会在您的设置菜单中
+添加新的选项。
+它本身不会出现在物品菜单中。
+
+&&Alert_spconfig_activate 已解锁新的设置项。
+
+&&Alert_explode_bomb_in_inventory 携带的爆炸物被引爆了…
+
+&&deperture_dialog 要去哪里呢？
+&&deperture_home 据点
+
+// ========================================================
+// MARK : ver0.25d 錬金術カタログ 新要素
+// ========================================================
+
+&&Catalog_enemyspot_dangerous 危险度: &1
+
+&&Catalog_pickup_reel_on_map 转轮获取点(&1)
+
+// ↓エネミースポット関連の一覧が追加されます。
+
+&&Catalog_categ_item_summoner 战斗点
+&&KD_reel_detail 转轮详情
+&&KD_enemyspot 战斗点详情
+
+
+&&CatalogI_tab_enemyspot 可获取此物品的战斗点
+&&CatalogI_tab_enemydrop 可掉落此物品的敌人
+&&CatalogN_enemyspot_defeated 战胜次数总计：&1次
+
+// ↓英語などの言語で「このアイテムを取得できる宝箱」というカテゴリーとして
+// 実装されていましたが、新しく「この戦闘エリアで得られる宝箱」というカテゴリーが追加されます。
+
+&&CatalogI_tab_chest_from_here 可在此战斗点获取的宝箱
+
+&&CatalogI_tab_address 地点
+&&catalog_show 显示
+
+&&recipe_categ_actihol 鸡尾饮料
+&&name_recipe_actihol 调配方法：&1
+
+
+
+// ========================================================
+// MARK : ver0.25f
+// ========================================================
+
+&&Alert_new_config_on_barunder  贮藏室里上架了新商品。
+
+// ゲームオーバーの際、拘束解除／シャッフルボタンが追加されます。
+&&KD_go_escape_from_bind  解除拘束
+&&KD_shuffle_enemy_position  变换魔族位置
+
+
+
+// 錬金術カタログの減少カテゴリ
+&&Catalog_categ_sub_reduce_hp 降低HP
+&&Catalog_categ_sub_reduce_mp 降低MP
+&&Catalog_categ_sub_reduce_ep 降低兴奋率
+
+/* ___ Alert_new_keybind_for_check ___ */
+请注意，由于此版本新增了许多交互功能，
+从ver0.25b开始，我们对键位系统进行了调整。
+
+若您在游戏中遇到了键位异常（如互动键失灵）
+等情况，请检查或重设您的键位设置。

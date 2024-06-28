@@ -1,0 +1,326 @@
+%FAMILY zh-cn
+// ミニゲーム 4ASCEND用
+
+// &&BackToTitle    返回标题
+&&ttr_MainMenu    主菜单
+&&ttr_KD_title_nel    <key submit/>开始 <key cancel/><key menu/>结束
+&&GameStart 开始游戏
+
+
+&&Restart_game    重赛
+&&Replay    观看对局录像
+&&Replay_in_game   重播录像
+
+&&Submit_ttr_GoToTitle 返回主菜单
+
+
+&&ttr_start_game    <font color="ff:#EDFF63" letterSpacing="1.20"><i>开始对局</i></font>
+&&ttr_make_rule    设置额外规则和让分
+&&ttr_make_rule_confirm    确认额外规则
+
+&&Restart_in_game    重新对弈<font size="85%" color="ff:#FF7070">（现有对局将被清除）</font>
+&&BackToTitle_in_game    返回菜单<font size="85%" color="ff:#FF7070">（现有对局将被清除）</font>
+
+&&ttr_Play_CPU 人机对战
+&&ttr_Play_Online 在线匹配（尚未开放）
+&&ttr_Play_Local2P 本地双人对战
+
+&&TTR_OPT_se_vol SE音量
+&&TTR_OPT_bgm_vol BGM音量
+
+&&ttr_Rule 查看规则
+&&ttr_Record 对局记录
+
+&&AI_name_noel CPU ???
+&&AI_name_ostrea 奥斯托利亚
+&&AI_name_ixia 伊夏
+&&AI_name_alma 阿尔玛
+&&AI_name_primula 普莉姆拉老师
+
+&&Turn_manual My Turn &1
+&&Turn_manual_1 Player 1's Turn &1
+&&Turn_manual_2 Player 2's Turn &1
+&&Turn_CPU Thinking...
+
+&&RPL_Playing 录像回放中 <key ra/>快进
+
+
+&&Cutin_gamestart SEND YOUR DECISION
+&&Cutin_backattack BACK ATTACK!
+
+
+&&TTR_rule_title_0 游戏概要.1
+&&TTR_rule_title_1 游戏概要.2
+&&TTR_rule_title_2 基本规则.1
+&&TTR_rule_title_3 基本规则.2
+&&TTR_rule_title_4 进攻
+&&TTR_rule_title_5 抵消
+&&TTR_rule_title_6 胜利条件
+&&TTR_rule_title_7 基本技巧
+&&TTR_rule_title_8 进阶技巧.1
+&&TTR_rule_title_9 进阶技巧.2
+&&TTR_rule_title_10 进阶技巧.3
+&&TTR_rule_title_11 进阶技巧.4
+&&TTR_rule_title_12 在线对局.1
+&&TTR_rule_title_13 在线对局.2
+
+
+/* ___ TTR_rule_0 ___ */
+<font color="ff:#4fffec">4ASCEND</font>
+是一款基于经典五子棋改编而来的
+简单的双人棋类对战游戏。
+
+
+/* ___ TTR_rule_0_1 ___ */
+本游戏支持本地对战、人机对战
+和在线匹配模式。
+
+
+
+/* ___ TTR_rule_1 ___ */
+玩家与对手分别为
+执白子的<font color="ff:#5C98FF">精灵阵营</font>
+和执黑子的<font color="ff:#FF6483">魔族阵营</font>。
+游戏目标是在落子抓住优势位置的同时，抓住机会向对手<font color="ff:#4fffec">发动攻击</font>，
+最终战胜对手。
+
+
+/* ___ TTR_rule_2 ___ */
+在己方的回合内，
+玩家可以在盘面上线条交叉形成的
+点位上，选择一处尚未落子的位置，
+点击放置一枚己方颜色的棋子。
+
+
+/* ___ TTR_rule_3 ___ */
+在棋盘上纵向、横向或斜向有4枚或以上的棋子
+连成一线，就会被从棋盘上拿起、进入攻击态势。
+这就是<font color="ff:#4fffec">ASCEND</font>。
+
+/* ___ TTR_rule_4 ___ */
+一方构建出<font color="ff:#4fffec">ASCEND</font>后轮到对手，
+如果不做出应对，
+则会受到相当于棋子数量的伤害值。
+作为<font color="ff:#4fffec">ASCEND</font>使用的棋子不会回到棋盘上。
+
+/* ___ TTR_rule_5 ___ */
+如果一方构建出<font color="ff:#4fffec">ASCEND</font>后，对手通过落子
+也构成一个<font color="ff:#4fffec">ASCEND</font>的话，
+就会根据互相的棋子数量进行抵消。
+例如，当你做出了一个4枚棋子的攻击，
+对手立即连出了一个5枚棋子的<font color="ff:#4fffec">ASCEND</font>的话，
+你作为进攻方反而会在抵消结束后受到1点伤害。
+
+/* ___ TTR_rule_6 ___ */
+当有一方的生命值为0，或者当
+棋盘上81个位置都已经落满棋子时，游戏结束。
+游戏结束时生还的一方获胜。
+盘面占满时，剩余生命值较多的一方获胜，
+双方血量相同则盘面上棋子较多的一方获胜。
+
+
+
+/* ___ TTR_rule_7 ___ */
+当盘面上出现再落1子就能连出ASCEND的情况时，
+相应的棋子会高亮并发出响声作为提醒。
+这意味着这一玩家下一回合就可以立刻发动<font color="ff:#4fffec">ASCEND</font>了。
+倘若你没能有效应对，则会吃下这次攻击的全部伤害，
+因此请尽量时刻确保自己的棋子能够随时接招。
+
+/* ___ TTR_rule_8 ___ */
+随着对局的进行，棋盘上会长出<font color="ff:#DFFFB4">魔力植物</font>。
+落在<font color="ff:#DFFFB4">魔力植物</font>上的棋子，在组成<font color="ff:#4fffec">ASCEND</font>时
+攻击力+1点，这意味着在抵消阶段时
+可以多抵消1枚对手的棋子。
+（需注意，这并不会改变这枚棋子造成的直接伤害。）
+
+/* ___ TTR_rule_9 ___ */
+此外，在对手做出<font color="ff:#4fffec">ASCEND</font>后，
+如果立即在组成ASCEND的棋子的位置上落子，
+则可以形成<font color="ff:#FFB5FF">反击</font>，使得相应位置对手的棋子无效。
+而且，如果对手落在<font color="ff:#DFFFB4">魔力植物</font>上的棋子因你的反击而失效，
+则你也会将这株<font color="ff:#DFFFB4">魔力植物</font>纳入囊中，从而在反击中获得额外的优势。
+
+/* ___ TTR_rule_10 ___ */
+如果在对手发动<font color="ff:#4fffec">ASCEND</font>时你无法立即发动进行抵消防御，
+使用<font color="ff:#FFB5FF">反击</font>未尝不是一种降低损失的方法。
+在无法用<font color="ff:#4fffec">ASCEND</font>应对的不利局面下，
+使用这种战术轻松地为自己减少1点伤害，
+或许会在无意中成为扭转战局的关键。
+
+
+/* ___ TTR_rule_11 ___ */
+每次<font color="ff:#4fffec">ASCEND</font>的结算后棋盘上都会生长魔力植物，
+而且魔力植物倾向于生长在对进攻方有利的位置。
+（但如果连续进行<font color="ff:#4fffec">ASCEND</font>的话，土地会变贫瘠，从而延缓魔力植物的生长。）
+如果你感到战况焦灼，不妨抱着杀敌一千、自损
+八百的觉悟，背水一战后或许就会有新的出路。
+
+
+/* ___ TTR_rule_12 ___ */
+在在线匹配模式下，
+可以选择随机匹配与网络上的其他人对战，
+也可以通过互相分享房间号的方式进行房间对局。
+（不过我们使用的免费服务器可能不太稳定，对此我们深表歉意）
+可以考虑在QQ或微信上跟给朋友发送房间号。
+
+/* ___ TTR_rule_13 ___ */
+随机匹配的对局结束后，玩家会获得一个排位等级，
+等级的值实际上是最近10场比赛中胜利场数除以2（最大为4）。
+这个数值仅供直观地判断玩家的水平好坏，
+并不会影响匹配的人选。
+也因此就算赢了等级远高于自己的选手也不会跳级。
+
+
+
+
+
+// ========================================================
+// MARK : Result
+// ========================================================
+
+
+&&ttr_announce_manual_1p Player 1 WIN!
+&&ttr_announce_manual_2p Player 2 WIN!
+&&ttr_announce_manual YOU WIN!
+&&ttr_announce_cpu CPU WIN...
+&&ttr_announce_online_player YOU LOSE...
+
+&&ttr_result_draw DRAW GAME
+&&ttr_draw_in_record 平局
+&&ttr_temporary_aborted_in_record 中断对局
+
+&&ttr_result_cause_defeat_0 <font color="ff:#B6D6FF">魔族势力已被歼灭</font> (&1-&2)
+&&ttr_result_cause_defeat_1 <font color="ff:#FF88AA">精灵势力被击退了</font> (&1-&2)
+
+&&ttr_result_cause_life_low_0 剩余生命值 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font>，<font color="ff:#B6D6FF">精灵阵营胜利</font>
+&&ttr_result_cause_life_low_1 剩余生命值 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font>，<font color="ff:#FF88AA">魔族阵营胜利</font>
+
+&&ttr_result_cause_stone_0 盘面棋子数 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font>，<font color="ff:#B6D6FF">精灵阵营胜利</font>
+&&ttr_result_cause_stone_1 盘面棋子数 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font>，<font color="ff:#FF88AA">魔族阵营胜利</font>
+
+&&ttr_desc_date 对局日期：&1
+&&ttr_desc_duration 对局时间：&1（共&2回合）
+&&date_hours &1小时
+&&date_minute &1分
+&&date_second &1秒
+
+
+&&ttr_result_cause_aborted  <font color="ff:#B6D6FF">对方认输了</font> （剩余生命值 <font color="ff:#B6D6FF">&1</font> vs <font color="ff:#FF88AA">&2</font>）
+&&ttr_result_cause_aborted_me <font color="ff:#F10000"> 你放弃了本场比赛 </font>
+
+&&ttr_record_header_high_score / <font size="60%">HIGHEST</font> &1<font size="75%">Pt.</font>
+
+&&ttr_record_header <font size="60%">WIN</font> &1 / <font size="60%">LOSE</font> &2
+
+&&ttr_record_header_draw / <font size="60%">DRAW</font> &1
+
+&&ttr_result_win 胜利得分 &1<font size="75%">Pt.</font>
+&&ttr_result_lose 败北得分 &1<font size="75%">Pt.</font>
+&&ttr_result_calc &1 x &2 = &3
+&&ttr_result_calc_hilight &1 x &2 = <font color="ff:#EDFF63">&3</font>
+&&ttr_result_rest_life 剩余血量奖励 &1
+&&ttr_result_overkill_damage 伤害溢出奖励 &1
+&&ttr_result_apply_damage_when_lose 输出伤害奖励 &1
+&&ttr_result_score 最终得分 <font size="160%">&1</font><font size="120%">Pt.</font>
+&&ttr_result_is_new_record <font color="ff:#EDFF63" size="140%">  NEW RECORD!</font>
+
+&&ttr_result_special_max_hp 最大HP &1 vs &2
+&&ttr_result_timekeep 落子决策时间 &1秒
+&&ttr_result_timekeep_infinity 落子决策无时间限制
+
+&&ttr_record_score 最终得分 &1 Pt.
+&&ttr_record_friend_match <font size="80%">（房间匹配）</font>
+&&ttr_record_o_rank 对手的排位等级
+&&ttr_record_my_rank 现在的排位等级
+
+// ========================================================
+// MARK : Rule Make
+// ========================================================
+
+&&ttr_sprule_bigmotor 灾岁荒年
+&&ttr_sprule_bigmotor_desc 场地上不再生长魔力植物。\n这一模式容易导致对局胶着。
+
+&&ttr_sprule_harvest 五谷丰登
+&&ttr_sprule_harvest_desc 魔力植物在ASCEND中使用后不会消失。
+
+&&ttr_pr_name_manual 玩家
+&&ttr_pr_name_manual_1p 玩家1
+&&ttr_pr_name_manual_2p 玩家2
+&&ttr_pr_name_manual_1p_online 你
+&&ttr_pr_name_manual_2p_online 对手
+&&ttr_pr_name_cpu CPU
+
+&&ttr_makerule_max_life 最大生命值
+&&ttr_makerule_timekeep 落子时间
+&&ttr_makerule_timekeep_second &1秒
+&&ttr_makerule_timekeep_infinity 无限制
+
+&&ttr_makerule_1pcolor 玩家1的棋子颜色
+&&ttr_makerule_1pcolor_white 白
+&&ttr_makerule_1pcolor_black 黑
+&&ttr_makerule_1pcolor_auto 自动分配
+
+&&ttr_timekeep_pass <font color="ff:#E70909">PASS</font>
+
+&&ttr_makerule_plant 植物生长方式
+
+
+&&ttr_makerule_obtain_score 追加分值 &1<font size="75%">Pt.</font>
+&&ttr_makerule_online <font size="80%" >「随机匹配」模式下除了棋子颜色外不可修改规则。</font>
+&&ttr_makerule_online_friend <font size="80%" >「房间匹配」模式下，除了棋子颜色外的其他规则仅能由房主指定。</font>
+
+
+
+&&ttr_stage 棋盘预设
+
+&&ttr_stage_flat 平原
+&&ttr_stage_frontbase 冲突前线
+&&ttr_stage_totalwar 全面战争
+&&ttr_stage_grace_field 恩惠之地
+
+
+&&ttr_which_first 先手/后手
+&&ttr_which_first_dice 骰子
+&&ttr_which_first_is_1p 1P
+&&ttr_which_first_is_2p 2P
+&&ttr_which_first_cpu CPU
+
+
+&&ttr_select_icon 选择图标（此选项不影响性能）
+
+
+
+// ========================================================
+// MARK : Online
+// ========================================================
+
+&&ttr_online_abort 连接中断
+
+&&ttr_online_your_icon 己方图标
+
+&&ttr_online_match_nora 随机搜寻对局
+&&ttr_online_match_friend 好友对局
+
+&&ttr_online_ann_error_connect 服务器连接失败。
+&&ttr_online_ann_error_something 出现未知错误。
+&&ttr_online_ann_error_logout 连接中断。
+&&ttr_online_ann_connection 服务器连接中...
+&&ttr_online_ann_matchmake 对局匹配中...
+&&ttr_online_ann_matchmake_roomid 对局匹配中... 房间号：&1
+&&ttr_online_ann_connection_error 无法连接到服务器。
+&&ttr_online_ann_matchmake_error 对局匹配超时。
+
+&&ttr_online_ann_rematch 正在发送与对手重赛的请求…
+&&ttr_online_ann_rematch_chk 对方同意了与你重赛…
+
+&&ttr_online_ann_matchmake_completed 对局匹配成功！
+&&ttr_online_logout_manual 正在断开连接…
+
+&&ttr_online_ann_dice 对方正在掷骰子…
+&&ttr_online_ann_start_1p 己方先手
+&&ttr_online_ann_start_2p 对方先手
+
+&&ttr_online_reconnect 网络连接不稳定，重新连接中…
+&&ttr_online_reconnected 重新连接成功。
+&&ttr_online_ann_error_logout_youwin 由于对方放弃对局，你获得了这场比赛的胜利。

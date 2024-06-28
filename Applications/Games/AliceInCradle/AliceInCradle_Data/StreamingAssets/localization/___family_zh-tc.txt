@@ -1,0 +1,57 @@
+
+// Chinese //
+zh-tc      TC      中文(TC)-v0.25
+
+// 1st word: This name corresponds to %FAMILY in the _tx_** file.
+// 2nd word: Simplified name (write in 2 letters)
+// 3rd word: Full name in the option
+
+%SYSTEM_LANGUAGE ChineseTraditional Chinese 
+// Enter a valid key from this SystemLanguage class.
+// (see https://docs.unity3d.com/ja/2019.4/ScriptReference/SystemLanguage.html )
+
+%USE_ARIEL 1
+
+%BUNDLE_PATH __AdditionalFonts zh
+%FONT GenSenRounded-R SourceHanSerifSC-SemiBold 
+%FONT_BASE_HEIGHT 0.84
+%FONT_YSHIFT 0.88
+%FONT_XRATIO 1.02
+%FONT_XRATIO_1BYTE 1.00
+
+// ================================================
+// useable commands...
+
+// %ENGLISH_MODE 1
+// A flag that adjusts the appearance of UI 
+// for languages with many characters per word
+// ( such as English ).
+
+// %USE_ARIEL 1
+// Show this font using Ariel (Unity default font)
+
+// %DEFAULT_LANGUAGE 1
+// the family will be chosen as default when no other family
+// which has %SYSTEM_LANGUAGE setting is matched.
+
+// %BUNDLE_PATH <Path> <to> <additional_font>
+// Define path to .dat for %FONT command (from localization/) , without extension.
+// if you dont define this command, %FONT will load localization/<KEY>/<KEY>_font.dat
+
+// %FONT <Default-Font> <Font-For-Title>
+// Load fonts from .dat files (AssetBundles) in the directory.
+
+// %FONT_BASE_HEIGHT <Number>
+// The ratio of character height to font size when using "%FONT".
+
+// %FONT_YSHIFT <Number>
+// The baseline position from the top of the letters when using "%FONT".
+
+// %FONT_XRATIO <Number>
+// The ratio of width of multibyte characters to font size when using "%FONT".
+
+// %FONT_XRATIO_1BYTE <Number>
+// The ratio of width of single byte characters to font size when using "%FONT".
+
+
+// ================================================

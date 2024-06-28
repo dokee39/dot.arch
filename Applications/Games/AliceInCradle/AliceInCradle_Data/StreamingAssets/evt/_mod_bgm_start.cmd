@@ -1,0 +1,1 @@
+START_BGM   120

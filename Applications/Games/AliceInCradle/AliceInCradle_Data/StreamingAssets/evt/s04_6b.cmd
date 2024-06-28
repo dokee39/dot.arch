@@ -1,0 +1,82 @@
+START_LETTERBOX
+GFC_SET_MX	PRM3 2 
+
+
+WAIT 20
+
+HKDS	n
+TALKER_REPLACE	n 
+
+#MS_ laevi 'P[walk] >+[100,0 :320] P[stand]'
+#MS_ % 'w90 P[stand_ev] @L '
+HKDS	v CLT #<laevi>
+
+MSG	v_00
+
+
+WAIT_MOVE
+WAIT 20
+
+HKDS	v
+TALKER n R
+TALKER v L
+PIC   v v/a11__F1__m1__b1_u0    
+PIC   n a_1/a22__F1__f1__m1__b1__u3    
+MSG	n_01
+
+PIC   n a_3/a0__F1__f3__m8__b1_u1    
+PIC_MP  n PLE
+MSG	n_02
+
+
+PIC   v v/a12__F1__m5    
+PIC_MP	v LAG 
+
+MSG	v_03
+PIC_HIDE_ALL	 
+
+WAIT 20
+
+#MS_ laevi 'P[walk] >+[160,0 :180] P[stand]'
+
+#MS_ s04_6a '>+[0,-200 :140]'
+PIC_FILL	&3 DARK
+PIC_FADEIN	&3 120
+STOP_BGM	150
+
+WAIT 130
+LOAD_BGM	BGM_inn
+
+
+#MS_ laevi '='
+
+HKDS	n C #<%> MONOLOGUE
+TALKER_REPLACE n '=' ''
+
+IF 'GFC[PVV0_KILLED]==0' {
+    MSG n_10
+} ELSE {
+    MSG n_11
+}
+
+DENY_SKIP
+WAIT 50
+INIT_MAP_MATERIAL house_noelroom 1
+REPLACE_BGM	20 1
+WAIT 60
+PVV 100
+GFC_SET NOE1  1
+SCN_MANUAL_BGM_REPLACE ''
+STOP_GMAIN
+WAIT 490
+WAIT_FN MAP_TRANSFER
+NEL_MAP_TRANSFER house_noelroom L !!
+ALLOW_SKIP
+START_GMAIN
+CHANGE_EVENT s10_1a
+
+
+
+
+
+

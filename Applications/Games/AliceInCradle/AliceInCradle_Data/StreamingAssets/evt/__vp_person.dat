@@ -1,0 +1,63 @@
+//名前定義 ここが Talker 定義の始点になる 
+
+// %PXL_PERSON pxlファイル名 (イベントが終わったあとに破棄するなら1)
+_ ＊ 
+%PXL __events 1
+%PXL __events_restroom 1
+%PXL __events_forest 1
+%PXL __events_house 1
+%PXL __events_house_g 1
+%PXL __events_forest_nusi 1
+%PXL __events_dojo_intro 1
+%PXL __events_city_cow 1
+%PXL __events_city_scl 1
+%PXL __events_lunch_cutin 1
+%PXL __events_lunchst_cutin 1
+%PXL __events_mountain 1
+// %PXL __events_2weekattack 1
+
+//キー 名前 (サウンド名_を入れると無音) 1を入れると名前を縮める 
+n Noel talk_noel
+%COLICO ff:#DCCAE7 IconNoel0
+%PXL_PERSON __ev_n
+
+nb Noel talk_noel
+%COLICO ff:#DCCAE7 IconNoel0
+%PXL_PERSON __ev_n_bass 1
+v Laevi talk_levi 1
+%COLICO ff:#C692F7 IconLaevi
+%PXL_PERSON __ev_v 1
+p Primula talk_m1
+%COLICO ff:#E7AD96 IconPrimula
+%PXL_PERSON __ev_p 1
+i Ixia talk_ixia
+%COLICO ff:#B7FABF IconIxia
+%PXL_PERSON __ev_i 1
+t Nightingale talk_nightingale
+%COLICO ff:#A5AFE0 IconNightingale
+%PXL_PERSON __ev_t  1
+
+d Tilde talk_tilde
+%COLICO ff:#DAD1CA IconTilde
+%PXL_PERSON __ev_d 1
+l Alma talk_alma
+%COLICO ff:#FFC9DE IconAlma
+%PXL_PERSON __ev_l  1
+f NoelDad talk_nodad 
+%COLICO ff:#C4B8BC IconDelfini
+%PXL_PERSON __ev_f 1
+
+g Mepha talk_mob_w3 
+%COLICO ff:#9EA3B1 IconMepha
+%PXL_PERSON __ev_g 1
+
+s Ostrea talk_mob_m2 
+%COLICO ff:#FFD9C0 IconOstrea
+%PXL_PERSON __ev_s 1
+w Walross talk_mob_m1 
+%COLICO ff:#B1A8BE IconWalross
+%PXL_PERSON __ev_w 1
+
+bt Barten talk_barten 
+%COLICO ff:#FF8686 IconBarten
+%PXL_PERSON __ev_bt 1

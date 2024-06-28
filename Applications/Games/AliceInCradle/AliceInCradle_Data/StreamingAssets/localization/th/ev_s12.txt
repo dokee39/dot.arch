@@ -1,0 +1,488 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// ========================================================
+// MARK : s12_ixia
+// ========================================================
+
+
+
+*s12_1a i_00
+Good job! As expected from my rivah-ahchoo!
+
+*n_01
+You alright? I think you should go back to the academy and take a nice, hot shower...
+
+*i_02
+I was already planning to! You don't have to tell me!
+*
+Anyway, the <c blue>Energy Ball should be useful for fighting any fast enemies<c> you encounter in the giant trees ahead!
+*
+Just be careful not to get your mana absorbed like mine was!
+
+*n_03
+Got it. Thank you for everything, Ixia.
+*i_04
+Don't thank me just yet, Noel Cornehl! After all...
+
+*i_05
+I still have one more spell to give you!
+
+*n_05
+!?
+
+*i_06
+It's one that's particularly good for self-defense; perfect for you!  
+*
+I'll try to deliver it to you before the big ones start running wild!
+
+
+*n_07
+Won't that be kind of...troublesome? You could just hold onto it until we meet agai─
+
+*i_08
+Aaanyway, you'll be climbing up the giant tree and trudging through the school route into town later, no?
+*
+We'll definitely meet up along the way!
+
+*i_09
+See you later, Noel Cornehl!
+
+// 飛んでいく
+*n_09
+...And off she goes. 
+I hope she'll be alright.
+*n_10
+So... 
+I can <c blue>use the Energy Ball to counter the upcoming quick enemies<c>. I'll keep that in mind.
+
+
+
+// ========================================================
+// MARK : s12_mepha
+// ========================================================
+*s12_mepha x_00
+The drawbridge to the village is currently closed.
+*
+There have been reports of big monster sightings at the mansion overlooking the lake.
+*
+We'll open the drawbridge as soon we get the all clear signal.
+*
+There's a tunnel just down this cliff that leads to the <c blue>Giant Acid Tree<c>.
+*
+Go that way if you're in a hurry.
+
+*x_01
+Are you a student in the village? Your uniform looks a bit out of date...
+*
+It's not safe here. You should take shelter at the hillside mansion.
+*
+Although, personally I don't like that place. 
+*
+The employees' sleazy dresses and the gnarled vines everywhere make me uncomfortable...
+
+*x_02
+If you keep going ← this way, you'll eventually reach the hills.
+*
+But if you're in a hurry, <c blue>go down the cliff and find the tunnel that leads to the Giant Acid Tree<c>.  
+*
+You can keep staring at me all you want, but I'm not lowering the drawbridge.
+*
+Ever hear the saying 'a watched pot never boils'?
+
+
+// ========================================================
+// MARK : s12_alma
+// ========================================================
+
+
+
+
+// L アルマ・オプフェバム (Alma Opfebaum)
+*s12_2a l_00
+Cornehl?
+
+*n_01
+Oh, you're...Alma, right?
+*
+<think>Alma, one of my classmates.
+She's a quiet girl. We haven't spoken to each other much...
+
+// 2-B 隣に座る =================================
+*n_02
+...
+
+*l_03
+Are you all better?
+
+
+// 3-A daijoubu =================================
+*l_04
+That's good to hear...
+
+
+// => 4-A
+
+
+// 3-B Nope =================================
+// 1日目で敗けていない
+*n_05
+It still hurts a bit.
+*
+And sometimes, when I'm fighting, the memories of that day come screaming back...
+
+*l_06
+I see...that must be difficult.
+
+
+// => 4-B
+
+// 3-C Nope =================================
+// 1日目で敗けていた場合
+*n_07
+It still hurts a bit.
+*
+And...the other day...I was attacked again and got badly hurt.
+*
+...I think I might not be cut out for fighting.
+
+// M 立ち上がる
+*l_08
+<angry><I>That's not true!
+
+*n_09
+...!? Wha-what's the matter?
+
+// M 座りなおす
+*l_10
+Ah...I'm sorry, I didn't mean to yell.
+
+
+// => 4-B
+
+
+// 4-A =================================
+// しばらく沈黙
+*l_11
+...Is it okay if I talk about what happened that day at school?
+
+
+// => 5-A
+
+// 4-B =================================
+// しばらく沈黙
+*l_12
+...So I shouldn't talk about what happened that day at school, should I?
+
+*n_13
+...No no, it's okay. What did you want to say?
+
+
+// => 5-A
+
+
+// 5-A =================================
+
+*l_14
+When the monster horde attacked Grazia two weeks ago, many of them rushed towards the school...
+*
+The guards fought the ones that forced their way into the building, but the field our class was in was completely unprotected.
+*l_15
+...Being the dunce that I am, I tripped and fell when I tried to run away... 
+*
+I thought for sure I was going to die.
+*l_15_2
+But then, you cast a spell and knocked the monster down...do you remember?
+
+*n_15
+Of course...but I didn't knock it down. At most I made it flinch.
+*n_16
+Which just made them target me...and we both know how that ended.
+*n_16_2
+But I'm glad you got away safely. That might be the best news I've heard all day.
+
+*l_16
+Yeah...it was all thanks to you. But...
+*l_16_2
+I wasn't able to help you in return. 
+I'm so sorry.
+*l_16_3
+<m scary>All I did was watch as you were engulfed by that black mass....
+*
+I was so scared...but...I should've done something!
+
+*n_17
+You have nothing to apologize for, Alma. 
+*
+The teachers said there were a ton of monsters in that raid they'd never seen before. There was nothing you could have done.
+*n_17_2
+And, you see, the Cornehl family is a family of outcasts...I was an unwanted extra in the class.
+*
+So if I needed to take the attack for everyone else to be spared...that's a burden I was willing to bear─
+
+*l_18
+I-It doesn't matter what bloodline you're from! I don't know what those noble-born students think of you, but...
+*l_18_2
+To me you're a hero.
+*l_18_3
+What you did was inspiring...
+
+*n_19
+...
+
+*l_20
+I felt so bad I wasn't able to protect you...
+*
+I've never liked magic class, but since then I've been secretly training at home.
+
+*n_21
+...I see. That means we're rivals from now on.
+
+*l_22
+<I><m ple>No, no, not at all!
+<m>There's no way I could compete with Cornehl or Polystachya!
+*l_22_2
+...I may never get to be the person I aspire to be, but I can at least make the effort.
+*l_22_3
+...Ehehe, sorry for rambling on there.
+
+*n_23
+It's alright, it was nice talking to you.　Also, you can just call me 'Noel'.
+
+*l_24
+<m fadein>R-Really?
+<m>Okay then, Noel.
+
+*l_24_2
+Calling each other by our first name makes it feel like we're friends now.
+
+*n_25
+We've always been friends, heehee. Well, I'll see you at school.
+
+*l_26
+<m ple>See you!
+
+
+
+
+// 6-A === もう1度話す
+*s12_6a l_00
+Looks like nobody is getting through with the road collapsed.
+I'll keep waiting, but...I'm getting a little sleepy.
+*
+I heard they're making progress on removing debris from the other side of the road. Think they can handle a job this big?
+
+
+// 服が破れてる状態でアルマと話す
+*l_01
+...Noel, please take it easy. 
+Also, you should fix your clothes as soon as possible...there are leering eyes everywhere.
+
+
+
+
+
+
+
+
+
+
+// 同所 他のモブ2 (青年)
+*s12_mobo x_00
+The giant trees here have hollow cavities large enough for us elves to walk through. We cleared them out to use as passageways, but...
+
+*
+The 'Giant Acid Tree' lives up to its name. Its acidic sap drips down and pools into lakes.
+*
+You won't be able to avoid them if you try to get to the village by any route other than this central road.
+
+
+*x_01
+These are my only good clothes and I need them for job hunting, so I can't risk burning them.
+*
+That's why I don't want to go through that road with all the acid. 
+*
+The central road collapsing is a disaster on top of a disaster... 
+*
+Being late to my interview because of this is probably a valid excuse, r-right?
+
+
+
+// ノエルの服が破れてる状態で青年と(何度も)話す
+*x_02
+Whoa, you look awful.　Did you fall into the acid pools or something?
+
+
+
+*x_03
+...Uh, you don't really want me to see you like that, do you?
+
+
+*x_04
+I have an interview in town later today. I don't know if I'll make it in time...
+*
+What I really want to say is, uh...can I actually say it?
+
+
+*x_05
+<angry><m scary>I...your...your breasts and underwear are showing!
+*
+Stop putting dirty thoughts in my mind!
+
+
+*x_06
+<m scary>Hey! Why do you keep trying to talk to me!? Are you an exhibitionist or something!?
+*
+Sigh...I'm trying really hard not to get all riled up. I'm just going to stare at you. Okay?
+
+
+*x_07
+...Hmm. Monster bite marks. Those look painful. I'm not into pain.
+*
+There's a bench over there. You should go patch yourself up.
+
+*x_08
+You're aware that you're showing me something indecent, aren't you? Alright then, I'm going to talk about something indecent.
+*
+My friend has been chanting something like 
+<m joy><c blue><rb c="Pitiable">KAWAISOU</rb> IS <rb c="Adorable">KAWAII</rb><c><m>. 
+*
+He's been collecting girls' fiction where the heroine fights something and gets in a bind.
+*
+That pervert gets all excited over those. What do you think? 
+
+
+// 問題ない ～～
+*x_09
+You think so? I mean, I'm not going to tell him what he can and can't do. I think any hobby is fine as long as it doesn't bother other people.
+
+// おかしい ～～
+*x_10
+I knew you'd think so. ...Wait, after how many times you've spoken to me dressed like that, is that really what you think?
+
+// 選択肢ここまで ～～
+
+*x_11
+Sigh...the road is still impassible. Even if I do make it into town, it won't be in time for the interview...
+*
+I should just go back to the village, bust a nut, and go back to sleep. What would I jack off to, you ask? You, I guess.
+*
+...Just kidding. I'll go to the book store and buy some new erotica before I head home.
+*
+I don't normally talk about stuff like this, even with my closest friends.　Maybe you and I are soul mates.
+*
+...
+*
+...No, I'm not hitting on you.
+Y'know what, forget I said anything...
+*
+Let's start again from the top. Ahem.
+
+
+// ここで会話がループする……ように見せかけて、
+// もう一度会話を繰り返し選択肢のフェーズまで話しかけ続ける
+
+*x_15
+...You kept talking to me over and over again just for the fun of seeing how I would react when you chose a different option to my question.
+*
+When I go out into the world, I'm sure I'll come across many more situations like this. Situations where my worth is tested over and over again.
+*
+Perhaps you spoke to me many times as a way of encouraging me, a person who can't be bothered to go to his interview.
+*
+...When I think about it, maybe meeting you here wasn't so bad after all.
+*
+From now on, when I'm going through hard times in my life, I'll remember the encouragement you gave me with your exposed chest and panties...
+*
+Maybe.
+
+
+*x_16
+Even if the situation feels like a dead end, there's a solution for it hidden somewhere.
+*
+Just like when you flip the clothes up and reveal the breasts and panties...
+*
+...
+No, just no. That's an awful summary.
+*
+I know I said this earlier, but I should just go home and jerk off.
+*
+...I hope we can meet again somewhere. Although next time, I'd be happy if you were dressed a little nicer.
+*
+...
+*
+I'm still definitely not hitting on you. Seriously.
+
+
+
+
+
+*s12_oneesan x_00
+The central road is the safest route between the elf village and the city. There is a situation right now, though.
+*
+Some quick-witted folks are taking a detour to the other side of the road. Is that what you're planning to do?
+*
+There are some hazardous spots along the way where acid sprays out. Be careful not to get burnt to a crisp.
+
+
+*x_01
+This road is regularly sprayed with herbicides to prevent mana plants from growing on it.
+*
+I once volunteered to help with the decontamination process...it is very tedious and tiresome work.
+*
+Once you experience something like that, you really appreciate the hard work and effort put in by the people that do it regularly!
+
+
+
+
+
+
+*s12_girl x_00
+Nighttime is scary, isn't it?
+*
+Sometimes monsters will suddenly attack you even when you aren't messing with the mana plants. You have to be prepared for battle anytime.
+
+*x_01
+Since the attack 2 weeks ago, there has been an increase in the number of monsters that use lightning spells.
+*
+Some were wandering around nearby earlier. I got scared and ran away... 
+*
+If you get hit by lightning magic, you need to stay calm and use your Shield or Shield Bash to block it.
+*
+They'll warp away if you aim a magic attack at them.
+*
+<c blue>They'll stop warping if they run out of mana<c>. That's the best time to hit them with a strong attack!
+*
+...You may be wondering why I don't go defeat them since I know so much about them. I-It's because I'm also out of mana today!
+
+
+
+
+*s12_megane x_00
+The road collapsed and we can't get to Grazia.
+*
+I overslept this morning, so I grabbed my breakfast and ran all the way downhill from the village. 
+*
+I was in such a rush that I barely nibbled on my toast, but it was still all for nothing!
+*
+I suppose I could climb up the stairs and go along the tree to reach the other side, but...I'm a bit too tired to head back to the village right now~
+
+*x_01
+I heard they called in some kind of...beastmen workers? to help clear the debris. I wonder if they'll be able to clear it all overnight?
+*
+Might as well say that I can't make it today and just skip class. 
+Should I?
+
+
+
+*s12_morus n_00
+Looks like an ancient device of some kind. I can't read what's written on it.
+*
+There's a black jewel-like object stuck on top of the flickering lights.

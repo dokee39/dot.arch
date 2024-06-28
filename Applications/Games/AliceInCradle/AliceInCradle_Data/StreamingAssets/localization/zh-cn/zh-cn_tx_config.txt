@@ -1,0 +1,602 @@
+%FAMILY zh-cn
+&&Config_SEV  音效音量
+&&Config_VOV  语音音量
+&&Config_BGMV  BGM音量
+
+&&Config_Windowed 显示模式
+&&Config_Windowed_0 窗口
+&&Config_Windowed_1 全屏
+
+&&Config_Sensitive 健全模式
+&&Config_Sensitive_0 关
+&&Config_Sensitive_1 开
+
+
+&&Config_Lang 语言\nLanguage
+&&Config_Lang_0 日语(JP)
+&&Config_Lang_1 英语(EN)
+
+
+&&Config_AutoSave 自动保存
+&&Config_AutoSave_0 关
+&&Config_AutoSave_1 仅长椅
+&&Config_AutoSave_2 仅剧情章节
+&&Config_AutoSave_3 全部
+
+&&Config_Magsel 选择魔法时的\n慢镜头
+&&Config_Magsel_0 关闭
+&&Config_Magsel_1 等倍速
+&&Config_Magsel_2 1/2倍速
+&&Config_Magsel_3 1/3倍速
+&&Config_Magsel_4 1/4倍速
+
+&&Config_Draw_Fps 整体刷新率
+&&Config_Draw_Fps_0 每帧刷新
+&&Config_Draw_Fps_1 每2帧刷新
+&&Config_Draw_Fps_2 每3帧刷新
+&&Config_Draw_Fps_3 每4帧刷新
+
+&&Config_Draw_EfFps 特效刷新率
+&&Config_Draw_EfFps_0 每帧刷新
+&&Config_Draw_EfFps_1 每2帧刷新
+&&Config_Draw_EfFps_2 每3帧刷新
+&&Config_Draw_EfFps_3 每4帧刷新
+
+
+&&Config_UiEf_Dirty UI污渍表现
+
+&&Config_MapEf_Level 游戏特效量
+&&Config_UiEf_Level UI特效量
+&&Config_UiEf_TimeScale UI特效时长
+
+
+
+&&Config_Kisekae 换装
+&&Config_Kisekae_0 通常
+&&Config_Kisekae_1 粉色
+&&Config_Kisekae_2 蓝色
+&&Config_Kisekae_3 紫色
+&&Config_Kisekae_4 红色
+
+
+&&Config_desc_SEV   设置音效的音量。
+&&Config_desc_VOV   设置诺艾儿声音的音量。
+&&Config_desc_BGMV  设置背景音乐的音量。
+&&Config_desc_keycon  更改键盘和手柄的按键。
+/* ___ Config_desc_Lang ___ */ 
+简体中文-特别鸣谢Cicini做出的特殊贡献
+Choose your display language.
+<font size="12.3" linespacing="0.76">
+感谢译者@rolling_badger,@szsrkirby,Phenix02, @kokonoekyu,TsurukawaAkari,CatInCradle,扁尖笋, Chiyuki,哥哥我欧尼酱,克劳恩Peace,Éphemeral</font>
+&&Config_desc_Sensitive 设置是否显示性方面的描写。\n<font color="#E70B0B">未满18岁或正在录像的玩家\n请务必选择健全模式为「开」。</font>
+
+&&Config_desc_Windowed   设置游戏的显示模式。
+
+&&Config_desc_AutoSave   设置自动保存的时机。\n（这不会影响手动保存的存档）
+
+&&Config_desc_Magsel 设置战斗时选择魔法菜单内的游戏速度。\n速度越慢，可供选择魔法的时间就越长。
+
+&&Config_desc_Kisekae 诺艾儿的像素图换装（りょなけ特典）。 \n<font color="#E70B0B">只能在标题界面更改。</font>
+
+&&Config_desc_Draw_Fps  设置游戏画面的整体刷新率。\n（向右调整可以减轻设备的运行负荷）\n游戏卡顿时请尝试更改此项。
+&&Config_desc_Draw_EfFps 设置游戏画面中特效动画的刷新率。\n<font color="#E70B0B">更改的数值高于整体刷新率时\n此项将无法生效。</font>
+
+&&Config_desc_MapEf_Level 调整游戏场景中特效动画的数量。\n向右调整可以减轻设备的运行负荷。
+&&Config_desc_UiEf_Level 调整UI画面上特效动画的数量。\n向右调整可以减轻设备的运行负荷。
+&&Config_desc_UiEf_TimeScale 调整UI画面上\n特效动画显示的时间长度。\n向右调整可以减轻设备的运行负荷。
+
+&&Config_desc_UiEf_Dirty 设置诺艾儿受伤时\n身体允许沾上污渍的最大量。\n设置为0时不会沾上污渍。
+
+&&KD_submit <key submit/>确认
+&&KeyHelp_title_top <key la/><key ba/><key ta/><key ra/>切换 <key submit/>确认
+&&KeyHelp_title_config <key ta/><key ba/>切换 <key la/><key ra/>设置数值 <key submit/>确认
+&&KeyHelp_title_svd_select <key ta/><key ba/>切换 <key submit/>确认
+
+
+&&GO_KeyHelp_top 长按<key cancel/>放弃… 按下<key sort/>暂停
+&&GO_KeyHelp_pause <key la/><key ba/><key ta/><key ra/>移动镜头 <key ltab/><key rtab/>放大／缩小 <key sort/>固定镜头 <key cancel/>重置镜头
+
+
+
+
+&&Keyconfig_title   键位设置
+
+&&Keyconfig_name_submit   确认
+&&Keyconfig_name_cancel   取消／跳过
+
+&&Keyconfig_name_menu   菜单
+&&Keyconfig_name_ltab   向左切换标签
+&&Keyconfig_name_rtab   向右切换标签
+&&Keyconfig_name_la  ←
+&&Keyconfig_name_ra   →
+&&Keyconfig_name_ta   ↑
+&&Keyconfig_name_ba   ↓
+&&Keyconfig_name_z   攻击
+&&Keyconfig_name_x   魔法
+&&Keyconfig_name_c   切换目标
+&&Keyconfig_name_a   地图
+&&Keyconfig_name_s   其他
+&&Keyconfig_name_d   物品
+&&Keyconfig_name_jump   跳跃
+&&Keyconfig_name_lsh   闪避
+
+/* ___ Keyconfig_column_header_keyboard ___ */
+<font color="#FFFDBB">输入</font> <font color="#A7A39F">／</font> 游戏中显示
+
+/* ___ Keyconfig_column_header_pad ___ */
+<font color="#FFFDBB">输入</font> <font color="#A7A39F">／</font> 游戏中显示
+
+/* ___ Keyconfig_box_input_kb ___ */
+<font color="#000000">请输入任意键</font>
+<font size="12">（Enter键除外）</font>
+
+/* ___ Keyconfig_box_input_pad ___ */
+<font color="#000000">请按下任意按键
+（需要设置为摇杆或方向键时请持续推住或长按）</font>
+
+&&Keyconfig_label_field_caption     游戏中显示的名称
+
+&&Keyconfig_input_nouse     不使用该键
+
+&&Input_none    <font alpha="0.25">No Use</font>
+&&Input_leftshift    LShift
+&&Input_rightshift    RShift
+&&Input_leftalt    LAlt
+&&Input_rightalt    RAlt
+&&Input_leftcommand    LCommand
+&&Input_rightcommand    RCommand
+&&Input_leftcontrol    LCtrl
+&&Input_rightcontrol   RCtrl
+&&Input_backspace    BS
+&&Input_return     ⏎
+&&Input_escape     ESC
+&&Input_doublequote     “
+&&Input_quote     ‘
+&&Input_0     0
+&&Input_1     1
+&&Input_2     2
+&&Input_3     3
+&&Input_4     4
+&&Input_5     5
+&&Input_6     6
+&&Input_7     7
+&&Input_8     8
+&&Input_9     9
+&&Input_colon    :
+&&Input_semicolon    ;
+&&Input_at    @
+&&Input_leftbracket    [
+&&Input_rightbracket    ]
+&&Input_underscore    _
+&&Input_comma   ,
+&&Input_period   .
+&&Input_plus   +
+&&Input_minus   -
+&&Input_asterisk   *
+&&Input_slash   /
+&&Input_caret   ^
+&&Input_numpad0     0
+&&Input_numpad1     1
+&&Input_numpad2     2
+&&Input_numpad3     3
+&&Input_numpad4     4
+&&Input_numpad5     5
+&&Input_numpad6     6
+&&Input_numpad7     7
+&&Input_numpad8     8
+&&Input_numpad9     9
+&&Input_numpadperiod     .
+&&Input_numpaddivide     /
+&&Input_numpadmultiply     *
+&&Input_numpadminus     -
+&&Input_numpadplus     +
+&&Input_numpadenter     ⏎
+&&Input_numpadequals    =
+&&Input_leftarrow   ←
+&&Input_rightarrow   →
+&&Input_uparrow   ↑
+&&Input_downarrow   ↓
+&&Input_left   ←
+&&Input_right   →
+&&Input_up   ↑
+&&Input_down   ↓
+
+
+&&PadInput_up    ↑
+&&PadInput_left    ←
+&&PadInput_right    →
+&&PadInput_down    ↓
+&&PadInput_North    <img mesh="button_north" tx_color />
+&&PadInput_South    <img mesh="button_south" tx_color />
+&&PadInput_West    <img mesh="button_west" tx_color />
+&&PadInput_East    <img mesh="button_east" tx_color />
+&&PadInput_Cross    ✖
+&&PadInput_Circle    ◯
+&&PadInput_Square    □
+&&PadInput_Triangle    △
+&&PadInput_leftTrigger    LT
+&&PadInput_rightTrigger    RT
+&&PadInput_leftShoulder    LB
+&&PadInput_rightShoulder    RB
+&&PadInput_touchpadButton
+&&PadInput_leftStickPress
+&&PadInput_rightStickPress
+&&PadInput_Plus
+&&PadInput_Minus
+&&PadInput_select    Select
+&&PadInput_start    Start
+&&PadInput_trigger    1
+&&PadInputL_trigger    Y
+&&PadInputL_North    Y
+&&PadInputL_South    A
+&&PadInputL_West    X
+&&PadInputL_East    B
+&&PadInputL_1    Y
+&&PadInputL_2    A
+&&PadInputL_3    B
+&&PadInputL_4    X
+&&PadInputL_5    LB
+&&PadInputL_6    RB
+&&PadInputL_7    LT
+&&PadInputL_8    RT
+&&PadInputL_9    Select
+&&PadInputL_10    Start
+&&PadInputL_11
+&&PadInputL_12
+
+&&Keyconfig_prompt_confirm   请<font color="#000000"><b>长按 </b></font><key submit /> 以保存所有变更。
+
+
+// ========================================================
+// MARK : 220115 追加分
+// ========================================================
+
+
+
+&&Config_ui_sensitive_description UI受虐记录
+&&Config_desc_ui_sensitive_description   设置受到性攻击时\n显示受虐描写文本的数量。
+
+
+&&Config_SE_stereo 立体声
+&&Config_SE_stereo_0 单声道
+&&Config_SE_stereo_1 立体声
+&&Config_desc_SE_stereo   诺艾儿，难不成……\n你还在用单声道设备！？
+
+
+&&Config_PostEf_Level 画面特效限制
+&&Config_desc_PostEf_Level    减少在低HP等状态下\n画面的特效显示。\n向右调整可以减轻设备的运行负荷。
+
+
+// ========================================================
+// MARK : 2202 追加分
+// ========================================================
+&&Config_Effect_No_Restriction 无限制
+&&Config_UiEf_Dirty_Blood UI污渍表现（血）
+&&Config_desc_UiEf_Dirty_Blood   设定值越接近0，\nUI就会有越多血液类的污渍\n被替换为黑色，\n游戏画面中的红色飞沫也就越少。
+
+
+
+&&Config_UiEf_Density UI污渍表现密度
+&&Config_desc_UiEf_Density 设置UI中诺艾儿\n身上沾染污渍的密度。
+
+&&Keyconfig_name_run  奔跑
+
+&&Enabled 启用
+&&Disabled 禁用
+&&Slider_On 开
+&&Slider_Off 关
+&&Config_val_sensitivity &1 以上
+
+&&Config_Running_Reverse 自动奔跑
+/* ___ Config_desc_Running_Reverse ___ */
+设置是否启用自动奔跑。
+若启用， 需按住<key run/>
+使角色保持行走状态。
+
+
+&&Config_Running_Double 双击奔跑
+/* ___ Config_desc_Running_Double ___ */
+设置是否启用快速双击<key la/><key ra/>
+进入奔跑状态的功能。
+
+
+&&Config_Running_Stick_Thresh 摇杆奔跑阈值
+/* ___ Config_desc_Running_Stick_Thresh ___ */
+设置将摇杆向<key pad la/><key pad ra/>
+方向推动时触发
+奔跑的临界值。
+
+
+&&window_size_recomennded \n（推荐）
+&&Config_Window_Size 窗口大小
+/* ___ Config_desc_Window_Size ___ */
+设置窗口显示模式下
+游戏窗口的大小。
+游戏中的像素画面仅在推荐大小下
+能够呈现最清晰的显示效果。
+
+
+
+
+&&Config_Shield_Hold_Evadable 展开护盾时闪避
+/* ___ Config_desc_Shield_Hold_Evadable ___ */
+设置展开护盾时，
+是否能通过短按<key pad la/><key pad ra/>
+来进行闪避。
+
+
+
+
+&&Config_USel_Z_Push 快捷物品使用
+/* ___ Config_desc_USel_Z_Push ___ */
+设置按下<key d/>
+进入快捷物品菜单后
+使用物品的操作方式。
+
+
+
+&&USel_D_Release 松开<key d/>使用
+&&USel_Z_Push 按住<key d/>时\n按下<key submit/>使用
+
+
+&&Config_VSync 垂直同步
+/* ___ Config_desc_VSync ___ */
+启用垂直同步（VSync）
+可避免画面撕裂。
+<font color="#E70B0B">设置将在游戏重启后生效。</font>
+当前设置：<i>&1</i>
+
+
+
+/* ___ Keyconfig_title_header_keyboard ___ */
+<fiximg mesh="KC_keyboard" tx_color alpha="0.25" margin="-10" behind="1" x="0" y="-16"/>
+键盘按键初始化
+
+/* ___ Keyconfig_title_header_pad ___ */
+<fiximg mesh="KC_pad" tx_color alpha="0.25" margin="-10" behind="1" x="0" y="-16" />
+手柄按键初始化
+
+&&KeyCon_Reset_Label 初始化按键备注及图标
+&&KeyCon_Reset_Pad_DI 初始化（DirectInput）
+&&KeyCon_Reset_Pad_XI 初始化（XInput）
+&&KeyCon_No_Reset 不变更
+
+
+
+
+&&Keyconfig_prompt_has_duplicate <font color="ff:#B828AC"><img mesh="alert_triangle" width="20" tx_color />检测到按键冲突</font>
+
+
+// ========================================================
+// MARK : ver0.23 added
+// ========================================================
+
+
+&&Config_Difficulty 游戏难度
+/* ___ Config_desc_Difficulty ___ */
+选择游戏难度。
+
+
+&&Config_Sensitive_2 开（超健全）
+
+
+// ========================================================
+// MARK : ver023d
+// ========================================================
+
+&&Config_GO_Position 游戏结束\nUI位置
+&&Config_GO_Position_0 右下
+&&Config_GO_Position_1 上方
+/* ___ Config_desc_GO_Position ___ */
+设置游戏结束时
+操作提示的显示位置。
+
+&&Config_MagSel_Decide 魔法确认键
+&&Config_MagSel_Decide_0 禁用
+&&Config_MagSel_Decide_1 <key submit/>\n（已设定的&1键）
+&&Config_MagSel_Decide_2 固定为<key z/>
+&&Config_MagSel_Decide_3 固定为<key c/>
+/* ___ Config_desc_MagSel_Decide ___ */
+设置一个特定按键，
+用于在选择魔法时进行确认，
+从而跳过判定时间，立即开始咏唱。
+
+
+// ========================================================
+// MARK : ver024
+// ========================================================
+
+&&Keyconfig_category_ui  UI键位
+&&Keyconfig_category_game  动作键位
+&&Keyconfig_name_sort 物品排序
+&&Keyconfig_name_add 添加物品/对话记录
+&&Keyconfig_name_rem 移除物品/隐藏界面
+&&Keyconfig_name_shift 物品对照
+
+&&Config_UI_KD_appearance 键位操作指示
+&&Config_UI_KD_appearance_0 自动
+&&Config_UI_KD_appearance_1 键盘
+&&Config_UI_KD_appearance_2 手柄
+
+/* ___ Config_desc_UI_KD_appearance ___ */
+设置<key submit/><key cancel/>等按键
+是否使用固定的
+操作输入指示。
+
+//物品快捷使用选项
+&&USel_D_Tap_Z 短按<key d/>后\n按下<key submit/>使用
+
+&&Keyconfig_box_input_pad_hold 长按…
+
+
+// ========================================================
+// MARK : ver024-c
+// ========================================================
+
+&&Stick_sensitivity_adjust 摇杆灵敏度调节…
+/* ___ Stick_sensitivity_adjust_auto_prompt ___ */
+正在自动调整中，
+请稍等片刻，不要触动您的摇杆。
+
+&&Stick_sensitivity_auto 自动调节
+&&Stick_sensitivity_value 灵敏度
+&&Stick_manage 请操作您的键盘或鼠标。
+
+
+// ========================================================
+// MARK : ver0.25 特殊追加
+// ========================================================
+
+
+&&Config_spconfig_uipic_lr 立绘显示位置
+/* ___ Config_desc_spconfig_uipic_lr ___ */
+设置立绘显示在画面左侧还是右侧。
+
+&&Config_left 左侧
+&&Config_right 右侧
+&&Config_hidden 隐藏立绘
+
+&&Config_spconfig_dmg_multivoice 受击语音混叠设置
+/* ___ Config_desc_spconfig_dmg_multivoice ___ */
+调节连续受击时前后不同的受击语音的
+播放密度，这会改变受击语音重复播放或
+发生语音混叠的概率。
+
+&&Config_spconfig_cloth_strength 服装强度
+/* ___ Config_desc_spconfig_cloth_strength ___ */
+设置服装的布料强度。
+更高的强度意味着其更为耐磨、不易破损。
+
+
+&&Config_Super_fragile 吹弹可破
+&&Config_Unbreakable 坚不可摧
+
+&&Config_spconfig_cloth_broken_debuff 衣损惩罚
+/* ___ Config_desc_spconfig_cloth_broken_debuff ___ */
+启用此选项，衣物损坏时
+受到的伤害会增加，但同时
+闪避的无敌时间会延长。
+
+
+&&Config_spconfig_milk 泌乳率
+/* ___ Config_desc_spconfig_milk ___ */
+调节诺艾儿失禁时
+获得诺艾儿乳的概率。
+
+&&Config_spconfig_juice 出汁率
+/* ___ Config_desc_spconfig_juice ___ */
+调节诺艾儿失禁时
+获得诺艾儿汁的概率。
+
+
+&&Config_spconfig_deadburned 败北燃烧动作
+/* ___ Config_desc_spconfig_deadburned ___ */
+设置败北时如果处于「燃烧」状态下
+是否会继续来回跑动。
+
+
+
+&&Config_spconfig_dmgte_pixel_density 受击闪烁强度\n（场景）
+/* ___ Config_desc_spconfig_dmgte_pixel_density ___ */
+调节受伤时诺艾儿的像素绘
+闪烁效果的强度和时长。
+
+
+
+&&Config_spconfig_dmgte_pixel_duration 受击闪烁时长\n（场景）
+
+
+&&Config_spconfig_dmgte_ui_density 受击闪烁强度\n（UI）
+/* ___ Config_desc_spconfig_dmgte_ui_density ___ */
+调节受伤时诺艾儿的立绘
+闪烁效果的强度和时长。
+
+
+
+&&Config_spconfig_dmgte_ui_duration 受击闪烁时长\n（UI）
+
+//使用右摇杆貌似可以使魔法的使用更加方便……
+
+&&Keyconfig_name_m_neutral  基本魔法
+&&Keyconfig_name_mla  魔法←
+&&Keyconfig_name_mra   魔法→
+&&Keyconfig_name_mta   魔法↑
+&&Keyconfig_name_mba   魔法↓
+
+
+&&Config_spconfig_juice_cutin 失禁显示设置
+/* ___ Config_desc_spconfig_juice_cutin ___ */
+若启用仅特写动画模式，
+则失禁描写不会反映在立绘上，
+只会在特写动画上显示。
+
+
+
+&&Config_normal 默认
+&&Config_juice_cutin_1 仅特写动画
+
+
+&&Config_spconfig_voice_for_pleasure 快感语音设置
+/* ___ Config_desc_spconfig_voice_for_pleasure ___ */
+调整诺艾儿受到性攻击时
+因受到快感刺激而发出叫声的频率。
+
+
+
+&&Config_spconfig_voice_for_pleasure2m 快感语音替换
+/* ___ Config_desc_spconfig_voice_for_pleasure2m ___ */
+启用此选项时，
+一部分的性攻击受击语音会被替换为
+自慰时的语音音效。
+
+
+&&Keyconfig_name_check   查看/对话
+
+
+
+// ========================================================
+// MARK : ver0.25f
+// ========================================================
+
+&&Config_spconfig_go_cheat 游戏结束时\n执行特殊操作
+
+/* ___ Config_desc_spconfig_go_cheat ___ */
+此选项可以解锁在战斗败北时
+「解除拘束」或「重新排列敌人位置」
+的功能。
+
+// ========================
+// 特定部位の位置追加
+
+&&Config_spconfig_ep_boost_cli 阴蒂攻击加剧
+&&Config_spconfig_ep_boost_vagina 阴唇攻击加剧
+&&Config_spconfig_ep_boost_canal 腔内攻击加剧
+&&Config_spconfig_ep_boost_gspot 宫颈攻击加剧
+&&Config_spconfig_ep_boost_urethra 尿道攻击加剧
+&&Config_spconfig_ep_boost_breast 乳头攻击加剧
+&&Config_spconfig_ep_boost_anal 肛门攻击加剧
+&&Config_spconfig_ep_boost_mouth 口腔攻击加剧
+&&Config_spconfig_ep_boost_ear 耳道攻击加剧
+
+/* ___ Config_desc_spconfig_ep_boost ___ */
+调节此选项，以设定诺艾儿在受到
+性攻击时会被重点关照的身体部位。
+设定为攻击加剧的部位
+被敌人玩弄的程度会更为剧烈。
+
+
+&&Config_spconfig_opacity_marunomi 吞食画面不透明度
+/* ___ Config_desc_spconfig_opacity_marunomi ___ */
+调节此选项，以设定诺艾儿
+在像素画面的吞食描绘中
+能够透过外表看到内部的程度。
+
+// ========================================================
+// MARK : ver0.25f-2
+// ========================================================
+
+&&Config_spconfig_epdmg_vo_mouth 阻塞语音设置
+/* ___ Config_desc_spconfig_epdmg_vo_mouth ___ */
+此选项可调节诺艾儿
+受到性攻击时，体现嘴被塞住
+无法发声的语音的出现频率。

@@ -1,0 +1,1 @@
+PIC_TEMP_REPLACE_TERM  i '(a\\d+)(L\\d+R\\d+)?' '$1Nk' 'sensitive_level<2'

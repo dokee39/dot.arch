@@ -1,0 +1,104 @@
+%FAMILY ko-kr
+
+// ========================================================
+// MARK : PURPOSE
+// ========================================================
+
+&&Svd_phase_0 프롤로그
+&&Svd_phase_1 각성한 잠자는 공주
+&&Svd_phase_2 유령
+&&Svd_phase_3 테세우스의 배
+&&Svd_phase_4 이상한 이야기
+&&Svd_phase_5 Alice in Cradle
+&&Svd_phase_6 에필로그 - 별
+
+&&scenario_desc_pvv_0000 부서질 것 같은 벽 안쪽을 탐색한다
+&&scenario_desc_pvv_0001__1 집으로 돌아간다
+&&scenario_desc_pvv_0002 프리뮬라 선생님의 수업을 듣는다
+&&scenario_desc_pvv_0100 가족이나 손님과 대화한다
+&&scenario_desc_pvv_0101 익시아 씨를 찾으러 간다
+&&scenario_desc_pvv_0102 거리로 향한다
+&&scenario_desc_pvv_0103 수인씨를 돕는다
+&&scenario_desc_pvv_0104__3 익시아 씨를 구하기 위해 대형 마족과 싸운다
+
+&&scenario_wip (제작중)
+
+// ========================================================
+// MARK : ver0.23 added
+// ========================================================
+
+// ↑ の scenario_desc_*** も一部わずかに変更があります。ご確認下さい (hinayua_r18)
+
+// ========================================================
+// MARK : Quest
+// ========================================================
+
+&&quest__p999_trial_finished 이번 시나리오는 여기까지입니다. \n다음 업데이트를 기다려 주세요.
+
+&&quest_completed 퀘스트 달성!
+&&quest_position_notice 목적지를 확인 <key a/>
+&&quest_position_updated 목적지 갱신 <key a/>
+&&quest_position_arrived 목적지에 도착
+
+&&button_quest_reveal_on_map 목적지를 확인 
+&&button_quest_jump 퀘스트 목록에서 확인
+
+&&scenario_desc_pvv_0001__0 언니에게 부탁받은 소재의 수집
+
+&&scenario_desc_pvv_0103__1 늪에 떨어진 폭탄을 찾는다
+&&scenario_desc_pvv_0103__3 수인씨의 상태를 확인한다
+
+&&scenario_desc_pvv_0104__0 익시아 씨를 찾는다
+&&scenario_desc_pvv_0104__2 익시아 씨가 떨어트린 것을 찾는다
+
+&&quest_selecting_multi &1 등 &2 개의 퀘스트
+
+
+&&Scenario_Tab_main_quest 메인 퀘스트
+&&Scenario_Tab_sub_quest 서브 퀘스트
+
+&&quest_sort_newer 정렬: 작성일 기준
+&&quest_sort_latest_update 정렬: 갱신일 기준
+
+
+// ========================================================
+// MARK : sub quest
+// ========================================================
+
+
+&&subquest_v022_check_alchemyst_labo 언니의 아틀리에를 확인한다
+
+
+// ========================================================
+// MARK : TheRoom
+// ========================================================
+
+&&Trm_first_play 첫 자는 방
+
+
+// ========================================================
+// MARK : 231004 アルバム
+// ========================================================
+
+&&Album_Tab_Fatal 페이탈 씬
+&&Album_Tab_Picture 스틸
+&&Album_Tab_Memory 추억
+
+
+&&Album_Memory_ixia005_0 익시아 씨의 병문안
+&&Album_Memory_ixia005_1 익시아 씨의 병문안(패배시)
+&&Album_Memory_primula010 프리뮬라 선생님과 샤스타 할머니
+&&Album_Memory_primula011 별빛 하늘의 옛이야기
+&&Album_Memory_alma102 알마와 역에서의 대화
+&&Album_Memory_mepha104 엘프 마을의 파견대
+
+// ========================================================
+// MARK : ver0.25 quest
+// ========================================================
+&&scenario_desc_pvv_0105_grazia__0 베르밋 사관학교로
+&&scenario_desc_pvv_0105_grazia__1 학원의 의무실로
+&&scenario_desc_pvv_0105_grazia__2 서 1-2교실로
+
+
+&&quest__subquest_treasurehunt_000 사진의 장소를 찾는다 (이야기꾼의 숲)
+

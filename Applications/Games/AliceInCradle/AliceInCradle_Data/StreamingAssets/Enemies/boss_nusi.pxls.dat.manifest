@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1826451024
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f1d41e2ebdadc8bb4e925c8b33267b7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/Enemies/boss_nusi.pxls.bytes
+Dependencies: []

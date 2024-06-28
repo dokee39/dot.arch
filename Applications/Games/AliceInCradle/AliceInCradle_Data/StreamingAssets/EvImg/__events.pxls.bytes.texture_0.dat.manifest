@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 458766778
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9fddeec6e03b00e3c11bc5aa38550146
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/EvImg/__events.pxls.bytes.texture_0.png
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3052182476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd85671cd55f1af6e7e16e2c8e1b7746
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_bdown.atlas.txt
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_bdown.json
+Dependencies: []

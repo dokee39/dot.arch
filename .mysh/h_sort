@@ -1,0 +1,1 @@
+history $ | sed 's/sudo //g' | cut -c 6- | sed 's/|//g' | sed 's/^ *//' | cut -d ' ' -f 1 | sed 's/^\/.*//g' | sed '/^$/d' | sort | uniq -c | sort -rh

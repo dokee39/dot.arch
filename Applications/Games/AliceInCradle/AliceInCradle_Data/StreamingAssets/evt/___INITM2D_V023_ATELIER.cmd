@@ -1,0 +1,8 @@
+TITLECALL_HIDE 1
+START_LETTERBOX
+DENY_SKIP
+WAIT 30
+ALLOW_SKIP
+TX_BOARD _eventboard_ver023_announce
+QUEST_PROGRESS subquest_v022_check_alchemyst_labo 
+

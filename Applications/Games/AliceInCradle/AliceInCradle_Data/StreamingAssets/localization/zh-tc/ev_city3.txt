@@ -1,0 +1,104 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+// バーでの会話集。
+// ========================================================
+// MARK : 過去の思い出
+// ========================================================
+
+
+
+
+
+
+
+*___city/2weekattack_05 n_00
+<think>……嗚咕、在這樣下去的話……
+冷靜下來、肯定、
+還有能脫出的手段……
+*
+<think><m ple>對了、法杖!
+呼叫法杖的話。總算是、解開了……
+
+// 熱湯
+*n_01
+<think><m ple>!?　啊<m scary>……<m0>
+好燙……、
+
+*n_02
+<angry><m scary>嗯唔嗯唔!!
+<m cry>唔……<m fadein>嗯唔……!!!
+
+*n_03
+<think><m fadein>沒……沒辦法呼吸……
+全身的、魔力
+被吸走……了
+
+*n_04
+<angry><m scary><big>嗯ーーー
+ーーー唔!
+
+*n_05
+<think><m ple>好燙、<m angry>好燙好燙
+好燙燙燙!!!
+<m ple>不要啊!!好痛、不要……<w2>
+<m scary>討厭!!<w2>不要啊!!!
+*
+<think><m fadein>我……會被融化嗎……?<w2>
+<m0>不要、<m scary>不要不要不要
+不ーー要……!!!
+*
+<think><m ple>誰啊!有誰有誰能來
+救救我……!!拜託了
+有誰<m scary>誰
+有…誰能…!!
+
+*n_06
+<angry><m scary>嗯嗯ーー!!<w1>
+<m cry>嗯姆、<m ple>嗯……<m scary>嗯嗯嗯ーーー!!!
+
+*n_07
+<think><s2><m scary>好燙好燙好燙好痛苦
+好燙好燙好痛好痛好痛好痛
+*n_08
+<think><s2><m scary>很燙快住手、拜託你了快住手!!
+*n_09
+<think>死……<m ple>會死的!<m fadein>這樣下去……
+發不出聲、沒辦法……叫回法杖……
+*n_10
+<think>討厭、<m scary>不要啊、<m fadein>不要……。
+
+*n_11
+<think><s2><m scary>嗯咕……<m fadein>咕……
+<m0>嗯………<m cry>呣……。
+
+*n_12
+<think><s2><m fadein>啊……啊啊……
+*
+<think><s3><m fadein>我、要結束了。
+……這樣啊。
+……一切、都結束了。
+
+*n_13
+<think><s3><m fadein>好痛、好痛唷……
+啊啊……啊……
+*
+<think><s3><m fadein>發不出聲……
+什麼……也……
+聽不見……
+*
+<think><s3><m fadein>……但是、至少……
+救了阿爾瑪……了……
+*n_14
+<think><s3><m fadein>啊……<w1>
+好困啊…………
+*n_15
+<think><s4><m fadein>姊姊大人……<w1>哥哥大人……<w2>
+<s5>老……<w2>師……

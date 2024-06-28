@@ -1,0 +1,873 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+
+
+// ========================================================
+// MARK : ___Laevi/v_talk_homeroad
+// ========================================================
+
+
+
+*___Laevi/v_talk_homeroad v_00
+Other than the monster encounter, how was your walk back home yesterday? See anything interesting?
+
+*n_01
+Part of the bridge by the front gate is starting to sink into the thorns. I don't think it's dangerous yet though...
+
+*v_02
+Y'know, I planted those thorns because I thought they'd create a fitting vibe for a witch's shop.
+*
+Now that they've grown wild and thick, I can see that wasn't the best idea. 
+*
+I wonder if we could use magic to get them under control~
+
+*n_03
+Magenta thorns have something in them that disperses mana. The few basic spells we know probably wouldn't work at all.
+
+*v_04
+Yeah, I suppose not.
+Wait, a minute...
+*v_05
+...does that mean there's an extra layer of pain when I use my thorn whip on my customers~!?
+
+*n_05
+It doesn't affect the mana in our blood, from what I learned.
+...do you actually do things like that?
+
+*v_06
+Oh, are you interested? Would you rather give the whippings or receive them~?
+
+*n_07
+Neither!!
+
+
+
+
+*___Laevi/v_talk_forestroad v_00
+I'd like to make the path between our shop and the elf village a little safer to traverse.
+
+*n_01
+Don't you already spray it with herbicides to keep mana plants from growing?
+
+// ※レヴィが撒いている
+*v_02
+Yes, with some help from the guards. It doesn't seem to be enough to keep the monsters away though...
+*
+Which reminds me, have they done anything about that big one yet?
+
+
+// ※シナリオの進み（s10 で衛兵のイベントを見ているかどうか）で2パターンの回答～～
+*n_03
+No, I don't think it's been dealt with.
+
+*n_04
+No, it's still lurking around somewhere.
+
+
+// ～～ここまで
+
+*v_05
+Hmm, I see~
+Our store has the thrills and the monster provides the chills! Sounds kinda cool, but... 
+*
+It's not fun if the danger is life-threatening. I'd like to keep it at a moderate level, like with choke play.
+
+*n_06
+Isn't that still pretty dangerous...?
+
+
+
+
+
+
+
+*___Laevi/v_talk_village v_00
+Just once, I'd like to be able to visit the elf village.
+
+*n_01
+You can see it from here when the fog is thin.
+
+*v_02
+Ah, yes~ and what a sight it is to behold. A floating city above the forest!
+
+*v_03
+Unfortunately, we are the exiled Cornehl family...boo-hoo~
+
+*n_03
+Yeah, only our father and big brother Zeth are allowed in...
+
+*v_04
+I wish I were as smart as Zeth. He had the top score for his entrance exam!
+*
+With a title and aura like his, I could waltz right past the gatekeeper.
+
+
+*n_05
+I-I think you're great as you are! The village people may not approve of you, but...
+
+*v_06
+I know that! I'm cute and awesome~!
+*
+I'll play to my strengths and get into the village my own way.
+*
+Maybe I could find a distinguished elven gentlemen to be my sugar daddy or something?
+
+*n_07
+Is being promiscuous really enough to get by on...?
+
+
+
+
+
+
+*___Laevi/v_talk_mtr_quality n_00
+Do you have any tips on gathering materials?
+
+
+*v_01
+Oho~, are you going to gather materials for me again? <m joy>You're such a good girl, Noel!<m> *pat* *pat*
+
+// 撫でられる
+*n_02
+Wah, there are customers here...
+
+
+// これから実装するシステムの話
+*v_03
+By now you probably know that most spots where you can get materials will be replenished after you return home.
+*
+But, did you know you're more likely to find <c red>higher quality materials<c> when the <c blue>danger level<c> is also high~?
+
+*n_04
+Danger...
+
+
+*v_05
+Yep. As you defeat individual monsters, their scattered mana will start to build up...
+*
+...and once you finally finish the whole group... 
+
+*v_06
+<m joy>SPLURT~<m> their pent up mana will gush forth, increasing the danger level and improving the quality of nearby materials~!
+
+*n_06 
+Y-You don't need to use such an obscene analogy every time...
+
+*v_07
+You're so naive~
+
+
+
+
+*___Laevi/v_talk_dangerousness v_00
+As I said, the danger level of an area will increase as you defeat groups of monsters. 
+*
+You can re-fight groups as much as you like, but the rewards will only drop once.
+
+
+
+
+*v_01
+Monsters will be stronger and attack in greater numbers at high danger levels. 
+*
+They'll also be much more aggressive and might ambush you even if you haven't touched a mana plant.
+
+*v_02
+So don't stay out too late. But, for the satisfaction of our customers, try edging as close to nightfall as possible~!
+
+*n_03
+Edging...I'm not sure that's such a good idea. Anyway, you're saying I should come back at a reasonable hour?
+
+*v_04
+That's right~ Just promise me you'll be extra careful if you do decide to stay out after dark.
+
+*v_05
+Oh, one more thing! When the danger level is low, you can warp between benches you've already sat down on!
+
+*v_06
+If the danger level rises, you'll have to walk. However, <c blue>you can always return home from any bench<c>~
+
+
+
+*___Laevi/v_talk_battle_reward v_00
+When you defeat a group of monsters, you'll be rewarded with a treasure chest of materials. You don't have to open it right away.
+
+*n_01
+So...just hold on to it?
+
+*v_02
+Of course, they'll take up space in your inventory, so you can't have an unlimited number of them.
+*
+Also, since you can't use the items inside until you open them, having too many will make exploring tricky~.
+
+*v_03
+Also also, <c blue>the item quality is affected by the danger level when you open the chest<c>, not when you obtain it.
+*
+Which means...fufufu~
+
+
+*v_04
+If you get some chests and knock out a few monsters first...
+
+*n_05
+I'll get higher quality items...?
+*v_06
+Correct! Delay your gratification and let it build up first. That always feels best~!
+
+*n_07
+Ooh, so I could store a lot of chests at home, then take them with me and increase the danger level...!
+
+*v_08
+Ah~ afraid it doesn't work that way.
+When you return home all chests will automatically be opened.
+*
+The same happens if you faint, but <c red>the danger level resets to zero first<c>.
+
+*v_09
+Other items in your bag won't be lost when you faint, so it might be wise to open the chests if you think you won't make it~.
+
+
+
+
+*___Laevi/v_talk_weather v_00
+I've heard interesting things can happen when the weather changes.
+
+*v_01
+Like when it's <c blue>'Foggy'<c>, it is easier for both you and the monsters to accumulate mana.
+
+*v_02
+And contaminated monsters can suddenly appear during <c blue>'Thunder'<c>~! Isn't that exciting~?
+
+*n_03
+Uu...I've heard stories about them...they sound really scary...
+
+*v_04
+<m joy>Scary and cool~!<m> Monsters need to absorb mana to survive, but if they gorge themselves on it they mutate or something... 
+*
+Too much of a good thing, I guess~
+
+// ========================================================
+// MARK : pvv102 関連
+// ========================================================
+
+
+
+
+*___Laevi/v_talk_pvv102_quake v_00
+Welcome back, Noel. Do you know what caused that loud noise a moment ago?
+
+*n_01
+Some large monsters are rampaging through the forest. Sounds like they're really close by...
+
+*v_02
+I see. Thankfully we've got protective barriers around the house. Maybe you should stay here where it's safe today.
+
+*n_03
+But, Ixia might be in danger! If she is...I have to help her!
+
+
+*v_04
+Noel, I understand how you feel, but we're not trained to handle these situations. And you're still an just an apprentice cadet.
+*
+The smartest choice would be to leave this to the adults.
+
+*n_05
+...This is something I have to do. I want to be the kind of person who can help others when they need it most...
+*
+Just like the time we were attacked while exploring the forest and you saved me...
+
+*v_06
+Hmm...I don't remember ever doing anything like that. Are you sure it was me~?
+
+*n_07
+<I>It's my most treasured memory!
+
+
+*v_08
+Oh well, no matter~ If that's how you feel, go right ahead!
+
+*n_09
+That was a quick turnaround!
+
+*v_10
+Well, history has shown that once Noel makes up her mind about something, there's no stopping her. 
+*
+Considering what happened two weeks ago, I'm amazed you're so eager to jump into the fray~
+
+
+
+*n_11
+I-I'll do my best to not let that happen again...!
+
+*v_12
+In that case, make sure you come back before dark to avoid stronger packs of monsters.
+
+
+
+*n_13 
+<think>I should check with her again to make sure I understand the dangers of staying out too late...
+
+
+
+*___Laevi/v_talk_pvv102_memory v_00
+Ah, it's hazy, but I'm starting to remember now~ I told you not to explore any deeper, but you didn't listen.
+
+*n_01
+Sorry for all the trouble I caused you back then...
+
+*v_02
+You've always been stubborn, Noel. You just couldn't deny your curiosity, could you?
+
+
+
+*n_03
+Uu...so embarrassing. But, your protective spell helped me discover who I want to be.
+
+*v_04
+Spell? I'm not licensed to cast magic, so that's probably not what I used.
+
+
+*n_05
+Eh?
+
+*v_06
+You see, back then I was very attractive. People just couldn't keep their hands off me~
+*
+Every so often, some brazen older gentlemen would try to do something inappropriate. 
+*v_07
+So to defend myself, I carried capsules that would explode when thrown. BOOM~!
+* 
+They contained a mana-damaging drug strong enough to daze an elf. It worked on monsters too, since they're basically made of mana.
+
+*n_07
+I had no idea... Alchemy and magic were indistinguishable to me back then. But, all that matters is that you saved me.
+
+*v_08
+I didn't have a permit for alchemy at the time either. 
+*
+If I had been caught, I would've gotten in trouble for both illegal possession and synthesizing.
+*
+Oops, keep that a secret from dad and the guards, will you~?
+
+*n_09
+O-okay...
+
+
+
+
+*___Laevi/v_talk_pvv102_sell v_00
+Before you head out to help Ixia, you should make sure you're prepared for battle~
+
+*v_01
+I'd be happy to sell you something as long as it's in stock, but unfortunately there is no family discount here at the Cornehl shop~
+
+*n_02
+W-what if I said "please"?
+
+
+*v_03
+No can do even for you, little sis~ Dad put me in charge of managing the family finances, and our budget is tight.
+
+
+
+
+
+
+*___House/_portal_alchemy n_00
+Big sister's alchemy pot.
+She always adds the ingredients in a rather haphazard way...
+*
+But, surprisingly, she always produces something wonderful.
+*
+...I'm sure there's a recipe for beginners somewhere in this room that my sister used when she was little.
+
+*n_01
+I wonder if I'm ready to try alchemy... Perhaps I should practice by learning to cook in the kitchen first.
+
+
+
+// ========================================================
+// MARK : ver0.23 added
+// ========================================================
+
+// ========================================================
+// MARK : ___Laevi/_atelier_v023_quest  
+// ========================================================
+
+// 地下の工房で本を探すノエル
+*___Laevi/get_alchemy_recipe n_00
+Hmm, it should be around here somewhere...
+*n_01
+Ah, there it is! <c red>Level 4 Alchemy for Beginners:
+So simple, even a Slime can understand!<c>
+
+*n_02
+It's so dusty...
+I'm sure sister won't mind if I borrow it. I'll tell her later...
+
+// 拾ったあとのイベント
+// 暗所からレヴィが驚かしてくる
+
+*___Laevi/get_alchemy_recipe_laevi_attack v_02
+<m fadein>Who's the little brat rummaging around my workshop?
+
+*n_03
+<m ple>Yipe!?
+
+
+*v_04
+<m joy>WHO, I ASK!?
+
+*n_05
+<m scary>WAAH!
+
+*n_06
+<m ple>S...Sister!
+</m>Don't scare me like that!
+
+*v_07
+<m joy>Oh?<m> Playing the victim after stealing my belongings?
+Perhaps a little scare wasn't enough of a punishment.
+
+*n_08
+W-well...you see...
+
+*n_09
+Sorry...I just wanted to learn more about alchemy.
+
+*v_09
+Relax, I was joking.
+
+*v_10
+Besides, I'm not surprised. It's only natural at your age to be curious about such things.
+
+*n_11
+...Please don't talk about it like it's something immoral.
+
+*v_12
+Oh, but alchemy is indeed immoral business.
+
+*v_13
+Some of the recipes in the book you took require a Level 4 license.
+*
+If you try to follow one without a license...
+
+*v_14
+<I><m ple>You'll be arrested and whipped mercilessly as punishment!
+
+*n_15
+<I><m scary>Y-<W3><m>You're just joking again, right?
+
+*v_16
+<W2>...<W2>...<W2>.<W2>
+
+*n_17
+<I><m scary>I'm sorry-y-y-y-y!
+<m ple>I just wanted to look at it, I wasn't going to use i-i-it!!
+
+*v_18
+<m joy>Fufufu, so cute.
+*v_19
+It really is illegal though...
+But, maybe there's a loophole we can use.
+
+*v_19_2
+...Ah, I know! Here, a gift from me to you.
+
+*n_20
+...<c blue>The Alchemist's Field Guide<c>?
+
+*v_21
+Indeed.
+And with that...
+
+*v_22
+<m ple>Ta-dah!
+<m joy>I hereby appoint you as my apprentice. You are now an assistant to a Class-1 alchemist!
+
+*n_23
+Really?
+
+*v_24
+That book functions as license to practice alchemy.
+It's registered under my name, but...
+
+*v_25
+...if you're holding it, it'll allow you to freely use the alchemy pot.
+It works just like magic~.
+
+*n_26
+As an assistant, that means I'll only be using the alchemy pot under your supervision, right?
+
+*v_27
+<m ple>Right! That's what I meant~!
+<m>But, that's just to keep up appearances...
+
+*v_28
+You can do as much alchemy as you want even if I'm not here.
+
+*v_29
+Officers of the Alchemy Association don't do on-site inspections that often.
+
+*v_30
+As long as you're not synthesizing explosives and setting them off in the city, you won't get arrested.
+
+*n_31
+W-well, I still don't feel comfortable with the questionable legality of all this.
+
+*v_32
+Ahh, that's my Noel! So pure and innocent~!
+
+*n_33
+<I>Wa...
+<m ple>Where are you touching!?
+
+*v_34
+One more thing-
+
+*v_35
+That book is more than just a field guide.
+
+*v_36
+It also records and catalogues your adventures.
+
+*n_37
+Hmm...
+
+*v_38
+Any items you find or enemies you meet will also be recorded, along with all their information. This book can do it all!
+
+*v_39
+Check the Important Items tab in the Item menu and select <c blue>Field Guide<c> to open it.
+
+*v_40
+You can also check Treasure Chest reels and items available in shops from it.
+
+*v_41
+It's pretty useful. Give it a look whenever you can~.
+
+
+// ========================================================
+// MARK : TRM - 休憩室イベント
+// ========================================================
+
+// v: レヴィ
+// n: ノエル
+// d:チルダ
+
+
+// 休憩室を開けようとしたノエル
+
+*___Laevi/trm_000 v_00
+<m joy>Ohh~?
+<m>Are you perhaps interested in using The Break Room?
+
+*n_01
+<m ple>N-NO! I just thought I'd do a little cleaning.
+
+// 分岐: 料理のチュートリアルを見たかどうかで分岐
+// A:見ていない
+
+*v_02
+Well, I'll be setting up for an early morning client soon.
+*
+You might find it to be a little too...stimulating.
+
+
+*n_03
+<think>I can't even imagine what she's talking about...and I don't think I want to.
+
+
+*n_04
+I see. I'll come back later to clean up.
+
+
+*n_05
+<think>I'm hungry...
+I should go see if my brother needs help in the kitchen.
+
+
+// 分岐: 料理のチュートリアルを見たかどうかで分岐
+// A:見ていない
+
+// A-2 
+
+*v_05
+Hmm...but it looks like you have <c blue>Super SFW<c> turned on.
+*v_05_2
+Come see me again after you <c blue>turn off Super SFW Mode<c>.
+
+
+// B:見た  
+
+
+
+*v_06
+That would be a great help. But please don't touch or rearrange any of the toys.
+*v_06_2
+...Actually, maybe I could use this as an opportunity to teach you how to use them?
+
+*n_07
+...What do you mean?
+
+*v_08
+Fufu~
+You are an adult now...
+It might be a good idea to make your debut in The Break Room...　
+
+*n_09
+You mean...do the things that you do...
+I'm not sure I can...
+
+*v_10
+Would you like to try?
+
+
+// 選択肢
+// 面白そう/笑えない　
+
+// A: 笑えない
+*v_11
+
+Aww, that's too bad.
+
+*v_12
+But, if you change your mind, come back anytime~!
+The Break Room is looking for<m joy> new staff members right now!
+
+// B: 面白そう
+*v_13
+Yeah, I figured you'd say no.
+<W3>Wait...really?
+
+*v_14
+<m joy>So you are a lady after all.<m>
+Interested in the secrets of adults~.
+
+*n_15
+I don't actually know if I'm interested or not, but...
+*
+Sister, you're always working so hard in there...
+*n_15_2
+...so if this will help reduce your burden, I'm more than happy to do it.
+
+
+*v_16
+<I><m joy>Then it's decided! Let's get started right away!
+
+*n_16
+<m ple>R-right now!? Get started with what!?
+
+// 暗転
+// 休憩室内 ベビードール姿のノエル
+
+*___Laevi/trm_001 n_19
+...<m scary>Uuu.
+
+*v_20
+What's wrong, Noel~?
+They're just pajamas. You wear them every night.
+
+*n_21
+<m fadein>B-but dressed like this in front of a man...
+
+*v_22
+It's cute and sexy.
+<m joy>Come on now, the customer is waiting~.
+
+*n_23
+<m fadein>Ah...huu...
+*
+<think><m fadein>...uuu, it's no use.
+I'm too embarrassed.
+
+// レヴィお客さんのおじさんへ
+*v_24
+Sorry, this is her first time.
+
+*x_25
+Oh it's alright. I find her innocence to be quite charming.
+
+*v_26
+<m joy>Fufu, you're so kind. Would you excuse me for a moment~?
+
+
+*n_27
+<m scary>...uuu<m> I'm sorry.
+
+*v_28
+Relax, relax. I know this is difficult for you.
+*v_28_2
+Let's change the <c blue>atmosphere<c> to help ease you in~!　
+
+*n_29
+A-atmosphere?
+
+
+*v_30
+See the diffuser there?
+Mix up a nice <c blue>aroma<c> that'll get us in the mood~!
+
+
+// 制作画面をキャンセルしてレヴィに直接話しかける
+*___Laevi/trm_002 v_34
+Noel, I can tell you're still nervous. It'll be difficult to please the customer with that frown on your face.
+*v_35
+Try to <c blue>create a nice atmosphere using materials with the diffuser<c>.　
+
+
+// アロマ制作画面チュートリアル
+
+*v_31
+I've got just the thing for this~.
+
+*v_32
+You can make a different aroma if you want, <c red>but it might not create the right mood</c>.
+
+*v_33
+By the way, <c red>you can't work in The Break Room without first creating an aroma</c>.
+*
+If you don't have enough materials, you'll have to leave and come back later.
+
+
+
+
+
+// イベント終了
+*___Laevi/trm_009 v_35
+Great job, Noel~! That was wonderful~!
+*
+It was a new experience, but you gave it your best effort~!
+<m joy>I'm so proud of you~.
+
+*n_36
+<m fadein>...uuu. I still have mixed feelings about this...
+but...thank you.
+　
+
+// 分岐a : Aルート完遂（正しいアロマを作った）
+  
+*v_37
+Looks like the aroma really helped you relax. The client was very satisfied.
+
+*n_38
+I'm glad.
+
+*v_39
+I'll put a heart tag on the door when there's an appointment you can take.
+*
+I'll be glad if you accept it, but it's entirely up to you.
+
+*n_40
+I'll do my best to help you out!
+
+*v_41
+Ah, I appreciate it. I look forward to seeing your best efforts.
+
+*v_42
+And so the legend of Noel, succubus of
+the Cornehl house, begins.
+*
+They say she can make 10 men cum with just a flick of her wrist.
+ 
+*n_42
+<I>There's no way that could be true!
+
+// 分岐b : アロマ制作を間違えた
+ 
+*v_43
+...but, the atmosphere was a bit off...
+The client's penis wasn't as hard as it could've been.
+*
+It's like it was saying "You can do better."
+
+*n_44
+What's that...?
+
+*n_44_2
+<think><m fadein>Oh, it was his...
+When I looked at that place, I couldn't help but black out.
+
+*
+<think><m fadein>Maybe I'm just not ready for this.
+But, could I have done it if I <c blue>made the aroma the way my sister suggested<c>?
+
+*v_45
+<m joy>Anyway, thanks for your hard work!<m>
+Go take a shower and get some rest.
+
+*v_46
+You can enter The Break Room whenever you want, as long as it's not in use.
+*
+Check the reservations and make one for yourself if you're ever frustrated, heehee~.
+
+*v_47
+Not that you need it. I'm sure you're fine just pleasing yourself.
+
+// 分岐b-2 自慰回数1以上
+*n_48
+<m fadein>Ehh, no...I don't...
+ 
+*v_49
+Well, I'm heading back to the shop. I'm sure Tilde would like to start cooking dinner soon.
+
+// レヴィ去る 
+ 
+*n_50
+<m fadein>...I wonder if sister could hear my voice when I was...
+
+// 分岐b-3  自慰回数0
+ 
+*n_51
+That's...I don't do that.
+
+*v_52
+Oh, really~. Want me to show you how~.
+
+//チルダのノック
+*d_53
+Are you done in there?
+I'd like to stop minding the store so I can make breakfast.
+
+*v_54
+Ah! Sorry!
+You can go shower off, Noel.
+
+*n_55
+...could Tilde hear me when I was...?
+*
+Uuu. Let's leave quickly.
+
+
+
+// アロマを作らずに退出
+
+*___Laevi/trm_003 v_00
+You okay, Noel~?
+
+// 選択肢: 大丈夫
+
+
+// 選択肢: 大丈夫じゃない
+
+
+
+*n_01
+I'm sorry. This doesn't seem possible with my current materials.
+
+*v_02
+I see. We can stop for now. Come back later when you're ready~.
+
+*v_04
+I'll be here to help you pull it off anytime~.
+
+*n_05
+T-that's...
+...thank you.

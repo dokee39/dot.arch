@@ -1,0 +1,42 @@
+// *** DEFAULT(JP) DO NOT CHANGE THE NAME *** //
+_      JP      日本語(JP)
+// 1st word: This name corresponds to %FAMILY in the _tx_** file.
+// 2nd word: Simplified name (write in 2 letters)
+// 3rd word: Full name in the option
+%SYSTEM_LANGUAGE Japanese
+// Enter a valid key from this SystemLanguage class.
+// (see https://docs.unity3d.com/ja/2019.4/ScriptReference/SystemLanguage.html )
+
+
+// ================================================
+// useable commands...
+
+// %ENGLISH_MODE 1
+// A flag that adjusts the appearance of UI 
+// for languages with many characters per word
+// ( such as English ).
+
+// %USE_ARIEL 1
+// Show this font using Ariel (Unity default font)
+
+// %DEFAULT_LANGUAGE 1
+// the family will be chosen as default when no other family
+// which has %SYSTEM_LANGUAGE setting is matched.
+
+// %FONT <Default-Font> <Font-For-Title>
+// Load fonts from .dat files (AssetBundles) in the directory.
+
+// %FONT_BASE_HEIGHT <Number>
+// The ratio of character height to font size when using "%FONT".
+
+// %FONT_YSHIFT <Number>
+// The baseline position from the top of the letters when using "%FONT".
+
+// %FONT_XRATIO <Number>
+// The ratio of width of multibyte characters to font size when using "%FONT".
+
+// %FONT_XRATIO_1BYTE <Number>
+// The ratio of width of single byte characters to font size when using "%FONT".
+
+
+// ================================================

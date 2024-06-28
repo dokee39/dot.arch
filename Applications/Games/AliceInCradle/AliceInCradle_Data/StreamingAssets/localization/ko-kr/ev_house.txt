@@ -1,0 +1,31 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence 
+// to define the event name and label.
+// =====================
+// ========================================================
+// MARK : ___House/_backdoor_portal
+// ========================================================
+ 
+
+
+
+*___House/_backdoor_portal n_00
+<think>어디로 갈까?
+
+
+*___House/_dont_goout n_00
+지금은 나갈 때가 아니야.
+
+
+// ========================================================
+// MARK : cooking
+// ========================================================
+*___House/_cooking_portal n_00
+<think>부엌의 조리도구에는
+손가락 하나 대지 말라고
+틸데 오빠가 그랬어.

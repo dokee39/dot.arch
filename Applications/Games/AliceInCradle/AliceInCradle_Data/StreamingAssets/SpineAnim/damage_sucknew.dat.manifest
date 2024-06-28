@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1960451878
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89003ec871c766d80c52270892dd459c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_sucknew.png
+Dependencies: []

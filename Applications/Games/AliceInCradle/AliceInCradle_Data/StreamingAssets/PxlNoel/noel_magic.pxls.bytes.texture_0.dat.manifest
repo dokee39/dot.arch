@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3032495057
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81fada433a6c697c5652ed2bd790478d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/PxlNoel/noel_magic.pxls.bytes.texture_1.png
+- Assets/Editor/AssetBundlesSrc/PxlNoel/noel_magic.pxls.bytes.texture_0.png
+Dependencies: []

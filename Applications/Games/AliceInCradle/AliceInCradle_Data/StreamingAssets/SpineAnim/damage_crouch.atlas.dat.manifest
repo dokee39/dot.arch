@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1061525399
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5f716b98bbf67915d29f637403b7bb9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_crouch.json
+- Assets/Editor/AssetBundlesSrc/SpineAnim/damage_crouch.atlas.txt
+Dependencies: []

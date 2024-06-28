@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1938934849
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7d4a3e6768bb391b75d112b913e3b22
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/AssetBundlesSrc/PxlNoel/noel_r18_torned.pxls.bytes
+Dependencies: []
