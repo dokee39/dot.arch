@@ -1,9 +1,0 @@
-IF 'noel_ep<520' {
-    SEEK_END
-} 
-
-DENY_SKIP
-TL 60 ALLOW_SKIP
-MSG BOOK@L_b00
-DOTL
-CHANGE_EVENT2 _bench_cure_ep_base

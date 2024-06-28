@@ -1,5 +1,0 @@
-
-IF '(GFC[COF2]&3)==3' {
-    IF 'GFC[COF0]%2==1' GFC_SET COF0 +=1
-    GFC_SET COF2 ~GFC[COF2]&12
-}

@@ -148,7 +148,7 @@ mklink ${MYHOME}/.config/ranger ${GIT_REPO}/.config/ranger > /dev/null
 mklink ${MYHOME}/.config/tofi ${GIT_REPO}/.config/tofi > /dev/null
 mklink ${MYHOME}/.mysh ${GIT_REPO}/.mysh > /dev/null
 mklink ${MYHOME}/.renpy ${GIT_REPO}/.renpy > /dev/null
-mklink ${MYHOME}/Applications/Games/AliceInCradle/AliceInCradle_Data ${GIT_REPO}/Applications/Games/AliceInCradle/AliceInCradle_Data > /dev/null
+mklink ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/dokee/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Applications/Games/AliceInCradle/SaveData > /dev/null
 mklink ${MYHOME}/Applications/Games/Butter/sakuranotoki/savedata_cn ${GIT_REPO}/Applications/Games/Butter/sakuranotoki/savedata_cn > /dev/null
 mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th06/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th06/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/score.dat" > /dev/null
@@ -176,9 +176,9 @@ git status -s
 if [ "$(git status -s)" ];then
     git commit -m "Synced on $(date)"
     git push -q
-    info "Github Repository Synced on $(date)."
+    info "<github repo> : Synced on $(date)"
 else 
-    info "GitHub repositories do not need to be synchronized."
+    info "<github repo> : GitHub repositories do not need to be synchronized"
 fi
 cd -
 
