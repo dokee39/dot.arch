@@ -171,9 +171,9 @@ mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/
 cd ${GIT_REPO}
 rm ${GIT_REPO}/pkglist.txt
 cp ${BACKUP_DIR}/linux/pkglist.txt ${GIT_REPO}/pkglist.txt
+git add .
 git status -s
 if [ "$(git status -s)" ];then
-    git add .
     git commit -m "Synced on $(date)"
     git push -q
     info "Github Repository Synced on $(date)."
