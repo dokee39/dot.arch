@@ -171,10 +171,11 @@ mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/
 # ln ${MYHOME}/.zshrc ${GIT_REPO}/.zshrc > /dev/null
 
 cd ${GIT_REPO}
+git status -s
 if [ "$(git status -s)" ];then
     git add .
     git commit -m "Synced on $(date)"
-    git push
+    git push -q
 fi
 cd -
 
