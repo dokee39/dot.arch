@@ -177,7 +177,7 @@ sudo -u dokee git status -s
 if [ "$(sudo -u dokee git status -s)" ];then
     sudo -u dokee git commit -m "Synced on $(date)"
     sudo -u dokee git push -q
-    info "<github repo> : Synced on $(date)"
+    info "<github repo> : Synced on $(date) "
 else 
     info "<github repo> : GitHub repositories do not need to be synchronized"
 fi
