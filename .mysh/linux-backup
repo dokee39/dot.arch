@@ -14,17 +14,17 @@ export MYSH=/home/dokee/.mysh
 info() { printf "\n%s %s\n\n" "$( date )" "$*" >&2; }
 trap 'echo $( date ) Backup interrupted >&2; exit 2' INT TERM
 
-sudo -v &>/dev/null
-if [ $? -eq 0 ]; then
-  echo "Hello, let's start backup..."
-else
-  info "FUCK"
-  exit 2
-fi
+# sudo -v &>/dev/null
+# if [ $? -eq 0 ]; then
+echo "Hello, let's start backup..."
+# else
+#   info "FUCK"
+#   exit 2
+# fi
 
 # mount the backup partition
-sudo mount -t ntfs3 -o rw,relatime,fmask=0022,dmask=0022,iocharset=ascii UUID=81933170DD45D3FC /mnt/my-back-up
-sudo mount -t ntfs3 -o iocharset=utf8,umask=22,prealloc,uid=1000,gid=1000,nohidden,sys_immutable,discard,force UUID=5573E4E11CC02192 /mnt/ttk
+mount -t ntfs3 -o rw,relatime,fmask=0022,dmask=0022,iocharset=ascii UUID=81933170DD45D3FC /mnt/my-back-up
+mount -t ntfs3 -o iocharset=utf8,umask=22,prealloc,uid=1000,gid=1000,nohidden,sys_immutable,discard,force UUID=5573E4E11CC02192 /mnt/ttk
 
 # backup package list
 info "Starting backup <package list>"
@@ -37,7 +37,7 @@ pacman -Qqe > ${BACKUP_DIR}/linux/pkglist.txt
 # the machine this script is currently running on:
 info "Starting backup <linux>"
 
-sudo borg create                              \
+borg create                              \
   --filter AME                                \
   --stats                                     \
   --progress                                  \
@@ -72,7 +72,7 @@ backup_linux_exit=$?
 # other machines' archives also:
 info "Pruning repository <linux>"
 
-sudo borg prune                     \
+borg prune                     \
     --glob-archives '{hostname}-*'  \
     --show-rc                       \
     --keep-daily    30              \
@@ -86,7 +86,7 @@ prune_linux_exit=$?
 
 info "Compacting repository <linux>"
 
-sudo borg compact ${BORG_REPOS}/repo-linux
+borg compact ${BORG_REPOS}/repo-linux
 
 compact_linux_exit=$?
 
@@ -97,7 +97,7 @@ compact_linux_exit=$?
 # the machine this script is currently running on:
 info "Starting backup <ttk>"
 
-sudo borg create                            \
+borg create                            \
   --filter AME                              \
   --stats                                   \
   --progress                                \
@@ -116,7 +116,7 @@ backup_ttk_exit=$?
 # other machines' archives also:
 info "Pruning repository"
 
-sudo borg prune                     \
+borg prune                     \
     --glob-archives '{hostname}-*'  \
     --show-rc                       \
     --keep-daily    30              \
@@ -130,53 +130,53 @@ prune_ttk_exit=$?
 
 info "Compacting repository"
 
-sudo borg compact ${BORG_REPOS}/repo-ttk
+borg compact ${BORG_REPOS}/repo-ttk
 
 compact_ttk_exit=$?
 
 # umount the backup partition
-sudo umount /mnt/my-back-up
+umount /mnt/my-back-up
 
 # upload to github
 info "Starting backup <github repo>"
 
-${MYSH}/mklink ${MYHOME}/.config/alacritty ${GIT_REPO}/.config/alacritty > /dev/null
-${MYSH}/mklink ${MYHOME}/.config/btop ${GIT_REPO}/.config/btop > /dev/null
-${MYSH}/mklink ${MYHOME}/.config/fcitx5 ${GIT_REPO}/.config/fcitx5 > /dev/null
-${MYSH}/mklink ${MYHOME}/.config/hypr ${GIT_REPO}/.config/hypr > /dev/null
-${MYSH}/mklink ${MYHOME}/.config/nvim/lua ${GIT_REPO}/.config/nvim/lua > /dev/null
-${MYSH}/mklink ${MYHOME}/.config/ranger ${GIT_REPO}/.config/ranger > /dev/null
-${MYSH}/mklink ${MYHOME}/.config/tofi ${GIT_REPO}/.config/tofi > /dev/null
-${MYSH}/mklink ${MYHOME}/.mysh ${GIT_REPO}/.mysh > /dev/null
-${MYSH}/mklink ${MYHOME}/.renpy ${GIT_REPO}/.renpy > /dev/null
-${MYSH}/mklink ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/dokee/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Applications/Games/AliceInCradle/SaveData > /dev/null
-${MYSH}/mklink ${MYHOME}/Applications/Games/Butter/sakuranotoki/savedata_cn ${GIT_REPO}/Applications/Games/Butter/sakuranotoki/savedata_cn > /dev/null
-${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th06/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/replay" > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/alacritty ${GIT_REPO}/.config/alacritty > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/btop ${GIT_REPO}/.config/btop > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/fcitx5 ${GIT_REPO}/.config/fcitx5 > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/hypr ${GIT_REPO}/.config/hypr > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/nvim/lua ${GIT_REPO}/.config/nvim/lua > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/ranger ${GIT_REPO}/.config/ranger > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/tofi ${GIT_REPO}/.config/tofi > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.mysh ${GIT_REPO}/.mysh > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.renpy ${GIT_REPO}/.renpy > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/dokee/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Applications/Games/AliceInCradle/SaveData > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/Applications/Games/Butter/sakuranotoki/savedata_cn ${GIT_REPO}/Applications/Games/Butter/sakuranotoki/savedata_cn > /dev/null
+sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th06/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th06/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/score.dat" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th06/scorec.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/scorec.dat" > /dev/null
-${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th07/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th07/replay" > /dev/null
+sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th07/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th07/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th07/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th07/score.dat" > /dev/null
-${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th08/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th08/replay" > /dev/null
+sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th08/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th08/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th08/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th08/score.dat" > /dev/null
-${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th09/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th09/replay" > /dev/null
+sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th09/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th09/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th09/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th09/score.dat" > /dev/null
-${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th10/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/replay" > /dev/null
+sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th10/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th10/scoreth10.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/scoreth10.dat" > /dev/null
-${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th11/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th11/replay" > /dev/null
+sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th11/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th11/replay" > /dev/null
 # ln "${MYHOME}/Applications/Games/Touhou Project/official games/th10/scoreth11.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/scoreth11.dat" > /dev/null
-${MYSH}/mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/null
+sudo -u dokee ${MYSH}/mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/null
 # ln ${MYHOME}/.bashrc ${GIT_REPO}/.bashrc > /dev/null
 # ln ${MYHOME}/.tmux.conf ${GIT_REPO}/.tmux.conf > /dev/null
 # ln ${MYHOME}/.zshrc ${GIT_REPO}/.zshrc > /dev/null
 
 cd ${GIT_REPO}
 rm ${GIT_REPO}/pkglist.txt
-cp ${BACKUP_DIR}/linux/pkglist.txt ${GIT_REPO}/pkglist.txt
-git add .
-git status -s
-if [ "$(git status -s)" ];then
-    git commit -m "Synced on $(date)"
-    git push -q
+sudo -u dokee cp ${BACKUP_DIR}/linux/pkglist.txt ${GIT_REPO}/pkglist.txt
+sudo -u dokee git add .
+sudo -u dokee git status -s
+if [ "$(sudo -u dokee git status -s)" ];then
+    sudo -u dokee git commit -m "Synced on $(date)"
+    sudo -u dokee git push -q
     info "<github repo> : Synced on $(date)"
 else 
     info "<github repo> : GitHub repositories do not need to be synchronized"
