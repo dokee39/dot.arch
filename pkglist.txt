@@ -27,6 +27,7 @@ clash
 cmake
 compiledb
 compiler-rt
+cpio
 dingtalk-bin
 droidcam-dkms-git
 dsview
@@ -95,6 +96,7 @@ liteloader-qqnt-markdown-git
 liteloader-qqnt-mspring-theme-bin
 man-db
 man-pages
+meson
 microsoft-edge-beta-bin
 mounriver-studio-toolchain-bin
 mpvz-git

@@ -103,6 +103,7 @@ alias mc='make clean'
 alias mf='make flash -j'
 alias cm='compiledb -f make -j'
 #other
+alias manc='LANG=zh_CN.UTF-8 man'
 alias rgr='ranger'
 alias type='type -a'
 alias clc='clear'
