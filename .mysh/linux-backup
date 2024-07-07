@@ -29,7 +29,7 @@ mount -t ntfs3 -o iocharset=utf8,umask=22,prealloc,uid=1000,gid=1000,nohidden,sy
 # backup package list
 info "Starting backup <package list>"
 pacman -Qqe > ${BACKUP_DIR}/linux/pkglist.txt
-
+pacman -Qqe > ${GIT_REPO}/pkglist.txt
 
 ## <linux> ##
 
@@ -170,8 +170,6 @@ sudo -u dokee ${MYSH}/mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/
 # ln ${MYHOME}/.zshrc ${GIT_REPO}/.zshrc > /dev/null
 
 cd ${GIT_REPO}
-rm ${GIT_REPO}/pkglist.txt
-sudo -u dokee cp ${BACKUP_DIR}/linux/pkglist.txt ${GIT_REPO}/pkglist.txt
 sudo -u dokee git add .
 sudo -u dokee git status -s
 if [ "$(sudo -u dokee git status -s)" ];then
