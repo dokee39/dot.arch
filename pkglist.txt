@@ -29,6 +29,7 @@ compiledb
 compiler-rt
 cpio
 dingtalk-bin
+drawio-desktop-bin
 droidcam-dkms-git
 dsview
 efibootmgr
@@ -152,7 +153,6 @@ unrar
 unzip
 vi
 vim
-visual-studio-code-bin
 vofa+
 wechat-universal
 wf-recorder
