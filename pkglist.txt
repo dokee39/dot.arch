@@ -110,7 +110,6 @@ nerdfetch
 noisetorch
 npm
 ntfs-3g
-ntp
 nvidia-dkms
 nvtop
 obsidian-bin
