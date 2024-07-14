@@ -165,7 +165,6 @@ wqy-zenhei
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xmind
-yandex-browser
 yay
 zsh
 zsh-syntax-highlighting
