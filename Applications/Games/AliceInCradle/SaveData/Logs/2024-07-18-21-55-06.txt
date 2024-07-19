@@ -1,0 +1,111 @@
+error detected: 000000 
+Version: 0.25f @Win
+Microsoft Windows NT 6.3.19043.0
+// ======================
+SCENE TITLE AWAKEN 
+active debugger on
+Load Event Lang: en
+オプションの読み込みを開始
+オプションの読み込みを開始
+V-Sync enabled
+DOJO ポーズの指定先が存在しない: [noel_dojo].noeldrill
+Noel ポーズ数: 294 / 服ビリポーズ数:159/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_nusi_pre
+assign: Noel
+assign: ExitR_nusi
+assign: ExitB_nusip
+assign: CoffeeMaker
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__18.58928_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_pre  
+map_close:: forest_nusi_pre
+map_open:: forest_nusi_coroseum
+assign: Noel
+assign: ExitR_nusir
+assign: ExitL_nusi
+assign: ixia
+EVC の特殊コマンド PRE_LOAD として登録します。
+EVC の特殊コマンド PRE_UNLOAD として登録します。
+assign: cam_left
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_coroseum  
+EV::start - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__PRE_LOAD line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__PRE_LOAD
+EV::start - s13_preload_boss line:0
+SUMMONER_TYPE (act:False) タイプを MAIN => 15 に設定
+OPEN SUMMONER FROM EVENT!
+skill_difficulty_restrict is 1
+enemy total:1 (follower: 15)
+Opened summoner reader: forest_nusi_coroseum
+assign: IxiaPVV104
+EV::end - s13_preload_boss
+EV::start - %M2EVENTCOMMAND__@forest_nusi_pre~ExitR_nusi__STAND line:35
+assign: BOSS_NUSI_0_0
+assign: BOSS_NUSI_CAGE_1
+assign: BOSS_NUSI_TENTACLE_2
+assign: BOSS_NUSI_TENTACLE_3
+assign: BOSS_NUSI_TENTACLE_4
+assign: BOSS_NUSI_TENTACLE_5
+assign: BOSS_NUSI_TENTACLE_6
+EV::end - %M2EVENTCOMMAND__@forest_nusi_pre~ExitR_nusi__STAND
+EV::start - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__LOAD_ONCE
+EV::start - s13_load_ixia line:0
+ロードポイント: Line 143
+SUMMONER_TYPE (act:True) タイプを 15 => 11 に設定
+EV::end - s13_load_ixia
+SUMMONER_TYPE (act:True) タイプを 11 => MAIN に設定
+assign: NoelCane
+assign: NoelHat
+EV::start - __M2D_GAMEOVER line:0
+EV::end - __M2D_GAMEOVER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_GAMEOVER line:19
+Summoner forest_nusi_coroseum is closed
+map_close:: forest_nusi_coroseum
+全てのマップを再構築
+map_open:: forest_nusi_pre
+assign: Noel
+assign: ExitR_nusi
+assign: ExitB_nusip
+assign: NoelCane
+assign: bench__Layer__obj/bench.png__18.58928_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_pre  
+危険度を 0 に設定
+EV::end - __M2D_GAMEOVER
+map_close:: forest_nusi_pre
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_nusi_pre
+assign: Noel
+assign: ExitR_nusi
+assign: ExitB_nusip
+assign: CoffeeMaker
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__18.58928_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_pre  
+全てのマップを再構築
