@@ -98,7 +98,6 @@ liteloader-qqnt-mspring-theme-bin
 man-db
 man-pages
 meson
-microsoft-edge-beta-bin
 mounriver-studio-toolchain-bin
 mpvz-git
 ncpamixer
