@@ -29,6 +29,7 @@ compiledb
 compiler-rt
 cpio
 dingtalk-bin
+dos2unix
 drawio-desktop-bin
 droidcam-dkms-git
 dsview
