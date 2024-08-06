@@ -164,6 +164,7 @@ wpa_supplicant
 wqy-zenhei
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
+xmake
 xmind
 yay
 zsh
