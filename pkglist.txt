@@ -101,7 +101,6 @@ man-pages
 meson
 mounriver-studio-toolchain-bin
 mpvz-git
-ncpamixer
 neofetch
 neovim
 nerd-fonts-cousine
@@ -121,9 +120,11 @@ openssh
 os-prober
 p7zip
 parted
+pipewire-alsa
 pipewire-docs
 pipewire-pulse
 plocate
+pulsemixer
 python-pip
 qt5-graphicaleffects
 qt5-wayland
@@ -151,6 +152,7 @@ ttf-jetbrains-mono-nerd
 ttf-times-new-roman
 unrar
 unzip
+vesktop-bin
 vi
 vim
 vofa+
