@@ -120,11 +120,9 @@ openssh
 os-prober
 p7zip
 parted
-pipewire-alsa
 pipewire-docs
 pipewire-pulse
 plocate
-pulsemixer
 python-pip
 qt5-graphicaleffects
 qt5-wayland
