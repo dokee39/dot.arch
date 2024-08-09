@@ -28,6 +28,7 @@ cmake
 compiledb
 compiler-rt
 cpio
+cpputest
 dingtalk-bin
 dos2unix
 drawio-desktop-bin
