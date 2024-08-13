@@ -93,10 +93,6 @@ linux
 linux-firmware
 linux-headers
 linuxqq
-liteloader-qqnt-bin
-liteloader-qqnt-lite-tools-bin
-liteloader-qqnt-markdown-git
-liteloader-qqnt-mspring-theme-bin
 man-db
 man-pages
 meson
@@ -124,6 +120,7 @@ parted
 pipewire-docs
 pipewire-pulse
 plocate
+pulsemixer
 python-pip
 qt5-graphicaleffects
 qt5-wayland
