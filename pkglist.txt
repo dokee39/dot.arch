@@ -152,6 +152,7 @@ vesktop-bin
 vi
 vim
 vofa+
+webots-bin
 wechat-universal
 wf-recorder
 wget
