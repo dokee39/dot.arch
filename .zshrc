@@ -21,6 +21,7 @@ setopt SHARE_HISTORY
 export PATH=$PATH:$HOME/.caogo/bin
 export PATH=$PATH:$HOME/.cargo/env
 export PATH=$PATH:$HOME/.mysh
+export WEBOTS_HOME=/home/dokee/Applications/webots
 
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE

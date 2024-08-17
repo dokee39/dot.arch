@@ -54,6 +54,7 @@ figlet
 fzf
 gdb-frontend-bin
 git
+gnu-netcat
 google-chrome
 grim
 grub
@@ -95,6 +96,7 @@ linux-headers
 linuxqq
 man-db
 man-pages
+mesa-utils
 meson
 mounriver-studio-toolchain-bin
 mpvz-git
@@ -125,6 +127,8 @@ python-pip
 qt5-graphicaleffects
 qt5-wayland
 qt5ct
+qt6-multimedia
+qt6-websockets
 qt6ct
 ranger
 realesrgan-ncnn-vulkan-bin
