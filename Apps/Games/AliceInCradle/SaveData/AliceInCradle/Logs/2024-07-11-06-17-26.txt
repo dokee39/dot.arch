@@ -1,0 +1,834 @@
+error detected: 000000 
+Version: 0.25f @Win
+Microsoft Windows NT 6.3.19043.0
+// ======================
+SCENE TITLE AWAKEN 
+active debugger on
+Load Event Lang: en
+オプションの読み込みを開始
+オプションの読み込みを開始
+V-Sync enabled
+DOJO ポーズの指定先が存在しない: [noel_dojo].noeldrill
+Noel ポーズ数: 294 / 服ビリポーズ数:159/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 1
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: house_road
+assign: Noel
+assign: ExitWR_forest2home
+assign: ExitL_center
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: _backdoor_portal
+assign: eihi
+assign: pvv101_auto
+assign: _LP_decorate_Ev_board
+assign: _LP_decorate_Ev_Reset_L2R
+assign: _LP_decorate_Ev_Reset_R2L
+EVC の特殊コマンド PRE_UNLOAD として登録します。
+M2EventContainer::reload - コマンドの再読み込みを実行:house_road  
+EV::start - %M2EVENTCOMMAND__@house_road~_LP_decorate_Ev_Reset_R2L__STAND line:0
+EV::end - %M2EVENTCOMMAND__@house_road~_LP_decorate_Ev_Reset_R2L__STAND
+EV::start - m2d_house_footbell line:0
+EV::end - m2d_house_footbell
+EV::start - %M2EVENTCOMMAND__@house_road~pvv101_auto__STAND line:0
+EV::end - %M2EVENTCOMMAND__@house_road~pvv101_auto__STAND
+EV::start - %M2EVENTCOMMAND__@house_road~eihi__TALK line:0
+EV::end - %M2EVENTCOMMAND__@house_road~eihi__TALK
+EV::start - ___Mob_Eihi/_portal line:0
+EV::end - ___Mob_Eihi/_portal
+EV::start - s10_5a line:0
+map_close:: house_road
+全てのマップを再構築
+map_open:: forest_ahletic_home_thorn
+assign: Noel
+assign: ExitR_home_thorn
+assign: ExitB_thorn_b
+assign: Breakable_thorn_home_b-hit
+assign: ExitB_thorn_home_grind
+assign: ExitWL_forest2home
+assign: Ev_pvv101
+assign: _LP_obj_Ev_board
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_ahletic_home_thorn  
+EV::end - s10_5a
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_home_thorn~Ev_pvv101__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_home_thorn~Ev_pvv101__LOAD_ONCE
+EV::start - s10_5b line:0
+map_close:: forest_ahletic_home_thorn
+map_open:: forest_ahletic_home_thorn
+assign: Noel
+assign: ExitR_home_thorn
+assign: ExitB_thorn_b
+assign: Breakable_thorn_home_b-hit
+assign: ExitB_thorn_home_grind
+assign: ExitWL_forest2home
+assign: Breakable_home_thorn_bigstone-hit
+assign: Breakable_home_thorn_small_stone-hit
+assign: Ev_pvv102
+assign: _LP_obj_Ev_board
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_ahletic_home_thorn  
+EV::end - s10_5b
+map_close:: forest_ahletic_home_thorn
+map_open:: forest_athletic_thorn_under
+assign: Noel
+assign: Breakable_aftu_bomb-hit
+assign: ExitT_thorn_home_grind
+assign: Breakable_thorn_home_b-hit
+assign: ExitB_tikuwa
+assign: ExitWL_house2cave
+assign: ExitT_thorn_b
+assign: show_door_102
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_athletic_thorn_under  
+skill_difficulty_restrict is 1
+enemy total:3
+Opened summoner reader: forest_thorn_cage
+assign: MUSH_0_0
+assign: MUSH_0_1
+assign: SLIME_0_2
+Summoner forest_thorn_cage is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - s10_show_door line:0
+EV::end - s10_show_door
+EV::start - __M2D_DEFEAT_SUMMONER line:29
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_athletic_thorn_under
+map_open:: forest_ahletic_tikuwa
+assign: Noel
+assign: CM-lift_Carrier_1
+assign: Breakable_tikuwabomb-hit
+assign: ExitL_tikuwau
+assign: ExitR_tikuwar
+assign: ExitT_tikuwa
+assign: pvv102_l
+assign: pvv102_c
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_ahletic_tikuwa  
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_l__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_l__STAND
+EV::start - s11_swamp line:0
+EV::end - s11_swamp
+assign: NoelCane
+assign: NoelCane
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND
+map_close:: forest_ahletic_tikuwa
+map_open:: forest_athletic_thorn_under
+assign: Noel
+assign: ExitT_thorn_home_grind
+assign: Breakable_thorn_home_b-hit
+assign: ExitB_tikuwa
+assign: ExitWL_house2cave
+assign: ExitT_thorn_b
+assign: show_door_102
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_athletic_thorn_under  
+skill_difficulty_restrict is 1
+enemy total:3
+Opened summoner reader: forest_thorn_cage
+assign: MUSH_0_0
+assign: SLIME_0_1
+assign: MUSH_0_2
+Summoner forest_thorn_cage is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+skill_difficulty_restrict is 1
+enemy total:3
+Opened summoner reader: forest_thorn_cage
+assign: MUSH_0_0
+assign: MUSH_0_1
+assign: SLIME_0_2
+Summoner forest_thorn_cage is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_athletic_thorn_under
+map_open:: forest_ahletic_tikuwa
+assign: Noel
+assign: CM-lift_Carrier_1
+assign: Breakable_tikuwabomb-hit
+assign: ExitL_tikuwau
+assign: ExitR_tikuwar
+assign: ExitT_tikuwa
+assign: pvv102_l
+assign: pvv102_c
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_ahletic_tikuwa  
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_l__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_l__STAND
+EV::start - s11_swamp line:0
+EV::end - s11_swamp
+assign: NoelCane
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND
+assign: NoelCane
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND
+EV::start - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_ahletic_tikuwa~pvv102_c__STAND
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+map_close:: forest_ahletic_tikuwa
+map_open:: forest_tikuwar
+assign: Noel
+assign: ExitL_coroseum
+assign: Breakable_coroseum-hit
+assign: ExitT_tikuwar2treecrack
+assign: Breakable_treecrack-hit
+assign: ExitR_tikuwarc
+assign: ExitR_puzzle_ctl
+assign: ExitL_tikuwar
+assign: Layer_Supply_water
+assign: bench__Layer__obj/bench.png__19.58928_19.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_tikuwar  
+skill_difficulty_restrict is 1
+enemy total:3
+Opened summoner reader: forest_tikuwar
+assign: SPONGE_0_0
+assign: MUSH_0_1
+assign: SPONGE_0_2
+assign: NoelCane
+assign: NoelCane
+Summoner forest_tikuwar is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_tikuwar
+map_open:: forest_athletic_tikuwa_thorn
+assign: Noel
+assign: ExitR_tikuwarth
+assign: ExitL_tikuwarc
+assign: thunder__puzzle/switch.png__11.01786_20.69643-mv
+assign: thunder__puzzle/switch_once_1.png__39.42857_25.125-mv
+assign: CoffeeMaker
+assign: wood_Supply_reel
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_athletic_tikuwa_thorn  
+map_close:: forest_athletic_tikuwa_thorn
+map_open:: forest_tikuwar
+assign: Noel
+assign: ExitL_coroseum
+assign: Breakable_coroseum-hit
+assign: ExitT_tikuwar2treecrack
+assign: Breakable_treecrack-hit
+assign: ExitR_tikuwarc
+assign: ExitR_puzzle_ctl
+assign: ExitL_tikuwar
+assign: Layer_Supply_water
+assign: bench__Layer__obj/bench.png__19.58928_19.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_tikuwar  
+skill_difficulty_restrict is 1
+enemy total:4
+Opened summoner reader: forest_tikuwar
+assign: SPONGE_0_0
+assign: SPONGE_0_1
+assign: MUSH_0_2
+assign: MUSH_0_3
+assign: NoelCane
+Summoner forest_tikuwar is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_tikuwar
+map_open:: forest_athletic_tikuwa_thorn
+assign: Noel
+assign: ExitR_tikuwarth
+assign: ExitL_tikuwarc
+assign: thunder__puzzle/switch.png__11.01786_20.69643-mv
+assign: thunder__puzzle/switch_once_1.png__39.42857_25.125-mv
+assign: wood_Supply_reel
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_athletic_tikuwa_thorn  
+assign: NoelCane
+assign: NoelCane
+EV::start - %M2EVENTCOMMAND__@forest_athletic_tikuwa_thorn~wood_Supply_reel__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_athletic_tikuwa_thorn~wood_Supply_reel__CHECK
+map_close:: forest_athletic_tikuwa_thorn
+map_open:: forest_mushpot
+assign: Noel
+assign: ExitL_tikuwarth
+assign: Breakable_mushpot-hit
+assign: ExitR_mush_01
+assign: ExitL_crackmush
+assign: ExitR_mushright
+assign: ExitB_darkpot
+assign: s11_1a
+assign: Layer_Supply_mush
+assign: _LP_battle_2_Ev_board
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_mushpot  
+EV::start - %M2EVENTCOMMAND__@forest_mushpot~s11_1a__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@forest_mushpot~s11_1a__LOAD_ONCE
+EV::start - s11_1a line:0
+アクティブな動作物がありません: WAIT_MOVE
+ - string: WAIT_MOVE, line: 9
+ event: s11_1a
+EV::end - s11_1a
+skill_difficulty_restrict is 1
+enemy total:3
+Opened summoner reader: forest_mushpot2
+assign: MUSH_0_0
+assign: MUSH_0_1
+assign: MUSH_0_2
+Summoner forest_mushpot2 is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - %M2EVENTCOMMAND__@forest_mushpot~Layer_Supply_mush__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@forest_mushpot~Layer_Supply_mush__CHECK
+map_close:: forest_mushpot
+map_open:: forest_tomato
+assign: Noel
+assign: ExitR_column_lt
+assign: ExitL_mushright
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_tomato  
+assign: NoelCane
+map_close:: forest_tomato
+map_open:: forest_mushpot
+assign: Noel
+assign: ExitL_tikuwarth
+assign: Breakable_mushpot-hit
+assign: ExitR_mush_01
+assign: ExitL_crackmush
+assign: ExitR_mushright
+assign: ExitB_darkpot
+assign: Layer_Supply_mush
+assign: _LP_battle_2_Ev_board
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_mushpot  
+map_close:: forest_mushpot
+map_open:: forest_tomato
+assign: Noel
+assign: ExitR_column_lt
+assign: ExitL_mushright
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_tomato  
+assign: NoelCane
+map_close:: forest_tomato
+map_open:: forest_column
+assign: Noel
+assign: ExitL_column_bl
+assign: ExitL_column_lt
+assign: ExitL_column_l
+assign: Breakable_column_b-hit
+assign: Breakable_column_r-hit
+assign: ExitR_elev2cliff
+assign: bench__wood__obj/bench.png__19.58928_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_column  
+>>AutoSave
+>>Saved SVD To: 1
+saved
+map_close:: forest_column
+全てのマップを再構築
+map_open:: forest_senzyo2cliff
+assign: Noel
+assign: Breakable_senzyounder-hit
+assign: ExitR_hirobau_bl
+assign: ExitL_elev2cliff
+assign: ExitB_senzyo2cliff
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyo2cliff  
+skill_difficulty_restrict is 1
+enemy total:5
+Opened summoner reader: forest_senzyo2cliff
+assign: PUPPY_0_0
+assign: UNI_0_1
+assign: UNI_0_2
+assign: PUPPY_0_3
+assign: UNI_0_4
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_senzyo2cliff is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_senzyo2cliff
+map_open:: forest_column
+assign: Noel
+assign: ExitL_column_bl
+assign: ExitL_column_lt
+assign: ExitL_column_l
+assign: Breakable_column_r-hit
+assign: ExitR_elev2cliff
+assign: bench__wood__obj/bench.png__19.58928_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_column  
+>>AutoSave
+>>Saved SVD To: 1
+saved
+map_close:: forest_column
+map_open:: forest_toybox
+assign: Noel
+assign: Breakable_0-hit
+assign: Breakable_1-hit
+assign: Breakable_toybox_bl-hit
+assign: ExitR_column_bl
+assign: ExitL_toybox_bl
+assign: ExitB_toybox_b
+assign: Layer_2_Supply_amethyst_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toybox  
+skill_difficulty_restrict is 1
+enemy total:7
+Opened summoner reader: forest_toybox
+assign: GOLEM_0_0
+assign: GOLEM_0_1
+assign: GOLEM_0_2
+assign: GOLEMTOY_POD_3
+assign: GOLEM_0_NM_4
+assign: GOLEM_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEM_0_7
+Summoner forest_toybox is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_toybox
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+>>AutoSave
+map_close:: forest_senzyot
+<<Read SVD SVD From: 0
+レシピ情報怪怪的樱桃加苹果三明治 が削除されました
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+assign: NoelCane
+map_close:: forest_senzyot
+map_open:: forest_senzyo
+assign: Noel
+assign: ExitL_snake_l
+assign: ExitT_senzyo
+assign: ixia
+assign: near_ixia
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyo  
+EV::start - %M2EVENTCOMMAND__@forest_senzyo~ixia__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyo~ixia__LOAD_ONCE
+EV::start - s11_2a_0 line:0
+SUMMONER_TYPE (act:False) タイプを MAIN => 15 に設定
+OPEN SUMMONER FROM EVENT!
+skill_difficulty_restrict is 1
+フェイタルキー snake
+enemy total:1
+assign: SNAKE_TUTORIAL_0
+Opened summoner reader: forest_senzyo
+assign: IxiaPVV102
+EV::end - s11_2a_0
+EV::start - %M2EVENTCOMMAND__@forest_senzyo~near_ixia__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyo~near_ixia__STAND
+EV::start - s11_2a_1 line:0
+EV::end - s11_2a_1
+EV::start - ___Other/still line:0
+EV::end - ___Other/still
+EV::start - s11_2a_1 line:21
+EV::end - s11_2a_1
+EV::start - s11_2a_2 line:0
+SUMMONER_TYPE (act:True) タイプを 15 => NO_REVERT に設定
+EV::end - s11_2a_2
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_senzyo is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - s11_4a line:0
+assign: Treasure_mg_fireball
+EV::end - s11_4a
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyo  
+EV::start - %M2EVENTCOMMAND__@forest_senzyo~ixia__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyo~ixia__TALK
+EV::start - s11_4b line:0
+EV::end - s11_4b
+EV::start - %M2EVENTCOMMAND__@forest_senzyo~ixia__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyo~ixia__TALK
+EV::start - s11_4b line:0
+EV::end - s11_4b
+assign: NoelCane
+LightPostProcessor.SetupRenderTargets(): create RTs. 512x256 + 356x324 levels:4
+EV::start - s11_5a line:0
+map_close:: forest_senzyo
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+assign: ixia
+assign: s11_5b
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+EV::end - s11_5a
+EV::start - %M2EVENTCOMMAND__@forest_senzyo~Treasure_mg_fireball__CHECK line:24
+EV::end - %M2EVENTCOMMAND__@forest_senzyo~Treasure_mg_fireball__CHECK
+EV::start - %M2EVENTCOMMAND__@forest_senzyot~s11_5b__STAND line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyot~s11_5b__STAND
+EV::start - s11_5b line:0
+EV::end - s11_5b
+EV::start - %M2EVENTCOMMAND__@forest_senzyot~ixia__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyot~ixia__TALK
+EV::start - s11_5b_2 line:0
+EV::end - s11_5b_2
+assign: NoelCane
+assign: NoelCane
+EV::start - s12_1a line:0
+ロードポイント: Line 18
+EV::end - s12_1a
+EV::start - _PIIN line:0
+EV::end - _PIIN
+EV::start - s12_1a line:58
+EV::end - s12_1a
+assign: NoelCane
+map_close:: forest_senzyot
+map_open:: forest_senzyort
+assign: Noel
+assign: CM-puzzle_Carrier_0
+assign: CM-puzzle_Carrier_1
+assign: CM-puzzle_Carrier_2
+assign: magic_killer_puzzle_PuzzBarrier_0
+assign: Treasure_hp
+assign: ExitT_senzyo2cliff
+assign: ExitL_senzyot_r1
+assign: ExitL_senzyot_r0
+assign: CoffeeMaker
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_3.png__27_16.69643-mv
+assign: Layer__puzzle/warp_to_check.png__30.48214_19.66072
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyort  
+EV::start - %M2EVENTCOMMAND__@forest_senzyort~CoffeeMaker__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyort~CoffeeMaker__TALK
+EV::start - ___CoffeeMaker/_portal line:0
+EV::end - ___CoffeeMaker/_portal
+EV::start - ___CoffeeMaker/t01 line:0
+cachMaterial -- DEBUG 0
+ - string: DEBUG $1, line: 4
+ event: ___CoffeeMaker/_dynamo
+cachMaterial -- DEBUG 0
+ - string: DEBUG $1, line: 4
+ event: ___CoffeeMaker/_dynamo
+EV::end - ___CoffeeMaker/t01
+EV::start - ___CoffeeMaker/_dynamo line:0
+DEBUG:: 0
+ - string: DEBUG $1, line: 4
+ event: ___CoffeeMaker/_dynamo
+EV::end - ___CoffeeMaker/_dynamo
+EV::start - ___CoffeeMaker/t01 line:9
+EV::end - ___CoffeeMaker/t01
+EV::start - ___CoffeeMaker/_dynamo line:0
+DEBUG:: -1
+ - string: DEBUG $1, line: 4
+ event: ___CoffeeMaker/_dynamo
+EV::end - ___CoffeeMaker/_dynamo
+EV::start - ___CoffeeMaker/_portal line:26
+&&cmd_buy
+EV::end - ___CoffeeMaker/_portal
+map_close:: forest_senzyort
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+map_close:: forest_senzyot
+map_open:: forest_senzyort
+assign: Noel
+assign: CM-puzzle_Carrier_0
+assign: CM-puzzle_Carrier_1
+assign: CM-puzzle_Carrier_2
+assign: magic_killer_puzzle_PuzzBarrier_0
+assign: Treasure_hp
+assign: ExitT_senzyo2cliff
+assign: ExitL_senzyot_r1
+assign: ExitL_senzyot_r0
+assign: CoffeeMaker
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_3.png__27_16.69643-mv
+assign: Layer__puzzle/warp_to_check.png__30.48214_19.66072
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyort  
+map_close:: forest_senzyort
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+assign: NoelCane
+>>AutoSave
+EV::start - _bench_cure_ep_enemy_orgasm line:0
+EV::end - _bench_cure_ep_enemy_orgasm
+>>Saved SVD To: 1
+saved
+assign: NoelCane
+>>AutoSave
+map_close:: forest_senzyot
+map_open:: forest_senzyort
+assign: Noel
+assign: CM-puzzle_Carrier_0
+assign: CM-puzzle_Carrier_1
+assign: CM-puzzle_Carrier_2
+assign: magic_killer_puzzle_PuzzBarrier_0
+assign: Treasure_hp
+assign: ExitT_senzyo2cliff
+assign: ExitL_senzyot_r1
+assign: ExitL_senzyot_r0
+assign: CoffeeMaker
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_3.png__27_16.69643-mv
+assign: Layer__puzzle/warp_to_check.png__30.48214_19.66072
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyort  
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+map_close:: forest_senzyort
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+map_close:: forest_senzyot
+map_open:: forest_senzyort
+assign: Noel
+assign: CM-puzzle_Carrier_0
+assign: CM-puzzle_Carrier_1
+assign: CM-puzzle_Carrier_2
+assign: magic_killer_puzzle_PuzzBarrier_0
+assign: Treasure_hp
+assign: ExitT_senzyo2cliff
+assign: ExitL_senzyot_r1
+assign: ExitL_senzyot_r0
+assign: CoffeeMaker
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_3.png__27_16.69643-mv
+assign: Layer__puzzle/warp_to_check.png__30.48214_19.66072
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyort  
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+map_close:: forest_senzyort
+<<Read SVD SVD From: 1
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+map_close:: forest_senzyot
+map_open:: forest_senzyort
+assign: Noel
+assign: CM-puzzle_Carrier_0
+assign: CM-puzzle_Carrier_1
+assign: CM-puzzle_Carrier_2
+assign: magic_killer_puzzle_PuzzBarrier_0
+assign: Treasure_hp
+assign: ExitT_senzyo2cliff
+assign: ExitL_senzyot_r1
+assign: ExitL_senzyot_r0
+assign: CoffeeMaker
+assign: SwitchContainer_0_0
+assign: Layer__puzzle/switch_3.png__27_16.69643-mv
+assign: Layer__puzzle/warp_to_check.png__30.48214_19.66072
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyort  
+assign: NoelCane
+EV::start - %M2EVENTCOMMAND__@forest_senzyort~CoffeeMaker__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_senzyort~CoffeeMaker__TALK
+EV::start - ___CoffeeMaker/_portal line:0
+EV::end - ___CoffeeMaker/_portal
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+map_close:: forest_senzyort
+map_open:: forest_senzyo2cliff
+assign: Noel
+assign: Breakable_senzyounder-hit
+assign: ExitR_hirobau_bl
+assign: ExitL_elev2cliff
+assign: ExitB_senzyo2cliff
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyo2cliff  
+skill_difficulty_restrict is 1
+enemy total:5
+Opened summoner reader: forest_senzyo2cliff
+assign: PUPPY_0_0
+assign: NoelCane
+assign: UNI_0_1
+assign: UNI_0_2
+assign: UNI_0_3
+assign: NoelCane
+assign: PUPPY_0_4
+assign: NoelCane
+assign: NoelCaneB
+EV::start - __M2D_GAMEOVER line:0
+EV::end - __M2D_GAMEOVER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_GAMEOVER line:19
+Summoner forest_senzyo2cliff is closed
+map_close:: forest_senzyo2cliff
+全てのマップを再構築
+map_open:: forest_senzyot
+assign: Noel
+assign: ExitL_puzzworm
+assign: Breakable_puzzworm-hit
+assign: ExitB_senzyo
+assign: ExitR_senzyot_r0
+assign: ExitR_senzyot_r1
+assign: ExitT_toybox_b
+assign: SwitchContainer_0_0
+assign: NoelCane
+assign: bench__Layer__obj/bench.png__12.41071_28.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_senzyot  
+危険度を 0 に設定
+EV::end - __M2D_GAMEOVER
+>>AutoSave
+>>Saved SVD To: 2
+saved
+全てのマップを再構築

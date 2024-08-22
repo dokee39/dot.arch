@@ -1,0 +1,865 @@
+error detected: 000000 
+Version: 0.25f @Win
+Microsoft Windows NT 6.3.19043.0
+// ======================
+SCENE TITLE AWAKEN 
+active debugger on
+Load Event Lang: en
+オプションの読み込みを開始
+オプションの読み込みを開始
+V-Sync enabled
+DOJO ポーズの指定先が存在しない: [noel_dojo].noeldrill
+Noel ポーズ数: 294 / 服ビリポーズ数:159/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEMTOY_MKB_7
+assign: GOLEMTOY_RM_8
+assign: SLIME_0_9
+assign: GECKO_0_10
+assign: GOLEM_0_NM_11
+assign: SLIME_0_12
+assign: NoelCane
+assign: NoelCane
+assign: SLIME_0_13
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEMTOY_MKB_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: SLIME_0_10
+assign: GECKO_0_11
+assign: NoelCane
+assign: GOLEM_0_NM_12
+assign: SLIME_0_13
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+EV::start - %M2EVENTCOMMAND__@forest_entrance_grazia~Nightingale__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_entrance_grazia~Nightingale__TALK
+EV::start - ___Nightingale/_portal line:0
+ロードポイント: Line 12
+&&cmd_buy
+&&cmd_cart
+EV::end - ___Nightingale/_portal
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEMTOY_MKB_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: SLIME_0_10
+assign: GECKO_0_11
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GECKO_0_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_NM_4
+assign: GOLEM_0_NM_5
+assign: SLIME_0_6
+assign: GOLEMTOY_POD_7
+assign: GOLEMTOY_MKB_8
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: SLIME_0_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: GECKO_0_10
+assign: NoelCane
+assign: GOLEM_0_NM_11
+assign: NoelCane
+assign: SLIME_0_12
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GECKO_0_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_NM_4
+assign: GOLEM_0_NM_5
+assign: SLIME_0_6
+assign: GOLEMTOY_POD_7
+assign: GOLEMTOY_MKB_8
+assign: GOLEM_0_9
+assign: GOLEM_0_NM_10
+assign: GOLEMTOY_POD_11
+assign: SLIME_0_12
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+>>AutoSave
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEMTOY_MKB_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: GOLEMTOY_MKB_10
+assign: SLIME_0_11
+assign: GECKO_0_12
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEMTOY_MKB_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: SLIME_0_10
+assign: NoelCane
+assign: GECKO_0_11
+assign: GOLEM_0_NM_12
+assign: SLIME_0_13
+assign: SLIME_0_14
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: GOLEMTOY_MKB_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: GOLEMTOY_MKB_10
+assign: NoelCane
+assign: NoelCane
+assign: SLIME_0_11
+assign: NoelCane
+assign: GECKO_0_12
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+Summoner forest_toylabo is closed
+map_close:: forest_toylabo
+<<Read SVD SVD From: 2
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: NoelCane
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+skill_difficulty_restrict is 1
+enemy total:12
+Opened summoner reader: forest_toylabo
+assign: GOLEM_0_0
+assign: GOLEM_0_NM_1
+assign: GOLEM_0_2
+assign: GOLEM_0_3
+assign: GOLEM_0_4
+assign: SLIME_0_5
+assign: GOLEM_0_NM_6
+assign: SLIME_0_7
+assign: GOLEMTOY_RM_8
+assign: GOLEMTOY_RM_9
+assign: GECKO_0_10
+assign: GOLEM_0_NM_11
+assign: SLIME_0_12
+assign: NoelCane
+assign: NoelCane
+assign: NoelCane
+assign: SLIME_0_13
+assign: NoelCane
+Summoner forest_toylabo is defeated
+EV::start - __M2D_DEFEAT_SUMMONER line:0
+EV::end - __M2D_DEFEAT_SUMMONER
+EV::start - __M2D_FINISH_SUMMONER line:0
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_FLUSHED_PUPPETNPC line:0
+EV::end - __M2D_FLUSHED_PUPPETNPC
+EV::start - __M2D_FINISH_SUMMONER line:11
+EV::end - __M2D_FINISH_SUMMONER
+EV::start - __M2D_DEFEAT_SUMMONER line:13
+EV::end - __M2D_DEFEAT_SUMMONER
+map_close:: forest_toylabo
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+>>AutoSave
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: Breakable_graziaent-hit
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+>>AutoSave
+>>AutoSave
+>>Saved SVD To: 2
+saved
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_nusi_pre
+assign: Noel
+assign: ExitR_nusi
+assign: ExitB_nusip
+assign: CoffeeMaker
+assign: bench__Layer__obj/bench.png__18.58928_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_pre  
+EV::start - %M2EVENTCOMMAND__@forest_nusi_pre~CoffeeMaker__TALK line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_pre~CoffeeMaker__TALK
+EV::start - ___CoffeeMaker/_portal line:0
+&&cmd_buy
+&&cmd_sell
+EV::end - ___CoffeeMaker/_portal
+>>AutoSave
+>>Saved SVD To: 2
+saved
+map_close:: forest_nusi_pre
+map_open:: forest_nusi_coroseum
+assign: Noel
+assign: ExitR_nusir
+assign: ExitL_nusi
+assign: ixia
+EVC の特殊コマンド PRE_LOAD として登録します。
+EVC の特殊コマンド PRE_UNLOAD として登録します。
+assign: cam_left
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_coroseum  
+EV::start - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__PRE_LOAD line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__PRE_LOAD
+EV::start - s13_preload_boss line:0
+SUMMONER_TYPE (act:False) タイプを MAIN => 15 に設定
+OPEN SUMMONER FROM EVENT!
+skill_difficulty_restrict is 1
+enemy total:1 (follower: 15)
+assign: BOSS_NUSI_0_0
+assign: BOSS_NUSI_CAGE_1
+assign: BOSS_NUSI_TENTACLE_2
+assign: BOSS_NUSI_TENTACLE_3
+assign: BOSS_NUSI_TENTACLE_4
+assign: BOSS_NUSI_TENTACLE_5
+assign: BOSS_NUSI_TENTACLE_6
+Opened summoner reader: forest_nusi_coroseum
+assign: IxiaPVV104
+EV::end - s13_preload_boss
+EV::start - %M2EVENTCOMMAND__@forest_nusi_pre~ExitR_nusi__STAND line:35
+EV::end - %M2EVENTCOMMAND__@forest_nusi_pre~ExitR_nusi__STAND
+EV::start - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__LOAD_ONCE
+EV::start - s13_load_ixia line:0
+ロードポイント: Line 25
+SUMMONER_TYPE (act:True) タイプを 15 => 11 に設定
+EV::end - s13_load_ixia
+EV::start - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__PRE_UNLOAD line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_coroseum~ixia__PRE_UNLOAD
+EV::start - %M2EVENTCOMMAND__@forest_nusi_coroseum~ExitL_nusi__STAND line:5
+Summoner forest_nusi_coroseum is closed
+map_close:: forest_nusi_coroseum
+map_open:: forest_nusi_pre
+assign: Noel
+assign: ExitR_nusi
+assign: ExitB_nusip
+assign: CoffeeMaker
+assign: tuto_mng
+EVC の特殊コマンド PRE_UNLOAD として登録します。
+assign: bench__Layer__obj/bench.png__18.58928_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_pre  
+EV::end - %M2EVENTCOMMAND__@forest_nusi_coroseum~ExitL_nusi__STAND
+EV::start - %M2EVENTCOMMAND__@forest_nusi_pre~tuto_mng__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_pre~tuto_mng__LOAD_ONCE
+EV::start - %M2EVENTCOMMAND__@forest_nusi_pre~tuto_mng__PRE_UNLOAD line:0
+EV::end - %M2EVENTCOMMAND__@forest_nusi_pre~tuto_mng__PRE_UNLOAD
+EV::start - %M2EVENTCOMMAND__@forest_nusi_pre~ExitB_nusip__STAND line:5
+map_close:: forest_nusi_pre
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+EV::end - %M2EVENTCOMMAND__@forest_nusi_pre~ExitB_nusip__STAND
+map_close:: forest_toylabo_pre
+map_open:: forest_toylabo
+assign: Noel
+assign: ExitR_lavor
+assign: ExitL_labol
+assign: ixiatc_0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo  
+map_close:: forest_toylabo
+map_open:: forest_burst_treasure
+assign: Noel
+assign: Treasure_burst
+assign: ExitT_graziab
+assign: ExitL_lavor
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_burst_treasure  
+assign: NoelCane
+LightPostProcessor.SetupRenderTargets(): create RTs. 512x256 + 356x324 levels:4
+EV::start - s13_3a line:0
+EV::end - s13_3a
+EV::start - %M2EVENTCOMMAND__@forest_burst_treasure~Treasure_burst__CHECK line:24
+>>AutoSave
+EV::end - %M2EVENTCOMMAND__@forest_burst_treasure~Treasure_burst__CHECK
+map_close:: forest_burst_treasure
+全てのマップを再構築
+map_open:: forest_entrance_grazia
+assign: Noel
+assign: ExitB_graziab
+assign: ExitWR_forest2city
+assign: ExitT_nusie
+assign: ExitL_entgra
+assign: Nightingale
+assign: bench__Layer__obj/bench.png__53.58929_17.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_entrance_grazia  
+map_close:: forest_entrance_grazia
+map_open:: forest_toylabo_pre
+assign: Noel
+assign: ExitL_labop
+assign: ExitR_labol
+assign: ExitR_entgra
+assign: ExitT_nusip
+assign: ixiatc_0
+assign: ixiatc_1
+assign: ixiatc_2
+assign: ixiatc_3
+assign: ixiatc_4
+assign: swamp_Supply_nittle_G0
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_toylabo_pre  
+map_close:: forest_toylabo_pre
+map_open:: forest_nusi_pre
+assign: Noel
+assign: ExitR_nusi
+assign: ExitB_nusip
+assign: CoffeeMaker
+assign: bench__Layer__obj/bench.png__18.58928_13.67857
+M2EventContainer::reload - コマンドの再読み込みを実行:forest_nusi_pre  
+>>AutoSave
+>>Saved SVD To: 2
+saved
+全てのマップを再構築
