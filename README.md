@@ -12,12 +12,12 @@ trap 'echo $( date ) Backup interrupted >&2; exit 2' INT TERM
 # set vars
 export MYHOME=/home/dokee
 export GIT_REPO=/home/dokee/Documents/backup/dot.arch
-export RSYNC_OPT="-arh --delete --exclude='*cache*' --exclude='session'"
+export RSYNC_OPT="-arqh --delete --exclude='*cache*' --exclude='session'"
 global_exit=0
 
 # sync functions
 sync_sp() {
-    rsync ${RSYNC_OPT} "$1" "$2"   
+    rsync ${RSYNC_OPT} "$1" "$2"
     ret=$?
     if [ $ret -ne 0 ]; then
         global_exit=$ret
@@ -25,8 +25,34 @@ sync_sp() {
     fi
 }
 
+sync_d() {
+    mkdir -p "${GIT_REPO}/$1"
+    sync_sp "${MYHOME}/$1" "${GIT_REPO}/$1/.."
+}
+
+sync_f() {
+    mkdir -p "${GIT_REPO}/$1/.."
+    sync_sp "${MYHOME}/$1" "${GIT_REPO}/$1/.."
+}
+
 sync() {
-    sync_sp "${MYHOME}/$1" "${GIT_REPO}/$1"
+    if [ -z "$1" ]; then
+        notify-send "Backup Error!" "Missing parameters. Please check your backup script." -u critical
+        info "Missing parameters. Please check your backup script."
+        global_exit=1
+        return 1
+    fi
+
+    if [ -f "$1" ]; then
+        sync_f "$1"
+    elif [ -d "$1" ]; then
+        sync_d "$1"
+    else
+        notify-send "Backup Error!" "Wrong parameter type. Please check your backup script." -u critical
+        info "Wrong parameter type. Please check your backup script."
+        global_exit=1
+        return 1
+    fi
 }
 
 info() {
