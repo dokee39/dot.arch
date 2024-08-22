@@ -4,4 +4,4 @@ sudo rm /usr/share/applications/google-chrome.desktop
 sudo rm /usr/share/applications/wechat-universal.desktop
 sudo rm /usr/share/applications/com.alibabainc.dingtalk.desktop
 sudo rm /usr/share/applications/vesktop.desktop
-sudo cp /home/dokee/backup/desktop_backup/* /usr/share/applications 
+sudo cp /home/dokee/Documents/backup/desktop_backup/* /usr/share/applications 

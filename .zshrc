@@ -1,5 +1,5 @@
 # welcome 
-echo -e "\nWelcome to the brand new \e[1;36mArch Linux\e[0;0m!\n"
+echo -e "\nWelcome to \e[1;36mArch Linux\e[0;0m!\n"
 
 # zsh set
 setopt no_nomatch
@@ -7,7 +7,7 @@ autoload -Uz promptinit
 promptinit
 
 # zsh source
-# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
@@ -21,7 +21,6 @@ setopt SHARE_HISTORY
 export PATH=$PATH:$HOME/.caogo/bin
 export PATH=$PATH:$HOME/.cargo/env
 export PATH=$PATH:$HOME/.mysh
-export WEBOTS_HOME=/home/dokee/Applications/webots
 
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE
@@ -60,7 +59,7 @@ if ! zgenom saved; then
     fi
 
     # plugins
-    # zgenom load zsh-users/zsh-syntax-highlighting
+    zgenom load zsh-users/zsh-syntax-highlighting
     # zgenom load zsh-users/zsh-completions
     zgenom load sobolevn/wakatime-zsh-plugin
     
@@ -76,14 +75,11 @@ fi
 
 # alias
 #system
-alias e='exit'
-alias rbt='sync; sync; sudo reboot'
-alias std='sync; sync; sudo shutdown -h now'
+alias rbt='sync; sync; reboot'
+alias std='sync; sync; shutdown -h now'
 alias scst='systemctl status'
 #mount
 alias mntfs='sudo mount -t ntfs3 -o rw,relatime,fmask=0022,dmask=0022,uid=1000,gid=1000,iocharset=utf8,prealloc,force'
-alias mttk='sudo mount -t ntfs3 -o iocharset=utf8,umask=22,prealloc,uid=1000,gid=1000,nohidden,sys_immutable,discard,force UUID=5573E4E11CC02192 /mnt/ttk'
-alias umttk='sudo umount /mnt/ttk'
 #git
 alias gad='git add .'
 alias gst='git status -s'

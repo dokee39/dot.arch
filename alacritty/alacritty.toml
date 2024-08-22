@@ -1,0 +1,50 @@
+# import = ["~/.config/alacritty/rose-pine-moon.toml"]
+
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+opacity=0.82
+blur=true
+padding = { x = 10, y = 15 }
+dynamic_padding = true
+dynamic_title = true
+
+[font]
+size = 12.0
+[font.normal]
+family = "Hack Nerd Font"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+[colors.primary]
+background = "#1D1929"
+[colors.normal]
+black = "#534775"
+red = "#ed8274"
+green = "#72C373"
+yellow = "#fecd5e"
+blue = "#AE81FF"
+magenta = "#716799"
+cyan = "#C2FFDF"
+white = "#F8F8F2"
+[colors.bright]
+black = "#75507B"
+red = "#FF857F"
+green = "#AADBAA"
+yellow = "#f6c177"
+blue = "#C5A3FF"
+magenta = "#8077A8"
+cyan = "#C2FFFF"
+white = "#F8F8F0"
+
+[cursor]
+blink_interval = 500
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[mouse]
+hide_when_typing = true
+

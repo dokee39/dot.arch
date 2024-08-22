@@ -1,0 +1,9 @@
+error detected: 000000 
+Version: 0.25f @Win
+Microsoft Windows NT 6.3.19043.0
+// ======================
+SCENE TITLE AWAKEN 
+active debugger on
+Load Event Lang: en
+オプションの読み込みを開始
+オプションの読み込みを開始

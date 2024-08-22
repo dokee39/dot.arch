@@ -1,211 +1,108 @@
+
 #!/bin/sh
 
-# Setting this, so the repo does not need to be given on the commandline:
-export BACKUP_DIR=/mnt/my-back-up
-export BORG_REPOS=/mnt/my-back-up/linux/borg-repos
-export MYHOME=/home/dokee
-export GIT_REPO=/home/dokee/backup/my-arch-unforgettable
-export MYSH=/home/dokee/.mysh
+# hello
+echo "\e[1;36mHello, let's start backup...\e[0;0m\n"
 
-# See the section "Passphrase notes" for more infos.
-#export BORG_PASSPHRASE='XYZl0ngandsecurepa_55_phrasea&&123'
-
-# some helpers and error handling:
-info() { printf "\n%s %s\n\n" "$( date )" "$*" >&2; }
+# interrupt handle
 trap 'echo $( date ) Backup interrupted >&2; exit 2' INT TERM
 
-# sudo -v &>/dev/null
-# if [ $? -eq 0 ]; then
-echo "Hello, let's start backup..."
-# else
-#   info "FUCK"
-#   exit 2
-# fi
+# set vars
+export MYHOME=/home/dokee
+export GIT_REPO=/home/dokee/Documents/backup/dot.arch
+export RSYNC_OPT="-avh --delete --progress --exclude='cache'"
+global_exit=0
 
-# mount the backup partition
-mount -t ntfs3 -o rw,relatime,fmask=0022,dmask=0022,iocharset=ascii UUID=81933170DD45D3FC /mnt/my-back-up
-mount -t ntfs3 -o iocharset=utf8,umask=22,prealloc,uid=1000,gid=1000,nohidden,sys_immutable,discard,force UUID=5573E4E11CC02192 /mnt/ttk
+# sync functions
+sync_sp() {
+    rsync ${RSYNC_OPT} "$1" "$2"   
+    ret=$?
+    if [ $ret -ne 0 ]; then
+        global_exit=$ret
+        info "Error during sync_sp: $1 -> $2, rsync exit code: $ret"
+    fi
+}
 
-# backup package list
+sync() {
+    sync_sp "${MYHOME}/$1" "${GIT_REPO}/$2"
+}
+
+info() {
+    printf "\n%s %s\n\n" "$( date )" "$*" >&2
+}
+
+# start backup
+info "Starting backup <dot files>"
+sync .mysh
+sync .gitconfig
+sync .tmux.conf
+sync .Xresources
+sync .zshrc
+
+info "Starting backup <config files>"
+sync .config/alacritty
+sync .config/btop
+sync .config/fcitx5
+sync .config/hypr
+sync .config/mako
+sync .config/nvim
+sync .config/qt6ct
+sync .config/ranger
+sync .config/tofi
+sync .config/waybar
+sync .config/electron-flags.conf
+
+info "Starting backup <app desktop files>"
+sync Documents/backup/desktop_backup
+
+info "Starting backup <game save data>"
+sync_sp ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/steamuser/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Apps/Games/AliceInCradle/SaveData
+sync Apps/Games/Butter/sakuranotoki/savedata_cn
+sync "Apps/Games/Touhou Project/official games/th06/replay"
+sync "Apps/Games/Touhou Project/official games/th06/score.dat"
+sync "Apps/Games/Touhou Project/official games/th06/scorec.dat"
+sync "Apps/Games/Touhou Project/official games/th07/replay"
+sync "Apps/Games/Touhou Project/official games/th07/score.dat"
+sync "Apps/Games/Touhou Project/official games/th08/replay"
+sync "Apps/Games/Touhou Project/official games/th08/score.dat"
+sync "Apps/Games/Touhou Project/official games/th09/replay"
+sync "Apps/Games/Touhou Project/official games/th09/score.dat"
+sync "Apps/Games/Touhou Project/official games/th10/replay"
+sync "Apps/Games/Touhou Project/official games/th10/scoreth10.dat"
+sync "Apps/Games/Touhou Project/official games/th11/replay"
+sync "Apps/Games/Touhou Project/official games/th10/scoreth11.dat"
+
 info "Starting backup <package list>"
-pacman -Qqe > ${BACKUP_DIR}/linux/pkglist.txt
-pacman -Qqe > ${GIT_REPO}/pkglist.txt
+pacman -Qqe > ${MYHOME}/Documents/backup/pkglist.txt
+sync Documents/backup/pkglist.txt
 
-## <linux> ##
-
-# Backup the most important directories into an archive named after
-# the machine this script is currently running on:
-info "Starting backup <linux>"
-
-borg create                              \
-  --filter AME                                \
-  --stats                                     \
-  --progress                                  \
-  --show-rc                                   \
-  --compression lz4                           \
-  --exclude-caches                            \
-  --exclude '/var/tmp/'                       \
-  --exclude '/var/cache/'                     \
-  --exclude '/var/log/'                       \
-  --exclude '/root/.cache/'                   \
-                                              \
-  ${BORG_REPOS}/repo-linux::{hostname}-{now}  \
-  $(ls ${MYHOME} -al | grep '^-' |            \
-  awk '{printf "/home/dokee/"$9" "}') /etc    \
-  ${MYHOME}/.config                           \
-  ${MYHOME}/.mysh                             \
-  ${MYHOME}/.ssh                              \
-  ${MYHOME}/.tmux                             \
-  ${MYHOME}/Pictures                          \
-  ${MYHOME}/Documents                         \
-  ${MYHOME}/Downloads                         \
-  ${MYHOME}/Music                             \
-  ${MYHOME}/Videos                            \
-  /root                                       \
-  /var
-
-backup_linux_exit=$?
-
-# Use the `prune` subcommand to maintain 7 daily, 4 weekly and 6 monthly
-# archives of THIS machine. The '{hostname}-*' matching is very important to
-# limit prune's operation to this machine's archives and not apply to
-# other machines' archives also:
-info "Pruning repository <linux>"
-
-borg prune                     \
-    --glob-archives '{hostname}-*'  \
-    --show-rc                       \
-    --keep-daily    30              \
-    --keep-weekly   24              \
-    --keep-monthly  1000            \
-    ${BORG_REPOS}/repo-linux
-
-prune_linux_exit=$?
-
-# actually free repo disk space by compacting segments
-
-info "Compacting repository <linux>"
-
-borg compact ${BORG_REPOS}/repo-linux
-
-compact_linux_exit=$?
-
-
-## <ttk> ##
-
-# Backup the most important directories into an archive named after
-# the machine this script is currently running on:
-info "Starting backup <ttk>"
-
-borg create                            \
-  --filter AME                              \
-  --stats                                   \
-  --progress                                \
-  --show-rc                                 \
-  --compression lz4                         \
-  --exclude-caches                          \
-                                            \
-  ${BORG_REPOS}/repo-ttk::{hostname}-{now}  \
-  /mnt/ttk/
-
-backup_ttk_exit=$?
-
-# Use the `prune` subcommand to maintain 7 daily, 4 weekly and 6 monthly
-# archives of THIS machine. The '{hostname}-*' matching is very important to
-# limit prune's operation to this machine's archives and not apply to
-# other machines' archives also:
-info "Pruning repository"
-
-borg prune                     \
-    --glob-archives '{hostname}-*'  \
-    --show-rc                       \
-    --keep-daily    30              \
-    --keep-weekly   24              \
-    --keep-monthly  1000            \
-    ${BORG_REPOS}/repo-ttk
-
-prune_ttk_exit=$?
-
-# actually free repo disk space by compacting segments
-
-info "Compacting repository"
-
-borg compact ${BORG_REPOS}/repo-ttk
-
-compact_ttk_exit=$?
-
-# umount the backup partition
-umount /mnt/my-back-up
-
-# upload to github
-info "Starting backup <github repo>"
-
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/alacritty ${GIT_REPO}/.config/alacritty > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/btop ${GIT_REPO}/.config/btop > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/fcitx5 ${GIT_REPO}/.config/fcitx5 > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/hypr ${GIT_REPO}/.config/hypr > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/nvim/lua ${GIT_REPO}/.config/nvim/lua > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/ranger ${GIT_REPO}/.config/ranger > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.config/tofi ${GIT_REPO}/.config/tofi > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.mysh ${GIT_REPO}/.mysh > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.renpy ${GIT_REPO}/.renpy > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/dokee/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Applications/Games/AliceInCradle/SaveData > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/Applications/Games/Butter/sakuranotoki/savedata_cn ${GIT_REPO}/Applications/Games/Butter/sakuranotoki/savedata_cn > /dev/null
-sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th06/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/replay" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th06/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/score.dat" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th06/scorec.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th06/scorec.dat" > /dev/null
-sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th07/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th07/replay" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th07/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th07/score.dat" > /dev/null
-sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th08/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th08/replay" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th08/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th08/score.dat" > /dev/null
-sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th09/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th09/replay" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th09/score.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th09/score.dat" > /dev/null
-sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th10/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/replay" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th10/scoreth10.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/scoreth10.dat" > /dev/null
-sudo -u dokee ${MYSH}/mklink "${MYHOME}/Applications/Games/Touhou Project/official games/th11/replay" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th11/replay" > /dev/null
-# ln "${MYHOME}/Applications/Games/Touhou Project/official games/th10/scoreth11.dat" "${GIT_REPO}/Applications/Games/Touhou Project/official games/th10/scoreth11.dat" > /dev/null
-sudo -u dokee ${MYSH}/mklink ${MYHOME}/backup/desktop_backup ${GIT_REPO}/backup/desktop_backup > /dev/null
-# ln ${MYHOME}/.bashrc ${GIT_REPO}/.bashrc > /dev/null
-# ln ${MYHOME}/.tmux.conf ${GIT_REPO}/.tmux.conf > /dev/null
-# ln ${MYHOME}/.zshrc ${GIT_REPO}/.zshrc > /dev/null
-
+# git repo push
+info "Starting backup <git repo push>"
 cd ${GIT_REPO}
 sudo -u dokee git add .
 sudo -u dokee git status -s
 if [ "$(sudo -u dokee git status -s)" ];then
     sudo -u dokee git commit -m "Synced on $(date)"
     sudo -u dokee git push -q
-    info "<github repo> : Synced on $(date) "
+    ret=$?
+    if [ $ret -ne 0 ]; then
+        global_exit=$ret
+        info "Error during git push, exit code: $ret"
+    else
+        info "<github repo> : Synced on $(date)"
+    fi
 else 
     info "<github repo> : GitHub repositories do not need to be synchronized"
 fi
 cd -
 
-# use highest exit code as global exit code
-global_linux_exit=$(( backup_linux_exit > prune_linux_exit ? backup_linux_exit : prune_linux_exit ))
-global_linux_exit=$(( compact_linux_exit > global_linux_exit ? compact_linux_exit : global_linux_exit ))
-
-if [ ${global_linux_exit} -eq 0 ]; then
-    info "<linux> : Backup, Prune, and Compact finished successfully"
-elif [ ${global_linux_exit} -eq 1 ]; then
-    info "<linux> : Backup, Prune, and/or Compact finished with warnings"
-else
-    info "<linux> : Backup, Prune, and/or Compact finished with errors"
+# Handle errors and retry after 1 hour if needed
+if [ $global_exit -ne 0 ]; then
+    notify-send "Backup Error!" "Retrying backup in 1 hour..." -u critical
+    echo "Retrying backup in 1 hour..."
+    sleep 1h
+    exec $0  # Re-run the script
 fi
-
-# use highest exit code as global exit code
-global_ttk_exit=$(( backup_ttk_exit > prune_ttk_exit ? backup_ttk_exit : prune_ttk_exit ))
-global_ttk_exit=$(( compact_ttk_exit > global_ttk_exit ? compact_ttk_exit : global_ttk_exit ))
-
-if [ ${global_ttk_exit} -eq 0 ]; then
-    info "<ttk> : Backup, Prune, and Compact finished successfully"
-elif [ ${global_ttk_exit} -eq 1 ]; then
-    info "<ttk> : Backup, Prune, and/or Compact finished with warnings"
-else
-    info "<ttk> : Backup, Prune, and/or Compact finished with errors"
-fi
-
-global_exit=$(( global_linux_exit > global_ttk_exit ? global_linux_exit : global_ttk_exit ))
 
 exit ${global_exit}
 

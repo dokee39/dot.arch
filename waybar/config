@@ -1,0 +1,128 @@
+{
+    "layer": "top",
+    "position": "top", 
+    "height": 35, 
+    "spacing": 6,
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": [],
+    "modules-right": ["network", "group/group-media", "group/group-top", "battery", "clock", "group/group-power"],
+
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "sort-by-number": true,
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
+    },
+
+    "hyprland/window": {
+        "format": "󱂬 {}",
+        "separate-outputs": true
+    },
+
+
+    "clock": {
+        "interval": 1,
+        "format": "\uf017 {:%H:%M:%S}",
+        "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}",
+        "tooltip": false
+    },
+
+    "group/group-top": {
+        "orientation": "inherit",
+        "modules": [
+            "memory",
+            "cpu"
+        ]
+    },
+    "cpu": {
+        "interval": 1,
+        "format": " {usage}%",
+        "tooltip": true,
+        "on-click-right": "alacritty -e btop"
+    },
+    "memory": {
+        "interval": 1,
+        "format": " {used}G ",
+        "tooltip": false
+    },
+
+    "network": {
+        "interval": 1,
+        "format-wifi": "  {essid} ({signalStrength}%)",
+        "format-ethernet": "󰛳 Connected",
+        "format-linked": "󱚵 {ifname} (No IP)",
+        "format-disconnected": "󰯡 Disconnected",
+        "tooltip-format": "󱦂 {ifname} {ipaddr}/{cidr} via {gwaddr}",
+        "format-alt": " {bandwidthUpBits}  {bandwidthDownBits}",
+    },
+
+    "group/group-media": {
+        "orientation": "inherit",
+        "modules": [
+            "pulseaudio",
+            "backlight"
+        ]
+    },
+    "pulseaudio": {
+        "scroll-step": 1,
+        "format": "{icon} {volume}%",
+        "format-muted": "  ",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-bluetooth-muted": " {icon}",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pulsemixer --toggle-mute",
+        "on-click-right": "alacritty -e pulsemixer"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": " {icon} {percent}%",
+        "format-icons": ["", ""],
+        "tooltip": false
+    },
+
+    "battery": {
+        "bat": "BAT0",
+        "interval": 60,
+        "states": {
+            "warning": 50,
+            "critical": 25
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
+    },
+
+    "group/group-power": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 400,
+            "children-class": "not-power",
+            "transition-left-to-right": false,
+        },
+        "modules": [
+            "custom/power", // First element is the "group leader" and won't ever be hidden
+            "custom/reboot",
+        ]
+    },
+    "custom/reboot": {
+        "format": "  ",
+        "tooltip": false,
+        "on-click": "reboot"
+    },
+    "custom/power": {
+        "format": " ",
+        "tooltip": false,
+        "on-click": "shutdown now"
+    }
+
+    }

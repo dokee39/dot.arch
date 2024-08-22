@@ -1,0 +1,138 @@
+error detected: 000000 
+Version: 0.25f @Win
+Microsoft Windows NT 6.3.19043.0
+// ======================
+SCENE TITLE AWAKEN 
+active debugger on
+Load Event Lang: en
+オプションの読み込みを開始
+オプションの読み込みを開始
+DOJO ポーズの指定先が存在しない: [noel_dojo].noeldrill
+Noel ポーズ数: 294 / 服ビリポーズ数:159/ イメージ数: 0
+title scene disposed
+SCENE GAME AWAKEN
+Load Event Lang: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+<<Read SVD SVD From: 1
+Load Event Lang: zh-cn
+Current TX Family: zh-cn
+EV::start - __INITG line:0
+EV::end - __INITG
+EV::start - __INITM2D line:0
+EV::end - __INITM2D
+全てのマップを再構築
+map_open:: house_noelroom
+assign: Noel
+assign: ExitD_noelroom
+EV::start - __INITNEWGAME line:0
+EV::end - __INITNEWGAME
+assign: scene_memory
+assign: bench__mobir__noelroom/noelbed.png__15.67857_17.42857
+assign: _LP_exit_WalkDecline_backdoor
+assign: _LP_exit_Ev_costume
+assign: _LP_Layer_shelf
+M2EventContainer::reload - コマンドの再読み込みを実行:house_noelroom  
+EV::start - %M2EVENTCOMMAND__@house_noelroom~_LP_exit_Ev_costume__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@house_noelroom~_LP_exit_Ev_costume__CHECK
+EV::start - ___House/_costume_portal line:0
+EV::end - ___House/_costume_portal
+EV::start - %M2EVENTCOMMAND__@house_noelroom~_LP_exit_Ev_costume__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@house_noelroom~_LP_exit_Ev_costume__CHECK
+EV::start - ___House/_costume_portal line:0
+EV::end - ___House/_costume_portal
+EV::start - %M2EVENTCOMMAND__@house_noelroom~_LP_Layer_shelf__CHECK line:0
+EV::end - %M2EVENTCOMMAND__@house_noelroom~_LP_Layer_shelf__CHECK
+EV::start - ___House/_portal_shelf line:0
+EV::end - ___House/_portal_shelf
+map_close:: house_noelroom
+map_open:: house_hall
+assign: Noel
+assign: ExitD_noelroom
+assign: ExitD_atelier
+assign: ExitR_hallshop
+assign: pvv8
+assign: restroom
+assign: cooking_portal
+assign: _LP_attachment_WalkDecline_backdoor
+M2EventContainer::reload - コマンドの再読み込みを実行:house_hall  
+EV::start - %M2EVENTCOMMAND__@house_hall~pvv8__LOAD_ONCE line:0
+EV::end - %M2EVENTCOMMAND__@house_hall~pvv8__LOAD_ONCE
+EV::start - s03_2a line:0
+EV::end - s03_2a
+EV::start - ___Other/still line:0
+EV::end - ___Other/still
+EV::start - s03_2a line:4
+EV::end - s03_2a
+EV::start - s03_3a line:0
+EV::end - s03_3a
+EV::start - s03_2a line:52
+危険度を 8 に設定
+EV::end - s03_2a
+EV::start - ___House/_restroom_portal line:0
+ロードポイント: Line 44
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:112
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:140
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:140
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:140
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:140
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:246
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_picture_def line:0
+EV::end - ___House/_restroom_picture_def
+EV::start - ___House/_restroom_portal line:246
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:175
+EV::end - ___House/_restroom_portal
+EV::start - ___House/_restroom_deactivate_check line:0
+EV::end - ___House/_restroom_deactivate_check
+EV::start - ___House/_restroom_portal line:351
+EV::end - ___House/_restroom_portal
+EV::start - s03_2a line:82
+>>AutoSave
+EV::end - s03_2a
+全てのマップを再構築
