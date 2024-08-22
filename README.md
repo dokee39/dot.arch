@@ -12,7 +12,7 @@ trap 'echo $( date ) Backup interrupted >&2; exit 2' INT TERM
 # set vars
 export MYHOME=/home/dokee
 export GIT_REPO=/home/dokee/Documents/backup/dot.arch
-export RSYNC_OPT="-ah --delete --exclude='*cache*' --exclude='session'"
+export RSYNC_OPT="-arh --delete --exclude='*cache*' --exclude='session'"
 global_exit=0
 
 # sync functions
