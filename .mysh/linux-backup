@@ -9,12 +9,12 @@ trap 'echo $( date ) Backup interrupted >&2; exit 2' INT TERM
 # set vars
 export MYHOME=/home/dokee
 export GIT_REPO=/home/dokee/Documents/backup/dot.arch
-export RSYNC_OPT="-arqh --delete --exclude='*cache*' --exclude='${MYHOME}/.config/nvim/session'"
+export RSYNC_OPT="-arqh --delete --exclude=*cache* --exclude=${MYHOME}/.config/nvim/session"
 global_exit=0
 
 # sync functions
 sync_sp() {
-    rsync ${RSYNC_OPT} "$1" "$2"
+    rsync ${RSYNC_OPT} $1 $2
     ret=$?
     if [ $ret -ne 0 ]; then
         global_exit=$ret
@@ -81,7 +81,7 @@ sync Documents/backup/pkglist.txt
 rm -rf ${GIT_REPO}/README.md
 echo "# dot.arch\n\n" > ${GIT_REPO}/README.md
 echo "\`\`\`bash\n" >> ${GIT_REPO}/README.md
-cat ${MYHOME}/.mysh/linux_backup >> ${GIT_REPO}/README.md
+cat ${MYHOME}/.mysh/linux-backup >> ${GIT_REPO}/README.md
 echo "\n\`\`\`\n" >> ${GIT_REPO}/README.md
 
 # git repo push
