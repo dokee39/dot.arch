@@ -1,4 +1,6 @@
-# dot.arch\n\n
+# dot.arch
+
+
 ```bash\n
 #!/bin/sh
 
@@ -11,7 +13,7 @@ trap 'echo $( date ) Backup interrupted >&2; exit 2' INT TERM
 # set vars
 export MYHOME=/home/dokee
 export GIT_REPO=/home/dokee/Documents/backup/dot.arch
-export RSYNC_OPT="-arqh --delete --exclude=*cache* --exclude=${MYHOME}/.config/nvim/session"
+export RSYNC_OPT="-arqh --delete --exclude=*cache* --exclude=nvim/session"
 global_exit=0
 
 # sync functions
@@ -25,8 +27,8 @@ sync_sp() {
 }
 
 sync() {
-    mkdir -p "$(dirname ${GIT_REPO}/$1)"
-    sync_sp "${MYHOME}/$1" "$(dirname ${GIT_REPO}/$1)"
+    mkdir -p "$(dirname "${GIT_REPO}/$@")"
+    sync_sp "${MYHOME}/$@" "$(dirname "${GIT_REPO}/$@")"
 }
 
 info() {
@@ -61,19 +63,19 @@ info "Starting backup <game save data>"
 sync_sp ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/steamuser/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Apps/Games/AliceInCradle/SaveData
 sync Apps/Games/Butter/sakuranotoki/savedata_cn
 sync Apps/Games/Butter/Rewrite/savedata
-sync Apps/Games/Touhou\ Project/official\ games/th06/replay
-sync Apps/Games/Touhou\ Project/official\ games/th06/score.dat
-sync Apps/Games/Touhou\ Project/official\ games/th06/scorec.dat
-sync Apps/Games/Touhou\ Project/official\ games/th07/replay
-sync Apps/Games/Touhou\ Project/official\ games/th07/score.dat
-sync Apps/Games/Touhou\ Project/official\ games/th08/replay
-sync Apps/Games/Touhou\ Project/official\ games/th08/score.dat
-sync Apps/Games/Touhou\ Project/official\ games/th09/replay
-sync Apps/Games/Touhou\ Project/official\ games/th09/score.dat
-sync Apps/Games/Touhou\ Project/official\ games/th10/replay
-sync Apps/Games/Touhou\ Project/official\ games/th10/scoreth10.dat
-sync Apps/Games/Touhou\ Project/official\ games/th11/replay
-sync Apps/Games/Touhou\ Project/official\ games/th11/scoreth11.dat
+sync "Apps/Games/Touhou Project/official games/th06/replay"
+sync "Apps/Games/Touhou Project/official games/th06/score.dat"
+sync "Apps/Games/Touhou Project/official games/th06/scorec.dat"
+sync "Apps/Games/Touhou Project/official games/th07/replay"
+sync "Apps/Games/Touhou Project/official games/th07/score.dat"
+sync "Apps/Games/Touhou Project/official games/th08/replay"
+sync "Apps/Games/Touhou Project/official games/th08/score.dat"
+sync "Apps/Games/Touhou Project/official games/th09/replay"
+sync "Apps/Games/Touhou Project/official games/th09/score.dat"
+sync "Apps/Games/Touhou Project/official games/th10/replay"
+sync "Apps/Games/Touhou Project/official games/th10/scoreth10.dat"
+sync "Apps/Games/Touhou Project/official games/th11/replay"
+sync "Apps/Games/Touhou Project/official games/th11/scoreth11.dat"
 
 info "Starting backup <package list>"
 pacman -Qqe > ${MYHOME}/Documents/backup/pkglist.txt
@@ -81,7 +83,9 @@ sync Documents/backup/pkglist.txt
 
 # update README
 rm -rf ${GIT_REPO}/README.md
-echo "# dot.arch\n\n" > ${GIT_REPO}/README.md
+echo "# dot.arch
+
+" > ${GIT_REPO}/README.md
 echo "\`\`\`bash\n" >> ${GIT_REPO}/README.md
 cat ${MYHOME}/.mysh/linux-backup >> ${GIT_REPO}/README.md
 echo "\n\`\`\`\n" >> ${GIT_REPO}/README.md
