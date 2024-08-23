@@ -1,0 +1,15 @@
+[Unit]
+Description=Backup Script
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/home/dokee/.mysh/linux-backup
+Environment="DISPLAY=:0"
+Environment="DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus"
+Type=simple
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
+

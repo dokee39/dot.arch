@@ -1,7 +1,7 @@
 # dot.arch
 
+```bash
 
-```bash\n
 #!/bin/sh
 
 # hello
@@ -52,6 +52,7 @@ sync .config/mako
 sync .config/nvim
 sync .config/qt6ct
 sync .config/ranger
+sync .config/systemd
 sync .config/tofi
 sync .config/waybar
 sync .config/electron-flags.conf
@@ -84,11 +85,13 @@ sync Documents/backup/pkglist.txt
 # update README
 rm -rf ${GIT_REPO}/README.md
 echo "# dot.arch
-
 " > ${GIT_REPO}/README.md
-echo "\`\`\`bash\n" >> ${GIT_REPO}/README.md
+echo "\`\`\`bash
+" >> ${GIT_REPO}/README.md
 cat ${MYHOME}/.mysh/linux-backup >> ${GIT_REPO}/README.md
-echo "\n\`\`\`\n" >> ${GIT_REPO}/README.md
+echo "
+\`\`\`
+" >> ${GIT_REPO}/README.md
 
 # git repo push
 info "Starting backup <git repo push>"
@@ -116,6 +119,8 @@ if [ $global_exit -ne 0 ]; then
     echo "Retrying backup in 1 hour..."
     sleep 1h
     exec $0  # Re-run the script
+else
+    notify-send "Backup Success!" "Synced on $(date)." -u critical
 fi
 
 # exit
@@ -123,4 +128,6 @@ exit ${global_exit}
 
 #!/bin/sh
 
-\n```\n
+
+```
+
