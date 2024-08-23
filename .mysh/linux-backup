@@ -14,7 +14,7 @@ global_exit=0
 
 # sync functions
 sync_sp() {
-    rsync ${RSYNC_OPT} $1 $2
+    rsync ${RSYNC_OPT} "$1" "$2"
     ret=$?
     if [ $ret -ne 0 ]; then
         global_exit=$ret
