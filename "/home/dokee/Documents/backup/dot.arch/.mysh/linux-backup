@@ -1,5 +1,3 @@
-# dot.arch\n\n
-```bash\n
 #!/bin/sh
 
 # hello
@@ -119,4 +117,3 @@ exit ${global_exit}
 
 #!/bin/sh
 
-\n```\n

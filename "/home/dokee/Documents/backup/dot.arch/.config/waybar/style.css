@@ -1,0 +1,135 @@
+* {
+    font-family: "Hark Nerd Font";
+    font-weight: 500;
+    font-size: 14px;
+
+    border-radius: 8px;
+    text-shadow: none;
+    
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces {
+	margin-top: 6px;
+	background: rgba(16, 20, 24, 0.5);
+	transition: none;
+
+    font-size: 12px;
+}
+
+#workspaces button {
+    border: none;
+    padding: 0 10px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#workspaces button.active {
+    background: #fff9bb;
+    color: #000000;
+}
+
+#workspaces button.active:hover {
+    background: #fffcdf;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #ffffff;
+}
+
+#group-power,
+#clock,
+#battery,
+#group-top,
+#group-media,
+#network,
+#mode,
+#window {
+    margin-top: 6px;
+    padding: 0 12px;
+    color: #ffffff;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > * {
+    margin-left: 16px;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > * {
+    margin-right: 16px;
+}
+
+#group-power {
+    background-color: transparent;
+    color: #ff857f;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#clock {
+    background-color: #eefff1;
+    color: #000000;
+}
+
+
+#battery {
+    background-color: #EEFFF1;
+    color: #000000;
+}
+
+#battery.warning {
+    background-color: #FFEAAA;
+    color: #000000;
+}
+
+#battery.critical {
+    background-color: #FE968B;
+    color: #000000;
+}
+
+#group-top {
+    background-color: #FFEAAA;
+    color: #000000;
+}
+
+#group-media {
+    background-color: #b0f5e5;
+    color: #000000;
+}
+
+#network {
+    background-color: #87ddff;
+    color: #000000;
+}
+
+#window {
+    font-family: 'LXGW Neo XiHei Screen Full', 'LXGW Neo ZhiSong Screen Full', sans-serif;
+    font-weight: 400;
+    background-color: #cbecff;
+    color: #000000;
+}
+
+tooltip {
+    background-color: rgba(29, 25, 41, 0.6);
+    border: 2px solid rgba(89, 89, 89, 0.6);
+    color: #FFFFFF;
+}

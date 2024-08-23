@@ -1,0 +1,4 @@
+enca -L zh_CN -x UTF-8 $(find . -name "*.c")
+enca -L zh_CN -x UTF-8 $(find . -name "*.h")
+enca -L zh_CN -x UTF-8 $(find . -name "*.txt")
+enca -L zh_CN -x UTF-8 $(find . -name "*.md")
