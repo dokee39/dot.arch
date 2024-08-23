@@ -10,6 +10,7 @@ bluez-utils
 bottles
 brightnessctl
 btop
+celluloid
 clash
 cliphist
 cmake
@@ -71,6 +72,7 @@ rsync
 slurp
 steam
 systemd-numlockontty
+terminus-font
 tlp
 tmux
 tofi
@@ -91,6 +93,7 @@ wget
 wireplumber
 wl-clipboard
 xorg-xrdb
+xpadneo-dkms
 yay
 yay-debug
 zsh
