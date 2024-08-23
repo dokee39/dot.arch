@@ -1,4 +1,0 @@
-#!/bin/zsh
-
-clang-format -i $(find $1 -name "*.c" -or -name "*.cc" -or -name "*.cpp" -or -name "*.h" -or -name "*.hpp")
-

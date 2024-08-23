@@ -25,8 +25,8 @@ sync_sp() {
 }
 
 sync() {
-    mkdir -p "$(dirname \"${GIT_REPO}/$1\")"
-    sync_sp "${MYHOME}/$1" "$(dirname \"${GIT_REPO}/$1\")"
+    mkdir -p "$(dirname ${GIT_REPO}/$1)"
+    sync_sp "${MYHOME}/$1" "$(dirname ${GIT_REPO}/$1)"
 }
 
 info() {
