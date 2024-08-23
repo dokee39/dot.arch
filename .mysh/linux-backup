@@ -77,6 +77,13 @@ info "Starting backup <package list>"
 pacman -Qqe > ${MYHOME}/Documents/backup/pkglist.txt
 sync Documents/backup/pkglist.txt
 
+# update README
+rm -rf "${GIT_REPO}/README.md"
+echo "# dot.arch\n\n" > "${GIT_REPO}/README.md"
+echo "\`\`\`bash\n" >> "${GIT_REPO}/README.md"
+cat "${MYHOME}/.mysh/linux_backup" >> "${GIT_REPO}/README.md"
+echo "\n\`\`\`\n" >> "${GIT_REPO}/README.md"
+
 # git repo push
 info "Starting backup <git repo push>"
 cd ${GIT_REPO}
@@ -104,13 +111,6 @@ if [ $global_exit -ne 0 ]; then
     sleep 1h
     exec $0  # Re-run the script
 fi
-
-# update README
-rm -rf "${GIT_REPO}/README.md"
-echo "# dot.arch\n\n" > "${GIT_REPO}/README.md"
-echo "```bash\n" >> "${GIT_REPO}/README.md"
-cat "${MYHOME}/.mysh/linux_backup" >> "${GIT_REPO}/README.md"
-echo "\n```\n" >> "${GIT_REPO}/README.md"
 
 # exit
 exit ${global_exit}
