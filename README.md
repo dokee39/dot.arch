@@ -47,6 +47,7 @@ info "Starting backup <config files>"
 sync .config/alacritty
 sync .config/btop
 sync .config/fcitx5
+sync .config/fontconfig
 sync .config/hypr
 sync .config/mako
 sync .config/nvim
@@ -120,7 +121,7 @@ if [ $global_exit -ne 0 ]; then
     sleep 1h
     exec $0  # Re-run the script
 else
-    notify-send "Backup Success!" "Synced on $(date)." -u critical
+    notify-send "Backup Success!" "Synced on $(date)." -u normal
 fi
 
 # exit
