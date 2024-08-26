@@ -64,6 +64,7 @@ pipewire-pulse
 polkit
 protonup-qt
 pulsemixer
+pywal-16-colors
 qt5-wayland
 qt6-wayland
 qt6ct
@@ -75,6 +76,7 @@ slurp
 steam
 systemd-numlockontty
 terminus-font
+tesseract-data-chi_sim
 tlp
 tmux
 tofi
@@ -100,5 +102,10 @@ xorg-xrdb
 xpadneo-dkms
 yay
 yay-debug
+zathura
+zathura-cb
+zathura-djvu
+zathura-pdf-mupdf
+zathura-ps
 zsh
 zsh-syntax-highlighting
