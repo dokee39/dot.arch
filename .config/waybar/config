@@ -117,12 +117,12 @@
     "custom/reboot": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "reboot"
+        "on-click": "sync; sync; reboot"
     },
     "custom/power": {
         "format": " ",
         "tooltip": false,
-        "on-click": "shutdown now"
+        "on-click": "sync; sync; shutdown now"
     }
 
     }

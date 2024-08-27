@@ -95,6 +95,7 @@ vi
 vim
 waybar
 wechat-universal-bwrap
+wemeet-bin
 wget
 wireplumber
 wl-clipboard
