@@ -527,8 +527,8 @@ set notification-warning-bg "#FB6F92"
 set notification-warning-fg "#1D1929"
 
 set highlight-fg            "#F8F8F0"
-set highlight-color         "#C2FFFF"
-set highlight-active-color  "#FECD5E"
+set highlight-color         "rgba(194,255,255,0.4)"
+set highlight-active-color  "rgba(254,205,94,0.4)"
 
 set completion-highlight-fg "#AE81FF"
 set completion-highlight-bg "#1D1929"
