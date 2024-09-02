@@ -103,6 +103,7 @@ xorg-xrdb
 xpadneo-dkms
 yay
 yay-debug
+zaread-git
 zathura
 zathura-cb
 zathura-djvu

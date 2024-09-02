@@ -526,6 +526,7 @@ set notification-error-fg   "#1D1929"
 set notification-warning-bg "#FB6F92"
 set notification-warning-fg "#1D1929"
 
+set highlight-fg            "#F8F8F0"
 set highlight-color         "#C2FFFF"
 set highlight-active-color  "#FECD5E"
 
@@ -541,8 +542,10 @@ set notification-fg         "#1D1929"
 set recolor                 "true"
 set recolor-lightcolor      "#1D1929"
 set recolor-darkcolor       "#F8F8F0"
-set recolor-reverse-video   "true"
-set recolor-keephue         "false"
+set recolor-reverse-video   true
+set recolor-keephue         false
+
+set show-scrollbars         true
 
 " Clipboard
 set selection-clipboard clipboard
@@ -562,20 +565,20 @@ set font "Terminus 12"
 " -----------------------------------------------------------------------------
 
 " Zoom in/out
-map [normal]     z zoom in
-map [normal]     Z zoom out
-map [fullscreen] z zoom in
-map [fullscreen] Z zoom out
+map [normal]     i zoom in
+map [normal]     u zoom out
+map [fullscreen] i zoom in
+map [fullscreen] u zoom out
 
 " Toggle mode
 map [normal]     D toggle_page_mode
 map [fullscreen] D toggle_page_mode
 
 " Scroll
-map [normal]     u scroll half-up
-map [normal]     d scroll half-down
-map [fullscreen] u scroll half-up
-map [fullscreen] d scroll half-down
+map [normal]     <C-k> scroll half-up
+map [normal]     <C-j> scroll half-down
+map [fullscreen] <C-k> scroll half-up
+map [fullscreen] <C-j> scroll half-down
 
 " Fullscreen
 " map [normal]     f toggle_fullscreen
@@ -586,17 +589,19 @@ map [normal]     <C-r> reload
 map [fullscreen] <C-r> reload
 
 " Status bar
+map [normal]     B toggle_inputbar
+map [fullscreen] B toggle_inputbar
 map [normal]     b toggle_statusbar
 map [fullscreen] b toggle_statusbar
 
 " Set width as in mupdf
-map [normal]     H adjust_window best-fit
-map [normal]     W adjust_window width
-map [fullscreen] H adjust_window best-fit
-map [fullscreen] W adjust_window width
+map [normal]     a adjust_window best-fit
+map [normal]     s adjust_window width
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
 
-map [normal]     i set recolor
-map [fullscreen] i set recolor
+map [normal]     c set recolor
+map [fullscreen] c set recolor
 
 " vim: ft=vim
 
