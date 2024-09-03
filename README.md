@@ -61,6 +61,7 @@ sync .config/electron-flags.conf
 
 info "Starting backup <app desktop files>"
 sync Documents/backup/desktop_backup
+sync .local/share/applications
 
 info "Starting backup <game save data>"
 sync_sp ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/steamuser/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Apps/Games/AliceInCradle/SaveData

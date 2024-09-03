@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=MATLAB
+Exec=/home/dokee/Apps/MATLAB/R2024a/bin/matlab %u
+StartupNotify=false

@@ -45,6 +45,7 @@ luarocks
 mako
 man-db
 man-pages
+mesa-utils
 neofetch
 neovim
 nftables
@@ -74,11 +75,13 @@ rose-pine-hyprcursor
 rsync
 slurp
 steam
+stm32cubemx
 systemd-numlockontty
 terminus-font
 tesseract-data-chi_sim
 tlp
 tmux
+tmux-plugin-manager
 tofi
 tree
 ttf-font-awesome
@@ -94,6 +97,7 @@ vesktop
 vi
 vim
 waybar
+webots-bin
 wechat-universal-bwrap
 wemeet-bin
 wget

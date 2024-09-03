@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Black Myth: Wukong
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2358720
+Icon=steam_icon_2358720
+Terminal=false
+Type=Application
+Categories=Game;

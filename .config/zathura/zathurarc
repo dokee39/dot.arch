@@ -520,6 +520,9 @@ set statusbar-fg            "#AE81FF"
 set inputbar-bg             "#1D1929"
 set inputbar-fg             "#F8F8F0"
 
+set notification-bg         "#141A20"
+set notification-fg         "#AE81FF"
+
 set notification-error-bg   "#FB6F92"
 set notification-error-fg   "#1D1929"
 
@@ -535,9 +538,6 @@ set completion-highlight-bg "#1D1929"
 
 set completion-bg           "#1D1929"
 set completion-fg           "#F8F8F0"
-
-set notification-bg         "#F8F8F0"
-set notification-fg         "#1D1929"
 
 set recolor                 "true"
 set recolor-lightcolor      "#1D1929"

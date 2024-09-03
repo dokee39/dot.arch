@@ -18,9 +18,11 @@ export SAVEHIST=10000
 setopt SHARE_HISTORY
 
 # path
+#export WEBOTS_HOME=/home/dokee/Apps/Webots/R2024a-nightly-30-8-2024
 export PATH=$PATH:$HOME/.caogo/bin
 export PATH=$PATH:$HOME/.cargo/env
 export PATH=$PATH:$HOME/.mysh
+export PATH=$PATH:$HOME/Apps/MATLAB/R2024a/bin
 
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE
