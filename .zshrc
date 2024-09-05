@@ -82,6 +82,7 @@ alias std='sync; sync; shutdown -h now'
 alias scst='systemctl status'
 #mount
 alias mntfs='sudo mount -t ntfs3 -o rw,relatime,fmask=0022,dmask=0022,uid=1000,gid=1000,iocharset=utf8,prealloc,force'
+alias mwin='sudo mount -t ntfs3 -o rw,relatime,fmask=0022,dmask=0022,uid=1000,gid=1000,iocharset=utf8,prealloc,force UUID=1B30D5BB4D54485C /mnt/win'
 #git
 alias gad='git add .'
 alias gst='git status -s'

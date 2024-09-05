@@ -65,6 +65,7 @@ pipewire-pulse
 polkit
 protonup-qt
 pulsemixer
+python-pip
 pywal-16-colors
 qt5-wayland
 qt6-wayland
