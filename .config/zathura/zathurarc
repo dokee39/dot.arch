@@ -566,9 +566,9 @@ set font "Terminus 12"
 
 " Zoom in/out
 map [normal]     i zoom in
-map [normal]     u zoom out
+map [normal]     o zoom out
 map [fullscreen] i zoom in
-map [fullscreen] u zoom out
+map [fullscreen] o zoom out
 
 " Toggle mode
 map [normal]     D toggle_page_mode
