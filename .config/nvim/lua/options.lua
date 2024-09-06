@@ -7,6 +7,7 @@ vim.o.shiftwidth = 4
 vim.o.scrolloff = 5
 vim.o.sidescrolloff = 10
 vim.o.exrc = true
+vim.o.modeline = false
 vim.wo.relativenumber = true
 -- vim.o.cursorlineopt = "both" -- to enable cursorline!
 -- vim.wo.cursorline = true

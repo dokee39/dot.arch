@@ -8,12 +8,15 @@ base-devel
 bluetui
 bluez-utils
 bottles
+bottom
 brightnessctl
 btop
 celluloid
 clash
 cliphist
 cmake
+compiledb
+composer
 dingtalk-bin
 dos2unix
 efibootmgr
@@ -27,6 +30,7 @@ fcitx5-pinyin-moegirl
 fcitx5-pinyin-sougou
 fcitx5-pinyin-zhwiki
 fzf
+gdu
 git
 google-chrome-wayland-vulkan
 grim
@@ -36,6 +40,8 @@ hyprpaper
 imv
 iwd
 jq
+julia
+lazygit
 libnotify
 linux
 linux-firmware
@@ -60,6 +66,7 @@ openssh
 os-prober
 p7zip
 parted
+php
 pipewire
 pipewire-pulse
 polkit
@@ -74,6 +81,8 @@ ranger
 ripgrep
 rose-pine-hyprcursor
 rsync
+ruby
+rustup
 slurp
 steam
 stm32cubemx
