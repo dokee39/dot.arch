@@ -50,6 +50,7 @@ sync .config/fcitx5
 sync .config/fontconfig
 sync .config/hypr
 sync .config/mako
+sync .config/mpv
 sync .config/nvim
 sync .config/qt6ct
 sync .config/ranger
@@ -66,7 +67,8 @@ sync .local/share/applications
 info "Starting backup <game save data>"
 sync_sp ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/steamuser/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Apps/Games/AliceInCradle/SaveData
 sync Apps/Games/Butter/sakuranotoki/savedata_cn
-sync Apps/Games/Butter/Rewrite/savedata
+sync Apps/Games/Butter/Rewrite/Rewrite/savedata
+sync "Apps/Games/Butter/Rewrite/Rewrite Harvest festa!/savedata"
 sync "Apps/Games/Touhou Project/official games/th06/replay"
 sync "Apps/Games/Touhou Project/official games/th06/score.dat"
 sync "Apps/Games/Touhou Project/official games/th06/scorec.dat"

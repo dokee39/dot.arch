@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=mikan
+Exec=/home/dokee/Apps/mikan/mikan %u
+StartupNotify=false

@@ -68,6 +68,7 @@ obsidian
 onlyoffice-bin
 openocd
 openssh
+orchis-theme
 os-prober
 p7zip
 parted
@@ -89,6 +90,7 @@ rose-pine-hyprcursor
 rsync
 ruby
 rustup
+sassc
 slurp
 steam
 stm32cubemx
@@ -99,6 +101,8 @@ tlp
 tmux
 tmux-plugin-manager
 tofi
+torrentinfo
+transmission-gtk3
 tree
 ttf-font-awesome
 ttf-hack-nerd
@@ -113,6 +117,7 @@ vesktop
 vi
 vim
 waybar
+waydroid
 webots-bin
 wechat-universal-bwrap
 wemeet-bin
