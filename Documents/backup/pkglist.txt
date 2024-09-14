@@ -123,6 +123,7 @@ waydroid
 webots-bin
 wechat-universal-bwrap
 wemeet-bin
+wf-recorder
 wget
 wine
 winetricks

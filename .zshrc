@@ -110,4 +110,5 @@ alias rgr='ranger'
 alias type='type -a'
 alias clc='clear'
 alias matlab='matlab -nodesktop -nosplash'
+alias cr='cd $(pwd -P)'
 
