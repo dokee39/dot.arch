@@ -112,3 +112,11 @@ alias clc='clear'
 alias matlab='matlab -nodesktop -nosplash'
 alias cr='cd $(pwd -P)'
 
+
+# pnpm
+export PNPM_HOME="/home/dokee/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

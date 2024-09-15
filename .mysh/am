@@ -1,0 +1,18 @@
+input_file=$(mktemp /tmp/asciimath_input.XXXXXX.txt)
+
+cd /tmp
+input=$(cat)
+echo "$input" > "$input_file"
+
+am-parse --display true "$input_file"
+output_file=$(ls "${input_file%.*}__am-parsed".tex 2>/dev/null)
+
+if [[ -f "$output_file" ]]; then
+    echo "Convert to LaTeX: "
+    cat "$output_file"
+    rm "$input_file" "$output_file"
+else
+    echo "Error!"
+    rm "$input_file"
+    exit 1
+fi
