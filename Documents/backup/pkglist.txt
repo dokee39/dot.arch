@@ -5,6 +5,7 @@ archlinuxcn-keyring
 arm-none-eabi-binutils
 base
 base-devel
+bc
 bluetui
 bluez-utils
 bottles
@@ -58,6 +59,7 @@ mako
 man-db
 man-pages
 mesa-utils
+mokutil
 neofetch
 neovim
 nftables
@@ -77,6 +79,7 @@ php
 pipewire
 pipewire-pulse
 polkit
+ppp
 protontricks
 protonup-qt
 pulsemixer
@@ -91,8 +94,10 @@ rose-pine-hyprcursor
 rsync
 ruby
 rustup
+samba
 sassc
 slurp
+spacenavd
 steam
 stm32cubemx
 systemd-numlockontty
@@ -126,6 +131,8 @@ wemeet-bin
 wf-recorder
 wget
 wine
+wine-gecko
+wine-mono
 winetricks
 wireplumber
 wl-clipboard

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Autodesk Fusion 360
+MimeType=application/fusion;
+Exec=env WINEPREFIX="/home/dokee/.autodesk_fusion/wineprefixes/default" wine start /ProgIDOpen f2d_file %f
+NoDisplay=true
+StartupNotify=true
+Icon=D9F4_Fusion360.0

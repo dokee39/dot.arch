@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NLauncher Application
+MimeType=x-scheme-handler/fusion360;
+Exec=env WINEPREFIX="/home/dokee/.autodesk_fusion/wineprefixes/default" wine start %u
+NoDisplay=true
+StartupNotify=true
+Icon=8518_NLauncher.0
