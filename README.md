@@ -67,8 +67,12 @@ sync .local/share/applications
 info "Starting backup <game save data>"
 sync_sp ${MYHOME}/.local/share/bottles/bottles/AliceInCradle/drive_c/users/steamuser/AppData/LocalLow/NanameHacha/AliceInCradle ${GIT_REPO}/Apps/Games/AliceInCradle/SaveData
 sync Apps/Games/Butter/sakuranotoki/savedata_cn
+sync Apps/Games/Butter/ISLAND
+sync Apps/Games/Butter/住在下体升级岛上的贫乳该如何是好/savedata
 sync Apps/Games/Butter/Rewrite/Rewrite/savedata
 sync "Apps/Games/Butter/Rewrite/Rewrite Harvest festa!/savedata"
+sync "Apps/Games/Butter/Summer Pockets REFLECTION BLUE/save_cn"
+sync "Apps/Games/Butter/planetarian HD/savedata_zh"
 sync "Apps/Games/Touhou Project/official games/th06/replay"
 sync "Apps/Games/Touhou Project/official games/th06/score.dat"
 sync "Apps/Games/Touhou Project/official games/th06/scorec.dat"

@@ -18,6 +18,7 @@ cliphist
 cmake
 compiledb
 composer
+dialog
 dingtalk-bin
 dos2unix
 efibootmgr
@@ -31,6 +32,7 @@ fcitx5-lua
 fcitx5-pinyin-moegirl
 fcitx5-pinyin-sougou
 fcitx5-pinyin-zhwiki
+freecad-appimage
 fzf
 gamemode
 gdu
@@ -49,6 +51,7 @@ jq
 julia
 lazygit
 lib32-gamemode
+lib32-unixodbc
 libnotify
 linux
 linux-firmware
@@ -118,6 +121,7 @@ ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 ttf-symbola
 ttf-times-new-roman
+unixodbc
 unrar
 unzip
 vesktop
