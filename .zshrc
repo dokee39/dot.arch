@@ -24,6 +24,7 @@ export PATH=$PATH:$HOME/.mysh
 export PATH=$PATH:$HOME/Apps/MATLAB/R2024a/bin
 export PATH=$PATH:/usr/local/webots
 export WEBOTS_HOME=/usr/local/webots
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib/controller;
 
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE
@@ -103,6 +104,7 @@ alias m='make'
 alias mj='make -j'
 alias mc='make clean'
 alias mf='make flash -j'
+alias mr='make run'
 alias cm='compiledb -f make -j'
 #other
 alias manc='LANG=zh_CN.UTF-8 man'
