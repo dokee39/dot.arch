@@ -57,6 +57,8 @@ libnotify
 linux
 linux-firmware
 linux-headers
+linux-rt
+linux-rt-headers
 linuxqq
 luarocks
 mako
