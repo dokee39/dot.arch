@@ -22,6 +22,7 @@ composer
 dialog
 dingtalk-bin
 dos2unix
+easyloggingpp
 efibootmgr
 eigen
 enca
