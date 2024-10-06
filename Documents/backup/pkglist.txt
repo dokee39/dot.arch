@@ -37,6 +37,7 @@ fcitx5-pinyin-zhwiki
 freecad-appimage
 fzf
 gamemode
+gdb
 gdu
 git
 google-chrome-wayland-vulkan

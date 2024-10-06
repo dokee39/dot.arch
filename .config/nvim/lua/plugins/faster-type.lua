@@ -1,33 +1,89 @@
 return {
-  -- faster type
-  { -- cursor quickly jump
-    "ggandor/leap.nvim",
-    lazy = true,
-    keys = { "E", "R", "W", "dE", "dR", "yE", "yR", "cE", "cR" },
-    config = function()
-      require("leap").opts.highlight_unlabeled_phase_one_targets = true
-      -- leap.add_default_mappings()
-      vim.keymap.set({ "x", "o", "n" }, "E", "<Plug>(leap-backward-to)") -- E -> word backword
-      vim.keymap.set({ "x", "o", "n" }, "R", "<Plug>(leap-forward-to)") -- R -> word forword
-      vim.keymap.set({ "x", "o", "n" }, "W", "<Plug>(leap-from-window)") -- W -> word in other window
+  {
+    "folke/flash.nvim",
+    event = "VeryLazy",
+    ---@type Flash.Config
+    opts = {},
+  -- stylua: ignore
+  keys = {
+    { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
+    { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
+    { "r", mode = "o", function() require("flash").remote() end, desc = "Remote Flash" },
+    { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
+    { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
+  },
+  },
+  {
+    "hrsh7th/nvim-cmp",
+    ---@param opts cmp.ConfigSchema
+    opts = function(_, opts)
+      local has_words_before = function()
+        unpack = unpack or table.unpack
+        local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+        return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+      end
+
+      local cmp = require("cmp")
+
+      opts.mapping = vim.tbl_extend("force", opts.mapping, {
+        ["<Tab>"] = cmp.mapping(function(fallback)
+          if cmp.visible() then
+            -- You could replace select_next_item() with confirm({ select = true }) to get VS Code autocompletion behavior
+            cmp.select_next_item()
+          elseif vim.snippet.active({ direction = 1 }) then
+            vim.schedule(function()
+              vim.snippet.jump(1)
+            end)
+          elseif has_words_before() then
+            cmp.complete()
+          else
+            fallback()
+          end
+        end, { "i", "s" }),
+        ["<S-Tab>"] = cmp.mapping(function(fallback)
+          if cmp.visible() then
+            cmp.select_prev_item()
+          elseif vim.snippet.active({ direction = -1 }) then
+            vim.schedule(function()
+              vim.snippet.jump(-1)
+            end)
+          else
+            fallback()
+          end
+        end, { "i", "s" }),
+      })
     end,
   },
-  { -- better escape
-    "max397574/better-escape.nvim",
-    lazy = true,
-    event = { "InsertEnter" },
-    config = function()
-      require("better_escape").setup {
-        timeout = vim.o.timeoutlen,
-        default_mappings = false,
-        mappings = {
-            i =  {
-                j = { j = "<Esc>", k = "<Esc>"},
-                k = { j = "<Esc>", k = "<Esc>"},
+  {
+    "echasnovski/mini.surround",
+    opts = {
+      mappings = {
+        add = "gsa",
+        delete = "gsd",
+        find = "gsf",
+        find_left = "gsF",
+        highlight = "gsh",
+        replace = "gsr",
+        update_n_lines = "gsn",
+      },
+    },
+    { -- better escape
+      "max397574/better-escape.nvim",
+      lazy = true,
+      event = { "InsertEnter" },
+      config = function()
+        require("better_escape").setup({
+          timeout = vim.o.timeoutlen,
+          default_mappings = false,
+          mappings = {
+            i = {
+              j = { j = "<Esc>", k = "<Esc>" },
+              k = { j = "<Esc>", k = "<Esc>" },
             },
-        },
-      }
-    end,
+          },
+        })
+      end,
+    },
   },
   { -- better search and replace
     "roobert/search-replace.nvim",
@@ -50,28 +106,10 @@ return {
       "SearchReplaceMultiBufferCFile",
     },
     config = function()
-      require("search-replace").setup {
+      require("search-replace").setup({
         default_replace_single_buffer_options = "gcI",
         default_replace_multi_buffer_options = "egcI",
-      }
-    end,
-  },
-  { -- enhanced v,c,d,y
-    "chrisgrieser/nvim-various-textobjs",
-    lazy = true,
-    event = { "User FileOpened" },
-    config = function()
-      require("various-textobjs").setup {
-        useDefaultKeymaps = true,
-        lookForwardLines = 10,
-      }
-      -- example: `an` for outer subword, `in` for inner subword
-      vim.keymap.set({ "o", "x" }, "aS", function()
-        require("various-textobjs").subword(false)
-      end)
-      vim.keymap.set({ "o", "x" }, "iS", function()
-        require("various-textobjs").subword(true)
-      end)
+      })
     end,
   },
   { -- curse leave and return
@@ -80,7 +118,7 @@ return {
     keys = { "<A-s>", "<A-d>" },
     config = function()
       -- local HOME = os.getenv("HOME")
-      require("trailblazer").setup {
+      require("trailblazer").setup({
         auto_save_trailblazer_state_on_exit = false,
         auto_load_trailblazer_state_on_enter = false,
         -- custom_session_storage_dir = HOME .. "/.local/share/trail_blazer_sessions/",
@@ -210,102 +248,31 @@ return {
             gui = "bold",
           },
         },
-      }
+      })
     end,
   },
-  {
-    "nvim-treesitter/nvim-treesitter-textobjects",
+  { -- show info like definitions, references and so on
+    "rmagatti/goto-preview",
     lazy = true,
-    event = { "User FileOpened" },
-    -- after = "nvim-treesitter",
-    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    keys = { "gp" },
     config = function()
-      require("nvim-treesitter.configs").setup {
-        textobjects = {
-          select = {
-            enable = true,
-            lookahead = true,
-            keymaps = {
-              ["af"] = "@function.outer",
-              ["if"] = "@function.inner",
-              ["ac"] = "@class.outer",
-              ["ic"] = { query = "@class.inner", desc = "Select inner part of a class region" },
-              ["as"] = { query = "@scope", query_group = "locals", desc = "Select language scope" },
-              ["id"] = "@conditional.inner",
-              ["ad"] = "@conditional.outer",
-            },
-            selection_modes = {
-              ["@parameter.outer"] = "v", -- charwise
-              ["@function.outer"] = "V", -- linewise
-              ["@class.outer"] = "<c-v>", -- blockwise
-            },
-            include_surrounding_whitespace = false,
-          },
-          move = {
-            enable = true,
-            set_jumps = true,
-            goto_next_start = {
-              ["]m"] = "@function.outer",
-              ["]]"] = { query = "@class.outer", desc = "Next class start" },
-              --
-              -- You can use regex matching and/or pass a list in a "query" key to group multiple queires.
-              ["]o"] = "@loop.*",
-              -- ["]o"] = { query = { "@loop.inner", "@loop.outer" } }
-              --
-              -- You can pass a query group to use query from `queries/<lang>/<query_group>.scm file in your runtime path.
-              -- Below example nvim-treesitter's `locals.scm` and `folds.scm`. They also provide highlights.scm and indent.scm.
-              ["]s"] = { query = "@scope", query_group = "locals", desc = "Next scope" },
-              ["]z"] = { query = "@fold", query_group = "folds", desc = "Next fold" },
-            },
-            goto_next_end = {
-              ["]M"] = "@function.outer",
-              ["]["] = "@class.outer",
-            },
-            goto_previous_start = {
-              ["[m"] = "@function.outer",
-              ["[["] = "@class.outer",
-            },
-            goto_previous_end = {
-              ["[M"] = "@function.outer",
-              ["[]"] = "@class.outer",
-            },
-            -- Below will go to either the start or the end, whichever is closer.
-            -- Use if you want more granular movements
-            -- Make it even more gradual by adding multiple queries and regex.
-            goto_next = {
-              ["]d"] = "@conditional.outer",
-            },
-            goto_previous = {
-              ["[d"] = "@conditional.outer",
-            },
-          },
-          swap = {
-            enable = false,
-            swap_next = {
-              ["<leader>a"] = "@parameter.inner",
-            },
-            swap_previous = {
-              ["<leader>A"] = "@parameter.inner",
-            },
-          },
-        },
-      }
-      local ts_repeat_move = require "nvim-treesitter.textobjects.repeatable_move"
-
-      -- Repeat movement with ; and ,
-      -- ensure ; goes forward and , goes backward regardless of the last direction
-      vim.keymap.set({ "n", "x", "o" }, ";", ts_repeat_move.repeat_last_move_next)
-      vim.keymap.set({ "n", "x", "o" }, ",", ts_repeat_move.repeat_last_move_previous)
-
-      -- vim way: ; goes to the direction you were moving.
-      -- vim.keymap.set({ "n", "x", "o" }, ";", ts_repeat_move.repeat_last_move)
-      -- vim.keymap.set({ "n", "x", "o" }, ",", ts_repeat_move.repeat_last_move_opposite)
-
-      -- Optionally, make builtin f, F, t, T also repeatable with ; and ,
-      -- vim.keymap.set({ "n", "x", "o" }, "f", ts_repeat_move.builtin_f)
-      -- vim.keymap.set({ "n", "x", "o" }, "F", ts_repeat_move.builtin_F)
-      -- vim.keymap.set({ "n", "x", "o" }, "t", ts_repeat_move.builtin_t)
-      -- vim.keymap.set({ "n", "x", "o" }, "T", ts_repeat_move.builtin_T)
+      require("goto-preview").setup({
+        width = 120,
+        height = 25,
+        default_mappings = true,
+        debug = false,
+        opacity = nil,
+        post_open_hook = nil,
+        -- You can use "default_mappings = true" setup option
+        -- Or explicitly set keybindings
+        -- vim.cmd("nnoremap gpd <cmd>lua require('goto-preview').goto_preview_definition()<CR>")
+        -- vim.cmd("nnoremap gpi <cmd>lua require('goto-preview').goto_preview_implementation()<CR>")
+        -- vim.cmd("nnoremap gP <cmd>lua require('goto-preview').close_all_win()<CR>")
+        -- gpd -> goto preview for symbol definition
+        -- gpi -> goto preview for implementation
+        -- gpd -> goto preview for references
+        -- gpd -> goto preview for type definition
+      })
     end,
   },
 }

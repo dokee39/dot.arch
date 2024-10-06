@@ -7,7 +7,7 @@ return {
     event = { "BufRead", "BufNewFile" },
     dependencies = { "rcarriga/nvim-notify", "MunifTanjim/nui.nvim" },
     config = function()
-      require("noice").setup {
+      require("noice").setup({
         lsp = {
           progress = {
             enabled = false, -- performance related
@@ -31,36 +31,12 @@ return {
         health = {
           checker = false,
         },
-      }
-    end,
-  },
-  { -- notify -> pop up
-    "rcarriga/nvim-notify",
-    lazy = true,
-    event = "VeryLazy",
-    config = function()
-      local notify = require "notify"
-      notify.setup {
-        -- "fade", "slide", "fade_in_slide_out", "static"
-        stages = "static", -- performance related
-        on_open = nil,
-        on_close = nil,
-        timeout = 5000,
-        fps = 1,
-        render = "default",
-        background_colour = "Normal",
-        max_width = math.floor(vim.api.nvim_win_get_width(0) / 2),
-        max_height = math.floor(vim.api.nvim_win_get_height(0) / 4),
-        -- minimum_width = 50,
-        -- ERROR > WARN > INFO > DEBUG > TRACE
-        level = "TRACE",
-      }
-
-      vim.notify = notify
+      })
     end,
   },
   { -- rainbow for various backets
-    "HiPhish/nvim-ts-rainbow2",
+    -- "HiPhish/nvim-ts-rainbow2",
+    "HiPhish/rainbow-delimiters.nvim",
     -- Bracket pair rainbow colorize
     lazy = true,
     event = { "User FileOpened" },
@@ -68,9 +44,28 @@ return {
   { -- purple edge for focused window
     "nvim-zh/colorful-winsep.nvim",
     lazy = true,
-    event = "WinNew",
+    event = "WinLeave",
     config = function()
       require("colorful-winsep").setup()
+    end,
+  },
+  {
+    "stevearc/dressing.nvim",
+    lazy = true,
+    enabled = function()
+      return LazyVim.pick.want() == "telescope"
+    end,
+    init = function()
+      ---@diagnostic disable-next-line: duplicate-set-field
+      vim.ui.select = function(...)
+        require("lazy").load({ plugins = { "dressing.nvim" } })
+        return vim.ui.select(...)
+      end
+      ---@diagnostic disable-next-line: duplicate-set-field
+      vim.ui.input = function(...)
+        require("lazy").load({ plugins = { "dressing.nvim" } })
+        return vim.ui.input(...)
+      end
     end,
   },
 }
