@@ -106,6 +106,9 @@ alias mc='make clean'
 alias mf='make flash -j'
 alias mr='make run'
 alias cm='compiledb -f make -j'
+#gdb
+alias gdb='gdb -q'
+alias cgdb='cgdb -d gdb -q'
 #other
 alias manc='LANG=zh_CN.UTF-8 man'
 alias rgr='ranger'

@@ -32,12 +32,14 @@ sync() {
 }
 
 info() {
-    printf "\n%s %s\n\n" "$( date )" "$*" >&2
+    printf "\n%s %s\n\n" "$(date)" "$*" >&2
 }
 
 # start backup
 info "Starting backup <dot files>"
 sync .mysh
+sync .gdbinit
+sync .gdbinit.d/init
 sync .gitconfig
 sync .tmux.conf
 sync .Xresources
@@ -88,26 +90,26 @@ sync "Apps/Games/Touhou Project/official games/th11/replay"
 sync "Apps/Games/Touhou Project/official games/th11/scoreth11.dat"
 
 info "Starting backup <package list>"
-pacman -Qqe > ${MYHOME}/Documents/backup/pkglist.txt
+pacman -Qqe >${MYHOME}/Documents/backup/pkglist.txt
 sync Documents/backup/pkglist.txt
 
 # update README
 rm -rf ${GIT_REPO}/README.md
 echo "# dot.arch
-" > ${GIT_REPO}/README.md
+" >${GIT_REPO}/README.md
 echo "\`\`\`bash
-" >> ${GIT_REPO}/README.md
-cat ${MYHOME}/.mysh/linux-backup >> ${GIT_REPO}/README.md
+" >>${GIT_REPO}/README.md
+cat ${MYHOME}/.mysh/linux-backup >>${GIT_REPO}/README.md
 echo "
 \`\`\`
-" >> ${GIT_REPO}/README.md
+" >>${GIT_REPO}/README.md
 
 # git repo push
 info "Starting backup <git repo push>"
 cd ${GIT_REPO}
 sudo -u dokee git add .
 sudo -u dokee git status -s
-if [ "$(sudo -u dokee git status -s)" ];then
+if [ "$(sudo -u dokee git status -s)" ]; then
     sudo -u dokee git commit -m "Synced on $(date)"
     sudo -u dokee git push -q
     ret=$?
@@ -117,7 +119,7 @@ if [ "$(sudo -u dokee git status -s)" ];then
     else
         info "<github repo> : Synced on $(date)"
     fi
-else 
+else
     info "<github repo> : GitHub repositories do not need to be synchronized"
 fi
 cd -
@@ -127,7 +129,7 @@ if [ $global_exit -ne 0 ]; then
     notify-send "Backup Error!" "Retrying backup in 1 hour..." -u critical
     echo "Retrying backup in 1 hour..."
     sleep 1h
-    exec $0  # Re-run the script
+    exec $0 # Re-run the script
 else
     notify-send "Backup Success!" "Synced on $(date)." -u normal
 fi
@@ -136,7 +138,6 @@ fi
 exit ${global_exit}
 
 #!/bin/sh
-
 
 ```
 

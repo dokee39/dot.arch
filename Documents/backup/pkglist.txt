@@ -93,6 +93,7 @@ protontricks
 protonup-qt
 pulsemixer
 python-pip
+python-pygments
 pywal-16-colors
 qt5-wayland
 qt6-wayland
