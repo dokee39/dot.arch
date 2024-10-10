@@ -3,6 +3,7 @@ alacritty
 alsa-utils
 archlinuxcn-keyring
 arm-none-eabi-binutils
+bambustudio-bin
 base
 base-devel
 bc
