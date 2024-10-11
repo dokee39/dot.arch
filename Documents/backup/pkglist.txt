@@ -42,6 +42,7 @@ gamemode
 gdb
 gdu
 git
+glfw
 google-chrome-wayland-vulkan
 grim
 grub
@@ -54,6 +55,7 @@ imv
 iwd
 jq
 julia
+kmplot
 lazygit
 lib32-gamemode
 lib32-unixodbc

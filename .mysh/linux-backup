@@ -84,6 +84,7 @@ sync "Apps/Games/Touhou Project/official games/th10/replay"
 sync "Apps/Games/Touhou Project/official games/th10/scoreth10.dat"
 sync "Apps/Games/Touhou Project/official games/th11/replay"
 sync "Apps/Games/Touhou Project/official games/th11/scoreth11.dat"
+sync "Documents/FAVORITE/さくら、もゆ。/save"
 
 info "Starting backup <package list>"
 pacman -Qqe >${MYHOME}/Documents/backup/pkglist.txt
