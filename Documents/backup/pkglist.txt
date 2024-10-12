@@ -42,7 +42,9 @@ gamemode
 gdb
 gdu
 git
+glad
 glfw
+glow
 google-chrome-wayland-vulkan
 grim
 grub
