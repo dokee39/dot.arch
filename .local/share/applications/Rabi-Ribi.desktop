@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Rabi-Ribi
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/400910
+Icon=steam_icon_400910
+Terminal=false
+Type=Application
+Categories=Game;

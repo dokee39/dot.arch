@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=STEINS;GATE
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/412830
+Icon=steam_icon_412830
+Terminal=false
+Type=Application
+Categories=Game;

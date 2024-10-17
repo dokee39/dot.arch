@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Koi x Shin Ai Kanojo
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2242710
+Icon=steam_icon_2242710
+Terminal=false
+Type=Application
+Categories=Game;

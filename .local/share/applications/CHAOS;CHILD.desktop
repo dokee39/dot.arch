@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=CHAOS;CHILD
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/970570
+Icon=steam_icon_970570
+Terminal=false
+Type=Application
+Categories=Game;

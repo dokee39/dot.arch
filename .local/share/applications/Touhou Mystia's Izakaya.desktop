@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Touhou Mystia's Izakaya
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1584090
+Icon=steam_icon_1584090
+Terminal=false
+Type=Application
+Categories=Game;
