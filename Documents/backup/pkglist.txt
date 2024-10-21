@@ -3,6 +3,9 @@ alacritty
 alsa-utils
 archlinuxcn-keyring
 arm-none-eabi-binutils
+arm-none-eabi-gcc
+arm-none-eabi-gdb
+arm-none-eabi-newlib
 bambustudio-bin
 base
 base-devel
@@ -14,6 +17,7 @@ bottles
 bottom
 brightnessctl
 btop
+can-utils
 celluloid
 cgdb
 clash
@@ -40,7 +44,9 @@ freecad-appimage
 fzf
 gamemode
 gdb
+gdb-frontend-bin
 gdu
+gendesk
 git
 glad
 glfw
@@ -97,7 +103,9 @@ ppp
 protontricks
 protonup-qt
 pulsemixer
+python-gdbgui
 python-pip
+python-pipx
 python-pygments
 pywal-16-colors
 qt5-wayland
@@ -111,6 +119,7 @@ ruby
 rustup
 samba
 sassc
+scons
 slurp
 spacenavd
 steam
@@ -136,9 +145,11 @@ ttf-times-new-roman
 unixodbc
 unrar
 unzip
+usbview
 vesktop
 vi
 vim
+vofa+
 waybar
 waydroid
 webots-bin
