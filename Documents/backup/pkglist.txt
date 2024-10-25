@@ -25,6 +25,7 @@ cliphist
 cmake
 compiledb
 composer
+dhclient
 dialog
 dingtalk-bin
 dos2unix

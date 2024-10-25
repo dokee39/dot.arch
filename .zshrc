@@ -94,6 +94,7 @@ alias glg='git log --pretty=format:"%C(auto)%h%Creset - %C(green)%s%Creset%n    
 #net
 alias cn='iwctl station wlan0 scan'
 alias cndk='iwctl station wlan0 connect dokee_MI'
+alias ip='ip -color=auto'
 alias proxy='export https_proxy=http://127.0.0.1:7890; export http_proxy=http://127.0.0.1:7890; export all_proxy=socks5://127.0.0.1:7890'
 alias unproxy='unset http_proxy https_proxy all_proxy'
 proxy
@@ -116,6 +117,7 @@ alias type='type -a'
 alias clc='clear'
 alias matlab='matlab -nodesktop -nosplash'
 alias cr='cd $(pwd -P)'
+alias ls='ls --color'
 
 
 # pnpm
