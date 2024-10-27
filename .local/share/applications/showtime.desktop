@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=showtime
+Exec=/home/dokee/Documents/robomaster/projects/showtime/build/showtime
+StartupNotify=false
