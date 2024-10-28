@@ -41,6 +41,7 @@ fcitx5-lua
 fcitx5-pinyin-moegirl
 fcitx5-pinyin-sougou
 fcitx5-pinyin-zhwiki
+feishu-bin
 freecad-appimage
 fzf
 gamemode
