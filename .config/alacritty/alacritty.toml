@@ -1,6 +1,6 @@
 # import = ["~/.config/alacritty/rose-pine-moon.toml"]
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 args = ["-l"]
 
