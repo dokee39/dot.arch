@@ -1,3 +1,5 @@
+adobe-source-han-sans-cn-fonts
+adobe-source-han-serif-cn-fonts
 adwaita-qt6
 alacritty
 alsa-utils
@@ -91,6 +93,7 @@ npm
 nvidia-dkms
 obsidian
 onlyoffice-bin
+opendesktop-fonts
 openocd
 openssh
 orchis-theme
@@ -165,6 +168,8 @@ wine-mono
 winetricks
 wireplumber
 wl-clipboard
+wqy-microhei
+wqy-zenhei
 xorg-xrdb
 xpadneo-dkms
 yay
