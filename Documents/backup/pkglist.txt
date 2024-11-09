@@ -90,6 +90,7 @@ nftables
 noto-color-emoji-fontconfig
 noto-fonts-sc
 npm
+numactl
 nvidia-dkms
 obsidian
 onlyoffice-bin
@@ -120,6 +121,7 @@ ranger
 ripgrep
 rose-pine-hyprcursor
 rsync
+rt-tests
 ruby
 rustup
 samba
