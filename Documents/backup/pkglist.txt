@@ -31,7 +31,6 @@ dhclient
 dialog
 dingtalk-bin
 dos2unix
-easyloggingpp
 efibootmgr
 eigen
 enca
@@ -52,6 +51,7 @@ gdb-frontend-bin
 gdu
 gendesk
 git
+git-filter-repo
 glad
 glfw
 glow
