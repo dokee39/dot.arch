@@ -87,6 +87,7 @@ mokutil
 neofetch
 neovim
 nftables
+ninja
 noto-color-emoji-fontconfig
 noto-fonts-sc
 npm
