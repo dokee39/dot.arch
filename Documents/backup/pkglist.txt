@@ -55,7 +55,7 @@ git-filter-repo
 glad
 glfw
 glow
-google-chrome-wayland-vulkan
+google-chrome
 grim
 grub
 gst-libav
