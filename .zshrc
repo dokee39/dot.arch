@@ -29,6 +29,10 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib/controller;
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
+# build
+export SCONSFLAGS="-j8"
+export MAKEFLAGS="-j"
+
 # zgenom
 # zgenom autoupdate
 source "${HOME}/.zgenom/zgenom.zsh"

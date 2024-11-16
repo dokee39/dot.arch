@@ -12,6 +12,7 @@ bambustudio-bin
 base
 base-devel
 bc
+bear
 bluetui
 bluez-utils
 boost
@@ -56,6 +57,7 @@ glad
 glfw
 glow
 google-chrome
+graphviz
 grim
 grub
 gst-libav
@@ -113,6 +115,7 @@ pulsemixer
 python-gdbgui
 python-pip
 python-pipx
+python-pyelftools
 python-pygments
 pywal-16-colors
 qt5-wayland
