@@ -96,6 +96,7 @@ npm
 numactl
 nvidia-dkms
 obsidian
+ocr-fonts
 onlyoffice-bin
 opendesktop-fonts
 openocd
