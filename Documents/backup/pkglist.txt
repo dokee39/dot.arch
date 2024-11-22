@@ -32,6 +32,7 @@ dhclient
 dialog
 dingtalk-bin
 dos2unix
+doxypress-bin
 efibootmgr
 eigen
 enca
