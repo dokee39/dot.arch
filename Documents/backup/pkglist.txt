@@ -33,6 +33,7 @@ dialog
 dingtalk-bin
 dos2unix
 doxypress-bin
+dsview
 efibootmgr
 eigen
 enca
