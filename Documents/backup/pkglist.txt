@@ -69,6 +69,7 @@ hyprland
 hyprpaper
 imv
 iwd
+jan-bin
 jq
 julia
 kmplot
