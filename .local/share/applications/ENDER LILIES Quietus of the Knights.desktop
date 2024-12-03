@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ENDER LILIES: Quietus of the Knights
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1369630
+Icon=steam_icon_1369630
+Terminal=false
+Type=Application
+Categories=Game;

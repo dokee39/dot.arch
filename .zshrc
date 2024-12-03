@@ -122,6 +122,7 @@ alias clc='clear'
 alias matlab='matlab -nodesktop -nosplash'
 alias cr='cd $(pwd -P)'
 alias ls='ls --color'
+alias jx='kill -9 $(pgrep noita)'
 
 
 # pnpm

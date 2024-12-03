@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Touhou Hero of Ice Fairy
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1955830
+Icon=steam_icon_1955830
+Terminal=false
+Type=Application
+Categories=Game;

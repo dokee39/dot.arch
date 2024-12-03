@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hacknet
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/365450
+Icon=steam_icon_365450
+Terminal=false
+Type=Application
+Categories=Game;
