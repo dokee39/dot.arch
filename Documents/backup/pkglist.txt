@@ -3,6 +3,7 @@ adobe-source-han-serif-cn-fonts
 adwaita-qt6
 alacritty
 alsa-utils
+anki
 archlinuxcn-keyring
 arm-none-eabi-binutils
 arm-none-eabi-gcc
