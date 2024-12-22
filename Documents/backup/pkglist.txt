@@ -101,6 +101,7 @@ numactl
 nvidia-dkms
 obsidian
 ocr-fonts
+okular
 onlyoffice-bin
 opendesktop-fonts
 openocd
@@ -108,6 +109,7 @@ openssh
 orchis-theme
 os-prober
 p7zip
+papers
 parted
 php
 pipewire
@@ -136,6 +138,7 @@ rustup
 samba
 sassc
 scons
+sioyek
 slurp
 spacenavd
 steam
