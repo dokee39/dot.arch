@@ -5,7 +5,7 @@ local lspconfig = require "lspconfig"
 
 -- EXAMPLE
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
-local servers = { "html", "cssls", "clangd", "cmake", "bashls", "matlab_ls", "taplo"}
+local servers = { "html", "cssls", "clangd", "cmake", "bashls", "matlab_ls", "taplo", "astro"}
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
