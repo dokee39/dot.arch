@@ -1,3 +1,4 @@
+7zip
 adobe-source-han-sans-cn-fonts
 adobe-source-han-serif-cn-fonts
 adwaita-qt6
@@ -108,7 +109,6 @@ openocd
 openssh
 orchis-theme
 os-prober
-p7zip
 papers
 parted
 php
