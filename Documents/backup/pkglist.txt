@@ -90,6 +90,8 @@ mako
 man-db
 man-pages
 mesa-utils
+mkdocs
+mkdocs-material
 mokutil
 neofetch
 neovim
@@ -120,10 +122,12 @@ protontricks
 protonup-qt
 pulsemixer
 python-gdbgui
+python-paginate
 python-pip
 python-pipx
 python-pyelftools
 python-pygments
+python-pymdown-extensions
 pywal-16-colors
 qt5-wayland
 qt6-wayland
