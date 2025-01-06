@@ -67,6 +67,7 @@ grub
 gst-libav
 gst-plugins-base
 gst-plugins-good
+hwinfo
 hyprland
 hyprpaper
 imv
