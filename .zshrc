@@ -26,6 +26,11 @@ export PATH=$PATH:/usr/local/webots
 export WEBOTS_HOME=/usr/local/webots
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib/controller;
 
+# default
+export PAGER=less
+export EDITOR=nvim
+export VISUAL=nvim
+
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
