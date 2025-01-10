@@ -1,3 +1,7 @@
 vim.loader.enable()
-require('config.lazy')
-vim.cmd("colorscheme rose-pine-moon")
+
+require [[config.option]]
+require [[config.lazy]]
+require [[config.keymap]]
+
+

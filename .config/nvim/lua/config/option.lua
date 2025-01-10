@@ -25,7 +25,7 @@ option.smartindent = true
 
 -- search
 option.incsearch = true -- search as characters are entered
-option.hlsearch = false -- do not highlight matches
+option.hlsearch = true -- do not highlight matches
 option.ignorecase = true -- ignore case in searches by default
 option.smartcase = true -- but make it case sensitive if an uppercase is entered
 
@@ -49,6 +49,6 @@ option.undodir = vim.fn.expand('$HOME/.local/share/nvim/undo')
 buffer.fileenconding = "utf-8"
 
 -- global
--- global.mapleader = " "
--- global.maplocalleader = "\\"
+global.mapleader = " "
+global.maplocalleader = " "
 
