@@ -91,5 +91,95 @@ return {
     {
         "lewis6991/gitsigns.nvim",
         opts = {},
-    }
+    },
+    {
+        "folke/noice.nvim",
+        enabled = true,
+        lazy = false,
+        event = { "BufRead", "BufNewFile" },
+        dependencies = { 
+            {
+                "rcarriga/nvim-notify",
+                lazy = true,
+                event = "VeryLazy",
+                config = function()
+                    local notify = require "notify"
+                    notify.setup {
+                        -- "fade", "slide", "fade_in_slide_out", "static"
+                        stages = "static", -- performance related
+                        on_open = nil,
+                        on_close = nil,
+                        timeout = 5000,
+                        fps = 1,
+                        render = "default",
+                        background_colour = "Normal",
+                        max_width = math.floor(vim.api.nvim_win_get_width(0) / 2),
+                        max_height = math.floor(vim.api.nvim_win_get_height(0) / 4),
+                        -- minimum_width = 50,
+                        -- ERROR > WARN > INFO > DEBUG > TRACE
+                        level = "TRACE",
+                    }
+                    vim.notify = notify
+                end,
+            },
+            "MunifTanjim/nui.nvim",
+        },
+        opts = {
+            lsp = {
+                progress = {
+                    enabled = false, -- performance related
+                },
+            },
+            presets = {
+                bottom_search = false,
+                command_palette = true,
+                long_message_to_split = true,
+                inc_rename = false,
+                lsp_doc_border = true,
+            },
+            messages = {
+                enabled = true,
+                view = "notify",
+                view_error = "notify",
+                view_warn = "notify",
+                view_history = "messages",
+                view_search = "virtualtext",
+            },
+            health = {
+                checker = false,
+            },
+        },
+    },
+    {
+        "https://gitlab.com/HiPhish/rainbow-delimiters.nvim.git",
+    },
+    {
+        "nvim-zh/colorful-winsep.nvim",
+        config = true,
+        event = { "WinLeave" },
+        opts = {
+            -- highlight for Window separator
+            hi = {
+                bg = "",
+                fg = require("rose-pine.palette").iris,
+            },
+            -- This plugin will not be activated for filetype in the following table.
+            no_exec_files = { "packer", "TelescopePrompt", "mason", "CompetiTest", "NvimTree" },
+            -- Symbols for separator lines, the order: horizontal, vertical, top left, top right, bottom left, bottom right.
+            -- symbols = { "━", "┃", "┏", "┓", "┗", "┛" },
+            symbols = { "─", "│", "┌", "┐", "└", "┘" },
+            -- #70: https://github.com/nvim-zh/colorful-winsep.nvim/discussions/70
+            only_line_seq = true,
+            -- Smooth moving switch
+            smooth = false,
+            exponential_smoothing = true,
+            anchor = {
+                left = { height = 1, x = -1, y = -1 },
+                right = { height = 1, x = -1, y = 0 },
+                up = { width = 0, x = -1, y = 0 },
+                bottom = { width = 0, x = 1, y = 0 },
+            },
+            light_pollution = function(lines) end,
+        },
+    },
 }

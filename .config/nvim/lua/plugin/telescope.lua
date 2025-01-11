@@ -1,12 +1,21 @@
 return {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.8',
-    dependencies = { 
-        'nvim-lua/plenary.nvim', 
-        { 
-            'nvim-telescope/telescope-fzf-native.nvim', 
+    dependencies = {
+        'nvim-lua/plenary.nvim',
+        {
+            'nvim-telescope/telescope-fzf-native.nvim',
             build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release',
         },
+    },
+
+    keys = {
+        {'<leader>ff', require('telescope.builtin').find_files, desc = 'Telescope find files' },
+        {'<leader>fg', require('telescope.builtin').live_grep, desc = 'Telescope live grep' },
+        {'<leader>fb', require('telescope.builtin').buffers, desc = 'Telescope buffers' },
+        {'<leader>fh', require('telescope.builtin').help_tags, desc = 'Telescope help tags' },
+        {'<leader>fo', require('telescope.builtin').oldfiles, desc = 'Telescope old files' },
+        {'<leader><space>', require('telescope.builtin').current_buffer_fuzzy_find, desc = 'Telescope current_buffer_fuzzy_find' },
     },
 
     config = function()
