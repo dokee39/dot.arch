@@ -8,16 +8,9 @@ local servers = {
         },
     },
     clangd = {
-        -- cmd = {
-        --     "clangd",
-        --     "--header-insertion=never",
-        -- },
         cmd = {
             "clangd",
-            -- "--query-driver=\"/usr/bin/arm-none-eabi-gcc,/usr/bin/arm-none-eabi-g++\"",
-            "--query-driver=/usr/bin/*",
             "--header-insertion=never",
-            -- "--log=verbose",
         },
     },
     pyright = {},
@@ -47,8 +40,8 @@ return {
                 },
             },
 
-            { "folke/neoconf.nvim",      opts = {} },
             { "folke/lazydev.nvim",      opts = {} },
+            { "folke/neoconf.nvim",      opts = {} },
             {
                 "j-hui/fidget.nvim",
                 tag = "v1.5.0",
