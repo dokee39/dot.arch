@@ -1,10 +1,10 @@
 return {
     {
-        "rose-pine/neovim", 
+        "rose-pine/neovim",
         priority = 1000,
 	    name = "rose-pine",
 
-        config = function() 
+        config = function()
             require("rose-pine").setup {
                 variant = "auto", -- auto, main, moon, or dawn
                 dark_variant = "moon", -- main, moon, or dawn
@@ -80,10 +80,14 @@ return {
                 end,
             }
 
+            local color = require("rose-pine.palette")
             vim.cmd("colorscheme rose-pine-moon")
-            vim.cmd("highlight CursorLine guibg=" .. require("rose-pine.palette").base .. " guifg=NONE")
+            vim.cmd("highlight CursorLine guibg=" .. color.base)
+            vim.cmd("highlight Search guibg=" .. color.foam .. " guifg=" .. color.love)
+            vim.cmd("highlight IncSearch guibg=" .. color.pine .. " guifg=" .. color.love)
+            vim.cmd("highlight Visual guibg=" .. color.base)
         end,
-    }, 
+    },
     --[[ {
         "folke/tokyonight.nvim",
         priority = 1000,

@@ -115,7 +115,7 @@ alias mj='make -j'
 alias mc='make clean'
 alias mf='make flash -j'
 alias mr='make run'
-alias cm='compiledb -f make -j'
+alias bm='bear -- make -j'
 #gdb
 alias gdb='gdb -q'
 alias cgdb='cgdb -d gdb -q'

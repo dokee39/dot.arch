@@ -28,8 +28,8 @@ cgdb
 clash
 cliphist
 cmake
-compiledb
 composer
+cowsay
 dhclient
 dialog
 dingtalk-bin

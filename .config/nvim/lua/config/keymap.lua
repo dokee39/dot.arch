@@ -6,7 +6,7 @@ map({ "n", "v" }, "q", "b", { desc = "previous word" })
 map("n", "<leader>w", "<cmd> w <cr>", { desc = "write" })
 map("n", "<leader>q", "<cmd> q <cr>", { desc = "quit" })
 
--- map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
+map("n", "<Esc>", "<cmd>noh<CR>", { desc = "general clear highlights" })
 
 map("n", "<M-j>", "<cmd> move +1 <cr>", { desc = "move the line down" })
 map("n", "<M-k>", "<cmd> move -2 <cr>", { desc = "move the line up" })
@@ -31,4 +31,6 @@ map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 -- mini.comment
 map("n", "<leader>/", "gcc", { remap = true })
 map("v", "<leader>/", "gc", { remap = true })
+
+
 
