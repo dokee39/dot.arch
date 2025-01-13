@@ -123,7 +123,6 @@ ppp
 protontricks
 protonup-qt
 pulsemixer
-python-gdbgui
 python-paginate
 python-pip
 python-pipx

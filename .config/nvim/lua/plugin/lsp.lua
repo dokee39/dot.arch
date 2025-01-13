@@ -124,6 +124,22 @@ return {
             local on_attach_clangd = function(_, bufnr)
                 on_attach_keys(_, bufnr)
                 vim.keymap.set('n', 'L', '<cmd>ClangdSymbolInfo<cr>', { buffer = bufnr, silent = true })
+                vim.keymap.set('n', 'H', '<cmd>ClangdSwitchSourceHeader<cr>', { buffer = bufnr, silent = true })
+
+                require("clangd_extensions").setup {
+                    inlay_hints = {
+                        inline = false;
+                        max_len_align = true;
+                        parameter_hints_prefix  = ' ',
+                        other_hints_prefix = '󰊰 ',
+                    },
+                    memory_usage = {
+                        border = "rounded",
+                    },
+                    symbol_info = {
+                        border = "rounded",
+                    },
+                }
                 require("clangd_extensions.inlay_hints").setup_autocmd()
                 require("clangd_extensions.inlay_hints").set_inlay_hints()
             end
