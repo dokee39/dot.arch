@@ -75,6 +75,7 @@ iwd
 jan-bin
 jq
 julia
+kicad
 kmplot
 lazygit
 lib32-gamemode
