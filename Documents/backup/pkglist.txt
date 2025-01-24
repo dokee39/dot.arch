@@ -23,6 +23,8 @@ bottom
 brightnessctl
 btop
 can-utils
+cava
+cbonsai
 celluloid
 cgdb
 clash
@@ -48,6 +50,7 @@ fcitx5-pinyin-moegirl
 fcitx5-pinyin-sougou
 fcitx5-pinyin-zhwiki
 feishu-bin
+fortune-mod-archlinux
 freecad-appimage
 fzf
 gamemode
@@ -117,6 +120,7 @@ os-prober
 papers
 parted
 php
+pipes.sh
 pipewire
 pipewire-pulse
 polkit
@@ -147,10 +151,12 @@ samba
 sassc
 scons
 sioyek
+sl
 slurp
 spacenavd
 steam
 stm32cubemx
+superfile
 systemd-numlockontty
 terminus-font
 tesseract-data-chi_sim
@@ -192,6 +198,7 @@ wireplumber
 wl-clipboard
 wqy-microhei
 wqy-zenhei
+wtf
 xorg-xrdb
 xpadneo-dkms
 yay

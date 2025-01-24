@@ -57,6 +57,7 @@ sync .config/nvim
 sync .config/qt6ct
 sync .config/ranger
 sync .config/systemd
+sync .config/superfile
 sync .config/tofi
 sync .config/waybar
 sync .config/zathura/zathurarc
