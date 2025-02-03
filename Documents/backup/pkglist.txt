@@ -142,6 +142,7 @@ qt5-wayland
 qt6-wayland
 qt6ct
 ranger
+renpy
 ripgrep
 rose-pine-hyprcursor
 rsync
