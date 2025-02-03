@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Doki Doki Literature Club
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/698780
+Icon=steam_icon_698780
+Terminal=false
+Type=Application
+Categories=Game;
