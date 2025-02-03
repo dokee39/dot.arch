@@ -96,6 +96,7 @@ mako
 man-db
 man-pages
 mesa-utils
+minecraft-launcher
 mkdocs
 mkdocs-material
 mokutil
