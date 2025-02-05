@@ -84,7 +84,6 @@ lazygit
 lib32-gamemode
 lib32-unixodbc
 libnotify
-linux
 linux-firmware
 linux-headers
 linux-rt
