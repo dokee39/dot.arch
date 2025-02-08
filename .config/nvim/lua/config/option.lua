@@ -13,6 +13,8 @@ option.splitright = true -- open new horizontal splits right
 option.termguicolors = true -- enable 24-bit RGB color in the TUI
 option.showmode = false -- we are experienced, wo don't need the "-- INSERT --" mode hint
 option.wrap = false
+option.scrolloff = 5
+option.sidescrolloff = 10
 
 -- tab
 option.tabstop = 4 -- number of visual spaces per TAB
