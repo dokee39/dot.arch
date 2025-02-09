@@ -27,6 +27,8 @@ cava
 cbonsai
 celluloid
 cgdb
+chatbox-bin
+cherry-studio-bin
 clash
 cliphist
 cmake
@@ -89,6 +91,7 @@ linux-headers
 linux-rt
 linux-rt-headers
 linuxqq
+lmstudio
 lua51
 luarocks
 mako
@@ -99,6 +102,7 @@ minecraft-launcher
 mkdocs
 mkdocs-material
 mokutil
+msty-bin
 neofetch
 neovim
 nftables

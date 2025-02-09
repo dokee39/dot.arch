@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=LM Studio
+Exec=env DESKTOPINTEGRATION=false /usr/bin/lm-studio --no-sandbox --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime --disable-gpu --disable-gpu-sandbox %U
+Terminal=false
+Type=Application
+Icon=lm-studio
+StartupWMClass=LM Studio
+X-AppImage-Version=0.3.9
+Comment=Use the chat UI or local server to experiment and develop with local LLMs.
+Keywords=developer;llm;
+category=Development;Utility;
+MimeType=x-scheme-handler/lmstudio;
+Categories=Development;

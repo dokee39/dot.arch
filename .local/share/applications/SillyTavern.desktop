@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=SillyTavern
+Comment=SillyTavern
+Exec=bash ~/Apps/Games/SillyTavern/start.sh
+Terminal=false
+Type=Application
+Categories=Game;
