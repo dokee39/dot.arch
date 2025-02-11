@@ -191,7 +191,7 @@ vofa+
 waybar
 waydroid
 webots-bin
-wechat-universal-bwrap
+wechat-appimage
 wemeet-bin
 wf-recorder
 wget
