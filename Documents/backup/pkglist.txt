@@ -165,6 +165,7 @@ superfile
 systemd-numlockontty
 terminus-font
 tesseract-data-chi_sim
+tldr
 tlp
 tmux
 tmux-plugin-manager
