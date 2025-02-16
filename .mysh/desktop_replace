@@ -2,7 +2,6 @@ sudo rm /usr/share/applications/qq.desktop
 sudo rm /usr/share/applications/obsidian.desktop
 sudo rm /usr/share/applications/google-chrome.desktop
 sudo rm /usr/share/applications/webots.desktop
-sudo rm /usr/share/applications/wechat-universal.desktop
 sudo rm /usr/share/applications/com.alibabainc.dingtalk.desktop
 sudo rm /usr/share/applications/vesktop.desktop
 sudo rm /usr/share/applications/cherry-studio.desktop
