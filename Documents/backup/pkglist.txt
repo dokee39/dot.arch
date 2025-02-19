@@ -112,6 +112,7 @@ noto-fonts-sc
 npm
 numactl
 nvidia-dkms
+nvtop
 obsidian
 ocr-fonts
 okular
