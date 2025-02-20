@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Screenshot script with dynamic window sizing using slurp metadata
+
+# Get user-selected area with coordinates and dimensions
+selected_area=$(slurp -b 19172480 -c c4a7e780 -w 2 -f "%x %y %w %h")
+slurp_exit_code=$?
+
+# Exit immediately if user cancels selection
+if (( slurp_exit_code != 0 )); then
+    exit 1
+fi
+
+# Parse slurp output into variables
+read -r pos_x pos_y width height <<< "${selected_area}"
+
+# Generate human-readable timestamp filename
+timestamp=$(date +"%Y%m%d-%H%M%S")
+screenshot_file=$(mktemp -u "/tmp/grim-${timestamp}-XXXXXX.png")
+
+# Capture screenshot with error handling
+if ! grim -l 9 -g "${pos_x},${pos_y} ${width}x${height}" - \
+    | tee >(wl-copy) > "${screenshot_file}"; then
+    echo "Error: Screenshot capture failed. Check grim installation."
+    exit 2
+fi
+
+# Validate file creation
+if ! [[ -s "${screenshot_file}" ]]; then
+    echo "Error: Empty screenshot file generated."
+    rm -f "${screenshot_file}"
+    exit 3
+fi
+
+# Calculate window size with 0px decoration padding
+if [[ "$width" =~ ^[0-9]+$ && "$height" =~ ^[0-9]+$ ]]; then
+    imv -W $((width + 0)) -H $((height + 0)) "${screenshot_file}" &> /dev/null &
+else
+    echo "Warning: Invalid dimensions, using default size"
+    imv "${screenshot_file}" &> /dev/null &
+fi
+
+# Detach viewer process
+disown
+
