@@ -28,6 +28,7 @@ local servers = {
 return {
     {
         "neovim/nvim-lspconfig",
+        cond = not vim.g.vscode,
         cmd = { "Mason", "Neoconf", "Navbuddy" },
         event = { "BufReadPost", "BufNewFile" },
         dependencies = {
@@ -115,6 +116,7 @@ return {
                 nmap("<leader>rn", "<cmd>Lspsaga rename ++project<cr>", "[R]e[n]ame")
                 nmap("<leader>ca", "<cmd>Lspsaga code_action<CR>", "[C]ode [A]ction")
                 nmap("<leader>da", require("telescope.builtin").diagnostics, "[D]i[A]gnostics")
+                nmap("<leader>ds", "<cmd>Lspsaga show_line_diagnostics<CR>", "[D]iagnostics [S]how")
 
                 nmap("<space>fm", function()
                     vim.lsp.buf.format { async = true }

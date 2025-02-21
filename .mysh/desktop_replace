@@ -8,4 +8,5 @@ sudo rm /usr/share/applications/cherry-studio.desktop
 sudo rm /usr/share/applications/lm-studio.desktop
 sudo rm /usr/share/applications/jan.desktop
 sudo rm /usr/share/applications/xyz.chatboxapp.app.desktop
+sudo rm /usr/share/applications/code.desktop
 sudo cp /home/dokee/Documents/backup/desktop_backup/* /usr/share/applications 

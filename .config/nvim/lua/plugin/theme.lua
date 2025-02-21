@@ -1,6 +1,7 @@
 return {
     {
         "rose-pine/neovim",
+        cond = not vim.g.vscode,
         priority = 1000,
 	    name = "rose-pine",
 
@@ -90,6 +91,7 @@ return {
     },
     --[[ {
         "folke/tokyonight.nvim",
+        cond = not vim.g.vscode,
         priority = 1000,
         opts = {},
     } --]]

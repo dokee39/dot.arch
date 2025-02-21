@@ -6,6 +6,7 @@ local separator_fg = color.surface
 return {
     {
         'nvim-lualine/lualine.nvim',
+        cond = not vim.g.vscode,
         event = "ColorScheme",
         dependencies = { 'nvim-tree/nvim-web-devicons' },
         opts = {
@@ -41,6 +42,7 @@ return {
     },
     {
         'akinsho/bufferline.nvim', 
+        cond = not vim.g.vscode,
         dependencies = 'nvim-tree/nvim-web-devicons',
         opts = {
             options = {
@@ -80,6 +82,7 @@ return {
     },
     {
         "lukas-reineke/indent-blankline.nvim",
+        cond = not vim.g.vscode,
         main = "ibl",
         opts = {
             indent = { char = "│", },
@@ -90,10 +93,12 @@ return {
     },
     {
         "lewis6991/gitsigns.nvim",
+        cond = not vim.g.vscode,
         opts = {},
     },
     {
         "folke/noice.nvim",
+        cond = not vim.g.vscode,
         enabled = true,
         lazy = false,
         event = { "BufRead", "BufNewFile" },
@@ -152,9 +157,11 @@ return {
     },
     {
         "https://gitlab.com/HiPhish/rainbow-delimiters.nvim.git",
+        cond = not vim.g.vscode,
     },
     {
         "nvim-zh/colorful-winsep.nvim",
+        cond = not vim.g.vscode,
         config = true,
         event = { "WinLeave" },
         opts = {

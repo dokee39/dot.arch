@@ -128,6 +128,7 @@ alias matlab='matlab -nodesktop -nosplash'
 alias cr='cd $(pwd -P)'
 alias ls='ls --color'
 alias jx='kill -9 $(pgrep noita)'
+alias code='code --unity-launch --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --disable-gpu --disable-gpu-sandbox'
 
 
 # pnpm

@@ -2,6 +2,7 @@ return {
     {
         -- "rhysd/accelerated-jk",
         "rainbowhxch/accelerated-jk.nvim",
+        -- cond = not vim.g.vscode,
         keys = {
             { "j", "<Plug>(accelerated_jk_gj)" },
             { "k", "<Plug>(accelerated_jk_gk)" },
@@ -9,9 +10,11 @@ return {
     },
     {
         "DanilaMihailov/beacon.nvim",
+        cond = not vim.g.vscode,
     },
     {
         "folke/persistence.nvim",
+        cond = not vim.g.vscode,
         keys = {
             { "<leader>a", [[<cmd>lua require("persistence").load()<cr>]] },
         },
@@ -19,6 +22,7 @@ return {
     },
     {
         "windwp/nvim-autopairs",
+        cond = not vim.g.vscode,
         event = "VeryLazy",
         opts = {
             enable_check_bracket_line = false,
@@ -26,10 +30,12 @@ return {
     },
     {
         "ethanholz/nvim-lastplace",
+        cond = not vim.g.vscode,
         config = true,
     },
     {
         "folke/flash.nvim",
+        -- cond = not vim.g.vscode,
         keys = {
             {
                 "s",
@@ -76,16 +82,19 @@ return {
     },
     {
         'echasnovski/mini.ai',
+        cond = not vim.g.vscode,
         event = "VeryLazy",
         config = true,
     },
     {
         "echasnovski/mini.comment",
+        cond = not vim.g.vscode,
         event = "VeryLazy",
         config = true,
     },
     {
         "max397574/better-escape.nvim",
+        cond = not vim.g.vscode,
         lazy = true,
         event = { "InsertEnter" },
         config = function()
@@ -117,6 +126,7 @@ return {
     },
     {
         "roobert/search-replace.nvim",
+        cond = not vim.g.vscode,
         lazy = true,
         cmd = {
             "SearchReplaceSingleBufferVisualSelection",
@@ -148,6 +158,7 @@ return {
     },
     { -- curse leave and return
         "LeonHeidelbach/trailblazer.nvim",
+        cond = not vim.g.vscode,
         lazy = true,
         keys = { "<A-s>", "<A-d>" },
         config = function()
@@ -283,10 +294,12 @@ return {
     },
     {
         'wakatime/vim-wakatime',
+        -- cond = not vim.g.vscode,
         lazy = false
     },
     {
         'brenoprata10/nvim-highlight-colors',
+        -- cond = not vim.g.vscode,
         opts = {
             render = 'virtual',
             virtual_symbol = '',

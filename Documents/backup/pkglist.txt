@@ -13,6 +13,7 @@ arm-none-eabi-newlib
 bambustudio-bin
 base
 base-devel
+bat
 bc
 bear
 bluetui
@@ -74,6 +75,7 @@ gst-plugins-base
 gst-plugins-good
 hwinfo
 hyprland
+hyprlock
 hyprpaper
 imv
 iwd
@@ -189,6 +191,7 @@ usbview
 vesktop
 vi
 vim
+visual-studio-code-bin
 vofa+
 waybar
 waydroid

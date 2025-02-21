@@ -1,5 +1,6 @@
 return {
     "hrsh7th/nvim-cmp",
+    cond = not vim.g.vscode,
     event = { "BufReadPost", "BufNewFile" },
     dependencies = {
         "hrsh7th/cmp-nvim-lsp",
