@@ -43,7 +43,7 @@ if not vim.g.vscode then
     map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 end
 
--- mini.comment
+-- comment
 map("n", "<leader>/", "gcc", { remap = true })
 map("v", "<leader>/", "gc", { remap = true })
 

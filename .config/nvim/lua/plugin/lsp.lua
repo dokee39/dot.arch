@@ -90,6 +90,7 @@ return {
             },
             {
                 "p00f/clangd_extensions.nvim",
+                commit = "8f7b72100883e0e34400d9518d40a03f21e4d0a6",
             },
         },
         config = function()
@@ -118,10 +119,13 @@ return {
                 nmap("<leader>da", require("telescope.builtin").diagnostics, "[D]i[A]gnostics")
                 nmap("<leader>ds", "<cmd>Lspsaga show_line_diagnostics<CR>", "[D]iagnostics [S]how")
 
-                nmap("<space>fm", function()
+                nmap("<leader>fm", function()
                     vim.lsp.buf.format { async = true }
                 end, "[F]ormat code")
-                vim.keymap.set('v', '<leader>f', ':lua vim.lsp.buf.format()<CR>', { noremap = true, silent = true })
+                vim.keymap.set('v', '<leader>fm', function()
+                    vim.lsp.buf.format { async = true }
+                    vim.cmd('normal! \27')
+                end, { noremap = true, silent = true })
             end
             local on_attach_clangd = function(_, bufnr)
                 on_attach_keys(_, bufnr)

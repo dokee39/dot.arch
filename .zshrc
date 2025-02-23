@@ -138,3 +138,8 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# If on TTY1, start Hyprland
+if [[ "$(tty)" == "/dev/tty1" ]]; then
+    exec Hyprland &>/dev/null
+fi

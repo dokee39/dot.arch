@@ -74,6 +74,7 @@ gst-libav
 gst-plugins-base
 gst-plugins-good
 hwinfo
+hypridle
 hyprland
 hyprlock
 hyprpaper
@@ -94,6 +95,7 @@ linux-rt
 linux-rt-headers
 linuxqq
 lmstudio
+lolcat
 lua51
 luarocks
 mako
