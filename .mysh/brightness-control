@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# Unified notification ID for brightness updates
+NOTIFY_ID=1090
+MAX_BRIGHTNESS=$(brightnessctl max)
+CURRENT_BRIGHTNESS=$(brightnessctl get | awk "{print \$1/$MAX_BRIGHTNESS*100}" | cut -d. -f1)
+
+case $1 in
+    down)
+        brightnessctl set 2%-
+        UPDATED_BRIGHTNESS=$(brightnessctl get | awk "{print \$1/$MAX_BRIGHTNESS*100}" | cut -d. -f1)
+        notify-send -t 1000 -h int:value:$UPDATED_BRIGHTNESS -h string:x-dunst-stack-tag:brightness \
+            "  Brightness: ${UPDATED_BRIGHTNESS}%" -i display-brightness
+        ;;
+    up)
+        brightnessctl set +2%
+        UPDATED_BRIGHTNESS=$(brightnessctl get | awk "{print \$1/$MAX_BRIGHTNESS*100}" | cut -d. -f1)
+        notify-send -t 1000 -h int:value:$UPDATED_BRIGHTNESS -h string:x-dunst-stack-tag:brightness \
+            "  Brightness: ${UPDATED_BRIGHTNESS}%" -i display-brightness
+        ;;
+    *)
+        echo "Usage: $0 [down|up]"
+        exit 1
+        ;;
+esac
+

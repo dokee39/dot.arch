@@ -42,6 +42,10 @@ export MAKEFLAGS="-j"
 # zgenom autoupdate
 source "${HOME}/.zgenom/zgenom.zsh"
 
+# ai 
+source "${HOME}/.api_keys"
+export LLM_KEY=$OPENROUTER_KEY
+
 # if the init scipt doesn't exist
 if ! zgenom saved; then
     echo "Creating a zgenom save"

@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+# Unified notification ID for volume updates
+NOTIFY_ID=1089
+
+case $1 in
+    mute)
+        pulsemixer --toggle-mute
+        if [ $(pulsemixer --get-mute) -eq 1 ]; then
+            notify-send -t 1000 -h int:transient:1 -h "string:x-dunst-stack-tag:vol" \
+                "   Muted" -i audio-volume-muted
+        else
+            current_vol=$(pulsemixer --get-volume | cut -d ' ' -f 1)
+            notify-send -t 1000 -h int:value:$current_vol -h "string:x-dunst-stack-tag:vol" \
+                "   Volume: ${current_vol}%" -i audio-volume-high
+        fi
+        ;;
+    down)
+        pulsemixer --set-volume $(($(pulsemixer --get-volume | cut -d ' ' -f 1) - 2))
+        current_vol=$(pulsemixer --get-volume | cut -d ' ' -f 1)
+        notify-send -t 1000 -h int:value:$current_vol -h "string:x-dunst-stack-tag:vol" \
+            "   Volume: ${current_vol}%" -i audio-volume-medium
+        ;;
+    up)
+        pulsemixer --set-volume $(($(pulsemixer --get-volume | cut -d ' ' -f 1) + 2))
+        current_vol=$(pulsemixer --get-volume | cut -d ' ' -f 1)
+        notify-send -t 1000 -h int:value:$current_vol -h "string:x-dunst-stack-tag:vol" \
+            "   Volume: ${current_vol}%" -i audio-volume-high
+        ;;
+    *)
+        echo "Usage: $0 [mute|down|up]"
+        exit 1
+        ;;
+esac
+

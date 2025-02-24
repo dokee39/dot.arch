@@ -13,6 +13,7 @@ ignore-timeout=0
 font=LXGW Bright GB 12
 margin=12
 padding=12,20
+progress-color=over #b2ffff7f
 
 [urgency=low]
 border-color=#595959

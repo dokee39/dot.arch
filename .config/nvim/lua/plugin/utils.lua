@@ -372,5 +372,5 @@ return {
             virtual_symbol_suffix = '',
             virtual_symbol_position = 'eol',
         }
-    }
+    },
 }
