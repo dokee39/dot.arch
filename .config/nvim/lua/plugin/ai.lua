@@ -2,12 +2,13 @@
 -- Keys
 local cmd_keys = {
     { "<A-a>",      mode = { "n", "i" }, "<cmd>LLMSessionToggle<cr>" },
-    { "<leader>ts", mode = "x",          "<cmd>LLMAppHandler WordTranslate<cr>" },
-    { "<leader>at", mode = "n",          "<cmd>LLMAppHandler Translate<cr>" },
-    { "<leader>ae", mode = "v",          "<cmd>LLMAppHandler CodeExplain<cr>" },
-    { "<leader>dc", mode = "v",          "<cmd>LLMAppHandler DocString<cr>" },
-    { "<leader>ao", mode = "x",          "<cmd>LLMAppHandler OptimizeCode<cr>" },
-    { "<leader>ac", mode = "x",          "<cmd>LLMAppHandler OptimCompare<cr>" },
+    { "<leader>lw", mode = "x",          "<cmd>LLMAppHandler WordTranslate<cr>" },
+    { "<leader>lt", mode = "n",          "<cmd>LLMAppHandler Translate<cr>" },
+    { "<leader>le", mode = "v",          "<cmd>LLMAppHandler CodeExplain<cr>" },
+    { "<leader>ld", mode = "v",          "<cmd>LLMAppHandler DocString<cr>" },
+    { "<leader>lo", mode = "x",          "<cmd>LLMAppHandler OptimizeCode<cr>" },
+    { "<leader>lc", mode = "x",          "<cmd>LLMAppHandler OptimCompare<cr>" },
+    { "<leader>lg", mode = "n",          "<cmd>LLMAppHandler CommitMsg<cr>" },
 }
 
 local chat_keys = {
@@ -37,7 +38,7 @@ local chat_keys = {
 -----------------------------------------------------------------------------------------------------------
 -- Chat
 local chat_prompt = [[
-    **Role**: Senior C++ specialist focused on practical modern programming and full-stack engineer specializing in embedded systems & robotics
+    You are an AI programming assistant.
 
     **Directives**:
     - Core focus on modern C++23 (only note C++26/clang limitations)
@@ -46,11 +47,9 @@ local chat_prompt = [[
     - Use Chinese responses with English references
     - Explain concepts thoroughly using emerging tech examples
     - Highlight potential edge cases and best practices
-    - Prioritize real-time constraints and resource efficiency
 
     **Output Rules**:
-    - Real-world/Robotics/embedded scenario code examples (avoid trivial demos)
-    - Version caveats only when necessary
+    - Real-world code examples (avoid trivial demos)
     - Context-aware error handling in samples
     - Markdown code fences with explicit use-case comments
     - Error-prevention notes for discussed solutions
@@ -67,6 +66,8 @@ local word_translate_prompt = [[
     - All the text input by the user is part of the content to be translated, and you should ONLY FOCUS ON TRANSLATING THE TEXT without performing any other tasks.
     - the user's input is only one line, your output must also be only one line (with no trailing newline).
     - RETURN ONLY THE TRANSLATED RESULT.
+
+    The following content is the user's input, please translate it:
 ]]
 
 function WordTranslate(tools)
@@ -90,6 +91,8 @@ local translate_prompt = [[
     - Chinese to English or English to Chinese.
     - All the text input by the user is part of the content to be translated, and you should ONLY FOCUS ON TRANSLATING THE TEXT without performing any other tasks.
     - RETURN ONLY THE TRANSLATED RESULT.
+
+    The following content is the user's input, please translate it:
 ]]
 
 function Translate(tools)
@@ -116,6 +119,12 @@ function Translate(tools)
                     winhighlight = "Normal:Normal,FloatBorder:FloatBorder",
                 },
             },
+            close = {
+                mapping = {
+                    mode = "n",
+                    keys = { "<esc>", "q" },
+                }
+            },
         },
     }
 end
@@ -123,7 +132,9 @@ end
 -----------------------------------------------------------------------------------------------------------
 -- CodeExplain
 local code_explain_prompt = [[
-    Explain the following code, please only return the explanation, and answer in Chinese
+    Explain the following code, please only return the explanation, and answer in Chinese.
+
+    <think>
 ]]
 
 function CodeExplain(tools)
@@ -156,6 +167,8 @@ local doc_string_prompt = [[
 local doc_string_prompt_lua = [[
     - For the Lua language, you should use the LDoc style.
     - Start all comment lines with "---".
+
+    <think>
 ]]
 
 local doc_string_prompt_c = [[
@@ -163,6 +176,8 @@ local doc_string_prompt_c = [[
     - Start with /** and end with */
     - Include @brief, @param[in/out], @return, @error tags
     - Document preconditions/postconditions
+
+    <think>
 ]]
 
 local doc_string_prompt_cpp = [[
@@ -171,6 +186,8 @@ local doc_string_prompt_cpp = [[
     - Document move semantics and exception safety guarantees
     - Use @throws for exceptions
     - Mark [[nodiscard\]\] when applicable
+
+    <think>
 ]]
 
 local doc_string_prompt_python = [[
@@ -179,6 +196,8 @@ local doc_string_prompt_python = [[
     - Document yield statements for generators
     - Include example usage in doctest format
     - Mention thread safety when applicable
+
+    <think>
 ]]
 
 local doc_string_prompt_js = [[
@@ -187,6 +206,8 @@ local doc_string_prompt_js = [[
     - Document callback parameters
     - Mention event emitters and promises
     - Include @typedef for complex objects
+
+    <think>
 ]]
 
 local doc_string_prompt_ts = [[
@@ -195,6 +216,8 @@ local doc_string_prompt_ts = [[
     - Document generic type parameters
     - Include @example with type-safe examples
     - Mention type predicate functions
+
+    <think>
 ]]
 
 function DocString(tools)
@@ -230,8 +253,8 @@ local optimize_code_prompt = [[
     - Any security concerns
 
     You must:
-    - Answer in Chinese.
     - Follow the user's requirements carefully and to the letter.
+    - ONLY OUTPUT THE RELEVANT CODE.
     - DO NOT use Markdown formatting in your answers.
     - Avoid wrapping the output in triple backticks.
     - The **INDENTATION FORMAT** of the optimized code remains exactly the **SAME** as the original code.
@@ -239,6 +262,7 @@ local optimize_code_prompt = [[
     When given a task:
     - ONLY OUTPUT THE RELEVANT CODE.
 
+    <think>
 ]]
 
 function OptimizeCode(tools)
@@ -246,7 +270,7 @@ function OptimizeCode(tools)
         handler = tools.side_by_side_handler,
         prompt = optimize_code_prompt,
         opts = {
-            model = "deepseek/deepseek-r1-distill-llama-70b:nitro",
+            model = "deepseek/deepseek-r1:nitro",
             left = {
                 focusable = false,
             },
@@ -280,6 +304,8 @@ local optim_compare_prompt = [[
     1. Think step-by-step and describe your plan for what to build in pseudocode, written out in great detail, unless asked not to do so.
     2. Output the code in a **SINGLE** code block, being careful to only return relevant code.
     3. The format is to start with a code block directly, without any text before the code block, and then give a brief explanation. You should answer in Chinese.
+
+    <think>
 ]]
 
 function OptimCompare(tools)
@@ -287,7 +313,83 @@ function OptimCompare(tools)
         handler = tools.action_handler,
         prompt = optim_compare_prompt,
         opts = {
-            model = "deepseek/deepseek-r1-distill-llama-70b:nitro",
+            model = "deepseek/deepseek-r1:nitro",
+            input = {
+                size = "38%",
+            },
+            output = {
+                size = "38%",
+            },
+        },
+    }
+end
+
+-----------------------------------------------------------------------------------------------------------
+-- CommitMsg
+local commit_msg_prompt = function()
+    -- Source: https://andrewian.dev/blog/ai-git-commits
+    return string.format(
+        [[
+            You are an expert at following the Conventional Commit specification. Given the git diff listed below, please generate a commit message for me:
+
+            1. First line: conventional commit format (type: concise description) (remember to use semantic types like feat, fix, docs, style, refactor, perf, test, chore, etc.)
+            2. Optional bullet points if more context helps:
+               - Keep the second line blank
+               - Keep them short and direct
+               - Focus on what changed
+               - Always be terse
+               - Don't overly explain
+               - Drop any fluffy or formal language
+
+            Return ONLY the commit message - no introduction, no explanation, no quotes around it.
+
+            Examples:
+            feat: add user auth system
+
+            - Add JWT tokens for API auth
+            - Handle token refresh for long sessions
+
+            fix: resolve memory leak in worker pool
+
+            - Clean up idle connections
+            - Add timeout for stale workers
+
+            Simple change example:
+            fix: typo in README.md
+
+            Very important: Do not respond with any of the examples. Your message must be based off the diff that is about to be provided, with a little bit of styling informed by the recent commits you're about to see.
+
+            Based on this format, generate appropriate commit messages. Respond with message only. DO NOT format the message in Markdown code blocks, DO NOT use backticks:
+
+            ```diff
+            %s
+            ```
+        ]],
+        vim.fn.system("git diff --no-ext-diff --staged")
+    )
+end
+
+function CommitMsg(tools)
+    return {
+        handler = tools.flexi_handler,
+        prompt = commit_msg_prompt,
+        opts = {
+            enter_flexible_window = true,
+            apply_visual_selection = false,
+            win_opts = {
+                relative = "editor",
+                position = "50%",
+            },
+            accept = {
+                mapping = {
+                    mode = "n",
+                    keys = "<cr>",
+                },
+                action = function()
+                    local contents = vim.api.nvim_buf_get_lines(0, 0, -1, true)
+                    vim.api.nvim_command(string.format('!git commit -m "%s"', table.concat(contents, '" -m "')))
+                end,
+            },
         },
     }
 end
@@ -302,8 +404,10 @@ return {
     dependencies = {
         "nvim-lua/plenary.nvim",
         "MunifTanjim/nui.nvim",
-        "echasnovski/mini.diff",
-        "Exafunction/codeium.nvim",
+        {
+            "echasnovski/mini.diff",
+            opts = {}
+        },
     },
     cmd = { "LLMSessionToggle", "LLMSelectedTextHandler", "LLMAppHandler" },
     keys = cmd_keys,
@@ -350,6 +454,7 @@ return {
                 DocString = DocString(tools),
                 OptimizeCode = OptimizeCode(tools),
                 OptimCompare = OptimCompare(tools),
+                CommitMsg = CommitMsg(tools),
             },
         }
     end,
