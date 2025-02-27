@@ -29,7 +29,6 @@ cbonsai
 celluloid
 cgdb
 chatbox-bin
-cherry-studio-bin
 clash
 cliphist
 cmake
@@ -80,7 +79,6 @@ hyprlock
 hyprpaper
 imv
 iwd
-jan-bin
 jq
 julia
 kicad
@@ -88,13 +86,13 @@ kmplot
 lazygit
 lib32-gamemode
 lib32-unixodbc
+libc++
 libnotify
 linux-firmware
 linux-headers
 linux-rt
 linux-rt-headers
 linuxqq
-lmstudio
 lolcat
 lua51
 luarocks
@@ -211,6 +209,7 @@ wl-clipboard
 wqy-microhei
 wqy-zenhei
 wtf
+xmake
 xorg-xrdb
 xpadneo-dkms
 yay

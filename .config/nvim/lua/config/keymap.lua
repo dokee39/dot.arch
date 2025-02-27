@@ -55,3 +55,6 @@ if vim.g.vscode then
     map("n", "<leader>tg", "<Cmd>lua require('vscode').call('find-it-faster.findWithinFilesWithType')<CR>")
     map("n", "<leader>r", "<Cmd>lua require('vscode').call('editor.action.startFindReplaceAction')<CR>")
 end
+
+-- autocmd
+vim.cmd [[ autocmd BufRead,BufNewFile *.mpp set filetype=mpp ]]
