@@ -9,7 +9,7 @@ local servers = {
     },
     clangd = {
         cmd = {
-            "clangd",
+            "/usr/bin/clangd",
             "--header-insertion=never",
             "--experimental-modules-support",
         },

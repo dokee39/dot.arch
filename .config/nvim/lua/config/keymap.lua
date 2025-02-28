@@ -31,7 +31,7 @@ else
     map("n", "<leader>x", "<Cmd>lua require('vscode').call('workbench.action.closeEditorInAllGroups')<CR>")
 end
 
--- CTRL - <h j k l>
+-- CTRL - <h j k lautocmd>
 map("i", "<C-h>", "<Left>", { desc = "move left" })
 map("i", "<C-j>", "<Down>", { desc = "move down" })
 map("i", "<C-k>", "<Up>", { desc = "move up" })
@@ -44,8 +44,12 @@ if not vim.g.vscode then
 end
 
 -- comment
-map("n", "<leader>/", "gcc", { remap = true })
-map("v", "<leader>/", "gc", { remap = true })
+if not vim.g.vscode then
+    map("n", "<leader>/", "gcc", { remap = true })
+    map("v", "<leader>/", "gc", { remap = true })
+else
+    map({ "n", "v" }, "<leader>/", "<Cmd>lua require('vscode').call('editor.action.commentLine')<CR>")
+end
 
 -- vscode
 if vim.g.vscode then
@@ -56,5 +60,3 @@ if vim.g.vscode then
     map("n", "<leader>r", "<Cmd>lua require('vscode').call('editor.action.startFindReplaceAction')<CR>")
 end
 
--- autocmd
-vim.cmd [[ autocmd BufRead,BufNewFile *.mpp set filetype=mpp ]]

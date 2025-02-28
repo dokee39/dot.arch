@@ -62,6 +62,7 @@ sync .config/tofi
 sync .config/waybar
 sync .config/zathura/zathurarc
 sync .config/electron-flags.conf
+sync .xmake
 
 info "Starting backup <app desktop files>"
 sync Documents/backup/desktop_backup

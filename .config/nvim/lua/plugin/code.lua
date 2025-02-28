@@ -71,6 +71,13 @@ return {
         lazy = true,
         event = "BufReadPost",
         opts = {
+            on_save = {
+                reload_project_info = true,
+                lsp_compile_commands = {
+                    enable = false,
+                    output_dir = "build",
+                },
+            },
         },
     },
 }

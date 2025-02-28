@@ -123,12 +123,12 @@ return {
                     i = {
                         j = { k = "<Esc>" },
                         k = { j = "<Esc>" },
-                        f = { d = "<Esc><C-v>i" },
-                        d = {
-                            f = "<Esc><C-v>i",
-                            s = "<Esc><C-v>a",
-                        },
-                        s = { d = "<Esc><C-v>a" },
+                        -- f = { d = "<Esc><C-v>i" },
+                        -- d = {
+                        --     f = "<Esc><C-v>i",
+                        --     s = "<Esc><C-v>a",
+                        -- },
+                        -- s = { d = "<Esc><C-v>a" },
                     },
                 },
             }

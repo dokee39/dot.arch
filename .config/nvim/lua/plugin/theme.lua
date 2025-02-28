@@ -3,11 +3,11 @@ return {
         "rose-pine/neovim",
         cond = not vim.g.vscode,
         priority = 1000,
-	    name = "rose-pine",
+        name = "rose-pine",
 
         config = function()
             require("rose-pine").setup {
-                variant = "auto", -- auto, main, moon, or dawn
+                variant = "auto",      -- auto, main, moon, or dawn
                 dark_variant = "moon", -- main, moon, or dawn
                 dim_inactive_windows = false,
                 extend_background_behind_borders = true,
@@ -15,7 +15,7 @@ return {
                 enable = {
                     terminal = true,
                     legacy_highlights = true, -- Improve compatibility for previous versions of Neovim
-                    migrations = true, -- Handle deprecated options automatically
+                    migrations = true,        -- Handle deprecated options automatically
                 },
 
                 styles = {
@@ -64,8 +64,19 @@ return {
                 },
 
                 highlight_groups = {
-                    -- Comment = { fg = "foam" },
-                    -- VertSplit = { fg = "muted", bg = "muted" },
+                    CursorLine = { bg = "base", inherit = false },
+                    Search = { fg = "love", bg = "foam", bold = true, inherit = false },
+                    CurSearch = { fg = "love", bg = "gold", bold = true, inherit = false },
+                    Visual = { bg = "base", bold = true, inherit = false },
+                    variable = { fg = "iris", inherit = false },
+                    ["@variable"] = { link = "variable", inherit = false },
+                    ["@property"] = { link = "variable", inherit = false },
+                    ["@variable.member"] = { link = "variable", inherit = false },
+                    ["@function"] = { bold = true },
+                    ["@function.method"] = { bold = true },
+                    ["@keyword"] = { bold = true },
+                    ["@keyword.import"] = { bold = true },
+                    ["@type.builtin"] = { bold = false },
                 },
 
                 before_highlight = function(group, highlight, palette)
@@ -80,13 +91,6 @@ return {
                     -- end
                 end,
             }
-
-            local color = require("rose-pine.palette")
-            vim.cmd("colorscheme rose-pine-moon")
-            vim.cmd("highlight CursorLine guibg=" .. color.base)
-            vim.cmd("highlight Search guibg=" .. color.foam .. " guifg=" .. color.love)
-            vim.cmd("highlight IncSearch guibg=" .. color.pine .. " guifg=" .. color.love)
-            vim.cmd("highlight Visual guibg=" .. color.base)
         end,
     },
     --[[ {
