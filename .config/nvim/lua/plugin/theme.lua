@@ -75,7 +75,7 @@ return {
                     ["@function"] = { bold = true },
                     ["@function.method"] = { bold = true },
                     ["@keyword"] = { bold = true },
-                    ["@keyword.import"] = { bold = true },
+                    -- ["@keyword.import"] = { bold = true },
                     ["@type.builtin"] = { bold = false },
                 },
 

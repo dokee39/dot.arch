@@ -113,13 +113,16 @@ alias unproxy='unset http_proxy https_proxy all_proxy'
 proxy
 #can 
 alias ccnd='candump -t z -c -8 -x'
-#make
+#compile
 alias m='make'
 alias mj='make -j'
 alias mc='make clean'
 alias mf='make flash -j'
 alias mr='make run'
 alias bm='bear -- make -j'
+alias xx='xmake && xmake run'
+alias xc='xmake clean'
+alias xr='xmake run'
 #gdb
 alias gdb='gdb -q'
 alias cgdb='cgdb -d gdb -q'

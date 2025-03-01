@@ -7,5 +7,5 @@
   "import"
   "export"
   "module"
-] @keyword.import
+] @keyword.import.cpp
 

@@ -16,9 +16,9 @@ return {
         "folke/persistence.nvim",
         cond = not vim.g.vscode,
         keys = {
-            { "<leader>a", [[<cmd>lua require("persistence").load()<cr>]] },
+            { "<leader>a", function() require("persistence").load() end },
         },
-        config = true,
+        opts = {},
     },
     {
         "ethanholz/nvim-lastplace",
