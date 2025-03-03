@@ -24,6 +24,7 @@ local servers = {
     docker_compose_language_service = {},
     bashls = {},
     taplo = {},
+    astro = {},
 }
 
 

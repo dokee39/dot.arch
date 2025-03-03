@@ -4,9 +4,10 @@
 [http]
 	postBuffer = 524288000
 	sslVerify = true
+	proxy = http://127.0.0.1:7890
 [user]
 	email = dokee.39@gmail.com
-	name = dokee
+	name = dokee39
 [alias]
 	st = status
 	a = add

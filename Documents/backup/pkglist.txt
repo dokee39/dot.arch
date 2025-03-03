@@ -23,6 +23,7 @@ bottles
 bottom
 brightnessctl
 btop
+bun-bin
 can-utils
 cava
 cbonsai

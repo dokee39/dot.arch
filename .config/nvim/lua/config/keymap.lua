@@ -1,7 +1,7 @@
 local map = vim.keymap.set
 
 -- general
-map({ "n", "v" }, "q", "b", { desc = "previous word" })
+map({ "n", "v", 'o' }, "q", "b", { desc = "previous word" })
 
 map("n", "<leader>w", "<cmd> w <cr>", { desc = "write" })
 if not vim.g.vscode then

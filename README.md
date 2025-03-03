@@ -37,7 +37,6 @@ info() {
 
 # start backup
 info "Starting backup <dot files>"
-sync .mysh
 sync .gdbinit
 sync .gdbinit.d/init
 sync .gitconfig
@@ -63,6 +62,9 @@ sync .config/waybar
 sync .config/zathura/zathurarc
 sync .config/electron-flags.conf
 sync .xmake
+
+info "Starting backup <my scripts>"
+sync .mysh
 
 info "Starting backup <app desktop files>"
 sync Documents/backup/desktop_backup
