@@ -78,6 +78,7 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+hyprpicker
 imv
 iwd
 jq
