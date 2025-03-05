@@ -8,6 +8,7 @@ return {
         "hrsh7th/cmp-path",
         "hrsh7th/cmp-buffer",
         "hrsh7th/cmp-cmdline",
+        "f3fora/cmp-spell",
         {
             "saadparwaiz1/cmp_luasnip",
             dependencies = {
@@ -34,11 +35,12 @@ return {
                 end,
             },
             sources = cmp.config.sources {
-                { name = 'nvim_lsp' },
+                { name = "nvim_lsp" },
                 { name = "nvim_lua" },
-                { name = 'path' },
-                { name = 'luasnip' },
+                { name = "path" },
+                { name = "luasnip" },
                 { name = "buffer" },
+                { name = "spell" },
             },
             window = {
                 completion = cmp.config.window.bordered(),

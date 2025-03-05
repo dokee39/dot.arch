@@ -46,6 +46,8 @@ option.swapfile = false
 option.backup = false
 option.undofile = true
 option.undodir = vim.fn.expand('$HOME/.local/share/nvim/undo')
+option.spell = true
+option.spelllang = { "en_us" }
 
 -- buffer
 buffer.fileenconding = "utf-8"

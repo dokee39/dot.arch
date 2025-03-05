@@ -37,6 +37,7 @@ composer
 cowsay
 dhclient
 dialog
+dictd
 dingtalk-bin
 dos2unix
 doxypress-bin
@@ -213,6 +214,7 @@ wine-mono
 winetricks
 wireplumber
 wl-clipboard
+words
 wqy-microhei
 wqy-zenhei
 wtf
