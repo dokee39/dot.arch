@@ -64,10 +64,10 @@ return {
                 },
 
                 highlight_groups = {
-                    CursorLine = { bg = "base", inherit = false },
+                    -- CursorLine = { bg = "base", inherit = false },
                     Search = { fg = "love", bg = "foam", bold = true, inherit = false },
                     CurSearch = { fg = "love", bg = "gold", bold = true, inherit = false },
-                    Visual = { bg = "base", bold = true, inherit = false },
+                    -- Visual = { bg = "base", bold = true, underline = true, inherit = false },
                     variable = { fg = "iris", inherit = false },
                     ["@variable"] = { link = "variable", inherit = false },
                     ["@property"] = { link = "variable", inherit = false },

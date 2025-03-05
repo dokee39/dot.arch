@@ -1,5 +1,13 @@
 -- highlight
 if not vim.g.vscode then
+    local color = require("rose-pine.palette")
+    vim.api.nvim_create_autocmd('ColorScheme', {
+        pattern = '*',
+        callback = function()
+            vim.cmd("highlight CursorLine guibg=" .. color.overlay .. " guifg=NONE")
+            vim.cmd("highlight Visual guibg=" .. color.surface .. " guifg=NONE gui=bold gui=underline")
+        end
+    })
     vim.cmd.colorscheme [[rose-pine-moon]]
 end
 
@@ -10,6 +18,14 @@ vim.api.nvim_create_autocmd(
         pattern = { "*.mpp", "*.cppm", "*.ixx" },
         callback = function()
             vim.bo.filetype = "cpp"
+        end
+    })
+vim.api.nvim_create_autocmd(
+    { "BufRead", "BufNewFile" },
+    {
+        pattern = { "*.mdx" },
+        callback = function()
+            vim.bo.filetype = "mdx"
         end
     })
 

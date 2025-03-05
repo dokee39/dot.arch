@@ -49,6 +49,7 @@ sync .config/alacritty
 sync .config/btop
 sync .config/fcitx5
 sync .config/fontconfig
+sync .config/kitty
 sync .config/hypr
 sync .config/mako
 sync .config/mpv

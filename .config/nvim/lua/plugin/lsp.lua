@@ -13,7 +13,6 @@ local servers = {
             "--header-insertion=never",
             "--experimental-modules-support",
         },
-        filetypes = { "c", "cpp", "cc", "mpp" },
     },
     pyright = {},
     ruff = {},
@@ -25,6 +24,9 @@ local servers = {
     bashls = {},
     taplo = {},
     astro = {},
+    mdx_analyzer = {
+        filetypes = { "mdx" },
+    },
 }
 
 

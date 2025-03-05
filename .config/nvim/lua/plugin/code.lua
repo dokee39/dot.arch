@@ -80,4 +80,19 @@ return {
             },
         },
     },
+    {
+        "davidmh/mdx.nvim",
+        cond = not vim.g.vscode,
+        config = true,
+        dependencies = { "nvim-treesitter/nvim-treesitter" }
+    },
+    {
+        'MeanderingProgrammer/render-markdown.nvim',
+        dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' },
+        opts = {},
+    },
+    {
+        "3rd/image.nvim",
+        opts = {}
+    },
 }

@@ -17,6 +17,8 @@
     },
 
     "hyprland/window": {
+        "icon": true,
+        "icon-size": 20,
         "format": "󱂬 {}",
         "separate-outputs": true
     },

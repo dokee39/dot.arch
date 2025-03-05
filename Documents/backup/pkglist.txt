@@ -52,6 +52,7 @@ fcitx5-lua
 fcitx5-pinyin-moegirl
 fcitx5-pinyin-sougou
 fcitx5-pinyin-zhwiki
+fd
 feishu-bin
 fortune-mod-archlinux
 freecad-appimage
@@ -84,6 +85,7 @@ iwd
 jq
 julia
 kicad
+kitty
 kmplot
 lazygit
 lib32-gamemode
@@ -109,6 +111,7 @@ mokutil
 msty-bin
 neofetch
 neovim
+nerdfetch
 nftables
 ninja
 noto-color-emoji-fontconfig
@@ -182,10 +185,12 @@ tree
 ttf-font-awesome
 ttf-hack-nerd
 ttf-lxgw-wenkai-screen
+ttf-maple-beta-nf-cn
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 ttf-symbola
 ttf-times-new-roman
+ueberzugpp
 unixodbc
 unrar
 unzip
