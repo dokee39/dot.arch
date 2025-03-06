@@ -8,7 +8,14 @@ return {
         "hrsh7th/cmp-path",
         "hrsh7th/cmp-buffer",
         "hrsh7th/cmp-cmdline",
-        "f3fora/cmp-spell",
+        -- "f3fora/cmp-spell",
+        {
+            "uga-rosa/cmp-dictionary",
+            opts = {
+                paths = { "/usr/share/dict/words" },
+                exact_length = 5,
+            },
+        },
         {
             "saadparwaiz1/cmp_luasnip",
             dependencies = {
@@ -40,7 +47,11 @@ return {
                 { name = "path" },
                 { name = "luasnip" },
                 { name = "buffer" },
-                { name = "spell" },
+                {
+                    name = "dictionary",
+                    keyword_length = 3,
+                },
+                -- { name = "spell" },
             },
             window = {
                 completion = cmp.config.window.bordered(),
