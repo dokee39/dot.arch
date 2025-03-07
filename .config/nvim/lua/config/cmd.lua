@@ -37,3 +37,18 @@ vim.api.nvim_create_autocmd("FileType", {
         vim.opt_local.shiftwidth = 2
     end
 })
+
+if not vim.g.vscode then
+    vim.api.nvim_create_autocmd("FileType", {
+        pattern = "*",
+        callback = function()
+            local ft = vim.bo.filetype
+            local has_parser = require("nvim-treesitter.parsers").get_parser_configs()[ft] ~= nil
+
+            if has_parser then
+                vim.bo.autoindent = false
+                vim.bo.smartindent = false
+            end
+        end
+    })
+end

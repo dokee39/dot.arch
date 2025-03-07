@@ -88,11 +88,13 @@ return {
     },
     {
         'MeanderingProgrammer/render-markdown.nvim',
+        cond = not vim.g.vscode,
         dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' },
         opts = {},
     },
     {
         "3rd/image.nvim",
+        cond = not vim.g.vscode,
         opts = {}
     },
 }

@@ -29,12 +29,13 @@ local servers = {
     },
 }
 
-
 return {
     "neovim/nvim-lspconfig",
     cond = not vim.g.vscode,
     cmd = { "Mason", "Neoconf", "Navbuddy" },
     event = { "BufReadPost", "BufNewFile" },
+
+    ---DEPENDENCIES----------------------------------------------------------------------------------
     dependencies = {
         { "williamboman/mason.nvim", opts = {} },
         {
@@ -97,7 +98,11 @@ return {
             commit = "8f7b72100883e0e34400d9518d40a03f21e4d0a6",
         },
     },
+
+    ---CONFIG----------------------------------------------------------------------------------------
     config = function()
+        local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
         local on_attach_keys = function(_, bufnr)
             -- Enable completion triggered by <c-x><c-o>
             local nmap = function(keys, func, desc)
@@ -153,7 +158,6 @@ return {
             require("clangd_extensions.inlay_hints").setup_autocmd()
             require("clangd_extensions.inlay_hints").set_inlay_hints()
         end
-        local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
         for server, config in pairs(servers) do
             local on_attach
@@ -182,5 +186,6 @@ return {
             underline = true,
             float = { border = "single" },
         })
+
     end
 }

@@ -13,8 +13,8 @@ source /usr/share/fzf/completion.zsh
 
 # zsh history
 export HISTFILE="$HOME/.zsh_history"
-export HISTSIZE=100000
-export SAVEHIST=10000
+export HISTSIZE=1000000
+export SAVEHIST=100000
 setopt SHARE_HISTORY
 
 # path
@@ -127,6 +127,9 @@ alias xr='xmake run'
 alias gdb='gdb -q'
 alias cgdb='cgdb -d gdb -q'
 #other
+alias ls='eza --icons'
+alias la='eza --icons --git -la'
+alias lt='eza --icons --tree'
 alias manc='LANG=zh_CN.UTF-8 man'
 alias rgr='ranger'
 alias type='type -a'

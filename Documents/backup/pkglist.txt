@@ -42,9 +42,11 @@ dingtalk-bin
 dos2unix
 doxypress-bin
 dsview
+dust
 efibootmgr
 eigen
 enca
+eza
 fcitx5
 fcitx5-chinese-addons
 fcitx5-configtool
@@ -69,6 +71,7 @@ glad
 glfw
 glow
 google-chrome
+gping
 graphviz
 grim
 grub
@@ -98,6 +101,7 @@ linux-headers
 linux-rt
 linux-rt-headers
 linuxqq
+lldb
 lolcat
 lua51
 luarocks
@@ -186,6 +190,7 @@ tree
 ttf-font-awesome
 ttf-hack-nerd
 ttf-lxgw-wenkai-screen
+ttf-maple-beta-nf
 ttf-maple-beta-nf-cn
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
@@ -223,6 +228,7 @@ xorg-xrdb
 xpadneo-dkms
 yay
 yay-debug
+yazi
 zaread-git
 zathura
 zathura-cb
