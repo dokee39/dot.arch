@@ -57,6 +57,7 @@ fcitx5-pinyin-sougou
 fcitx5-pinyin-zhwiki
 fd
 feishu-bin
+ffmpegthumbnailer
 fortune-mod-archlinux
 freecad-appimage
 fzf

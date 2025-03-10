@@ -77,6 +77,7 @@ return {
                     ["@keyword"] = { bold = true },
                     -- ["@keyword.import"] = { bold = true },
                     ["@type.builtin"] = { bold = false },
+                    ["@lsp.type.modifier.cpp"] = { link = "@keyword", inherit = false },
                 },
 
                 before_highlight = function(group, highlight, palette)
