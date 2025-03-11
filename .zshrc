@@ -1,5 +1,5 @@
 # welcome 
-echo -e "\nWelcome to \e[1;36mArch Linux\e[0;0m!\n"
+echo -e "\nWelcome to \e[1;34mArch Linux\e[0;0m!\n"
 
 # zsh set
 setopt no_nomatch

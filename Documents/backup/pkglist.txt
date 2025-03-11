@@ -66,6 +66,7 @@ gdb
 gdb-frontend-bin
 gdu
 gendesk
+gimp
 git
 git-filter-repo
 glad
@@ -79,6 +80,7 @@ grub
 gst-libav
 gst-plugins-base
 gst-plugins-good
+gwenview
 hwinfo
 hypridle
 hyprland
