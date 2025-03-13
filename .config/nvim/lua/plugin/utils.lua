@@ -28,6 +28,7 @@ return {
     {
         "folke/flash.nvim",
         -- cond = not vim.g.vscode,
+        event = "VeryLazy",
         keys = {
             {
                 "s",
@@ -70,7 +71,8 @@ return {
                 desc = "Toggle Flash Search",
             },
         },
-        config = true
+        opts = {
+        },
     },
     {
         'echasnovski/mini.ai',
