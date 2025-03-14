@@ -61,9 +61,41 @@ return {
         "windwp/nvim-autopairs",
         -- cond = not vim.g.vscode,
         event = "VeryLazy",
-        opts = {
-            enable_check_bracket_line = false,
-        },
+        config = function()
+            local function get_relative_line(offset)
+                local line = vim.api.nvim_win_get_cursor(0)[1]
+                local target = line + offset
+                return vim.api.nvim_buf_get_lines(0, target - 1, target, false)[1]
+            end
+
+            local struct_or_class = function()
+                local line = get_relative_line(0)
+                local previous_line = get_relative_line(-1)
+
+                if vim.fn.match(line, "struct") ~= -1 or vim.fn.match(line, "class") ~= -1 then
+                    return true
+                end
+
+                if vim.fn.match(previous_line, "struct") ~= -1 or vim.fn.match(previous_line, "class") ~= -1 then
+                    return true
+                end
+
+                return false -- fixed
+            end
+
+            local npairs = require("nvim-autopairs")
+            local rule = require("nvim-autopairs.rule")
+            local cond = require("nvim-autopairs.conds")
+
+            npairs.setup({
+                enable_check_bracket_line = false,
+            })
+
+            npairs.add_rules({
+                rule("{", "};", { "cpp", "c" }):with_pair(struct_or_class),
+            })
+            return
+        end,
     },
     {
         "Mythos-404/xmake.nvim",
