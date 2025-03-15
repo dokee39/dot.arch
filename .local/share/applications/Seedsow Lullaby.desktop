@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Seedsow Lullaby
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/2748830
-Icon=steam_icon_2748830
-Terminal=false
-Type=Application
-Categories=Game;
