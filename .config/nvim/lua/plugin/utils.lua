@@ -111,7 +111,7 @@ return {
         event = { "InsertEnter" },
         config = function()
             require("better_escape").setup {
-                timeout = vim.o.timeoutlen,
+                timeout = vim.o.timeoutlen / 5,
                 default_mappings = false,
                 mappings = {
                     -- n = {

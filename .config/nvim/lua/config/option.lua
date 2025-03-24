@@ -48,6 +48,7 @@ option.undofile = true
 option.undodir = vim.fn.expand('$HOME/.local/share/nvim/undo')
 -- option.spell = true
 -- option.spelllang = { "en_us" }
+option.timeoutlen = 1000;
 
 -- buffer
 buffer.fileenconding = "utf-8"
