@@ -15,7 +15,7 @@ end
 vim.api.nvim_create_autocmd(
     { "BufRead", "BufNewFile" },
     {
-        pattern = { "*.mpp", "*.cppm", "*.ixx" },
+        pattern = { ".ccm", "*.mpp", "*.cppm", "*.ixx" },
         callback = function()
             vim.bo.filetype = "cpp"
         end
