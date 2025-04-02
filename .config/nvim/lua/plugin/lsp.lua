@@ -83,15 +83,28 @@ return {
             keys = {
                 { '<A-o>', '<cmd>Navbuddy<cr>', },
             },
-            opts = {
-                lsp = {
-                    auto_attach = true,
-                },
-                window = {
-                    border = 'rounded',
-                    size = { height = "70%", width = "70%" },
+            opts = function()
+                return {
+                    lsp = {
+                        auto_attach = true,
+                    },
+                    window = {
+                        border = 'rounded',
+                        size = { height = "72%", width = "80%" },
+                        sections = {
+                            left = {
+                                size = "20%",
+                            },
+                            mid = {
+                                size = "32%",
+                            },
+                        },
+                    },
+                    mappings = {
+                        ["<A-o>"] = require("nvim-navbuddy.actions").close(),
+                    },
                 }
-            }
+            end,
         },
         {
             "p00f/clangd_extensions.nvim",

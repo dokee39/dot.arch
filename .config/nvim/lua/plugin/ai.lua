@@ -64,6 +64,7 @@ local word_translate_prompt = [[
 
     NOTE:
     - All the text input by the user is part of the content to be translated, and you should ONLY FOCUS ON TRANSLATING THE TEXT without performing any other tasks.
+    - When encountering code comment symbols (like /*, */, //, #, etc.), first remove them before translating while maintaining semantic continuity
     - the user's input is only one line, your output must also be only one line (with no trailing newline).
     - RETURN ONLY THE TRANSLATED RESULT.
 
@@ -75,7 +76,7 @@ function WordTranslate(tools)
         handler = tools.flexi_handler,
         prompt = word_translate_prompt,
         opts = {
-            model = "google/gemini-2.0-flash-001:nitro",
+            model = "deepseek/deepseek-chat-v3-0324:nitro",
             exit_on_move = true,
             enter_flexible_window = false,
         },
@@ -100,7 +101,7 @@ function Translate(tools)
         handler = tools.qa_handler,
         prompt = translate_prompt,
         opts = {
-            model = "google/gemini-2.0-flash-001:nitro",
+            model = "deepseek/deepseek-chat-v3-0324:nitro",
             component_width = "60%",
             component_height = "50%",
             query = {
