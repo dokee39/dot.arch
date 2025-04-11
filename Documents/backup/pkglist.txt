@@ -170,6 +170,7 @@ rustup
 samba
 sassc
 scons
+serial-studio-bin
 sioyek
 sl
 slurp
