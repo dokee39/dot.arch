@@ -71,6 +71,7 @@ git-filter-repo
 glad
 glfw
 glow
+gnuplot
 google-chrome
 gping
 graphviz
@@ -177,6 +178,7 @@ slurp
 spacenavd
 steam
 stm32cubemx
+stress
 superfile
 systemd-numlockontty
 terminus-font
