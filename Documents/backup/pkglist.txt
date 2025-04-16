@@ -234,6 +234,7 @@ xpadneo-dkms
 yay
 yay-debug
 yazi
+yt-dlg
 zaread-git
 zathura
 zathura-cb
