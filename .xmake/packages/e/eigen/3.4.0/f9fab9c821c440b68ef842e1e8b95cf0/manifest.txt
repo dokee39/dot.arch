@@ -1,0 +1,46 @@
+{
+    arch = "x86_64",
+    artifacts = {
+        installdir = "/home/dokee/.xmake/packages/e/eigen/3.4.0/f9fab9c821c440b68ef842e1e8b95cf0"
+    },
+    configs = {
+        blas = false,
+        debug = false,
+        lapack = false,
+        pic = true,
+        runtimes = "c++_shared",
+        shared = false,
+        toolchains = "llvm"
+    },
+    deps = { },
+    description = "C++ template library for linear algebra",
+    envs = { },
+    kind = "library",
+    librarydeps = { },
+    license = "MPL-2.0",
+    mode = "release",
+    name = "eigen",
+    pathenvs = {
+        "PATH",
+        "LD_LIBRARY_PATH",
+        "ACLOCAL_PATH",
+        "CMAKE_PREFIX_PATH",
+        "PYTHONPATH",
+        "DYLD_LIBRARY_PATH",
+        "PKG_CONFIG_PATH"
+    },
+    plat = "linux",
+    repo = {
+        branch = "master",
+        commit = "8d8a5d53abe79318070c6791b7d1580b71bfe867",
+        name = "xmake-repo",
+        url = "https://gitee.com/tboox/xmake-repo.git"
+    },
+    vars = {
+        includedirs = {
+            "include",
+            "include/eigen3"
+        }
+    },
+    version = "3.4.0"
+}
