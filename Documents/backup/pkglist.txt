@@ -148,12 +148,14 @@ ppp
 protontricks
 protonup-qt
 pulsemixer
+python-numpy
 python-paginate
 python-pip
 python-pipx
 python-pyelftools
 python-pygments
 python-pymdown-extensions
+python-scipy
 python-telnetlib-313-and-up
 python312
 pywal-16-colors
