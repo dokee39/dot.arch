@@ -178,6 +178,7 @@ sioyek
 sl
 slurp
 spacenavd
+sshfs
 steam
 stm32cubemx
 stress
