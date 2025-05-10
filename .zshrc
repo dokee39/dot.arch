@@ -106,7 +106,7 @@ alias gbr='git branch --all'
 alias glg='git log --pretty=format:"%C(auto)%h%Creset - %C(green)%s%Creset%n    %C(bold cyan)@%Creset%C(bold blue)%an%Creset, %C(cyan)%ah%Creset%C(auto)%d%Creset" --graph --all'
 #net
 alias cn='iwctl station wlan0 scan'
-alias cndk='iwctl station wlan0 connect dokee_MI'
+alias cndk='iwctl station wlan0 disconnect && iwctl station wlan0 connect dokee_MI'
 alias cngk='iwctl station wlan0 connect gkdhajimi2-5G'
 alias ip='ip -color=auto'
 alias proxy='export https_proxy=http://127.0.0.1:7890; export http_proxy=http://127.0.0.1:7890; export all_proxy=socks5://127.0.0.1:7890'

@@ -180,7 +180,6 @@ slurp
 spacenavd
 sshfs
 steam
-stm32cubemx
 stress
 superfile
 systemd-numlockontty
