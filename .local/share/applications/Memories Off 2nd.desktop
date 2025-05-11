@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Memories Off 2nd
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/679520
+Icon=steam_icon_679520
+Terminal=false
+Type=Application
+Categories=Game;
