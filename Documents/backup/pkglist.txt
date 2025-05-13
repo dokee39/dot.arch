@@ -46,6 +46,7 @@ dust
 efibootmgr
 eigen
 enca
+evtest
 eza
 fcitx5
 fcitx5-chinese-addons
@@ -90,6 +91,7 @@ hyprpicker
 imv
 iwd
 jq
+jstest-gtk-git
 julia
 kicad
 kitty
@@ -103,6 +105,7 @@ linux-firmware
 linux-headers
 linux-rt
 linux-rt-headers
+linuxconsole
 linuxqq
 lldb
 lolcat
