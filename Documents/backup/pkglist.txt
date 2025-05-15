@@ -22,6 +22,7 @@ boost
 bottles
 bottom
 brightnessctl
+bt-dualboot
 btop
 bun-bin
 can-utils
